@@ -1,0 +1,571 @@
+{
+  "total": 574,
+  "format_counts": {
+    "old": 10,
+    "new": 564
+  },
+  "n_sell_no_lots_no_reported": 131,
+  "n_negative_fees_new": 0,
+  "issues": [
+    [
+      "Wertpapierabrechnung_Kauf_1.000_USD_MS0G3Q_(MORGAN_STANL_21_52_FLR)_vom_16.09.2025_651F1C.pdf",
+      "no gross"
+    ],
+    [
+      "Wertpapierabrechnung_Kauf_1.000_USD_MS0G3Q_(MORGAN_STANL_21_52_FLR)_vom_16.09.2025_651F1C.pdf",
+      "no price"
+    ],
+    [
+      "Wertpapierabrechnung_Kauf_1_St._A1T8X9_(BNPP_DISRUPT.TECH._CLCAP)_vom_30.08.2024_3F8461.pdf",
+      "no gross"
+    ],
+    [
+      "Wertpapierabrechnung_Kauf_60_St._921800_(FID.FDS-GL_TECHNOL.A_GL.)_vom_30.08.2024_31058B.pdf",
+      "no gross"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_0,033_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_27.01.2025_24C0BA.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_0,097_St._WKN_593392(ISHARES_MDAX_UCITS_ETF)_vom_02.01.2017_E29829.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_0,114_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_30.08.2024_6B2175.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_0,114_St._WKN_849096(DWS_DEUTSCHLAND_LC)_vom_31.08.2020_4DF433.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_0,115_St._WKN_DBX0AL(DB_X-TR.II-IB.GL.IN.-L.1C)_vom_02.01.2017_A4086D.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_0,124_St._WKN_593392(ISHARES_MDAX_UCITS_ETF)_vom_31.08.2020_AEC4C6.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_0,201_St._WKN_984811(DWS_TOP_DIVIDENDE_LD)_vom_31.08.2020_E0C704.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_0,218_St._WKN_ETF123(C.-MSCI_USA_S.C.T.U.ETF_I)_vom_02.01.2017_BAB39C.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_0,295_St._WKN_ETF123(CS.-CS_S+P_S.C.600_UETF_I)_vom_31.08.2020_ACEEF1.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_0,37_St._DBX0AL_(XTR.II_GL.INF.-LI.B.1CEOH)_vom_26.04.2023_C559A4.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_0,413_St._WKN_A0D8Q4(IS.DJ_U.S.SELEC.DIV.U.ETF)_vom_31.08.2020_1C1828.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_0,473_St._WKN_DBX1ME(XTR.MSCI_EUROPE_1C)_vom_02.09.2020_6DA016.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_0,658_St._WKN_984811(DWS_TOP_DIVIDENDE_LD)_vom_02.01.2017_EC78FF.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_0,705_St._WKN_DBX1EM(XTR.MSCI_EM.MKT.SWAP_1C)_vom_31.08.2020_AD7892.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_0,773_St._WKN_DBX1ME(DB_X-TR.MSCI_EUR.IDX.DR1C)_vom_02.01.2017_3F0F28.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_0,869_St._WKN_DBX1EM(DB_X-TR.MSCI_EM_IDX.1C)_vom_02.01.2017_F26411.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_0,906_St._WKN_A0D8Q4(IS.DJ_U.S.SELEC.DIV.U.ETF)_vom_02.01.2017_7C0F14.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_0,981_St._WKN_849096(DWS_DEUTSCHLAND_LC)_vom_02.01.2017_25AD26.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_1.000_EUR_A285PC_(NESTLE_F.I._20_40_MTN)_vom_17.09.2025_784AC2.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_1.000_EUR_A2YN1R_(DT.TELEKOM_MTN_19_49)_vom_17.09.2025_335740.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_1.000_EUR_A3E5MU_(DT._BAHN_21_51_MTN)_vom_17.09.2025_4FF1A2.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_1.000_St._A2QLBN_(BIOATLA_INC._DL-,0001)_vom_30.10.2025_B6A332.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_1.000_USD_MS0G3Q_(MORGAN_STANL_21_52_FLR)_vom_17.09.2025_925CDF.pdf",
+      "no gross"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_1.000_USD_MS0G3Q_(MORGAN_STANL_21_52_FLR)_vom_17.09.2025_925CDF.pdf",
+      "no price"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_1.000_USD_MS0G3Q_(MORGAN_STANL_21_52_FLR)_vom_17.09.2025_925CDF.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_1.111_St._A3DTUQ_(VIDAC_PHARMA_HLDG_PLC_LS1)_vom_15.10.2024_99897A.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_1.700_St._936386_(SANGAMO_THERAP.INC.DL-,01)_vom_02.10.2025_9EB5CC.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_1.777_St._A1KBAV_(DYNACERT_INC.)_vom_15.07.2025_C0EFED.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_1.900_St._A407S6_(MOLECULIN_BIOTECH_DL-,001)_vom_03.11.2025_52F709.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_100_St._A1W50M_(FATE_THERAPEUTICS_DL-,001)_vom_29.09.2025_B9687A.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_103_St._A2QJX9_(QUANTUMSCAPE_A_DL-,0001)_vom_21.07.2025_8B810C.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_105_St._A0YB48_(IRIDIUM_COMCTNS_DL-,001)_vom_23.10.2025_66F4E7.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_105_St._A3C84C_(PLANET_LABS_PBC_A_-,0001)_vom_19.09.2025_3D68D1.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_10_St._870747_(MICROSOFT_DL-,00000625)_vom_10.10.2025_FB6505.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_10_St._A1J4U4_(ASML_HOLDING_EO_-,09)_vom_10.10.2025_F497E2.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_10_St._A1JRLA_(AMERICAN_TOWER_DL_-,01)_vom_08.09.2025_74F276.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_10_St._WKN_803200_(COMMERZBANK_AG_O.N.)_vom_10.09.2009_A4EC15.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_110_St._513700_(Q.BEYOND_AG_NA_O.N.)_vom_25.04.2023_D6325E.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_123_St._A3DSV9_(D-WAVE_QUANTUM_DL-,0001)_vom_29.09.2025_A606A7.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_12_St._WKN_ETF123(C.-MSCI_USA_S.C.T.U.ETF_I)_vom_02.01.2017_3F5577.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_130_St._A40NG6_(ONKURE_THERAP.INC._A_O.N.)_vom_03.11.2025_B75436.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_149_St._A2PY7P_(BEAM_THERAPEUTICS_DL-,01)_vom_29.09.2025_81E67D.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_14_St._A3DSV9_(D-WAVE_QUANTUM_DL-,0001)_vom_19.09.2025_66B8C0.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_15_St._906866_(AMAZON.COM_INC._DL-,01)_vom_24.09.2025_6F6839.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_15_St._WKN_A14KEB(HOME24_SE_INH_O.N.)_vom_02.01.2023_EE6960.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_180_St._A2PBCR_(SCOTCH_CREEK_VENTURES)_vom_25.04.2023_19479A.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_18_St._A2PY7P_(BEAM_THERAPEUTICS_DL-,01)_vom_19.09.2025_1820E4.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_18_St._A3DE3J_(RIGETTI_COMPUTNG_DL-,0001)_vom_19.09.2025_56215D.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_18_St._A3DE3J_(RIGETTI_COMPUTNG_DL-,0001)_vom_29.09.2025_CB53D2.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_194_St._A3D9M1_(VANECKETFSDFNS_ADLA)_vom_16.04.2025_6AE03A.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_1_St._A0RP23_(BELLE.F.(L)-BB.A.M.+S.BEO)_vom_25.04.2023_30B4F1.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_1_St._A1T8X9_(BNPP_DISRUPT.TECH._CLCAP)_vom_27.01.2025_FC9DCF.pdf",
+      "no gross"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_1_St._A1T8X9_(BNPP_DISRUPT.TECH._CLCAP)_vom_27.01.2025_FC9DCF.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_1_St._LYX0GM_(MUL-LYX.MSCI_W.HCTRUE_AEO)_vom_25.04.2023_25F839.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_1_St._WKN_593392(ISHARES_MDAX_UCITS_ETF)_vom_02.01.2017_48324E.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_1_St._WKN_984811(DWS_TOP_DIVIDENDE_LD)_vom_02.01.2017_3484E4.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_1_St._WKN_ETF123(CS.-CS_S+P_S.C.600_UETF_I)_vom_28.08.2020_77A536.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_2.055_St._A40F2B_(REALBOTIX_CORP.)_vom_03.11.2025_F16556.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_20_St._909800_(TAIWAN_SEMICON.MANU.ADR_5)_vom_10.10.2025_7D6AA6.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_20_St._A0D655_(NORDEX_SE_O.N.)_vom_25.04.2023_94B880.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_20_St._A2JRK6_(PDD_HOLDINGS_SP.ADR_4)_vom_19.11.2025_D34BC9.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_20_St._A2QAJC_(CARPARTS.COM_INC._DL-,001)_vom_25.04.2023_65CC54.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_20_St._A40EDP_(TEMPUS_AI_INC._DL-,01)_vom_24.09.2025_7788AD.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_20_St._WKN_A31C3G(NORDEX_SE_BZR)_vom_21.07.2022_6FA484.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_210_St._A2PNZE_(ELSE_NUTRITION_HLDG)_vom_24.06.2024_DED5C2.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_222_St._A3E3UN_(T1_ENERGY_INC._O.N.)_vom_02.10.2025_6EE653.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_242_St._WKN_A2ANH0(ISHS_IV-AUTO.+ROBOTIC.ETF)_vom_14.02.2022_6B44B2.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_24_St._A3DE3J_(RIGETTI_COMPUTNG_DL-,0001)_vom_19.09.2025_D5F14D.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_259_St._WKN_A2ANH3(ISHSIV-DIGITALISATION_DLA)_vom_14.02.2022_09B97C.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_25_St._630500_(DEUTZ_AG_AKTIEN_O.N.)_vom_25.04.2023_B782D8.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_270_St._A40ESG_(MEDIGENE_AG_NA_O.N.)_vom_06.08.2025_19F466.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_273_St._A117FW_(WMF(L)-W.G.QUAL.GR.NDLAUH)_vom_25.04.2023_E5D499.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_282_St._WKN_A2ANH2(ISHS_IV-HEALTHC.INNOV.ETF)_vom_14.02.2022_B009E4.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_2_St._A117ME_(ALIBABA_GR.HLDG_SP.ADR_8)_vom_25.04.2023_11C6E0.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_300_St._A2N4RL_(SPEY_RESOURCES_CORP.)_vom_25.04.2023_0C28C4.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_30_St._A1138D_(TENCENT_HLDGS_HD-,00002)_vom_16.01.2026_84300C.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_30_St._A3CTJC_(SENTINELONE_INC.A_-,0001)_vom_22.09.2025_50DC90.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_318_St._WKN_850775(TELEFONICA_INH._EO_1)_vom_12.11.2019_31C7FD.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_32_St._ZAL111_(ZALANDO_SE)_vom_24.06.2024_CB8D66.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_348_St._850775_(TELEFONICA_INH._EO_1)_vom_26.04.2024_48DF45.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_359_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_29.08.2024_5D3EE3.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_398_St._A3C84C_(PLANET_LABS_PBC_A_-,0001)_vom_10.10.2025_5B4455.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_3_St._A14Y6F_(ALPHABET_INC.CL.A_DL-,001)_vom_19.09.2025_51715B.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_3_St._WKN_A0D8Q4(IS.DJ_U.S.SELEC.DIV.U.ETF)_vom_02.01.2017_E10DB6.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_3_St._WKN_DBX0AL(DB_X-TR.II-IB.GL.IN.-L.1C)_vom_02.01.2017_CE967D.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_3_St._WKN_DBX1ME(DB_X-TR.MSCI_EUR.IDX.DR1C)_vom_02.01.2017_9EA5F6.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_400_St._A3CS6B_(PLANT_VEDA_FOODS_LTD)_vom_25.04.2023_6E2B7A.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_40_St._A2QJX9_(QUANTUMSCAPE_A_DL-,0001)_vom_21.07.2025_7EBA69.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_425_St._850775_(TELEFONICA_INH._EO_1)_vom_02.05.2024_0C3E4D.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_43_St._SHL100_(SIEMENS_HEALTH.AG_NA_O.N.)_vom_22.09.2025_FF71FA.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_444_St._A3DGJJ_(MIMEDIA_HLDGS_INC.)_vom_16.07.2025_3A4EB0.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_44_St._A14Y6F_(ALPHABET_INC.CL.A_DL-,001)_vom_13.11.2025_79EBDF.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_450_St._A40EDP_(TEMPUS_AI_INC._DL-,01)_vom_11.09.2025_BE816C.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_48_St._A2PMFM_(JUSHI_HLDGS_INC)_vom_25.04.2023_0820FB.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_49_St._WKN_A0F6XG(JPM-PACIF.EQU.JPMPE_AAEO)_vom_15.02.2022_1A11AF.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_4_St._863186_(ADVANCED_MIC.DEV._DL-,01)_vom_05.08.2025_FC6556.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_4_St._938914_(AIRBUS_SE)_vom_02.05.2024_394C34.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_4_St._A0JQ5U_(MANZ_AG)_vom_25.04.2023_3E3488.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_4_St._A1JC82_(ENPHASE_ENERGY_INC.DL-,01)_vom_15.07.2025_4734B1.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_4_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_27.01.2025_AF63A8.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_4_St._WKN_A141RC(PICTET-ROBOTICS_PDYDISEO)_vom_15.02.2022_FE9772.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_50_St._A0Q2R4_(SAFE_BULKERS_INC._DL-,001)_vom_25.04.2023_8B9B5D.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_50_St._A3CQRG_(OATLY_GROUP_AB_SP.ADS_1)_vom_24.06.2024_E32CC0.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_50_St._A40VVU_(PONY_AI_INC._SP.ADR_1)_vom_19.09.2025_4CF783.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_52_St._860853_(WALMART_DL-,10)_vom_24.09.2025_3CC2EF.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_53_St._A2PSR2_(BIONTECH_SE_SPON._ADRS_1)_vom_04.11.2024_A2DD47.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_55_St._A0KD0F_(MUEHLHAN_O.N.)_vom_25.04.2023_3582A1.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_56_St._A412WK_(HINGE_HEALTH_INC.)_vom_07.10.2025_DF3B42.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_58_St._WKN_LYX0CB(LYX.MSCI_NE_ESG_FIL.DR_D)_vom_14.02.2022_6336DA.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_5_St._723132_(SIXT_SE_ST_O.N.)_vom_03.05.2024_6E5E06.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_5_St._A1MMCC_(MEDIOS_AG_O.N.)_vom_25.04.2023_84610B.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_5_St._WKN_DBX1EM(DB_X-TR.MSCI_EM_IDX.1C)_vom_02.01.2017_BF6557.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_60_St._921800_(FID.FDS-GL_TECHNOL.A_GL.)_vom_27.01.2025_A0C227.pdf",
+      "no gross"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_60_St._921800_(FID.FDS-GL_TECHNOL.A_GL.)_vom_27.01.2025_A0C227.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_63_St._WKN_A0F5UF(ISHARES_NASDAQ-100_U.ETF)_vom_18.02.2022_1A3EB5.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_6_St._855681_(INTEL_CORP._DL-,001)_vom_25.04.2023_5E345B.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_6_St._A0LFBM_(DPAM_B-EQ.N.GEM.SU._BEOA)_vom_25.04.2023_0D160F.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_6_St._A3C9GD_(SAMSARA_INC._A_DL-,0001)_vom_22.09.2025_D2C416.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_7.500_St._A2QK7Q_(REVIVA_PHARMACEUT.HLDGS)_vom_08.10.2025_66C6F5.pdf",
+      "no net"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_7.500_St._A2QK7Q_(REVIVA_PHARMACEUT.HLDGS)_vom_08.10.2025_66C6F5.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_70_St._A419CG_(ROCKET_LAB_CORP._DL-,0001)_vom_10.10.2025_1C69CE.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_740_St._WKN_A142NZ(ISHSV-S+P500H.CA.SECT.DLA)_vom_14.02.2022_07A4CB.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_7_St._A117ME_(ALIBABA_GR.HLDG_SP.ADR_8)_vom_19.09.2025_DB0A1F.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_7_St._A14M21_(EQUINIX_INC._DL-,001)_vom_24.09.2025_610752.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_7_St._A1JWVX_(META_PLATF._A_DL-,000006)_vom_24.09.2025_6458FC.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_800_St._A2DQ8S_(OVID_THERAPEUTICS_DL-,001)_vom_29.09.2025_100101.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_820_St._A3DTUQ_(VIDAC_PHARMA_HLDG_PLC_LS1)_vom_15.10.2024_CF58C6.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_83_St._A3DE3J_(RIGETTI_COMPUTNG_DL-,0001)_vom_29.09.2025_70F1F1.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_850_St._A3DM9Q_(PROMIS_NEUROSCIENCES)_vom_03.11.2025_CE22C9.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_88_St._A3DGJK_(SOUNDHOUND_AI_A_DL_-,001)_vom_25.09.2025_2F5233.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_8_St._620010_(INDUS_HOLDING_AG)_vom_25.04.2023_1DD47E.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_8_St._A0MWED_(AMG_CRITICAL_MATER._EO-02)_vom_08.05.2024_A90CEC.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_8_St._A3CL8W_(AST_SPACEMOBIL.A_DL-,0001)_vom_22.09.2025_BD7D3C.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_8_St._KGX888_(KION_GROUP_AG)_vom_24.06.2024_28E31E.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_900_St._A3C5SS_(TIZIANA_LIFE_SCIENCES_LTD)_vom_03.11.2025_8725C9.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ],
+    [
+      "Wertpapierabrechnung_Verkauf_90_St._A112ST_(JD.COM_SP.ADR_A1_DL-00002)_vom_08.01.2026_AF9427.pdf",
+      "SELL new-format: no cost_lots AND no reported_realized_pl"
+    ]
+  ]
+}
