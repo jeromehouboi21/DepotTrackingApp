@@ -161,6 +161,8 @@ function MappingCard() {
 }
 
 export function ImportScreen({ user }) {
+  // `custody` ist das useCustody()-Hook-OBJEKT (brokers, custodyByIsin, refresh, ...);
+  // die holding_custody-Zeilen liegen als Array unter `custody.custody`.
   const { refreshAll, custody } = useData();
   const [files, setFiles] = useState({});
   const [busy, setBusy] = useState(false);
@@ -290,7 +292,7 @@ export function ImportScreen({ user }) {
         { onConflict: "user_id,id", ignoreDuplicates: true },
       );
       const heldIsins = pf.positions.filter((p) => p.shares_held > 1e-9).map((p) => p.isin);
-      const existing = new Set((custody ?? []).map((c) => c.isin));
+      const existing = new Set((custody.custody ?? []).map((c) => c.isin));
       const defaults = deriveCustodyDefaults(tx, heldIsins).filter((d) => !existing.has(d.isin));
       if (defaults.length) {
         await upsertBatched(
