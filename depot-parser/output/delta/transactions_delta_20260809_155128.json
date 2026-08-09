@@ -1,0 +1,12 @@
+{
+  "run_id": "20260809_155128",
+  "generated_at": "2026-08-09T15:51:28",
+  "base_count_before": 907,
+  "new_count": 0,
+  "sources": {
+    "comdirect": 0,
+    "comdirect_transfer": 0,
+    "scalable": 0
+  },
+  "transactions": []
+}

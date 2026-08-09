@@ -83,6 +83,10 @@ def fmt_amount(x: float) -> str:
     return f"{x:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
 
+def fmt_shares(x: float) -> str:
+    return f"{x:g}".replace(".", ",")
+
+
 def main() -> int:
     args = parse_args()
     t_start = time.time()
@@ -188,7 +192,7 @@ def main() -> int:
         gegenprobe = ""
         if tx["type"] == "SELL" and tx.get("reported_realized_pl") is not None:
             gegenprobe = f"  → gemeldet {fmt_amount(tx['reported_realized_pl'])} €"
-        rl.line(f"[{idx}/{total_new}] {richtung}  {tx['wkn']}  {tx['isin']}  {tx['shares']:g} St.  "
+        rl.line(f"[{idx}/{total_new}] {richtung}  {tx['wkn']}  {tx['isin']}  {fmt_shares(tx['shares'])} St.  "
                 f"EUR {fmt_amount(tx['net'])}   ({fn}){gegenprobe}")
 
     for row in new_transfer_rows:
@@ -197,7 +201,7 @@ def main() -> int:
         new_transactions.append(tx)
         securities_entries.append({"isin": tx["isin"], "wkn": tx["wkn"], "name": tx["name"],
                                     "verwahrart": row.get("verwahrungsart"), "currency": tx["currency"]})
-        rl.line(f"[{idx}/{total_new}] ÜBERTRAG  {tx['wkn']}  {tx['isin']}  {tx['shares']:g} St.  "
+        rl.line(f"[{idx}/{total_new}] ÜBERTRAG  {tx['wkn']}  {tx['isin']}  {fmt_shares(tx['shares'])} St.  "
                 f"(Depotübertrag, comdirect)")
 
     for row in new_scalable_rows:
@@ -212,7 +216,7 @@ def main() -> int:
             securities_entries.append({"isin": tx["isin"], "wkn": tx["wkn"], "name": tx["name"],
                                         "verwahrart": None, "currency": tx["currency"]})
         label = {"BUY": "KAUF ", "SELL": "VERK.", "TRANSFER_OUT": "ÜBTRG", "CASH": "CASH "}[tx["type"]]
-        rl.line(f"[{idx}/{total_new}] {label}  {tx['isin'] or '-':13}  {tx['shares']:g} St.  "
+        rl.line(f"[{idx}/{total_new}] {label}  {tx['isin'] or '-':13}  {fmt_shares(tx['shares'])} St.  "
                 f"EUR {fmt_amount(tx['net'])}   (Scalable)")
 
     # --- 7. Mit kumuliertem Bestand zusammenführen ---

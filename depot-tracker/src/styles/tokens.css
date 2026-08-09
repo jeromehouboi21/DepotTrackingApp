@@ -1,0 +1,16 @@
+:root {
+  --color-bg: #f7f8fa;
+  --color-surface: #ffffff;
+  --color-surface-2: #f1f3f6;
+  --color-ink: #141619;
+  --color-ink-2: #5b6067;
+  --color-ink-3: #9aa0a8;
+  --color-accent: #2d5a4e;
+  --color-gain: #127c4a;
+  --color-gain-bg: #e4f3eb;
+  --color-loss: #b3261e;
+  --color-loss-bg: #fbe9e7;
+  --color-warn: #b26b00;
+  --color-comdirect: #005ea8;
+  --color-scalable: #1a1a2e;
+}

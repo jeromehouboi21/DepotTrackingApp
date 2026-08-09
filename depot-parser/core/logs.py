@@ -5,6 +5,12 @@ import sys
 
 
 def setup_logging(verbose: bool, quiet: bool) -> logging.Logger:
+    # Windows-Konsolen laufen oft mit cp1252; das Konsolen-Layout (§13) nutzt
+    # Box-Drawing-Zeichen, die dort nicht kodierbar sind - Stream auf UTF-8 zwingen.
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8", errors="replace")
+
     level = logging.WARNING if quiet else (logging.DEBUG if verbose else logging.INFO)
     logger = logging.getLogger("depot_parser")
     logger.setLevel(level)

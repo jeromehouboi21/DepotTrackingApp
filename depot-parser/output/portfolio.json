@@ -1,0 +1,4622 @@
+{
+  "generated_at": "2026-08-09T16:08:36",
+  "positions": [
+    {
+      "isin": "AT0000745856",
+      "wkn": "591730",
+      "name": "RAIFF.EURASIEN AKT. A ST.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 7.890000000000001,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 2.5,
+      "total_invested": 12.78,
+      "open_lots": [],
+      "tx_ids": [
+        "15FFA2",
+        "D7D5CC",
+        "E328C9"
+      ]
+    },
+    {
+      "isin": "AU000000BRN8",
+      "wkn": "A14Z7W",
+      "name": "BrainChip Holdings",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 8500.0,
+      "avg_cost": 0.1177,
+      "cost_basis_remaining": 1000.45,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 15.3,
+      "total_invested": 1000.45,
+      "open_lots": [
+        {
+          "date": "2025-09-23",
+          "shares": 8500.0,
+          "cost_per_share": 0.1177
+        }
+      ],
+      "tx_ids": [
+        "9C6DF8",
+        "SCTI2UUFP_AU000000BRN8",
+        "SCTO8PWTE_AU000000BRN8"
+      ]
+    },
+    {
+      "isin": "AU000000DRO2",
+      "wkn": "A2DMAA",
+      "name": "DroneShield",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 500.0,
+      "avg_cost": 3.66764,
+      "cost_basis_remaining": 1833.82,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 13.82,
+      "total_invested": 1833.82,
+      "open_lots": [
+        {
+          "date": "2025-10-06",
+          "shares": 500.0,
+          "cost_per_share": 3.66764
+        }
+      ],
+      "tx_ids": [
+        "B08510",
+        "SCTI2UUFP_AU000000DRO2",
+        "SCTO8PWTE_AU000000DRO2"
+      ]
+    },
+    {
+      "isin": "AU000000WBT5",
+      "wkn": "A2APH0",
+      "name": "Weet Nano",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 520.0,
+      "avg_cost": 1.8394230769230768,
+      "cost_basis_remaining": 956.5,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 15.3,
+      "total_invested": 956.5,
+      "open_lots": [
+        {
+          "date": "2025-09-23",
+          "shares": 520.0,
+          "cost_per_share": 1.8394230769230768
+        }
+      ],
+      "tx_ids": [
+        "A761FF",
+        "SCTI2UUFP_AU000000WBT5",
+        "SCTO8PWTE_AU000000WBT5"
+      ]
+    },
+    {
+      "isin": "BE0946564383",
+      "wkn": "A0LFBM",
+      "name": "DPAM B-EQ.N.GEM.SU. BEOA",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 240.33,
+      "realized_pl_reported": 240.33,
+      "realized_pl_matches": false,
+      "total_fees": 5.8,
+      "total_invested": 998.92,
+      "open_lots": [],
+      "tx_ids": [
+        "7DC4DC",
+        "0D160F"
+      ]
+    },
+    {
+      "isin": "BMG889121031",
+      "wkn": "A3C5SS",
+      "name": "TIZIANA LIFE SCIENCES LTD",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -194.67,
+      "realized_pl_reported": -194.67,
+      "realized_pl_matches": true,
+      "total_fees": 44.42,
+      "total_invested": 1647.85,
+      "open_lots": [],
+      "tx_ids": [
+        "B11186",
+        "7A27CD",
+        "8725C9"
+      ]
+    },
+    {
+      "isin": "CA26780A1084",
+      "wkn": "A1KBAV",
+      "name": "DYNACERT INC.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -162.09,
+      "realized_pl_reported": -162.09,
+      "realized_pl_matches": true,
+      "total_fees": 30.6,
+      "total_invested": 297.84,
+      "open_lots": [],
+      "tx_ids": [
+        "12757B",
+        "C0EFED"
+      ]
+    },
+    {
+      "isin": "CA2902571041",
+      "wkn": "A2PNZE",
+      "name": "ELSE NUTRITION HLDG",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -105.78,
+      "realized_pl_reported": -105.78,
+      "realized_pl_matches": true,
+      "total_fees": 30.6,
+      "total_invested": 117.99,
+      "open_lots": [],
+      "tx_ids": [
+        "8A7587",
+        "DED5C2"
+      ]
+    },
+    {
+      "isin": "CA48213Y1079",
+      "wkn": "A2PMFM",
+      "name": "JUSHI HLDGS INC",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 0.0,
+      "realized_pl_reported": 0.0,
+      "realized_pl_matches": false,
+      "total_fees": 25.8,
+      "total_invested": 200.21,
+      "open_lots": [],
+      "tx_ids": [
+        "AC9FA8",
+        "0820FB"
+      ]
+    },
+    {
+      "isin": "CA60250B1067",
+      "wkn": "A3DGJJ",
+      "name": "MIMEDIA HLDGS INC.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 11.44,
+      "realized_pl_reported": 11.44,
+      "realized_pl_matches": true,
+      "total_fees": 30.6,
+      "total_invested": 174.84,
+      "open_lots": [],
+      "tx_ids": [
+        "E58765",
+        "3A4EB0"
+      ]
+    },
+    {
+      "isin": "CA7273511088",
+      "wkn": "A3CS6B",
+      "name": "PLANT VEDA FOODS LTD",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 0.0,
+      "realized_pl_reported": 0.0,
+      "realized_pl_matches": false,
+      "total_fees": 30.6,
+      "total_invested": 104.9,
+      "open_lots": [],
+      "tx_ids": [
+        "C362C7",
+        "6E2B7A"
+      ]
+    },
+    {
+      "isin": "CA74346M4065",
+      "wkn": "A3DM9Q",
+      "name": "PROMIS NEUROSCIENCES",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -29.12,
+      "realized_pl_reported": -29.12,
+      "realized_pl_matches": true,
+      "total_fees": 29.12,
+      "total_invested": 317.9,
+      "open_lots": [],
+      "tx_ids": [
+        "BFBDD0",
+        "CE22C9"
+      ]
+    },
+    {
+      "isin": "CA75604K1075",
+      "wkn": "A40F2B",
+      "name": "REALBOTIX CORP.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -215.19,
+      "realized_pl_reported": -215.19,
+      "realized_pl_matches": true,
+      "total_fees": 44.42,
+      "total_invested": 745.9499999999999,
+      "open_lots": [],
+      "tx_ids": [
+        "872C84",
+        "1B2B4F",
+        "F16556"
+      ]
+    },
+    {
+      "isin": "CA8091851011",
+      "wkn": "A2PBCR",
+      "name": "SCOTCH CREEK VENTURES",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -65.52,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 30.6,
+      "total_invested": 65.52,
+      "open_lots": [],
+      "tx_ids": [
+        "29B2C9",
+        "19479A"
+      ]
+    },
+    {
+      "isin": "CA84840P1027",
+      "wkn": "A2N4RL",
+      "name": "SPEY RESOURCES CORP.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 0.0,
+      "realized_pl_reported": 0.0,
+      "realized_pl_matches": false,
+      "total_fees": 30.6,
+      "total_invested": 65.88,
+      "open_lots": [],
+      "tx_ids": [
+        "47E93C",
+        "0C28C4"
+      ]
+    },
+    {
+      "isin": "CA88410L1022",
+      "wkn": "A3D51F",
+      "name": "THIOGENESIS THERAP. CORP.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 1000.0,
+      "avg_cost": 0.54032,
+      "cost_basis_remaining": 540.32,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 17.8,
+      "total_invested": 540.32,
+      "open_lots": [
+        {
+          "date": "2025-06-12",
+          "shares": 1000.0,
+          "cost_per_share": 0.54032
+        }
+      ],
+      "tx_ids": [
+        "FBCF66"
+      ]
+    },
+    {
+      "isin": "CH0334081137",
+      "wkn": "A2AT0Z",
+      "name": "Crispr Therapeutics",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 27.0,
+      "avg_cost": 46.2074074074074,
+      "cost_basis_remaining": 1247.6,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 24.8,
+      "total_invested": 1247.6,
+      "open_lots": [
+        {
+          "date": "2025-06-16",
+          "shares": 7.0,
+          "cost_per_share": 38.17142857142857
+        },
+        {
+          "date": "2025-07-14",
+          "shares": 20.0,
+          "cost_per_share": 49.019999999999996
+        }
+      ],
+      "tx_ids": [
+        "AE9FB5",
+        "DDAD42",
+        "SCTI2UUFP_CH0334081137",
+        "SCTO8PWTE_CH0334081137"
+      ]
+    },
+    {
+      "isin": "DE0005137004",
+      "wkn": "513700",
+      "name": "Q.BEYOND AG NA O.N.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -143.67,
+      "realized_pl_reported": -143.67,
+      "realized_pl_matches": true,
+      "total_fees": 25.75,
+      "total_invested": 214.43,
+      "open_lots": [],
+      "tx_ids": [
+        "250029",
+        "D6325E"
+      ]
+    },
+    {
+      "isin": "DE0005933923",
+      "wkn": "593392",
+      "name": "ISHARES MDAX UCITS ETF",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -3.4400000000000004,
+      "realized_pl_reported": -3.4400000000000004,
+      "realized_pl_matches": false,
+      "total_fees": 15.73,
+      "total_invested": 49.91,
+      "open_lots": [],
+      "tx_ids": [
+        "750E84",
+        "913B7B",
+        "580893",
+        "97921E",
+        "33E5CD",
+        "EC3102",
+        "0726C7",
+        "0FBE3B",
+        "48324E",
+        "E29829",
+        "2E7B69",
+        "AEC4C6"
+      ]
+    },
+    {
+      "isin": "DE0006200108",
+      "wkn": "620010",
+      "name": "INDUS HOLDING AG",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -71.6,
+      "realized_pl_reported": -71.6,
+      "realized_pl_matches": true,
+      "total_fees": 24.8,
+      "total_invested": 270.0,
+      "open_lots": [],
+      "tx_ids": [
+        "11930C",
+        "1DD47E"
+      ]
+    },
+    {
+      "isin": "DE0006305006",
+      "wkn": "630500",
+      "name": "DEUTZ AG AKTIEN O.N.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -48.55,
+      "realized_pl_reported": -48.55,
+      "realized_pl_matches": false,
+      "total_fees": 24.8,
+      "total_invested": 185.03,
+      "open_lots": [],
+      "tx_ids": [
+        "227DF1",
+        "B782D8"
+      ]
+    },
+    {
+      "isin": "DE0007231326",
+      "wkn": "723132",
+      "name": "SIXT SE ST O.N.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -69.55,
+      "realized_pl_reported": -69.55,
+      "realized_pl_matches": true,
+      "total_fees": 24.8,
+      "total_invested": 494.65,
+      "open_lots": [],
+      "tx_ids": [
+        "8149E1",
+        "6E5E06"
+      ]
+    },
+    {
+      "isin": "DE0008032004",
+      "wkn": "803200",
+      "name": "COMMERZBANK AG O.N.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 5.2,
+      "realized_pl_reported": 5.2,
+      "realized_pl_matches": true,
+      "total_fees": 24.8,
+      "total_invested": 66.85,
+      "open_lots": [],
+      "tx_ids": [
+        "2C7CA5",
+        "A4EC15"
+      ]
+    },
+    {
+      "isin": "DE0008478116",
+      "wkn": "847811",
+      "name": "FMM-FONDS ANTEILE",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 0.10000000000000142,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 0.0,
+      "total_invested": 25.43,
+      "open_lots": [],
+      "tx_ids": [
+        "3DF140",
+        "77CAE2"
+      ]
+    },
+    {
+      "isin": "DE0008490962",
+      "wkn": "849096",
+      "name": "DWS DEUTSCHLAND LC",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 4.28,
+      "realized_pl_reported": 4.28,
+      "realized_pl_matches": false,
+      "total_fees": 0.0,
+      "total_invested": 49.68,
+      "open_lots": [],
+      "tx_ids": [
+        "3D7D99",
+        "1D4975",
+        "864A37",
+        "757198",
+        "28AC85",
+        "072112",
+        "BEE9BD",
+        "03C442",
+        "25AD26",
+        "46D621",
+        "4DF433"
+      ]
+    },
+    {
+      "isin": "DE0009777003",
+      "wkn": "977700",
+      "name": "ASTRA-FONDS ANTEILE",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 1.918,
+      "avg_cost": 20.067778936392074,
+      "cost_basis_remaining": 38.489999999999995,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 0.0,
+      "total_invested": 38.489999999999995,
+      "open_lots": [
+        {
+          "date": "2009-09-15",
+          "shares": 0.98,
+          "cost_per_share": 18.081632653061224
+        },
+        {
+          "date": "2009-10-15",
+          "shares": 0.938,
+          "cost_per_share": 22.142857142857142
+        }
+      ],
+      "tx_ids": [
+        "0C652A",
+        "9C1675"
+      ]
+    },
+    {
+      "isin": "DE0009848119",
+      "wkn": "984811",
+      "name": "DWS TOP DIVIDENDE LD",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 2.9799999999999995,
+      "realized_pl_reported": 2.9799999999999995,
+      "realized_pl_matches": false,
+      "total_fees": 0.0,
+      "total_invested": 49.93,
+      "open_lots": [],
+      "tx_ids": [
+        "A1C447",
+        "683ADB",
+        "7F97C5",
+        "3EA108",
+        "662845",
+        "CBD31A",
+        "EB5B80",
+        "BE34AD",
+        "3484E4",
+        "EC78FF",
+        "5959D4",
+        "E0C704"
+      ]
+    },
+    {
+      "isin": "DE000A0D6554",
+      "wkn": "A0D655",
+      "name": "NORDEX SE O.N.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -106.9,
+      "realized_pl_reported": -106.9,
+      "realized_pl_matches": true,
+      "total_fees": 24.8,
+      "total_invested": 314.4,
+      "open_lots": [],
+      "tx_ids": [
+        "E1DBA6",
+        "94B880"
+      ]
+    },
+    {
+      "isin": "DE000A0D8Q49",
+      "wkn": "A0D8Q4",
+      "name": "IS.DJ U.S.SELEC.DIV.U.ETF",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 16.74,
+      "realized_pl_reported": 16.74,
+      "realized_pl_matches": false,
+      "total_fees": 15.73,
+      "total_invested": 49.91,
+      "open_lots": [],
+      "tx_ids": [
+        "2BC43A",
+        "ECCDB4",
+        "3AF17A",
+        "D25F51",
+        "95AA9A",
+        "DF17B3",
+        "B62072",
+        "A549E0",
+        "7C0F14",
+        "E10DB6",
+        "B79A7A",
+        "1C1828"
+      ]
+    },
+    {
+      "isin": "DE000A0F5UF5",
+      "wkn": "A0F5UF",
+      "name": "ISHARES NASDAQ-100 U.ETF",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 1120.3,
+      "realized_pl_reported": 1120.3,
+      "realized_pl_matches": false,
+      "total_fees": 48.38,
+      "total_invested": 5916.93,
+      "open_lots": [],
+      "tx_ids": [
+        "F0A31F",
+        "1A3EB5"
+      ]
+    },
+    {
+      "isin": "DE000A0JQ5U3",
+      "wkn": "A0JQ5U",
+      "name": "MANZ AG",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -121.0,
+      "realized_pl_reported": -121.0,
+      "realized_pl_matches": true,
+      "total_fees": 24.8,
+      "total_invested": 209.8,
+      "open_lots": [],
+      "tx_ids": [
+        "719C25",
+        "3E3488"
+      ]
+    },
+    {
+      "isin": "DE000A0KD0F7",
+      "wkn": "A0KD0F",
+      "name": "MUEHLHAN O.N.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -82.55,
+      "realized_pl_reported": -82.55,
+      "realized_pl_matches": true,
+      "total_fees": 24.8,
+      "total_invested": 211.5,
+      "open_lots": [],
+      "tx_ids": [
+        "59E2DC",
+        "3582A1"
+      ]
+    },
+    {
+      "isin": "DE000A14KEB5",
+      "wkn": "A14KEB",
+      "name": "HOME24 SE INH O.N.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -137.07,
+      "realized_pl_reported": -137.07,
+      "realized_pl_matches": true,
+      "total_fees": 24.8,
+      "total_invested": 228.25,
+      "open_lots": [],
+      "tx_ids": [
+        "A75D35",
+        "EE6960"
+      ]
+    },
+    {
+      "isin": "DE000A1J5RX9",
+      "wkn": "A1J5RX",
+      "name": "TELEFONICA DTLD HLDG NA",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 1385.0,
+      "avg_cost": 2.860830324909747,
+      "cost_basis_remaining": 3962.25,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 26.7,
+      "total_invested": 3962.25,
+      "open_lots": [
+        {
+          "date": "2019-11-06",
+          "shares": 685.0,
+          "cost_per_share": 2.8564963503649636
+        },
+        {
+          "date": "2019-11-13",
+          "shares": 700.0,
+          "cost_per_share": 2.8650714285714285
+        }
+      ],
+      "tx_ids": [
+        "85DE7B",
+        "222B50"
+      ]
+    },
+    {
+      "isin": "DE000A1MMCC8",
+      "wkn": "A1MMCC",
+      "name": "MEDIOS AG O.N.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -120.45,
+      "realized_pl_reported": -120.45,
+      "realized_pl_matches": true,
+      "total_fees": 24.8,
+      "total_invested": 200.15,
+      "open_lots": [],
+      "tx_ids": [
+        "072C36",
+        "84610B"
+      ]
+    },
+    {
+      "isin": "DE000A31C3G1",
+      "wkn": "A31C3G",
+      "name": "NORDEX SE BZR",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 8.22,
+      "realized_pl_reported": 8.22,
+      "realized_pl_matches": true,
+      "total_fees": 0.0,
+      "total_invested": 0.0,
+      "open_lots": [],
+      "tx_ids": [
+        "6FA484"
+      ]
+    },
+    {
+      "isin": "DE000A40ESG2",
+      "wkn": "A40ESG",
+      "name": "MEDIGENE AG NA O.N.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -548.47,
+      "realized_pl_reported": -548.47,
+      "realized_pl_matches": true,
+      "total_fees": 25.75,
+      "total_invested": 554.97,
+      "open_lots": [],
+      "tx_ids": [
+        "E97B55",
+        "19F466"
+      ]
+    },
+    {
+      "isin": "DE000DS8PAY5",
+      "wkn": "DS8PAY",
+      "name": "DEUT.BANK OPEN END IDX",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 4.0,
+      "avg_cost": 128.69,
+      "cost_basis_remaining": 514.76,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 12.4,
+      "total_invested": 514.76,
+      "open_lots": [
+        {
+          "date": "2019-07-08",
+          "shares": 4.0,
+          "cost_per_share": 128.69
+        }
+      ],
+      "tx_ids": [
+        "0FCB30"
+      ]
+    },
+    {
+      "isin": "DE000KGX8881",
+      "wkn": "KGX888",
+      "name": "KION GROUP AG",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 68.56,
+      "realized_pl_reported": 68.56,
+      "realized_pl_matches": true,
+      "total_fees": 24.8,
+      "total_invested": 230.72,
+      "open_lots": [],
+      "tx_ids": [
+        "B8CED4",
+        "28E31E"
+      ]
+    },
+    {
+      "isin": "DE000SHL1006",
+      "wkn": "SHL100",
+      "name": "SIEMENS HEALTH.AG NA O.N.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 34.33,
+      "realized_pl_reported": 34.33,
+      "realized_pl_matches": true,
+      "total_fees": 25.869999999999997,
+      "total_invested": 2000.38,
+      "open_lots": [],
+      "tx_ids": [
+        "CE191E",
+        "FF71FA"
+      ]
+    },
+    {
+      "isin": "DE000ZAL1111",
+      "wkn": "ZAL111",
+      "name": "ZALANDO SE",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -333.92,
+      "realized_pl_reported": -333.92,
+      "realized_pl_matches": true,
+      "total_fees": 24.8,
+      "total_invested": 1012.4,
+      "open_lots": [],
+      "tx_ids": [
+        "FF35F8",
+        "CB8D66"
+      ]
+    },
+    {
+      "isin": "ES0178430E18",
+      "wkn": "850775",
+      "name": "TELEFONICA INH. EO 1",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 1601.4099999999999,
+      "realized_pl_reported": 1601.4099999999999,
+      "realized_pl_matches": true,
+      "total_fees": 39.2,
+      "total_invested": 0.0,
+      "open_lots": [],
+      "tx_ids": [
+        "31C7FD",
+        "48DF45",
+        "0C3E4D"
+      ]
+    },
+    {
+      "isin": "FR0010429068",
+      "wkn": "LYX0BX",
+      "name": "MUF-AMU.MSCI EMERMKT3 EOA",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 214.15,
+      "realized_pl_reported": 214.15,
+      "realized_pl_matches": false,
+      "total_fees": 72.97,
+      "total_invested": 4049.619999999996,
+      "open_lots": [],
+      "tx_ids": [
+        "CC0257",
+        "1FE8A3",
+        "9B9AFB",
+        "69B902",
+        "7CD14E",
+        "F07DB3",
+        "1A4ECA",
+        "AE8515",
+        "244926",
+        "23634D",
+        "63FC1C",
+        "630016",
+        "A5EABD",
+        "9CBA90",
+        "3A7235",
+        "FC77A6",
+        "36EB47",
+        "806F5A",
+        "346423",
+        "97E91A",
+        "660676",
+        "E74AE6",
+        "B1C846",
+        "A91CDC",
+        "565AB8",
+        "478B75",
+        "158D9A",
+        "A52E93",
+        "6A0353",
+        "88B4CE",
+        "A8F160",
+        "790755",
+        "D27FAC",
+        "730534",
+        "79E1F4",
+        "E3FC89",
+        "1D72B1",
+        "DDE165",
+        "E55E3C",
+        "A2BB54",
+        "C46302",
+        "2CE176",
+        "253D78",
+        "1AB1C6",
+        "7E67C9",
+        "9575FE",
+        "3F31BF",
+        "7622A5",
+        "DD7ED9",
+        "540D47",
+        "8FA3E4",
+        "ADEF7F",
+        "D8C4FA",
+        "AD5F99",
+        "D7810F",
+        "59FFF8",
+        "A50C26",
+        "38CAC8",
+        "A6243A",
+        "43DF75",
+        "0116F3",
+        "574104",
+        "1D13AD",
+        "10D06B",
+        "DF773C",
+        "FAC929",
+        "D9240D",
+        "59E6DD",
+        "A4239B",
+        "297133",
+        "30CCBB",
+        "A38DB3",
+        "73566B",
+        "61934C",
+        "1BEB1E",
+        "1CD4D4",
+        "8877E7",
+        "C6E0BF",
+        "D54601",
+        "D5BFEF",
+        "5D3EE3",
+        "6B2175",
+        "D52AC2",
+        "24C0BA",
+        "AF63A8"
+      ]
+    },
+    {
+      "isin": "FR0010524777",
+      "wkn": "LYX0CB",
+      "name": "LYX.MSCI NE ESG FIL.DR D",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 73.26,
+      "realized_pl_reported": 73.26,
+      "realized_pl_matches": false,
+      "total_fees": 25.03,
+      "total_invested": 1972.75,
+      "open_lots": [],
+      "tx_ids": [
+        "52E6A5",
+        "6336DA"
+      ]
+    },
+    {
+      "isin": "FR0011079466",
+      "wkn": "LYX0MG",
+      "name": "LY.MSCI AL.CO.WO.UETF CEO",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 5.605,
+      "avg_cost": 235.29705619982155,
+      "cost_basis_remaining": 1318.84,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 0.0,
+      "total_invested": 1318.84,
+      "open_lots": [
+        {
+          "date": "2018-01-02",
+          "shares": 0.52,
+          "cost_per_share": 230.69230769230768
+        },
+        {
+          "date": "2018-02-01",
+          "shares": 0.511,
+          "cost_per_share": 234.5009784735812
+        },
+        {
+          "date": "2018-03-01",
+          "shares": 0.524,
+          "cost_per_share": 228.64503816793894
+        },
+        {
+          "date": "2018-04-03",
+          "shares": 0.543,
+          "cost_per_share": 220.95764272559853
+        },
+        {
+          "date": "2018-05-02",
+          "shares": 0.521,
+          "cost_per_share": 230.15355086372358
+        },
+        {
+          "date": "2018-06-01",
+          "shares": 0.502,
+          "cost_per_share": 238.90438247011954
+        },
+        {
+          "date": "2018-07-02",
+          "shares": 0.51,
+          "cost_per_share": 235.01960784313724
+        },
+        {
+          "date": "2018-08-01",
+          "shares": 0.494,
+          "cost_per_share": 242.8744939271255
+        },
+        {
+          "date": "2018-09-03",
+          "shares": 0.487,
+          "cost_per_share": 246.18069815195074
+        },
+        {
+          "date": "2018-10-01",
+          "shares": 0.482,
+          "cost_per_share": 248.60995850622407
+        },
+        {
+          "date": "2018-11-01",
+          "shares": 0.511,
+          "cost_per_share": 234.559686888454
+        }
+      ],
+      "tx_ids": [
+        "8FBBE5",
+        "C04411",
+        "4E293B",
+        "A9C259",
+        "479E5E",
+        "90A03A",
+        "A641F2",
+        "CC9B8B",
+        "DEB538",
+        "0FC9D0",
+        "D8E7D9"
+      ]
+    },
+    {
+      "isin": "GB00B608Z994",
+      "wkn": "A1CYM5",
+      "name": "Ilika PLC Registered Shares LS -,01",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 1000.0,
+      "avg_cost": 0.5273,
+      "cost_basis_remaining": 527.3,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 17.68,
+      "total_invested": 527.3,
+      "open_lots": [
+        {
+          "date": "2025-09-23",
+          "shares": 1000.0,
+          "cost_per_share": 0.5273
+        }
+      ],
+      "tx_ids": [
+        "FD7541",
+        "SCTI2UUFP_GB00B608Z994",
+        "SCTO8PWTE_GB00B608Z994",
+        "07WD01TROO7496AM"
+      ]
+    },
+    {
+      "isin": "GB00BM9XQ619",
+      "wkn": "A3DTUQ",
+      "name": "VIDAC PHARMA HLDG PLC LS1",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 93.77999999999997,
+      "realized_pl_reported": 93.77999999999997,
+      "realized_pl_matches": true,
+      "total_fees": 61.2,
+      "total_invested": 1567.8700000000001,
+      "open_lots": [],
+      "tx_ids": [
+        "3A8ACE",
+        "585B05",
+        "99897A",
+        "CF58C6"
+      ]
+    },
+    {
+      "isin": "IE0000ZVYDH0",
+      "wkn": "A3DH0C",
+      "name": "AM.MSCI ACWI SRI CPA A",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 218.645,
+      "avg_cost": 12.993213436908023,
+      "cost_basis_remaining": 2840.901151912755,
+      "realized_pl": 0.89,
+      "realized_pl_reported": 0.89,
+      "realized_pl_matches": false,
+      "total_fees": 2.38,
+      "total_invested": 2849.8599999999997,
+      "open_lots": [
+        {
+          "date": "2025-02-03",
+          "shares": 11.036,
+          "cost_per_share": 12.780097128738179
+        },
+        {
+          "date": "2025-03-03",
+          "shares": 11.906,
+          "cost_per_share": 12.597849823618343
+        },
+        {
+          "date": "2025-04-01",
+          "shares": 12.899,
+          "cost_per_share": 11.628033180866735
+        },
+        {
+          "date": "2025-05-02",
+          "shares": 13.063,
+          "cost_per_share": 11.482048534027406
+        },
+        {
+          "date": "2025-06-02",
+          "shares": 12.533,
+          "cost_per_share": 11.967605521423444
+        },
+        {
+          "date": "2025-07-01",
+          "shares": 12.374,
+          "cost_per_share": 12.12219169225796
+        },
+        {
+          "date": "2025-08-01",
+          "shares": 12.404,
+          "cost_per_share": 12.092067075137054
+        },
+        {
+          "date": "2025-09-01",
+          "shares": 12.145,
+          "cost_per_share": 12.349938246191849
+        },
+        {
+          "date": "2025-10-01",
+          "shares": 11.755,
+          "cost_per_share": 12.759676733304977
+        },
+        {
+          "date": "2025-11-03",
+          "shares": 11.389,
+          "cost_per_share": 13.169725173412944
+        },
+        {
+          "date": "2025-12-01",
+          "shares": 11.673,
+          "cost_per_share": 12.850167052171678
+        },
+        {
+          "date": "2026-01-02",
+          "shares": 11.387,
+          "cost_per_share": 13.172038289277246
+        },
+        {
+          "date": "2026-02-02",
+          "shares": 11.042,
+          "cost_per_share": 13.583589929360624
+        },
+        {
+          "date": "2026-03-02",
+          "shares": 10.968,
+          "cost_per_share": 13.676148796498905
+        },
+        {
+          "date": "2026-04-01",
+          "shares": 11.443,
+          "cost_per_share": 13.107576684435902
+        },
+        {
+          "date": "2026-05-04",
+          "shares": 10.712,
+          "cost_per_share": 14.002053771471248
+        },
+        {
+          "date": "2026-06-01",
+          "shares": 10.271,
+          "cost_per_share": 14.604225489241554
+        },
+        {
+          "date": "2026-07-01",
+          "shares": 9.668,
+          "cost_per_share": 15.5140670252379
+        },
+        {
+          "date": "2026-08-03",
+          "shares": 9.977,
+          "cost_per_share": 15.033577227623535
+        }
+      ],
+      "tx_ids": [
+        "B39B3C",
+        "C42802",
+        "DB3FC1",
+        "B8FE2C",
+        "B7A233",
+        "43B601",
+        "2358C3",
+        "E36F3E",
+        "26EEC2",
+        "E89211",
+        "081DA8",
+        "A0BE70",
+        "718746",
+        "CFFDD5",
+        "C9E576",
+        "9C5378",
+        "60DFEB",
+        "54EE36",
+        "SCTI2UUFP_IE0000ZVYDH0",
+        "EEE631",
+        "SCTO8PWTE_IE0000ZVYDH0",
+        "07WD0LR27WQYEIAM",
+        "560EC3"
+      ]
+    },
+    {
+      "isin": "IE000T9EOCL3",
+      "wkn": null,
+      "name": "iShares MSCI World Small Cap ESG Enhanced CTB (Acc)",
+      "sources": [
+        "scalable"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 0.915,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 0.99,
+      "total_invested": 4.142,
+      "open_lots": [],
+      "tx_ids": [
+        "WWUM 00152087283",
+        "SCALh1rx4r22sPp"
+      ]
+    },
+    {
+      "isin": "IE000YYE6WK5",
+      "wkn": "A3D9M1",
+      "name": "VANECKETFSDFNS ADLA",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 765.79,
+      "realized_pl_reported": 765.79,
+      "realized_pl_matches": false,
+      "total_fees": 36.06,
+      "total_invested": 7019.47,
+      "open_lots": [],
+      "tx_ids": [
+        "24C0D9",
+        "6AE03A"
+      ]
+    },
+    {
+      "isin": "IE00B43HR379",
+      "wkn": "A142NZ",
+      "name": "ISHSV-S+P500H.CA.SECT.DLA",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 978.09,
+      "realized_pl_reported": 978.09,
+      "realized_pl_matches": false,
+      "total_fees": 49.26,
+      "total_invested": 5033.98,
+      "open_lots": [],
+      "tx_ids": [
+        "5DB027",
+        "07A4CB"
+      ]
+    },
+    {
+      "isin": "IE00BCBJG560",
+      "wkn": null,
+      "name": "State Street SPDR MSCI World Small Cap (Acc)",
+      "sources": [
+        "scalable"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 114.3334375,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 2.9699999999999998,
+      "total_invested": 923.28093554,
+      "open_lots": [],
+      "tx_ids": [
+        "SCALbfrVtGV9kGt",
+        "SCAL697Fft8Dzxf",
+        "SCALT5YWpyeuwMp",
+        "SCAL6RFeTsmgpGg",
+        "SCALZbuGr7zj2NZ",
+        "SCALmxLC6ci3tmT",
+        "SCALhptt3c3oKU5",
+        "SCALiZ3h7LrwZct",
+        "SCALaWC721PhVjS",
+        "SCALhNXMr126M8N",
+        "SCALQVPxQ4grVWC",
+        "SCALn4movq7Y55j",
+        "SCAL8Jo7F62BxDW",
+        "SCAL2zauH7F911Z",
+        "SCALAR3f9Rzyy2m",
+        "SCALoSvPR45BdTk",
+        "SCALbtG5PjJ1Zgw",
+        "SCAL6VkAWBYcdbv",
+        "SCALVQtLFvF5pCZ",
+        "SCALZVMc3VYcym8",
+        "SCALYCW66BdRzGa",
+        "SCALF1Y8gNi5ECg",
+        "SCALKG64XhpjyD9",
+        "SCAL8R6iQ44CqCW",
+        "SCALpSoRj93aJRL",
+        "SCALj6X19YTzxWr",
+        "SCALm7e6kW6xYBB",
+        "SCALbZd7UCqLMBV",
+        "SCALNacJK2R8Fg8",
+        "SCAL8PFm2Rkmmdf",
+        "SCALnXH77NsY2hn",
+        "SCALR8aHDQfbt2E",
+        "SCALXqLymv51GJf",
+        "SCALAcQDwvjhPZt",
+        "SCAL3fg2ikePqXA",
+        "SCALJNLDE7aH6VQ",
+        "SCAL1qZww99Wp3e",
+        "SCALxhk1sVcgyhe",
+        "SCALejoYb3NVKuE",
+        "SCALW6ZHBnWxbzY"
+      ]
+    },
+    {
+      "isin": "IE00BKM4GZ66",
+      "wkn": "A111X9",
+      "name": "iShares Core MSCI Emerging Markets IMI (Acc)",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 2.0,
+      "avg_cost": 37.06765671660063,
+      "cost_basis_remaining": 74.13531343320126,
+      "realized_pl": 131.519439517223,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 5.35,
+      "total_invested": 924.5189480409781,
+      "open_lots": [
+        {
+          "date": "2025-09-04",
+          "shares": 0.691551,
+          "cost_per_share": 34.9002990021
+        },
+        {
+          "date": "2025-10-06",
+          "shares": 0.663288,
+          "cost_per_share": 37.691
+        },
+        {
+          "date": "2025-11-04",
+          "shares": 0.645161,
+          "cost_per_share": 38.75
+        }
+      ],
+      "tx_ids": [
+        "SCALiw5Np7DcR1s",
+        "SCALsyZQjZYgbcD",
+        "SCAL7X21t5wDgTC",
+        "SCAL9u12NUYRxn4",
+        "SCALHbc3mxhf9bk",
+        "SCAL6qdCK8TgFbu",
+        "SCALmEsiDhoUPXS",
+        "SCALe6QG8rC9527",
+        "SCALP5c8wo512tD",
+        "SCALYXyGvz6xAyX",
+        "SCALm8BZNJbTBsw",
+        "SCAL2j3pEZgRmfw",
+        "SCAL4UyaRPVucPz",
+        "SCALbmrSBB9fxwv",
+        "SCALVxX9tBpMsUT",
+        "SCALi8fJFWTwxcD",
+        "SCALJkqGYuCJwDY",
+        "SCALJHhtquei3WD",
+        "SCALa8NEK9YiewH",
+        "SCALsLYK9UjDSev",
+        "SCALU1mgp2j34Vw",
+        "SCALT1cdEhGZQyb",
+        "SCAL6BmF8QZZ1DU",
+        "SCALQDCBemidkr8",
+        "SCALSSVKheZ7yd9",
+        "SCALnBvQFEQosr3",
+        "SCALGe5LDpyqW3i",
+        "SCALbeokiYeNkuv",
+        "SCALRxaj3bQbGET",
+        "SCAL8vfzmUPhGsM",
+        "SCALKygYgXYkHsQ",
+        "SCAL8yFJHwV7tZf",
+        "SCALSir2nHW3GFG",
+        "SCALtLde2s3LiEm",
+        "SCAL86DAKWYErWe",
+        "SCAL6y4hzAUwgTE",
+        "SCALoUfcvyjqAtS",
+        "SCALkbt6a41ufbF",
+        "SCALL5TRkdDXcCp",
+        "SCTO8PWTE_IE00BKM4GZ66",
+        "07WD0X3SL70MWAAM",
+        "SCALwccGcxfSKJo"
+      ]
+    },
+    {
+      "isin": "IE00BL25JL35",
+      "wkn": "A1103D",
+      "name": "Xtrackers MSCI World Quality (Acc)",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 1.0,
+      "avg_cost": 67.62939936,
+      "cost_basis_remaining": 67.62939936,
+      "realized_pl": 145.78512695999993,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 5.35,
+      "total_invested": 923.9840680400004,
+      "open_lots": [
+        {
+          "date": "2025-09-04",
+          "shares": 0.268578,
+          "cost_per_share": 65.64
+        },
+        {
+          "date": "2025-10-06",
+          "shares": 0.366139,
+          "cost_per_share": 68.28
+        },
+        {
+          "date": "2025-11-04",
+          "shares": 0.365283,
+          "cost_per_share": 68.44
+        }
+      ],
+      "tx_ids": [
+        "SCAL32oRmUEjKLF",
+        "SCALd63BNkSgkCU",
+        "SCALLa4JF6ZYM9w",
+        "SCALJf4RSggjcYN",
+        "SCALXr9CWH8zJ6t",
+        "SCALcsg4WuzrC2j",
+        "SCAL3MaDMutxtTv",
+        "SCALaZFCfPnVnVC",
+        "SCALhWScSkns8eZ",
+        "SCALyD2mmHRmZdM",
+        "SCALFkinR1yWWip",
+        "SCALRnjdhhCEaBr",
+        "SCALmbzvzmcuXAf",
+        "SCALYynYzaKUnNT",
+        "SCALYGioKX3U13g",
+        "SCALAU6qp1WXtzy",
+        "SCAL1rsAATbyBaQ",
+        "SCALNxys3gN9mQD",
+        "SCALDQUY7GjyWu1",
+        "SCAL6SYmgJGTqcu",
+        "SCALFrjmjcZoGFN",
+        "SCALNXmneW5EyLr",
+        "SCALnxmtRsGzT7c",
+        "SCAL7sUGrv2cK19",
+        "SCALUDzaPAzB7Y2",
+        "SCALveeg9aqWmrX",
+        "SCALBbmucyJTtCz",
+        "SCALuAjFWqqAjP7",
+        "SCALap3RaqMSYqK",
+        "SCALcbT7tt7FRHN",
+        "SCALDSHWp8LgFe2",
+        "SCALz5ohh5BFTdw",
+        "SCALpJQ4n7NUxnV",
+        "SCALGP4sXEsCELy",
+        "SCALzo6jYC8oKtx",
+        "SCALvbGnxHeBdU7",
+        "SCALDGVpfXiApga",
+        "SCALSDJqLLcmHah",
+        "SCALrybFyrtuCy8",
+        "SCTO8PWTE_IE00BL25JL35",
+        "07WD08ME9LQDEYAM",
+        "SCALK9gXc8ZTgSp"
+      ]
+    },
+    {
+      "isin": "IE00BL25JM42",
+      "wkn": null,
+      "name": "Xtrackers MSCI World Value (Acc)",
+      "sources": [
+        "scalable"
+      ],
+      "shares_held": 1.0,
+      "avg_cost": 49.59083196,
+      "cost_basis_remaining": 49.59083196,
+      "realized_pl": 137.4378721750001,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 2.9699999999999998,
+      "total_invested": 924.1845925849999,
+      "open_lots": [
+        {
+          "date": "2025-10-06",
+          "shares": 0.501496,
+          "cost_per_share": 49.035
+        },
+        {
+          "date": "2025-11-04",
+          "shares": 0.498504,
+          "cost_per_share": 50.15
+        }
+      ],
+      "tx_ids": [
+        "SCALD2ro7xj4kyp",
+        "SCALbpty6XaXrr4",
+        "SCAL7uHrw8S8R7P",
+        "SCALaaStGQH6SDh",
+        "SCALbEYKYX7a2bE",
+        "SCALtM9aa4QuuVf",
+        "SCALkC12kujKg56",
+        "SCALCGy69Q4uMvQ",
+        "SCALG3wLkuFhHop",
+        "SCALKSdCMDotG7W",
+        "SCALtgaUZ4mNTFD",
+        "SCALfvNamEZ9U5s",
+        "SCALoxLVECX45VW",
+        "SCALgYKU27notwN",
+        "SCALnheZdowymYH",
+        "SCALRQsnbzdvA78",
+        "SCALqgtnLUkSrzJ",
+        "SCALf2VcDtSRS9S",
+        "SCAL6xbgTRdRX2s",
+        "SCAL4i6izgdT36R",
+        "SCALWvUqP2fvbKF",
+        "SCALujLxY7MbR15",
+        "SCAL3FfPCQLcDmc",
+        "SCALanA1eryK8V5",
+        "SCALzpx7BoHxg2w",
+        "SCALcX42wq4xEgn",
+        "SCALxhJ1KqMJtV4",
+        "SCALypLxCqT3fAx",
+        "SCALjDfyZPQWShD",
+        "SCALXiFA92iuvmL",
+        "SCALUGp7KUq6vfG",
+        "SCALwP8JXHYFRWc",
+        "SCALSb7ZUX4XXh4",
+        "SCALnD2xrS4kz8T",
+        "SCALrPU5jbgdcY7",
+        "SCAL9myx9wY3HS7",
+        "SCAL88VQRCQu5Yu",
+        "SCALZi8Y9BFEeZh",
+        "SCALtbAUvQ4SE11",
+        "SCTO8PWTE_IE00BL25JM42",
+        "SCALnTjMJ82rjfL"
+      ]
+    },
+    {
+      "isin": "IE00BL25JP72",
+      "wkn": "A1103G",
+      "name": "Xtrackers MSCI World Momentum (Acc)",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 1.0,
+      "avg_cost": 68.5613154,
+      "cost_basis_remaining": 68.5613154,
+      "realized_pl": 174.17884210000005,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 5.35,
+      "total_invested": 924.15038142,
+      "open_lots": [
+        {
+          "date": "2025-09-04",
+          "shares": 0.280468,
+          "cost_per_share": 66.17999999999999
+        },
+        {
+          "date": "2025-10-06",
+          "shares": 0.360698,
+          "cost_per_share": 69.31
+        },
+        {
+          "date": "2025-11-04",
+          "shares": 0.358834,
+          "cost_per_share": 69.67
+        }
+      ],
+      "tx_ids": [
+        "SCAL7qHpdxkB7MH",
+        "SCALqRHS1jkpy3P",
+        "SCALHaDgJ2qvhdN",
+        "SCALymkinZAkFVt",
+        "SCALPmAHLdeGyvL",
+        "SCALvDZbdPRvkJf",
+        "SCALLmRQ2iWMEve",
+        "SCALzAHyAtoafLt",
+        "SCALisSk9dr23jw",
+        "SCALaRWLwmigLSy",
+        "SCALHW9FbQkF2Pm",
+        "SCALp8fc8BqNBs9",
+        "SCALZB3FqKtpVch",
+        "SCALsoNspybBp8w",
+        "SCALTGAP3f74EfQ",
+        "SCALnwZiy8azswZ",
+        "SCAL4bi3zvktgUp",
+        "SCALGXvq9idcgxn",
+        "SCAL5MvVGpt6eig",
+        "SCALr32gimg21p7",
+        "SCALVGSCAPVmYx6",
+        "SCALf5Z5TtKPbTv",
+        "SCALtcvNRQcpSzc",
+        "SCALvrjwCCht7YE",
+        "SCALKupF97uaugs",
+        "SCALn3Acrob1bNb",
+        "SCALFBxzsDQbVcJ",
+        "SCALiwyWmRw2Vox",
+        "SCAL1eEAuDaVEty",
+        "SCALX9joLneNG1R",
+        "SCALogMcZmcVni1",
+        "SCALuivmMADjQNW",
+        "SCALWHLH8fpExiY",
+        "SCAL5ChMtjqCi6T",
+        "SCALTsVGJn6ofh3",
+        "SCALoHXomvKfDoq",
+        "SCALVdUXoXJnaSz",
+        "SCALSpxVEtsDSvf",
+        "SCALFzwbPcAj7yp",
+        "SCTO8PWTE_IE00BL25JP72",
+        "07WD0N4G28AUCQAM",
+        "SCAL6SMrgTYpUmo"
+      ]
+    },
+    {
+      "isin": "IE00BYZK4552",
+      "wkn": "A2ANH0",
+      "name": "ISHS IV-AUTO.+ROBOTIC.ETF",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 403.79,
+      "realized_pl_reported": 403.79,
+      "realized_pl_matches": false,
+      "total_fees": 32.03,
+      "total_invested": 1978.5,
+      "open_lots": [],
+      "tx_ids": [
+        "2F83F2",
+        "6B44B2"
+      ]
+    },
+    {
+      "isin": "IE00BYZK4776",
+      "wkn": "A2ANH2",
+      "name": "ISHS IV-HEALTHC.INNOV.ETF",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 3.96,
+      "realized_pl_reported": 3.96,
+      "realized_pl_matches": false,
+      "total_fees": 30.62,
+      "total_invested": 1988.21,
+      "open_lots": [],
+      "tx_ids": [
+        "EFB0A1",
+        "B009E4"
+      ]
+    },
+    {
+      "isin": "IE00BYZK4883",
+      "wkn": "A2ANH3",
+      "name": "ISHSIV-DIGITALISATION DLA",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -13.64,
+      "realized_pl_reported": -13.64,
+      "realized_pl_matches": false,
+      "total_fees": 30.6,
+      "total_invested": 1985.46,
+      "open_lots": [],
+      "tx_ids": [
+        "715ADE",
+        "09B97C"
+      ]
+    },
+    {
+      "isin": "KYG017191142",
+      "wkn": "A2PVFU",
+      "name": "Alibaba Group Holding Ltd. Reg.Shares DL-,000003125",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 723.0,
+      "avg_cost": 11.640547717841217,
+      "cost_basis_remaining": 8416.1159999992,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 2.38,
+      "total_invested": 8416.1159999992,
+      "open_lots": [
+        {
+          "date": "2026-06-22",
+          "shares": 694.0,
+          "cost_per_share": 11.606
+        },
+        {
+          "date": "2026-07-10",
+          "shares": 29.0,
+          "cost_per_share": 12.4673103448
+        }
+      ],
+      "tx_ids": [
+        "SCALWp2sJZ5XBX8",
+        "SCAL3EgXCuJ1wqq",
+        "SCTO8PWTE_KYG017191142",
+        "07WD0GTXU2CG3UAM"
+      ]
+    },
+    {
+      "isin": "KYG070341048",
+      "wkn": "A0YCQ6",
+      "name": "Baidu Inc. Registered Shares o.N.",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 255.0,
+      "avg_cost": 12.373999999999999,
+      "cost_basis_remaining": 3155.37,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 2.38,
+      "total_invested": 3155.37,
+      "open_lots": [
+        {
+          "date": "2026-06-22",
+          "shares": 255.0,
+          "cost_per_share": 12.373999999999999
+        }
+      ],
+      "tx_ids": [
+        "SCAL1F3sb6tyTDv",
+        "SCTO8PWTE_KYG070341048",
+        "07WD0QZ5NWW6RUAM"
+      ]
+    },
+    {
+      "isin": "KYG7171B1068",
+      "wkn": "A41SBP",
+      "name": "Pony AI Inc. Registered Shares Cl.A o.N.",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 300.0,
+      "avg_cost": 7.15,
+      "cost_basis_remaining": 2145.0,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 2.38,
+      "total_invested": 2145.0,
+      "open_lots": [
+        {
+          "date": "2026-06-22",
+          "shares": 300.0,
+          "cost_per_share": 7.15
+        }
+      ],
+      "tx_ids": [
+        "SCALtaEaEAtxdLn",
+        "SCTO8PWTE_KYG7171B1068",
+        "07WD0NZ77OXC0AAM"
+      ]
+    },
+    {
+      "isin": "KYG875721634",
+      "wkn": "A1138D",
+      "name": "Tencent Holdings Ltd. Reg. Shares HD -,00002",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 42.0,
+      "avg_cost": 69.9863888888889,
+      "cost_basis_remaining": 2939.4283333333337,
+      "realized_pl": -78.58,
+      "realized_pl_reported": -78.58,
+      "realized_pl_matches": true,
+      "total_fees": 34.01,
+      "total_invested": 5039.02,
+      "open_lots": [
+        {
+          "date": "2025-10-10",
+          "shares": 42.0,
+          "cost_per_share": 69.9863888888889
+        }
+      ],
+      "tx_ids": [
+        "076609",
+        "84300C",
+        "SCTI2UUFP_KYG875721634",
+        "SCTO8PWTE_KYG875721634",
+        "07WD06UGPHSGCQAM"
+      ]
+    },
+    {
+      "isin": "KYG9830T1067",
+      "wkn": "A2JNY1",
+      "name": "Xiaomi Corp. Registered Shares Cl.B o.N.",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 288.0,
+      "avg_cost": 5.925138888888889,
+      "cost_basis_remaining": 1706.44,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 17.68,
+      "total_invested": 1706.44,
+      "open_lots": [
+        {
+          "date": "2025-09-29",
+          "shares": 288.0,
+          "cost_per_share": 5.925138888888889
+        }
+      ],
+      "tx_ids": [
+        "43184F",
+        "SCTI2UUFP_KYG9830T1067",
+        "SCTO8PWTE_KYG9830T1067",
+        "07WD026WVGT622AM"
+      ]
+    },
+    {
+      "isin": "LU0099574567",
+      "wkn": "921800",
+      "name": "FID.FDS-GL TECHNOL.A GL.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 218.08,
+      "realized_pl_reported": 218.08,
+      "realized_pl_matches": false,
+      "total_fees": 0.0,
+      "total_invested": 4075.06,
+      "open_lots": [],
+      "tx_ids": [
+        "31058B",
+        "A0C227"
+      ]
+    },
+    {
+      "isin": "LU0185157681",
+      "wkn": "A0B94X",
+      "name": "FORTIS L-OBAM EQ.W. INH.C",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -20.5056,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 0.0,
+      "total_invested": 22.655,
+      "open_lots": [],
+      "tx_ids": [
+        "5962F7",
+        "756C8F"
+      ]
+    },
+    {
+      "isin": "LU0217390573",
+      "wkn": "A0F6XG",
+      "name": "JPM-PACIF.EQU.JPMPE AAEO",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 164.92,
+      "realized_pl_reported": 164.92,
+      "realized_pl_matches": false,
+      "total_fees": 5.8,
+      "total_invested": 990.67,
+      "open_lots": [],
+      "tx_ids": [
+        "89B1E6",
+        "1A11AF"
+      ]
+    },
+    {
+      "isin": "LU0274209237",
+      "wkn": "DBX1ME",
+      "name": "XTR.MSCI EUROPE 1C",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -12.32,
+      "realized_pl_reported": -12.32,
+      "realized_pl_matches": false,
+      "total_fees": 13.139999999999999,
+      "total_invested": 49.980000000000004,
+      "open_lots": [],
+      "tx_ids": [
+        "2599D6",
+        "99DEED",
+        "D0C1D5",
+        "A9F21C",
+        "656A17",
+        "15EC40",
+        "13E0E5",
+        "E0BF31",
+        "3F0F28",
+        "9EA5F6",
+        "61FF30",
+        "6DA016"
+      ]
+    },
+    {
+      "isin": "LU0290357929",
+      "wkn": "DBX0AL",
+      "name": "XTR.II GL.INF.-LI.B.1CEOH",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 281.94,
+      "realized_pl_reported": 281.94,
+      "realized_pl_matches": false,
+      "total_fees": 23.740000000000002,
+      "total_invested": 169.74,
+      "open_lots": [],
+      "tx_ids": [
+        "2EA85A",
+        "3F0A88",
+        "E8ACDB",
+        "346200",
+        "1C5846",
+        "786FDE",
+        "835364",
+        "A9FD7D",
+        "A4086D",
+        "CE967D",
+        "414C93",
+        "C559A4"
+      ]
+    },
+    {
+      "isin": "LU0292106167",
+      "wkn": "DBX1LC",
+      "name": "DB X-TR.DBLCI-OY BAL. 1C",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 12.170800000000002,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 15.190000000000001,
+      "total_invested": 14.2867,
+      "open_lots": [],
+      "tx_ids": [
+        "F8A470",
+        "381D95",
+        "F1392D"
+      ]
+    },
+    {
+      "isin": "LU0292107645",
+      "wkn": "DBX1EM",
+      "name": "XTR.MSCI EM.MKT.SWAP 1C",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -15.53,
+      "realized_pl_reported": -15.53,
+      "realized_pl_matches": false,
+      "total_fees": 13.139999999999999,
+      "total_invested": 49.97,
+      "open_lots": [],
+      "tx_ids": [
+        "6E39B7",
+        "C222F3",
+        "0C2F81",
+        "818346",
+        "85E52C",
+        "130948",
+        "3DBBC3",
+        "AACAE2",
+        "BF6557",
+        "F26411",
+        "80530A",
+        "AD7892"
+      ]
+    },
+    {
+      "isin": "LU0392496005",
+      "wkn": "ETF123",
+      "name": "CS.-CS S+P S.C.600 UETF I",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 44.41,
+      "realized_pl_reported": 44.41,
+      "realized_pl_matches": false,
+      "total_fees": 24.8,
+      "total_invested": 99.96000000000001,
+      "open_lots": [],
+      "tx_ids": [
+        "5A6B62",
+        "13FD74",
+        "50DCE4",
+        "68E4CB",
+        "74E71A",
+        "96278C",
+        "6C5463",
+        "5DEF88",
+        "3F5577",
+        "BAB39C",
+        "E464A7",
+        "77A536",
+        "ACEEF1"
+      ]
+    },
+    {
+      "isin": "LU0415391431",
+      "wkn": "A0RP23",
+      "name": "BELLE.F.(L)-BB.A.M.+S.BEO",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 90.99,
+      "realized_pl_reported": 90.99,
+      "realized_pl_matches": false,
+      "total_fees": 18.2,
+      "total_invested": 511.64,
+      "open_lots": [],
+      "tx_ids": [
+        "2B5332",
+        "30B4F1"
+      ]
+    },
+    {
+      "isin": "LU0533033238",
+      "wkn": "LYX0GM",
+      "name": "MUL-LYX.MSCI W.HCTRUE AEO",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 82.75,
+      "realized_pl_reported": 82.75,
+      "realized_pl_matches": false,
+      "total_fees": 24.8,
+      "total_invested": 308.55,
+      "open_lots": [],
+      "tx_ids": [
+        "CADFC4",
+        "25F839"
+      ]
+    },
+    {
+      "isin": "LU0823421689",
+      "wkn": "A1T8X9",
+      "name": "BNPP DISRUPT.TECH. CLCAP",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 165.3,
+      "realized_pl_reported": 165.3,
+      "realized_pl_matches": false,
+      "total_fees": 0.0,
+      "total_invested": 2449.44,
+      "open_lots": [],
+      "tx_ids": [
+        "3F8461",
+        "FC9DCF"
+      ]
+    },
+    {
+      "isin": "LU1084870465",
+      "wkn": "A117FW",
+      "name": "WMF(L)-W.G.QUAL.GR.NDLAUH",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 656.67,
+      "realized_pl_reported": 656.67,
+      "realized_pl_matches": false,
+      "total_fees": 5.8,
+      "total_invested": 4548.89,
+      "open_lots": [],
+      "tx_ids": [
+        "4EFD39",
+        "E5D499"
+      ]
+    },
+    {
+      "isin": "LU1279334301",
+      "wkn": "A141RC",
+      "name": "PICTET-ROBOTICS PDYDISEO",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 280.68,
+      "realized_pl_reported": 280.68,
+      "realized_pl_matches": false,
+      "total_fees": 5.8,
+      "total_invested": 640.73,
+      "open_lots": [],
+      "tx_ids": [
+        "8D26CD",
+        "FE9772"
+      ]
+    },
+    {
+      "isin": "LU1829220216",
+      "wkn": "LYX00C",
+      "name": "Amundi MSCI All Country World EUR (Acc)",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 27.395,
+      "avg_cost": 325.46038981683733,
+      "cost_basis_remaining": 8915.987379032258,
+      "realized_pl": 69.13,
+      "realized_pl_reported": 69.13,
+      "realized_pl_matches": false,
+      "total_fees": 2.22,
+      "total_invested": 8987.97,
+      "open_lots": [
+        {
+          "date": "2018-12-03",
+          "shares": 0.198,
+          "cost_per_share": 241.55241935483872
+        },
+        {
+          "date": "2019-01-02",
+          "shares": 0.551,
+          "cost_per_share": 217.40471869328493
+        },
+        {
+          "date": "2019-02-01",
+          "shares": 0.509,
+          "cost_per_share": 235.48133595284872
+        },
+        {
+          "date": "2019-03-01",
+          "shares": 0.49,
+          "cost_per_share": 244.85714285714286
+        },
+        {
+          "date": "2019-04-01",
+          "shares": 0.476,
+          "cost_per_share": 251.80672268907563
+        },
+        {
+          "date": "2019-05-02",
+          "shares": 0.465,
+          "cost_per_share": 257.8494623655914
+        },
+        {
+          "date": "2019-06-03",
+          "shares": 0.49,
+          "cost_per_share": 244.53061224489795
+        },
+        {
+          "date": "2019-07-01",
+          "shares": 0.463,
+          "cost_per_share": 259.15766738660903
+        },
+        {
+          "date": "2019-08-01",
+          "shares": 0.455,
+          "cost_per_share": 263.31868131868134
+        },
+        {
+          "date": "2019-09-02",
+          "shares": 0.464,
+          "cost_per_share": 258.426724137931
+        },
+        {
+          "date": "2019-10-01",
+          "shares": 0.449,
+          "cost_per_share": 267.08240534521155
+        },
+        {
+          "date": "2019-11-01",
+          "shares": 0.445,
+          "cost_per_share": 269.19101123595505
+        },
+        {
+          "date": "2019-12-02",
+          "shares": 0.434,
+          "cost_per_share": 276.4746543778802
+        },
+        {
+          "date": "2020-01-02",
+          "shares": 0.42,
+          "cost_per_share": 285.04761904761904
+        },
+        {
+          "date": "2020-02-03",
+          "shares": 0.423,
+          "cost_per_share": 283.3333333333333
+        },
+        {
+          "date": "2020-03-02",
+          "shares": 0.463,
+          "cost_per_share": 258.7257019438445
+        },
+        {
+          "date": "2020-04-01",
+          "shares": 0.545,
+          "cost_per_share": 220.14678899082568
+        },
+        {
+          "date": "2020-05-04",
+          "shares": 0.496,
+          "cost_per_share": 241.8548387096774
+        },
+        {
+          "date": "2020-06-02",
+          "shares": 0.46,
+          "cost_per_share": 260.7608695652174
+        },
+        {
+          "date": "2020-07-01",
+          "shares": 0.453,
+          "cost_per_share": 264.54746136865344
+        },
+        {
+          "date": "2020-08-03",
+          "shares": 0.448,
+          "cost_per_share": 267.34375
+        },
+        {
+          "date": "2020-09-01",
+          "shares": 0.435,
+          "cost_per_share": 275.8390804597701
+        },
+        {
+          "date": "2020-10-01",
+          "shares": 0.437,
+          "cost_per_share": 274.5080091533181
+        },
+        {
+          "date": "2020-11-02",
+          "shares": 0.442,
+          "cost_per_share": 271.1990950226244
+        },
+        {
+          "date": "2020-12-01",
+          "shares": 0.406,
+          "cost_per_share": 295.2463054187192
+        },
+        {
+          "date": "2021-01-04",
+          "shares": 0.4,
+          "cost_per_share": 299.65
+        },
+        {
+          "date": "2021-02-01",
+          "shares": 0.393,
+          "cost_per_share": 305.2417302798982
+        },
+        {
+          "date": "2021-03-01",
+          "shares": 0.381,
+          "cost_per_share": 314.54068241469815
+        },
+        {
+          "date": "2021-04-01",
+          "shares": 0.364,
+          "cost_per_share": 329.2032967032967
+        },
+        {
+          "date": "2021-05-03",
+          "shares": 0.36,
+          "cost_per_share": 333.25
+        },
+        {
+          "date": "2021-06-01",
+          "shares": 0.358,
+          "cost_per_share": 334.44134078212295
+        },
+        {
+          "date": "2021-07-01",
+          "shares": 0.344,
+          "cost_per_share": 347.99418604651163
+        },
+        {
+          "date": "2021-08-02",
+          "shares": 0.341,
+          "cost_per_share": 351.05571847507326
+        },
+        {
+          "date": "2021-09-01",
+          "shares": 0.333,
+          "cost_per_share": 359.6096096096096
+        },
+        {
+          "date": "2021-10-01",
+          "shares": 0.342,
+          "cost_per_share": 350.4970760233918
+        },
+        {
+          "date": "2021-11-01",
+          "shares": 0.323,
+          "cost_per_share": 370.4953560371517
+        },
+        {
+          "date": "2021-12-01",
+          "shares": 0.322,
+          "cost_per_share": 372.360248447205
+        },
+        {
+          "date": "2022-01-03",
+          "shares": 0.311,
+          "cost_per_share": 384.79099678456595
+        },
+        {
+          "date": "2022-02-01",
+          "shares": 0.325,
+          "cost_per_share": 368.73846153846154
+        },
+        {
+          "date": "2022-03-01",
+          "shares": 0.334,
+          "cost_per_share": 359.07185628742513
+        },
+        {
+          "date": "2022-04-01",
+          "shares": 0.322,
+          "cost_per_share": 372.67080745341616
+        },
+        {
+          "date": "2022-05-02",
+          "shares": 0.337,
+          "cost_per_share": 355.78635014836794
+        },
+        {
+          "date": "2022-06-01",
+          "shares": 0.338,
+          "cost_per_share": 354.20118343195264
+        },
+        {
+          "date": "2022-07-01",
+          "shares": 0.361,
+          "cost_per_share": 332.10526315789474
+        },
+        {
+          "date": "2022-08-01",
+          "shares": 0.333,
+          "cost_per_share": 360.3003003003003
+        },
+        {
+          "date": "2022-09-01",
+          "shares": 0.339,
+          "cost_per_share": 353.1858407079646
+        },
+        {
+          "date": "2022-10-04",
+          "shares": 0.353,
+          "cost_per_share": 339.8016997167139
+        },
+        {
+          "date": "2022-11-01",
+          "shares": 0.345,
+          "cost_per_share": 347.15942028985506
+        },
+        {
+          "date": "2022-12-01",
+          "shares": 0.339,
+          "cost_per_share": 353.74631268436576
+        },
+        {
+          "date": "2023-01-02",
+          "shares": 0.357,
+          "cost_per_share": 335.7983193277311
+        },
+        {
+          "date": "2023-02-01",
+          "shares": 0.344,
+          "cost_per_share": 347.9360465116279
+        },
+        {
+          "date": "2023-03-01",
+          "shares": 0.347,
+          "cost_per_share": 345.2449567723343
+        },
+        {
+          "date": "2023-04-03",
+          "shares": 0.343,
+          "cost_per_share": 349.3877551020408
+        },
+        {
+          "date": "2023-05-02",
+          "shares": 0.343,
+          "cost_per_share": 349.24198250728864
+        },
+        {
+          "date": "2023-06-01",
+          "shares": 0.337,
+          "cost_per_share": 355.84569732937683
+        },
+        {
+          "date": "2023-07-03",
+          "shares": 0.324,
+          "cost_per_share": 370.0617283950617
+        },
+        {
+          "date": "2023-08-01",
+          "shares": 0.317,
+          "cost_per_share": 378.48580441640377
+        },
+        {
+          "date": "2023-09-01",
+          "shares": 0.319,
+          "cost_per_share": 375.4858934169279
+        },
+        {
+          "date": "2023-10-02",
+          "shares": 0.325,
+          "cost_per_share": 368.4923076923077
+        },
+        {
+          "date": "2023-11-01",
+          "shares": 0.333,
+          "cost_per_share": 360.3003003003003
+        },
+        {
+          "date": "2023-12-01",
+          "shares": 0.317,
+          "cost_per_share": 378.2018927444795
+        },
+        {
+          "date": "2024-01-02",
+          "shares": 0.307,
+          "cost_per_share": 390.65146579804565
+        },
+        {
+          "date": "2024-02-01",
+          "shares": 0.298,
+          "cost_per_share": 401.94630872483225
+        },
+        {
+          "date": "2024-03-01",
+          "shares": 0.285,
+          "cost_per_share": 419.64912280701753
+        },
+        {
+          "date": "2024-04-02",
+          "shares": 0.279,
+          "cost_per_share": 429.3548387096774
+        },
+        {
+          "date": "2024-05-02",
+          "shares": 0.283,
+          "cost_per_share": 423.2155477031802
+        },
+        {
+          "date": "2024-06-03",
+          "shares": 0.275,
+          "cost_per_share": 435.5636363636363
+        },
+        {
+          "date": "2024-07-01",
+          "shares": 0.267,
+          "cost_per_share": 448.501872659176
+        },
+        {
+          "date": "2024-08-01",
+          "shares": 0.265,
+          "cost_per_share": 452.4150943396226
+        },
+        {
+          "date": "2024-09-02",
+          "shares": 0.265,
+          "cost_per_share": 451.39622641509436
+        },
+        {
+          "date": "2024-10-01",
+          "shares": 0.326,
+          "cost_per_share": 458.9877300613497
+        },
+        {
+          "date": "2024-11-01",
+          "shares": 0.322,
+          "cost_per_share": 464.9068322981366
+        },
+        {
+          "date": "2024-12-02",
+          "shares": 0.302,
+          "cost_per_share": 496.05960264900665
+        },
+        {
+          "date": "2025-01-02",
+          "shares": 0.3,
+          "cost_per_share": 498.76666666666665
+        }
+      ],
+      "tx_ids": [
+        "233CCC",
+        "F67C92",
+        "92A0A5",
+        "807EA6",
+        "B13A40",
+        "FDA4A8",
+        "56336D",
+        "1F4EEF",
+        "FE0B25",
+        "7C0042",
+        "FD6A79",
+        "084368",
+        "9C1EED",
+        "9AFDA5",
+        "E5256E",
+        "E22114",
+        "5710AF",
+        "79A436",
+        "F053D8",
+        "318D7B",
+        "07A330",
+        "7C4E0A",
+        "A2ECCF",
+        "CA1AFA",
+        "6DF84B",
+        "64B976",
+        "221771",
+        "303985",
+        "52B716",
+        "275BB9",
+        "FC7B01",
+        "E3F73C",
+        "3D77CF",
+        "81A2DB",
+        "F31E5D",
+        "688C66",
+        "9E23AA",
+        "54DD54",
+        "8F5A44",
+        "AAA4A3",
+        "B3A4E4",
+        "AC86C5",
+        "0EABF2",
+        "4364E9",
+        "0B04EE",
+        "892BA8",
+        "ADBD54",
+        "B0E834",
+        "17EEFC",
+        "91CABF",
+        "384995",
+        "E384E9",
+        "BF1BDE",
+        "206524",
+        "EA5588",
+        "CB25A9",
+        "CD900C",
+        "429BAA",
+        "6393D0",
+        "5D0841",
+        "0A4783",
+        "86CD61",
+        "200322",
+        "7F24EF",
+        "27344C",
+        "B5E4AC",
+        "1D4F23",
+        "DDA46C",
+        "27DCB4",
+        "2CD091",
+        "C01A1C",
+        "7C84F5",
+        "D0B28D",
+        "FA808D",
+        "E8119B",
+        "SCTI2UUFP_LU1829220216",
+        "SCTO8PWTE_LU1829220216"
+      ]
+    },
+    {
+      "isin": "MHY7388L1039",
+      "wkn": "A0Q2R4",
+      "name": "SAFE BULKERS INC. DL-,001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -27.9,
+      "realized_pl_reported": -27.9,
+      "realized_pl_matches": true,
+      "total_fees": 30.6,
+      "total_invested": 175.3,
+      "open_lots": [],
+      "tx_ids": [
+        "49B0CE",
+        "8B9B5D"
+      ]
+    },
+    {
+      "isin": "NL0000235190",
+      "wkn": "938914",
+      "name": "AIRBUS SE",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 90.88,
+      "realized_pl_reported": 90.88,
+      "realized_pl_matches": true,
+      "total_fees": 24.8,
+      "total_invested": 510.88,
+      "open_lots": [],
+      "tx_ids": [
+        "26720C",
+        "394C34"
+      ]
+    },
+    {
+      "isin": "NL0000888691",
+      "wkn": "A0MWED",
+      "name": "AMG CRITICAL MATER. EO-02",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -65.28,
+      "realized_pl_reported": -65.28,
+      "realized_pl_matches": true,
+      "total_fees": 24.8,
+      "total_invested": 228.08,
+      "open_lots": [],
+      "tx_ids": [
+        "7A776C",
+        "A90CEC"
+      ]
+    },
+    {
+      "isin": "NL0010273215",
+      "wkn": "A1J4U4",
+      "name": "ASML HOLDING EO -,09",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 675.41,
+      "realized_pl_reported": 675.41,
+      "realized_pl_matches": true,
+      "total_fees": 67.59,
+      "total_invested": 7693.09,
+      "open_lots": [],
+      "tx_ids": [
+        "05FE83",
+        "63FF73",
+        "F98543",
+        "F497E2"
+      ]
+    },
+    {
+      "isin": "NL0015000DX5",
+      "wkn": "A3CSB4",
+      "name": "ATAI LIFE SCIENCES BV EO1",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 200.0,
+      "avg_cost": 4.9626,
+      "cost_basis_remaining": 992.52,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 10.92,
+      "total_invested": 992.52,
+      "open_lots": [
+        {
+          "date": "2025-10-23",
+          "shares": 200.0,
+          "cost_per_share": 4.9626
+        }
+      ],
+      "tx_ids": [
+        "F5DE6B"
+      ]
+    },
+    {
+      "isin": "SE0013647385",
+      "wkn": "A2PX00",
+      "name": "BICO GROUP AK B O.N.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -707.58,
+      "realized_pl_reported": -707.58,
+      "realized_pl_matches": true,
+      "total_fees": 59.72,
+      "total_invested": 1250.4299999999998,
+      "open_lots": [],
+      "tx_ids": [
+        "730220",
+        "A31D16",
+        "F1722C",
+        "C361EB"
+      ]
+    },
+    {
+      "isin": "US00217D1000",
+      "wkn": "A3CL8W",
+      "name": "AST SPACEMOBIL.A DL-,0001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -22.6,
+      "realized_pl_reported": -22.6,
+      "realized_pl_matches": true,
+      "total_fees": 30.6,
+      "total_invested": 320.9,
+      "open_lots": [],
+      "tx_ids": [
+        "645FE9",
+        "BD7D3C"
+      ]
+    },
+    {
+      "isin": "US0079031078",
+      "wkn": "863186",
+      "name": "ADVANCED MIC.DEV. DL-,01",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -32.0,
+      "realized_pl_reported": -32.0,
+      "realized_pl_matches": true,
+      "total_fees": 24.8,
+      "total_invested": 626.16,
+      "open_lots": [],
+      "tx_ids": [
+        "0D501B",
+        "FC6556"
+      ]
+    },
+    {
+      "isin": "US01609W1027",
+      "wkn": "A117ME",
+      "name": "Alibaba Group ADR",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -3945.826666666667,
+      "realized_pl_reported": 187.87,
+      "realized_pl_matches": true,
+      "total_fees": 96.23,
+      "total_invested": 13323.130000000001,
+      "open_lots": [],
+      "tx_ids": [
+        "00E430",
+        "11C6E0",
+        "C27E63",
+        "3658A1",
+        "DB0A1F",
+        "B6CB06",
+        "284F6F",
+        "SCTI2UUFP_US01609W1027",
+        "SCALXqgpHwuPF5F",
+        "673065_6EkSeM5SsSfaMaLwBJqHcF"
+      ]
+    },
+    {
+      "isin": "US02079K3059",
+      "wkn": "A14Y6F",
+      "name": "ALPHABET INC.CL.A DL-,001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 1810.47,
+      "realized_pl_reported": 1810.47,
+      "realized_pl_matches": true,
+      "total_fees": 86.96000000000001,
+      "total_invested": 9349.78,
+      "open_lots": [],
+      "tx_ids": [
+        "BBA05A",
+        "B3D0F8",
+        "51715B",
+        "A3C80F",
+        "79EBDF"
+      ]
+    },
+    {
+      "isin": "US0231351067",
+      "wkn": "906866",
+      "name": "AMAZON.COM INC. DL-,01",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -110.63,
+      "realized_pl_reported": -110.63,
+      "realized_pl_matches": true,
+      "total_fees": 39.33,
+      "total_invested": 2947.9,
+      "open_lots": [],
+      "tx_ids": [
+        "A3F42B",
+        "6C2E4D",
+        "6F6839"
+      ]
+    },
+    {
+      "isin": "US03027X1000",
+      "wkn": "A1JRLA",
+      "name": "AMERICAN TOWER DL -,01",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -316.4,
+      "realized_pl_reported": -316.4,
+      "realized_pl_matches": true,
+      "total_fees": 24.8,
+      "total_invested": 1911.4,
+      "open_lots": [],
+      "tx_ids": [
+        "ABB0E0",
+        "74F276"
+      ]
+    },
+    {
+      "isin": "US03969T1097",
+      "wkn": "A2PMAS",
+      "name": "ARCTURUS THER.HLD.DL-,001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 85.0,
+      "avg_cost": 16.31564705882353,
+      "cost_basis_remaining": 1386.83,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 10.97,
+      "total_invested": 1386.83,
+      "open_lots": [
+        {
+          "date": "2025-09-30",
+          "shares": 85.0,
+          "cost_per_share": 16.31564705882353
+        }
+      ],
+      "tx_ids": [
+        "AC9DC7"
+      ]
+    },
+    {
+      "isin": "US04650F1012",
+      "wkn": null,
+      "name": "AtaiBeckley",
+      "sources": [
+        "scalable"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 0.0,
+      "total_invested": 0.0,
+      "open_lots": [],
+      "tx_ids": [
+        "SCTI2UUFP_US04650F1012",
+        "SCALp7XFJMaic5d"
+      ]
+    },
+    {
+      "isin": "US05464T1043",
+      "wkn": "A2AA7B",
+      "name": "Axsome Therapeutics",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 12.0,
+      "avg_cost": 119.45166666666667,
+      "cost_basis_remaining": 1433.42,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 13.82,
+      "total_invested": 1433.42,
+      "open_lots": [
+        {
+          "date": "2025-11-03",
+          "shares": 12.0,
+          "cost_per_share": 119.45166666666667
+        }
+      ],
+      "tx_ids": [
+        "887F80",
+        "SCTI2UUFP_US05464T1043",
+        "SCTO8PWTE_US05464T1043"
+      ]
+    },
+    {
+      "isin": "US0567521085",
+      "wkn": "A0F5DE",
+      "name": "Baidu ADR",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -381.4500000000003,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 11.85,
+      "total_invested": 3628.65,
+      "open_lots": [],
+      "tx_ids": [
+        "1A7E63",
+        "SCTI2UUFP_US0567521085",
+        "SCALXyfhvnq2qoX"
+      ]
+    },
+    {
+      "isin": "US07373V1052",
+      "wkn": "A2PY7P",
+      "name": "BEAM THERAPEUTICS DL-,01",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -10.329999999999998,
+      "realized_pl_reported": -10.329999999999998,
+      "realized_pl_matches": true,
+      "total_fees": 54.86,
+      "total_invested": 3278.0099999999998,
+      "open_lots": [],
+      "tx_ids": [
+        "9FF80B",
+        "C12813",
+        "1820E4",
+        "81E67D"
+      ]
+    },
+    {
+      "isin": "US09061G1013",
+      "wkn": "924801",
+      "name": "Biomarin Pharmaceutical",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 30.0,
+      "avg_cost": 47.024,
+      "cost_basis_remaining": 1410.72,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 10.92,
+      "total_invested": 1410.72,
+      "open_lots": [
+        {
+          "date": "2025-11-03",
+          "shares": 30.0,
+          "cost_per_share": 47.024
+        }
+      ],
+      "tx_ids": [
+        "887B51",
+        "SCTI2UUFP_US09061G1013",
+        "SCTO8PWTE_US09061G1013"
+      ]
+    },
+    {
+      "isin": "US09075V1026",
+      "wkn": "A2PSR2",
+      "name": "BioNTech ADR",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 86.0,
+      "avg_cost": 103.6556976744186,
+      "cost_basis_remaining": 8914.39,
+      "realized_pl": 486.95,
+      "realized_pl_reported": 486.95,
+      "realized_pl_matches": true,
+      "total_fees": 95.84,
+      "total_invested": 13653.919999999998,
+      "open_lots": [
+        {
+          "date": "2024-12-23",
+          "shares": 46.0,
+          "cost_per_share": 109.33304347826086
+        },
+        {
+          "date": "2025-09-08",
+          "shares": 40.0,
+          "cost_per_share": 97.12675
+        }
+      ],
+      "tx_ids": [
+        "94BA8C",
+        "8F9402",
+        "676AAD",
+        "A2DD47",
+        "D7B7D5",
+        "B0B980",
+        "SCTIY8T83_US09075V1026"
+      ]
+    },
+    {
+      "isin": "US09077B1044",
+      "wkn": "A2QLBN",
+      "name": "BIOATLA INC. DL-,0001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 6139.0,
+      "avg_cost": 0.7950845414562632,
+      "cost_basis_remaining": 4881.023999999999,
+      "realized_pl": -21.78,
+      "realized_pl_reported": -21.78,
+      "realized_pl_matches": true,
+      "total_fees": 45.910000000000004,
+      "total_invested": 5471.08,
+      "open_lots": [
+        {
+          "date": "2025-09-29",
+          "shares": 1500.0,
+          "cost_per_share": 0.590056
+        },
+        {
+          "date": "2025-11-19",
+          "shares": 1639.0,
+          "cost_per_share": 1.1745210494203782
+        },
+        {
+          "date": "2025-12-31",
+          "shares": 3000.0,
+          "cost_per_share": 0.6903
+        }
+      ],
+      "tx_ids": [
+        "034010",
+        "B6A332",
+        "3625E8",
+        "DD47AA"
+      ]
+    },
+    {
+      "isin": "US09077B2034",
+      "wkn": "A420KM",
+      "name": "BIOATLA INC. NEW O.N.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -4416.76,
+      "realized_pl_reported": -4416.76,
+      "realized_pl_matches": true,
+      "total_fees": 12.9,
+      "total_invested": 0.0,
+      "open_lots": [],
+      "tx_ids": [
+        "36147D"
+      ]
+    },
+    {
+      "isin": "US1241551027",
+      "wkn": "A2QK02",
+      "name": "BUTTERFLY NETWORK CL.A",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 550.0,
+      "avg_cost": 1.6135090909090908,
+      "cost_basis_remaining": 887.43,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 12.9,
+      "total_invested": 887.43,
+      "open_lots": [
+        {
+          "date": "2025-07-14",
+          "shares": 550.0,
+          "cost_per_share": 1.6135090909090908
+        }
+      ],
+      "tx_ids": [
+        "AE253C"
+      ]
+    },
+    {
+      "isin": "US14427M1071",
+      "wkn": "A2QAJC",
+      "name": "CARPARTS.COM INC. DL-,001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -182.6,
+      "realized_pl_reported": -182.6,
+      "realized_pl_matches": true,
+      "total_fees": 30.6,
+      "total_invested": 255.3,
+      "open_lots": [],
+      "tx_ids": [
+        "965F39",
+        "65CC54"
+      ]
+    },
+    {
+      "isin": "US15117F8077",
+      "wkn": "A3DQSD",
+      "name": "CELLECTAR NEW22 DL-00001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 300.0,
+      "avg_cost": 0.41333333333333333,
+      "cost_basis_remaining": 124.0,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 12.4,
+      "total_invested": 124.0,
+      "open_lots": [
+        {
+          "date": "2025-06-13",
+          "shares": 300.0,
+          "cost_per_share": 0.41333333333333333
+        }
+      ],
+      "tx_ids": [
+        "0D3F13"
+      ]
+    },
+    {
+      "isin": "US15117F8804",
+      "wkn": "A41BQ3",
+      "name": "Cellectar Biosciences Inc. Reg. Shares New 2022 DL-,00001",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 2.38,
+      "total_invested": 0.0,
+      "open_lots": [],
+      "tx_ids": [
+        "SCTINSRM8_US15117F8804",
+        "SCTO8PWTE_US15117F8804",
+        "07WD0O4K5PD85MAM"
+      ]
+    },
+    {
+      "isin": "US2183521028",
+      "wkn": "529882",
+      "name": "Corcept Therapeutics",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 25.0,
+      "avg_cost": 77.6228,
+      "cost_basis_remaining": 1940.57,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 13.82,
+      "total_invested": 1940.57,
+      "open_lots": [
+        {
+          "date": "2025-10-09",
+          "shares": 25.0,
+          "cost_per_share": 77.6228
+        }
+      ],
+      "tx_ids": [
+        "BC4037",
+        "SCTI2UUFP_US2183521028",
+        "SCTO8PWTE_US2183521028"
+      ]
+    },
+    {
+      "isin": "US22663K1079",
+      "wkn": "A2JQTJ",
+      "name": "Crinetics Pharmaceuticals",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 915.78,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 13.82,
+      "total_invested": 1981.82,
+      "open_lots": [],
+      "tx_ids": [
+        "0C9B05",
+        "SCTI2UUFP_US22663K1079",
+        "SCALtgNsnTZHzJM"
+      ]
+    },
+    {
+      "isin": "US26740W1099",
+      "wkn": "A3DSV9",
+      "name": "D-WAVE QUANTUM DL-,0001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 408.29,
+      "realized_pl_reported": 408.29,
+      "realized_pl_matches": true,
+      "total_fees": 64.36,
+      "total_invested": 2655.1400000000003,
+      "open_lots": [],
+      "tx_ids": [
+        "52D549",
+        "12B5F8",
+        "66B8C0",
+        "A606A7"
+      ]
+    },
+    {
+      "isin": "US29355A1079",
+      "wkn": "A1JC82",
+      "name": "ENPHASE ENERGY INC.DL-,01",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -42.26,
+      "realized_pl_reported": -42.26,
+      "realized_pl_matches": true,
+      "total_fees": 24.8,
+      "total_invested": 171.2,
+      "open_lots": [],
+      "tx_ids": [
+        "682676",
+        "4734B1"
+      ]
+    },
+    {
+      "isin": "US29444U7000",
+      "wkn": "A14M21",
+      "name": "EQUINIX INC. DL-,001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 126.78,
+      "realized_pl_reported": 126.78,
+      "realized_pl_matches": true,
+      "total_fees": 45.82000000000001,
+      "total_invested": 4640.45,
+      "open_lots": [],
+      "tx_ids": [
+        "6271E6",
+        "9879B0",
+        "610752"
+      ]
+    },
+    {
+      "isin": "US30303M1027",
+      "wkn": "A1JWVX",
+      "name": "META PLATF. A DL-,000006",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -46.18,
+      "realized_pl_reported": -46.18,
+      "realized_pl_matches": true,
+      "total_fees": 45.08,
+      "total_invested": 4536.21,
+      "open_lots": [],
+      "tx_ids": [
+        "FC3D4B",
+        "54869B",
+        "6458FC"
+      ]
+    },
+    {
+      "isin": "US31189P1021",
+      "wkn": "A1W50M",
+      "name": "FATE THERAPEUTICS DL-,001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -75.73,
+      "realized_pl_reported": -75.73,
+      "realized_pl_matches": true,
+      "total_fees": 30.6,
+      "total_invested": 140.95,
+      "open_lots": [],
+      "tx_ids": [
+        "6D878E",
+        "B9687A"
+      ]
+    },
+    {
+      "isin": "US35834F1049",
+      "wkn": "A3E3UN",
+      "name": "T1 ENERGY INC. O.N.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 128.11,
+      "realized_pl_reported": 128.11,
+      "realized_pl_matches": true,
+      "total_fees": 23.87,
+      "total_invested": 282.41,
+      "open_lots": [],
+      "tx_ids": [
+        "AEC9E2",
+        "6EE653"
+      ]
+    },
+    {
+      "isin": "US40131M1099",
+      "wkn": "A2N5RY",
+      "name": "Guardant Health A",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 73.0,
+      "avg_cost": 47.48890410958904,
+      "cost_basis_remaining": 3466.69,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 25.91,
+      "total_invested": 3466.69,
+      "open_lots": [
+        {
+          "date": "2025-07-14",
+          "shares": 23.0,
+          "cost_per_share": 43.899130434782606
+        },
+        {
+          "date": "2025-09-18",
+          "shares": 50.0,
+          "cost_per_share": 49.14020000000001
+        }
+      ],
+      "tx_ids": [
+        "832813",
+        "DB9202",
+        "SCTI2UUFP_US40131M1099",
+        "SCTO8PWTE_US40131M1099"
+      ]
+    },
+    {
+      "isin": "US4333131039",
+      "wkn": "A412WK",
+      "name": "HINGE HEALTH INC.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -95.33,
+      "realized_pl_reported": -95.33,
+      "realized_pl_matches": true,
+      "total_fees": 38.269999999999996,
+      "total_invested": 2582.62,
+      "open_lots": [],
+      "tx_ids": [
+        "785908",
+        "F8740E",
+        "DF3B42"
+      ]
+    },
+    {
+      "isin": "US4581401001",
+      "wkn": "855681",
+      "name": "INTEL CORP. DL-,001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -130.13,
+      "realized_pl_reported": -130.13,
+      "realized_pl_matches": true,
+      "total_fees": 24.8,
+      "total_invested": 278.2,
+      "open_lots": [],
+      "tx_ids": [
+        "BF9102",
+        "5E345B"
+      ]
+    },
+    {
+      "isin": "US45826J1051",
+      "wkn": "A2AG6H",
+      "name": "Intellia Therapeutics",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 263.0,
+      "avg_cost": 13.655741444866921,
+      "cost_basis_remaining": 3591.46,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 27.64,
+      "total_invested": 3591.46,
+      "open_lots": [
+        {
+          "date": "2025-09-30",
+          "shares": 133.0,
+          "cost_per_share": 15.008947368421053
+        },
+        {
+          "date": "2025-10-27",
+          "shares": 130.0,
+          "cost_per_share": 12.271307692307692
+        }
+      ],
+      "tx_ids": [
+        "94DAF1",
+        "5E1F1C",
+        "SCTI2UUFP_US45826J1051",
+        "SCTO8PWTE_US45826J1051"
+      ]
+    },
+    {
+      "isin": "US46222L1089",
+      "wkn": "A3C4QT",
+      "name": "IonQ",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 73.0,
+      "avg_cost": 46.983561643835614,
+      "cost_basis_remaining": 3429.7999999999997,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 26.59,
+      "total_invested": 3429.8,
+      "open_lots": [
+        {
+          "date": "2025-06-18",
+          "shares": 7.0,
+          "cost_per_share": 36.028571428571425
+        },
+        {
+          "date": "2025-09-18",
+          "shares": 25.0,
+          "cost_per_share": 61.012
+        },
+        {
+          "date": "2025-11-25",
+          "shares": 41.0,
+          "cost_per_share": 40.3
+        }
+      ],
+      "tx_ids": [
+        "FDF520",
+        "6CA095",
+        "SCALKKYJx6i1S2R",
+        "WWUM 00597618127",
+        "SWITCH-101-6EkSeM5SsSfaMaLwBJqHcF-US46222L1089-WDP",
+        "SCTI2UUFP_US46222L1089",
+        "SCTO8PWTE_US46222L1089"
+      ]
+    },
+    {
+      "isin": "US46269C1027",
+      "wkn": "A0YB48",
+      "name": "IRIDIUM COMCTNS DL-,001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -851.52,
+      "realized_pl_reported": -851.52,
+      "realized_pl_matches": true,
+      "total_fees": 44.42,
+      "total_invested": 2469.4,
+      "open_lots": [],
+      "tx_ids": [
+        "076639",
+        "904D83",
+        "66F4E7"
+      ]
+    },
+    {
+      "isin": "US47215P1066",
+      "wkn": "A112ST",
+      "name": "JD.COM SP.ADR A1 DL-00002",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -283.12,
+      "realized_pl_reported": -283.12,
+      "realized_pl_matches": true,
+      "total_fees": 26.619999999999997,
+      "total_invested": 2491.83,
+      "open_lots": [],
+      "tx_ids": [
+        "48FF2D",
+        "AF9427"
+      ]
+    },
+    {
+      "isin": "US5949181045",
+      "wkn": "870747",
+      "name": "MICROSOFT DL-,00000625",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 139.66,
+      "realized_pl_reported": 139.66,
+      "realized_pl_matches": true,
+      "total_fees": 41.84,
+      "total_invested": 4348.6,
+      "open_lots": [],
+      "tx_ids": [
+        "C17C6A",
+        "F01212",
+        "FB6505"
+      ]
+    },
+    {
+      "isin": "US60855D3098",
+      "wkn": "A407S6",
+      "name": "MOLECULIN BIOTECH DL-,001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -99.35,
+      "realized_pl_reported": -99.35,
+      "realized_pl_matches": true,
+      "total_fees": 23.87,
+      "total_invested": 823.89,
+      "open_lots": [],
+      "tx_ids": [
+        "1F58A4",
+        "52F709"
+      ]
+    },
+    {
+      "isin": "US6174468Y83",
+      "wkn": "MS0G3Q",
+      "name": "MORGAN STANL 21 52 FLR",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -36.77,
+      "realized_pl_reported": -36.77,
+      "realized_pl_matches": false,
+      "total_fees": 33.1,
+      "total_invested": 579.41,
+      "open_lots": [],
+      "tx_ids": [
+        "651F1C",
+        "925CDF"
+      ]
+    },
+    {
+      "isin": "US6294442099",
+      "wkn": "A4091K",
+      "name": "NRX Pharmaceuticals",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 310.0,
+      "avg_cost": 2.7255483870967745,
+      "cost_basis_remaining": 844.9200000000001,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 29.12,
+      "total_invested": 844.9200000000001,
+      "open_lots": [
+        {
+          "date": "2025-09-29",
+          "shares": 110.0,
+          "cost_per_share": 2.7190909090909092
+        },
+        {
+          "date": "2025-10-30",
+          "shares": 200.0,
+          "cost_per_share": 2.7291000000000003
+        }
+      ],
+      "tx_ids": [
+        "FCBDBB",
+        "927340",
+        "SCTI2UUFP_US6294442099",
+        "SCTO8PWTE_US6294442099"
+      ]
+    },
+    {
+      "isin": "US67421J1088",
+      "wkn": "A3CQRG",
+      "name": "OATLY GROUP AB SP.ADS 1",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -89.4,
+      "realized_pl_reported": -89.4,
+      "realized_pl_matches": true,
+      "total_fees": 30.6,
+      "total_invested": 118.3,
+      "open_lots": [],
+      "tx_ids": [
+        "637CA3",
+        "E32CC0"
+      ]
+    },
+    {
+      "isin": "US68277Q1058",
+      "wkn": "A40NG6",
+      "name": "ONKURE THERAP.INC. A O.N.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 49.16,
+      "realized_pl_reported": 49.16,
+      "realized_pl_matches": true,
+      "total_fees": 23.87,
+      "total_invested": 308.88,
+      "open_lots": [],
+      "tx_ids": [
+        "ED99E4",
+        "B75436"
+      ]
+    },
+    {
+      "isin": "US6904691010",
+      "wkn": "A2DQ8S",
+      "name": "OVID THERAPEUTICS DL-,001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 65.4,
+      "realized_pl_reported": 65.4,
+      "realized_pl_matches": true,
+      "total_fees": 30.6,
+      "total_invested": 887.3,
+      "open_lots": [],
+      "tx_ids": [
+        "13F895",
+        "100101"
+      ]
+    },
+    {
+      "isin": "US7223041028",
+      "wkn": "A2JRK6",
+      "name": "PDD HOLDINGS SP.ADR 4",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -175.62,
+      "realized_pl_reported": -175.62,
+      "realized_pl_matches": true,
+      "total_fees": 25.62,
+      "total_invested": 2201.72,
+      "open_lots": [],
+      "tx_ids": [
+        "65CF24",
+        "D34BC9"
+      ]
+    },
+    {
+      "isin": "US72703X1063",
+      "wkn": "A3C84C",
+      "name": "PLANET LABS PBC A -,0001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 2706.88,
+      "realized_pl_reported": 2706.88,
+      "realized_pl_matches": true,
+      "total_fees": 70.64,
+      "total_invested": 3621.71,
+      "open_lots": [],
+      "tx_ids": [
+        "8AADB4",
+        "E0BB76",
+        "FD6C94",
+        "3D68D1",
+        "5B4455"
+      ]
+    },
+    {
+      "isin": "US7329081084",
+      "wkn": "A40VVU",
+      "name": "Pony AI",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -2348.6273626373636,
+      "realized_pl_reported": 255.04,
+      "realized_pl_matches": true,
+      "total_fees": 76.31,
+      "total_invested": 5384.01,
+      "open_lots": [],
+      "tx_ids": [
+        "675237",
+        "93EC5D",
+        "ECEA27",
+        "4CF783",
+        "1DF714",
+        "SCTI2UUFP_US7329081084",
+        "SCALM2qXkBcUyPS"
+      ]
+    },
+    {
+      "isin": "US74767V1098",
+      "wkn": "A2QJX9",
+      "name": "QUANTUMSCAPE A DL-,0001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 487.7,
+      "realized_pl_reported": 487.7,
+      "realized_pl_matches": false,
+      "total_fees": 51.4,
+      "total_invested": 1062.05,
+      "open_lots": [],
+      "tx_ids": [
+        "525670",
+        "B0CAE1",
+        "7EBA69",
+        "8B810C"
+      ]
+    },
+    {
+      "isin": "US75886F1075",
+      "wkn": "881535",
+      "name": "Regeneron Pharmaceuticals",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 3.0,
+      "avg_cost": 570.24,
+      "cost_basis_remaining": 1710.72,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 10.92,
+      "total_invested": 1710.72,
+      "open_lots": [
+        {
+          "date": "2025-11-03",
+          "shares": 3.0,
+          "cost_per_share": 570.24
+        }
+      ],
+      "tx_ids": [
+        "2F05BE",
+        "SCTI2UUFP_US75886F1075",
+        "SCTO8PWTE_US75886F1075"
+      ]
+    },
+    {
+      "isin": "US76152G1004",
+      "wkn": "A2QK7Q",
+      "name": "REVIVA PHARMACEUT.HLDGS",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 1485.75,
+      "realized_pl_reported": 1485.75,
+      "realized_pl_matches": true,
+      "total_fees": 39.4,
+      "total_invested": 2634.0299999999997,
+      "open_lots": [],
+      "tx_ids": [
+        "E46E7C",
+        "EF62F7",
+        "66C6F5"
+      ]
+    },
+    {
+      "isin": "US76655K1034",
+      "wkn": "A3DE3J",
+      "name": "RIGETTI COMPUTNG DL-,0001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 841.97,
+      "realized_pl_reported": 841.97,
+      "realized_pl_matches": false,
+      "total_fees": 78.59,
+      "total_invested": 2698.0899999999997,
+      "open_lots": [],
+      "tx_ids": [
+        "AEFBB7",
+        "842919",
+        "56215D",
+        "D5F14D",
+        "70F1F1",
+        "CB53D2"
+      ]
+    },
+    {
+      "isin": "US7731211089",
+      "wkn": "A419CG",
+      "name": "ROCKET LAB CORP. DL-,0001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 1223.25,
+      "realized_pl_reported": 1223.25,
+      "realized_pl_matches": true,
+      "total_fees": 50.150000000000006,
+      "total_invested": 2818.56,
+      "open_lots": [],
+      "tx_ids": [
+        "765181",
+        "468FD3",
+        "1C69CE"
+      ]
+    },
+    {
+      "isin": "US79589L1061",
+      "wkn": "A3C9GD",
+      "name": "SAMSARA INC. A DL-,0001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -50.12,
+      "realized_pl_reported": -50.12,
+      "realized_pl_matches": true,
+      "total_fees": 25.8,
+      "total_invested": 228.25,
+      "open_lots": [],
+      "tx_ids": [
+        "22C239",
+        "D2C416"
+      ]
+    },
+    {
+      "isin": "US7995661045",
+      "wkn": "A2QNUE",
+      "name": "SANA BIOTECHNO. DL -,0001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 744.0,
+      "avg_cost": 4.657016129032257,
+      "cost_basis_remaining": 3464.8199999999997,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 37.980000000000004,
+      "total_invested": 3464.8199999999997,
+      "open_lots": [
+        {
+          "date": "2025-06-16",
+          "shares": 60.0,
+          "cost_per_share": 2.6875
+        },
+        {
+          "date": "2025-07-14",
+          "shares": 234.0,
+          "cost_per_share": 3.777307692307692
+        },
+        {
+          "date": "2025-10-16",
+          "shares": 450.0,
+          "cost_per_share": 5.377066666666666
+        }
+      ],
+      "tx_ids": [
+        "C0AF0C",
+        "53ACD9",
+        "BD7DC2"
+      ]
+    },
+    {
+      "isin": "US8006771062",
+      "wkn": "936386",
+      "name": "SANGAMO THERAP.INC.DL-,01",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 126.96,
+      "realized_pl_reported": 126.96,
+      "realized_pl_matches": true,
+      "total_fees": 23.32,
+      "total_invested": 822.45,
+      "open_lots": [],
+      "tx_ids": [
+        "5097E6",
+        "9EB5CC"
+      ]
+    },
+    {
+      "isin": "US81730H1095",
+      "wkn": "A3CTJC",
+      "name": "SENTINELONE INC.A -,0001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 11.4,
+      "realized_pl_reported": 11.4,
+      "realized_pl_matches": true,
+      "total_fees": 30.6,
+      "total_invested": 469.8,
+      "open_lots": [],
+      "tx_ids": [
+        "55C803",
+        "50DC90"
+      ]
+    },
+    {
+      "isin": "US83086J2006",
+      "wkn": "A3ES4X",
+      "name": "SKYE BIOSCIENCE INC.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -851.1,
+      "realized_pl_reported": -851.1,
+      "realized_pl_matches": true,
+      "total_fees": 30.6,
+      "total_invested": 1011.3,
+      "open_lots": [],
+      "tx_ids": [
+        "2333A5",
+        "B74990"
+      ]
+    },
+    {
+      "isin": "US83422N1054",
+      "wkn": "A3C859",
+      "name": "SOLID POWER INC. A -,0001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 250.0,
+      "avg_cost": 3.9406399999999997,
+      "cost_basis_remaining": 985.16,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 12.9,
+      "total_invested": 985.16,
+      "open_lots": [
+        {
+          "date": "2025-09-23",
+          "shares": 250.0,
+          "cost_per_share": 3.9406399999999997
+        }
+      ],
+      "tx_ids": [
+        "488A91"
+      ]
+    },
+    {
+      "isin": "US8361001071",
+      "wkn": "A3DGJK",
+      "name": "SOUNDHOUND AI A DL -,001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 103.0,
+      "realized_pl_reported": 103.0,
+      "realized_pl_matches": true,
+      "total_fees": 38.400000000000006,
+      "total_invested": 1151.3999999999999,
+      "open_lots": [],
+      "tx_ids": [
+        "85AD92",
+        "D590A2",
+        "2F5233"
+      ]
+    },
+    {
+      "isin": "US85916J4094",
+      "wkn": "A1J09L",
+      "name": "Stereotaxis",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 725.0,
+      "avg_cost": 2.8993103448275863,
+      "cost_basis_remaining": 2102.0,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 14.0,
+      "total_invested": 2102.0,
+      "open_lots": [
+        {
+          "date": "2025-10-07",
+          "shares": 725.0,
+          "cost_per_share": 2.8993103448275863
+        }
+      ],
+      "tx_ids": [
+        "17F72E",
+        "SCTI2UUFP_US85916J4094",
+        "SCTO8PWTE_US85916J4094"
+      ]
+    },
+    {
+      "isin": "US8740391003",
+      "wkn": "909800",
+      "name": "TAIWAN SEMICON.MANU.ADR 5",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 347.29,
+      "realized_pl_reported": 347.29,
+      "realized_pl_matches": true,
+      "total_fees": 42.71,
+      "total_invested": 4782.2,
+      "open_lots": [],
+      "tx_ids": [
+        "AC7C65",
+        "7D6AA6"
+      ]
+    },
+    {
+      "isin": "US87990A1060",
+      "wkn": "A3CWF0",
+      "name": "TENAYA THERAP. DL -,0001",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 750.0,
+      "avg_cost": 1.16832,
+      "cost_basis_remaining": 876.24,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 12.9,
+      "total_invested": 876.24,
+      "open_lots": [
+        {
+          "date": "2025-09-24",
+          "shares": 750.0,
+          "cost_per_share": 1.16832
+        }
+      ],
+      "tx_ids": [
+        "EB3C50"
+      ]
+    },
+    {
+      "isin": "US88023B1035",
+      "wkn": "A40EDP",
+      "name": "TEMPUS AI INC. DL-,01",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -191.2,
+      "realized_pl_reported": -191.2,
+      "realized_pl_matches": true,
+      "total_fees": 161.2,
+      "total_invested": 35750.600000000006,
+      "open_lots": [],
+      "tx_ids": [
+        "3C9358",
+        "BE0003",
+        "BE816C",
+        "7788AD"
+      ]
+    },
+    {
+      "isin": "US88675P1030",
+      "wkn": "A3D6S7",
+      "name": "TIGO ENERGY INC.",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 759.52,
+      "realized_pl_reported": 759.52,
+      "realized_pl_matches": true,
+      "total_fees": 25.8,
+      "total_invested": 830.55,
+      "open_lots": [],
+      "tx_ids": [
+        "D15FD8",
+        "F2787A"
+      ]
+    },
+    {
+      "isin": "US90184D1000",
+      "wkn": "A2N7L2",
+      "name": "Twist Bioscience",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 41.0,
+      "avg_cost": 24.153170731707316,
+      "cost_basis_remaining": 990.28,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 15.3,
+      "total_invested": 990.28,
+      "open_lots": [
+        {
+          "date": "2025-09-23",
+          "shares": 41.0,
+          "cost_per_share": 24.153170731707316
+        }
+      ],
+      "tx_ids": [
+        "9CC5C7",
+        "SCTI2UUFP_US90184D1000",
+        "SCTO8PWTE_US90184D1000"
+      ]
+    },
+    {
+      "isin": "US9311421039",
+      "wkn": "860853",
+      "name": "WALMART DL-,10",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": 36.13,
+      "realized_pl_reported": 36.13,
+      "realized_pl_matches": true,
+      "total_fees": 44.71,
+      "total_invested": 4469.16,
+      "open_lots": [],
+      "tx_ids": [
+        "148224",
+        "D2D8B6",
+        "3CC2EF"
+      ]
+    },
+    {
+      "isin": "US9509151083",
+      "wkn": "A40KYH",
+      "name": "Weride",
+      "sources": [
+        "comdirect",
+        "scalable"
+      ],
+      "shares_held": 250.0,
+      "avg_cost": 9.543280000000001,
+      "cost_basis_remaining": 2385.82,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 25.8,
+      "total_invested": 2385.82,
+      "open_lots": [
+        {
+          "date": "2025-06-18",
+          "shares": 50.0,
+          "cost_per_share": 7.1984
+        },
+        {
+          "date": "2025-09-22",
+          "shares": 200.0,
+          "cost_per_share": 10.1295
+        }
+      ],
+      "tx_ids": [
+        "05F48A",
+        "FA16AE",
+        "SCTI8M796_US9509151083",
+        "SCTO8PWTE_US9509151083"
+      ]
+    },
+    {
+      "isin": "XS2089226026",
+      "wkn": "A2YN1R",
+      "name": "DT.TELEKOM MTN 19 49",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -22.57,
+      "realized_pl_reported": -22.57,
+      "realized_pl_matches": false,
+      "total_fees": 33.1,
+      "total_invested": 681.1,
+      "open_lots": [],
+      "tx_ids": [
+        "5F671B",
+        "335740"
+      ]
+    },
+    {
+      "isin": "XS2263684933",
+      "wkn": "A285PC",
+      "name": "NESTLE F.I. 20 40 MTN",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -37.44,
+      "realized_pl_reported": -37.44,
+      "realized_pl_matches": false,
+      "total_fees": 30.6,
+      "total_invested": 656.66,
+      "open_lots": [],
+      "tx_ids": [
+        "40C550",
+        "784AC2"
+      ]
+    },
+    {
+      "isin": "XS2357951164",
+      "wkn": "A3E5MU",
+      "name": "DT. BAHN 21 51 MTN",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0,
+      "avg_cost": 0.0,
+      "cost_basis_remaining": 0,
+      "realized_pl": -35.2,
+      "realized_pl_reported": -35.2,
+      "realized_pl_matches": false,
+      "total_fees": 33.1,
+      "total_invested": 575.58,
+      "open_lots": [],
+      "tx_ids": [
+        "610CB2",
+        "4FF1A2"
+      ]
+    }
+  ]
+}

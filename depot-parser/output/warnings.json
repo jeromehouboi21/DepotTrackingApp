@@ -1,0 +1,621 @@
+{
+  "summary": {
+    "pdfs_seen": 615,
+    "pdfs_parsed": 574,
+    "pdfs_skipped": 41,
+    "scalable_csv_rows": 323,
+    "scalable_pending_filtered": 1,
+    "transfer_in_csv_rows": 11,
+    "transfer_pairs_matched": 11,
+    "transfer_pairs_unmatched": 23,
+    "transactions_total": 907,
+    "buys": 622,
+    "sells": 164,
+    "transfers": 68,
+    "cash": 53
+  },
+  "issues": [
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "AU000000BRN8",
+      "ref": "SCTO8PWTE_AU000000BRN8,SCTI2UUFP_AU000000BRN8",
+      "message": "Scalable-Abgang für AU000000BRN8 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "AU000000DRO2",
+      "ref": "SCTO8PWTE_AU000000DRO2,SCTI2UUFP_AU000000DRO2",
+      "message": "Scalable-Abgang für AU000000DRO2 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "AU000000WBT5",
+      "ref": "SCTO8PWTE_AU000000WBT5,SCTI2UUFP_AU000000WBT5",
+      "message": "Scalable-Abgang für AU000000WBT5 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "CH0334081137",
+      "ref": "SCTO8PWTE_CH0334081137,SCTI2UUFP_CH0334081137",
+      "message": "Scalable-Abgang für CH0334081137 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_SHARES_MISMATCH",
+      "isin": "GB00B608Z994",
+      "ref": "SCTO8PWTE_GB00B608Z994,SCTI2UUFP_GB00B608Z994,07WD01TROO7496AM",
+      "message": "Scalable-Abgang 2000 St. vs. comdirect-Eingang 1000 St. (Differenz 1000)"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_SHARES_MISMATCH",
+      "isin": "IE0000ZVYDH0",
+      "ref": "SCTO8PWTE_IE0000ZVYDH0,SCTI2UUFP_IE0000ZVYDH0,07WD0LR27WQYEIAM",
+      "message": "Scalable-Abgang 398 St. vs. comdirect-Eingang 199 St. (Differenz 199)"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "IE00BL25JM42",
+      "ref": "SCTO8PWTE_IE00BL25JM42",
+      "message": "Scalable-Abgang für IE00BL25JM42 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_SHARES_MISMATCH",
+      "isin": "KYG875721634",
+      "ref": "SCTO8PWTE_KYG875721634,SCTI2UUFP_KYG875721634,07WD06UGPHSGCQAM",
+      "message": "Scalable-Abgang 84 St. vs. comdirect-Eingang 42 St. (Differenz 42)"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_SHARES_MISMATCH",
+      "isin": "KYG9830T1067",
+      "ref": "SCTO8PWTE_KYG9830T1067,SCTI2UUFP_KYG9830T1067,07WD026WVGT622AM",
+      "message": "Scalable-Abgang 576 St. vs. comdirect-Eingang 288 St. (Differenz 288)"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "LU1829220216",
+      "ref": "SCTO8PWTE_LU1829220216,SCTI2UUFP_LU1829220216",
+      "message": "Scalable-Abgang für LU1829220216 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "US01609W1027",
+      "ref": "SCTI2UUFP_US01609W1027",
+      "message": "Scalable-Abgang für US01609W1027 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "US04650F1012",
+      "ref": "SCTI2UUFP_US04650F1012",
+      "message": "Scalable-Abgang für US04650F1012 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "US05464T1043",
+      "ref": "SCTO8PWTE_US05464T1043,SCTI2UUFP_US05464T1043",
+      "message": "Scalable-Abgang für US05464T1043 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "US0567521085",
+      "ref": "SCTI2UUFP_US0567521085",
+      "message": "Scalable-Abgang für US0567521085 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "US09061G1013",
+      "ref": "SCTO8PWTE_US09061G1013,SCTI2UUFP_US09061G1013",
+      "message": "Scalable-Abgang für US09061G1013 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "US09075V1026",
+      "ref": "SCTIY8T83_US09075V1026",
+      "message": "Scalable-Abgang für US09075V1026 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_SHARES_MISMATCH",
+      "isin": "US15117F8804",
+      "ref": "SCTO8PWTE_US15117F8804,SCTINSRM8_US15117F8804,07WD0O4K5PD85MAM",
+      "message": "Scalable-Abgang 20 St. vs. comdirect-Eingang 10 St. (Differenz 10)"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "US2183521028",
+      "ref": "SCTO8PWTE_US2183521028,SCTI2UUFP_US2183521028",
+      "message": "Scalable-Abgang für US2183521028 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "US22663K1079",
+      "ref": "SCTI2UUFP_US22663K1079",
+      "message": "Scalable-Abgang für US22663K1079 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "US40131M1099",
+      "ref": "SCTO8PWTE_US40131M1099,SCTI2UUFP_US40131M1099",
+      "message": "Scalable-Abgang für US40131M1099 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "US45826J1051",
+      "ref": "SCTO8PWTE_US45826J1051,SCTI2UUFP_US45826J1051",
+      "message": "Scalable-Abgang für US45826J1051 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "US46222L1089",
+      "ref": "SCTO8PWTE_US46222L1089,SCTI2UUFP_US46222L1089,SWITCH-101-6EkSeM5SsSfaMaLwBJqHcF-US46222L1089-WDP,WWUM 00597618127",
+      "message": "Scalable-Abgang für US46222L1089 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "US6294442099",
+      "ref": "SCTO8PWTE_US6294442099,SCTI2UUFP_US6294442099",
+      "message": "Scalable-Abgang für US6294442099 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "US7329081084",
+      "ref": "SCTI2UUFP_US7329081084",
+      "message": "Scalable-Abgang für US7329081084 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "US75886F1075",
+      "ref": "SCTO8PWTE_US75886F1075,SCTI2UUFP_US75886F1075",
+      "message": "Scalable-Abgang für US75886F1075 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "US85916J4094",
+      "ref": "SCTO8PWTE_US85916J4094,SCTI2UUFP_US85916J4094",
+      "message": "Scalable-Abgang für US85916J4094 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "US90184D1000",
+      "ref": "SCTO8PWTE_US90184D1000,SCTI2UUFP_US90184D1000",
+      "message": "Scalable-Abgang für US90184D1000 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "TRANSFER_UNMATCHED",
+      "isin": "US9509151083",
+      "ref": "SCTO8PWTE_US9509151083,SCTI8M796_US9509151083",
+      "message": "Scalable-Abgang für US9509151083 ohne passenden comdirect-Eingang"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "BE0946564383",
+      "ref": "Wertpapierabrechnung_Verkauf_6_St._A0LFBM_(DPAM_B-EQ.N.GEM.SU._BEOA)_vom_25.04.2023_0D160F.pdf",
+      "message": "Eigene FIFO 345.30 vs. gemeldet 240.33"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "CA48213Y1079",
+      "ref": "Wertpapierabrechnung_Verkauf_48_St._A2PMFM_(JUSHI_HLDGS_INC)_vom_25.04.2023_0820FB.pdf",
+      "message": "Eigene FIFO -194.15 vs. gemeldet 0.00"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "CA7273511088",
+      "ref": "Wertpapierabrechnung_Verkauf_400_St._A3CS6B_(PLANT_VEDA_FOODS_LTD)_vom_25.04.2023_6E2B7A.pdf",
+      "message": "Eigene FIFO -98.40 vs. gemeldet 0.00"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "CA84840P1027",
+      "ref": "Wertpapierabrechnung_Verkauf_300_St._A2N4RL_(SPEY_RESOURCES_CORP.)_vom_25.04.2023_0C28C4.pdf",
+      "message": "Eigene FIFO -54.11 vs. gemeldet 0.00"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "DE0005933923",
+      "ref": "Wertpapierabrechnung_Verkauf_1_St._WKN_593392(ISHARES_MDAX_UCITS_ETF)_vom_02.01.2017_48324E.pdf",
+      "message": "Eigene FIFO 170.43 vs. gemeldet -7.50"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "DE0005933923",
+      "ref": "Wertpapierabrechnung_Verkauf_0,097_St._WKN_593392(ISHARES_MDAX_UCITS_ETF)_vom_02.01.2017_E29829.pdf",
+      "message": "Eigene FIFO 1.51 vs. gemeldet 1.26"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "DE0005933923",
+      "ref": "Wertpapierabrechnung_Verkauf_0,124_St._WKN_593392(ISHARES_MDAX_UCITS_ETF)_vom_31.08.2020_AEC4C6.pdf",
+      "message": "Eigene FIFO 3.82 vs. gemeldet 2.80"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "DE0006305006",
+      "ref": "Wertpapierabrechnung_Verkauf_25_St._630500_(DEUTZ_AG_AKTIEN_O.N.)_vom_25.04.2023_B782D8.pdf",
+      "message": "Eigene FIFO -52.30 vs. gemeldet -48.55"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "DE0008490962",
+      "ref": "Wertpapierabrechnung_Verkauf_0,981_St._WKN_849096(DWS_DEUTSCHLAND_LC)_vom_02.01.2017_25AD26.pdf",
+      "message": "Eigene FIFO 182.29 vs. gemeldet 3.36"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "DE0008490962",
+      "ref": "Wertpapierabrechnung_Verkauf_0,114_St._WKN_849096(DWS_DEUTSCHLAND_LC)_vom_31.08.2020_4DF433.pdf",
+      "message": "Eigene FIFO 0.33 vs. gemeldet 0.92"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "DE0009848119",
+      "ref": "Wertpapierabrechnung_Verkauf_1_St._WKN_984811(DWS_TOP_DIVIDENDE_LD)_vom_02.01.2017_3484E4.pdf",
+      "message": "Eigene FIFO 122.45 vs. gemeldet 2.27"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "DE0009848119",
+      "ref": "Wertpapierabrechnung_Verkauf_0,658_St._WKN_984811(DWS_TOP_DIVIDENDE_LD)_vom_02.01.2017_EC78FF.pdf",
+      "message": "Eigene FIFO 55.59 vs. gemeldet 2.09"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "DE0009848119",
+      "ref": "Wertpapierabrechnung_Verkauf_0,201_St._WKN_984811(DWS_TOP_DIVIDENDE_LD)_vom_31.08.2020_E0C704.pdf",
+      "message": "Eigene FIFO -1.56 vs. gemeldet -1.38"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "DE000A0D8Q49",
+      "ref": "Wertpapierabrechnung_Verkauf_0,906_St._WKN_A0D8Q4(IS.DJ_U.S.SELEC.DIV.U.ETF)_vom_02.01.2017_7C0F14.pdf",
+      "message": "Eigene FIFO 55.09 vs. gemeldet 9.79"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "DE000A0D8Q49",
+      "ref": "Wertpapierabrechnung_Verkauf_3_St._WKN_A0D8Q4(IS.DJ_U.S.SELEC.DIV.U.ETF)_vom_02.01.2017_E10DB6.pdf",
+      "message": "Eigene FIFO 139.99 vs. gemeldet 10.36"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "DE000A0D8Q49",
+      "ref": "Wertpapierabrechnung_Verkauf_0,413_St._WKN_A0D8Q4(IS.DJ_U.S.SELEC.DIV.U.ETF)_vom_31.08.2020_1C1828.pdf",
+      "message": "Eigene FIFO -4.05 vs. gemeldet -3.41"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "DE000A0F5UF5",
+      "ref": "Wertpapierabrechnung_Verkauf_63_St._WKN_A0F5UF(ISHARES_NASDAQ-100_U.ETF)_vom_18.02.2022_1A3EB5.pdf",
+      "message": "Eigene FIFO 1600.43 vs. gemeldet 1120.30"
+    },
+    {
+      "level": "warn",
+      "code": "NO_COST_BASIS",
+      "isin": "DE000A31C3G1",
+      "ref": "Wertpapierabrechnung_Verkauf_20_St._WKN_A31C3G(NORDEX_SE_BZR)_vom_21.07.2022_6FA484.pdf",
+      "message": "Verkauf ohne zuordenbaren Kauf und ohne Kostenlots (20 St. DE000A31C3G1)"
+    },
+    {
+      "level": "warn",
+      "code": "NO_COST_BASIS",
+      "isin": "ES0178430E18",
+      "ref": "Wertpapierabrechnung_Verkauf_318_St._WKN_850775(TELEFONICA_INH._EO_1)_vom_12.11.2019_31C7FD.pdf",
+      "message": "Verkauf ohne zuordenbaren Kauf und ohne Kostenlots (318 St. ES0178430E18)"
+    },
+    {
+      "level": "warn",
+      "code": "NO_COST_BASIS",
+      "isin": "ES0178430E18",
+      "ref": "Wertpapierabrechnung_Verkauf_348_St._850775_(TELEFONICA_INH._EO_1)_vom_26.04.2024_48DF45.pdf",
+      "message": "Verkauf ohne zuordenbaren Kauf und ohne Kostenlots (348 St. ES0178430E18)"
+    },
+    {
+      "level": "warn",
+      "code": "NO_COST_BASIS",
+      "isin": "ES0178430E18",
+      "ref": "Wertpapierabrechnung_Verkauf_425_St._850775_(TELEFONICA_INH._EO_1)_vom_02.05.2024_0C3E4D.pdf",
+      "message": "Verkauf ohne zuordenbaren Kauf und ohne Kostenlots (425 St. ES0178430E18)"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "FR0010429068",
+      "ref": "Wertpapierabrechnung_Verkauf_359_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_29.08.2024_5D3EE3.pdf",
+      "message": "Eigene FIFO 378.48 vs. gemeldet 222.09"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "FR0010429068",
+      "ref": "Wertpapierabrechnung_Verkauf_4_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_27.01.2025_AF63A8.pdf",
+      "message": "Eigene FIFO -11.07 vs. gemeldet -7.92"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "FR0010524777",
+      "ref": "Wertpapierabrechnung_Verkauf_58_St._WKN_LYX0CB(LYX.MSCI_NE_ESG_FIL.DR_D)_vom_14.02.2022_6336DA.pdf",
+      "message": "Eigene FIFO 104.65 vs. gemeldet 73.26"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "IE0000ZVYDH0",
+      "ref": "Wertpapierabrechnung_Verkauf_0,701_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_05.06.2026_54EE36.pdf",
+      "message": "Eigene FIFO 1.41 vs. gemeldet 0.89"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "IE000YYE6WK5",
+      "ref": "Wertpapierabrechnung_Verkauf_194_St._A3D9M1_(VANECKETFSDFNS_ADLA)_vom_16.04.2025_6AE03A.pdf",
+      "message": "Eigene FIFO 1093.99 vs. gemeldet 765.79"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "IE00B43HR379",
+      "ref": "Wertpapierabrechnung_Verkauf_740_St._WKN_A142NZ(ISHSV-S+P500H.CA.SECT.DLA)_vom_14.02.2022_07A4CB.pdf",
+      "message": "Eigene FIFO 1398.29 vs. gemeldet 978.09"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "IE00BYZK4552",
+      "ref": "Wertpapierabrechnung_Verkauf_242_St._WKN_A2ANH0(ISHS_IV-AUTO.+ROBOTIC.ETF)_vom_14.02.2022_6B44B2.pdf",
+      "message": "Eigene FIFO 577.23 vs. gemeldet 403.79"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "IE00BYZK4776",
+      "ref": "Wertpapierabrechnung_Verkauf_282_St._WKN_A2ANH2(ISHS_IV-HEALTHC.INNOV.ETF)_vom_14.02.2022_B009E4.pdf",
+      "message": "Eigene FIFO 6.00 vs. gemeldet 3.96"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "IE00BYZK4883",
+      "ref": "Wertpapierabrechnung_Verkauf_259_St._WKN_A2ANH3(ISHSIV-DIGITALISATION_DLA)_vom_14.02.2022_09B97C.pdf",
+      "message": "Eigene FIFO -19.15 vs. gemeldet -13.64"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "LU0099574567",
+      "ref": "Wertpapierabrechnung_Verkauf_60_St._921800_(FID.FDS-GL_TECHNOL.A_GL.)_vom_27.01.2025_A0C227.pdf",
+      "message": "Eigene FIFO 335.04 vs. gemeldet 218.08"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "LU0217390573",
+      "ref": "Wertpapierabrechnung_Verkauf_49_St._WKN_A0F6XG(JPM-PACIF.EQU.JPMPE_AAEO)_vom_15.02.2022_1A11AF.pdf",
+      "message": "Eigene FIFO 236.82 vs. gemeldet 164.92"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "LU0274209237",
+      "ref": "Wertpapierabrechnung_Verkauf_0,773_St._WKN_DBX1ME(DB_X-TR.MSCI_EUR.IDX.DR1C)_vom_02.01.2017_3F0F28.pdf",
+      "message": "Eigene FIFO 40.17 vs. gemeldet 1.69"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "LU0274209237",
+      "ref": "Wertpapierabrechnung_Verkauf_3_St._WKN_DBX1ME(DB_X-TR.MSCI_EUR.IDX.DR1C)_vom_02.01.2017_9EA5F6.pdf",
+      "message": "Eigene FIFO 113.92 vs. gemeldet -16.13"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "LU0274209237",
+      "ref": "Wertpapierabrechnung_Verkauf_0,473_St._WKN_DBX1ME(XTR.MSCI_EUROPE_1C)_vom_02.09.2020_6DA016.pdf",
+      "message": "Eigene FIFO 2.30 vs. gemeldet 2.12"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "LU0290357929",
+      "ref": "Wertpapierabrechnung_Verkauf_0,115_St._WKN_DBX0AL(DB_X-TR.II-IB.GL.IN.-L.1C)_vom_02.01.2017_A4086D.pdf",
+      "message": "Eigene FIFO 25.90 vs. gemeldet 7.93"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "LU0290357929",
+      "ref": "Wertpapierabrechnung_Verkauf_3_St._WKN_DBX0AL(DB_X-TR.II-IB.GL.IN.-L.1C)_vom_02.01.2017_CE967D.pdf",
+      "message": "Eigene FIFO 583.08 vs. gemeldet 272.12"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "LU0290357929",
+      "ref": "Wertpapierabrechnung_Verkauf_0,37_St._DBX0AL_(XTR.II_GL.INF.-LI.B.1CEOH)_vom_26.04.2023_C559A4.pdf",
+      "message": "Eigene FIFO -4.11 vs. gemeldet 1.89"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "LU0292107645",
+      "ref": "Wertpapierabrechnung_Verkauf_5_St._WKN_DBX1EM(DB_X-TR.MSCI_EM_IDX.1C)_vom_02.01.2017_BF6557.pdf",
+      "message": "Eigene FIFO 151.66 vs. gemeldet -23.18"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "LU0392496005",
+      "ref": "Wertpapierabrechnung_Verkauf_12_St._WKN_ETF123(C.-MSCI_USA_S.C.T.U.ETF_I)_vom_02.01.2017_3F5577.pdf",
+      "message": "Eigene FIFO 401.78 vs. gemeldet 51.88"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "LU0392496005",
+      "ref": "Wertpapierabrechnung_Verkauf_1_St._WKN_ETF123(CS.-CS_S+P_S.C.600_UETF_I)_vom_28.08.2020_77A536.pdf",
+      "message": "Eigene FIFO -13.18 vs. gemeldet -9.13"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "LU0392496005",
+      "ref": "Wertpapierabrechnung_Verkauf_0,295_St._WKN_ETF123(CS.-CS_S+P_S.C.600_UETF_I)_vom_31.08.2020_ACEEF1.pdf",
+      "message": "Eigene FIFO -0.28 vs. gemeldet -0.17"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "LU0415391431",
+      "ref": "Wertpapierabrechnung_Verkauf_1_St._A0RP23_(BELLE.F.(L)-BB.A.M.+S.BEO)_vom_25.04.2023_30B4F1.pdf",
+      "message": "Eigene FIFO 131.01 vs. gemeldet 90.99"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "LU0533033238",
+      "ref": "Wertpapierabrechnung_Verkauf_1_St._LYX0GM_(MUL-LYX.MSCI_W.HCTRUE_AEO)_vom_25.04.2023_25F839.pdf",
+      "message": "Eigene FIFO 118.85 vs. gemeldet 82.75"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "LU0823421689",
+      "ref": "Wertpapierabrechnung_Verkauf_1_St._A1T8X9_(BNPP_DISRUPT.TECH._CLCAP)_vom_27.01.2025_FC9DCF.pdf",
+      "message": "Eigene FIFO 250.14 vs. gemeldet 165.30"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "LU1084870465",
+      "ref": "Wertpapierabrechnung_Verkauf_273_St._A117FW_(WMF(L)-W.G.QUAL.GR.NDLAUH)_vom_25.04.2023_E5D499.pdf",
+      "message": "Eigene FIFO 943.80 vs. gemeldet 656.67"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "LU1279334301",
+      "ref": "Wertpapierabrechnung_Verkauf_4_St._WKN_A141RC(PICTET-ROBOTICS_PDYDISEO)_vom_15.02.2022_FE9772.pdf",
+      "message": "Eigene FIFO 402.21 vs. gemeldet 280.68"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "LU1829220216",
+      "ref": "Wertpapierabrechnung_Verkauf_0,298_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_05.06.2026_E8119B.pdf",
+      "message": "Eigene FIFO 104.61 vs. gemeldet 69.13"
+    },
+    {
+      "level": "warn",
+      "code": "NO_COST_BASIS",
+      "isin": "US04650F1012",
+      "ref": "SCALp7XFJMaic5d",
+      "message": "Verkauf ohne zuordenbaren Kauf und ohne Kostenlots (200 St. US04650F1012)"
+    },
+    {
+      "level": "warn",
+      "code": "NO_COST_BASIS",
+      "isin": "US09077B2034",
+      "ref": "Wertpapierabrechnung_Verkauf_122_St._A420KM_(BIOATLA_INC._NEW_O.N.)_vom_13.05.2026_36147D.pdf",
+      "message": "Verkauf ohne zuordenbaren Kauf und ohne Kostenlots (122 St. US09077B2034)"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "US6174468Y83",
+      "ref": "Wertpapierabrechnung_Verkauf_1.000_USD_MS0G3Q_(MORGAN_STANL_21_52_FLR)_vom_17.09.2025_925CDF.pdf",
+      "message": "Eigene FIFO -40.27 vs. gemeldet -36.77"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "US74767V1098",
+      "ref": "Wertpapierabrechnung_Verkauf_40_St._A2QJX9_(QUANTUMSCAPE_A_DL-,0001)_vom_21.07.2025_7EBA69.pdf",
+      "message": "Eigene FIFO 244.80 vs. gemeldet 63.37"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "US74767V1098",
+      "ref": "Wertpapierabrechnung_Verkauf_103_St._A2QJX9_(QUANTUMSCAPE_A_DL-,0001)_vom_21.07.2025_8B810C.pdf",
+      "message": "Eigene FIFO 242.90 vs. gemeldet 424.33"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "US76655K1034",
+      "ref": "Wertpapierabrechnung_Verkauf_18_St._A3DE3J_(RIGETTI_COMPUTNG_DL-,0001)_vom_19.09.2025_56215D.pdf",
+      "message": "Eigene FIFO 188.50 vs. gemeldet 39.19"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "US76655K1034",
+      "ref": "Wertpapierabrechnung_Verkauf_24_St._A3DE3J_(RIGETTI_COMPUTNG_DL-,0001)_vom_19.09.2025_D5F14D.pdf",
+      "message": "Eigene FIFO 56.51 vs. gemeldet 205.83"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "XS2089226026",
+      "ref": "Wertpapierabrechnung_Verkauf_1.000_EUR_A2YN1R_(DT.TELEKOM_MTN_19_49)_vom_17.09.2025_335740.pdf",
+      "message": "Eigene FIFO -36.14 vs. gemeldet -22.57"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "XS2263684933",
+      "ref": "Wertpapierabrechnung_Verkauf_1.000_EUR_A285PC_(NESTLE_F.I._20_40_MTN)_vom_17.09.2025_784AC2.pdf",
+      "message": "Eigene FIFO -40.41 vs. gemeldet -37.44"
+    },
+    {
+      "level": "warn",
+      "code": "FIFO_MISMATCH",
+      "isin": "XS2357951164",
+      "ref": "Wertpapierabrechnung_Verkauf_1.000_EUR_A3E5MU_(DT._BAHN_21_51_MTN)_vom_17.09.2025_4FF1A2.pdf",
+      "message": "Eigene FIFO -38.65 vs. gemeldet -35.20"
+    }
+  ]
+}

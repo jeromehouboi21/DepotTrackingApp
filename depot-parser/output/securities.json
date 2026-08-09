@@ -1,0 +1,1059 @@
+[
+  {
+    "isin": "AT0000745856",
+    "wkn": "591730",
+    "name": "RAIFF.EURASIEN AKT. A ST.",
+    "verwahrart": "WERTPAPIERRECHNUNG OESTERREICH (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "AU000000BRN8",
+    "wkn": "A14Z7W",
+    "name": "BRAINCHIP HOLDINGS LTD",
+    "verwahrart": "WERTPAPIERRECHNUNG AUSTRALIEN (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "AU000000DRO2",
+    "wkn": "A2DMAA",
+    "name": "DRONESHIELD LTD",
+    "verwahrart": "WERTPAPIERRECHNUNG AUSTRALIEN (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "AU000000WBT5",
+    "wkn": "A2APH0",
+    "name": "WEEBIT NANO LTD",
+    "verwahrart": "WERTPAPIERRECHNUNG AUSTRALIEN (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "BE0946564383",
+    "wkn": "A0LFBM",
+    "name": "DPAM I.B-EQ.N.GEM.SUS. BC",
+    "verwahrart": "WERTPAPIERRECHNUNG BELGIEN (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "BMG889121031",
+    "wkn": "A3C5SS",
+    "name": "TIZIANA LIFE SCIENCES LTD",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "CA26780A1084",
+    "wkn": "A1KBAV",
+    "name": "DYNACERT INC.",
+    "verwahrart": "WERTPAPIERRECHNUNG KANADA/USA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "CA2902571041",
+    "wkn": "A2PNZE",
+    "name": "ELSE NUTRITION HLDG",
+    "verwahrart": "WERTPAPIERRECHNUNG KANADA/USA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "CA48213Y1079",
+    "wkn": "A2PMFM",
+    "name": "JUSHI HLDGS INC",
+    "verwahrart": "WERTPAPIERRECHNUNG KANADA/USA",
+    "currency": "EUR"
+  },
+  {
+    "isin": "CA60250B1067",
+    "wkn": "A3DGJJ",
+    "name": "MIMEDIA HLDGS INC.",
+    "verwahrart": "WERTPAPIERRECHNUNG KANADA/USA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "CA7273511088",
+    "wkn": "A3CS6B",
+    "name": "PLANT VEDA FOODS LTD",
+    "verwahrart": "WERTPAPIERRECHNUNG KANADA/USA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "CA74346M4065",
+    "wkn": "A3DM9Q",
+    "name": "PROMIS NEUROSCIENCES",
+    "verwahrart": "WERTPAPIERRECHNUNG KANADA/USA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "CA75604K1075",
+    "wkn": "A40F2B",
+    "name": "REALBOTIX CORP.",
+    "verwahrart": "WERTPAPIERRECHNUNG KANADA/USA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "CA8091851011",
+    "wkn": "A2PBCR",
+    "name": "SCOTCH CREEK VENTURES",
+    "verwahrart": "WERTPAPIERRECHNUNG KANADA/USA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "CA84840P1027",
+    "wkn": "A2N4RL",
+    "name": "SPEY RESOURCES CORP.",
+    "verwahrart": "WERTPAPIERRECHNUNG KANADA/USA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "CA88410L1022",
+    "wkn": "A3D51F",
+    "name": "THIOGENESIS THERAP. CORP.",
+    "verwahrart": "WERTPAPIERRECHNUNG KANADA/USA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "CH0334081137",
+    "wkn": "A2AT0Z",
+    "name": "CRISPR THERAPEUT. SF -,03",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE0005137004",
+    "wkn": "513700",
+    "name": "Q.BEYOND AG NA O.N.",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE0005933923",
+    "wkn": "593392",
+    "name": "ISHARES MDAX UCITS ETF",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE0006200108",
+    "wkn": "620010",
+    "name": "INDUS HOLDING AG",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE0006305006",
+    "wkn": "630500",
+    "name": "DEUTZ AG AKTIEN O.N.",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE0007231326",
+    "wkn": "723132",
+    "name": "SIXT SE ST O.N.",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE0008032004",
+    "wkn": "803200",
+    "name": "COMMERZBANK AG O.N.",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE0008478116",
+    "wkn": "847811",
+    "name": "FMM-FONDS ANTEILE",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE0008490962",
+    "wkn": "849096",
+    "name": "DWS DEUTSCHLAND LC",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE0009777003",
+    "wkn": "977700",
+    "name": "ASTRA-FONDS ANTEILE",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE0009848119",
+    "wkn": "984811",
+    "name": "DWS TOP DIVIDENDE LD",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE000A0D6554",
+    "wkn": "A0D655",
+    "name": "NORDEX SE O.N.",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE000A0D8Q49",
+    "wkn": "A0D8Q4",
+    "name": "IS.DJ U.S.SELEC.DIV.U.ETF",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE000A0F5UF5",
+    "wkn": "A0F5UF",
+    "name": "ISHARES NASDAQ-100 U.ETF",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE000A0JQ5U3",
+    "wkn": "A0JQ5U",
+    "name": "MANZ AG",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE000A0KD0F7",
+    "wkn": "A0KD0F",
+    "name": "MUEHLHAN O.N.",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE000A14KEB5",
+    "wkn": "A14KEB",
+    "name": "HOME24 SE INH O.N.",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE000A1J5RX9",
+    "wkn": "A1J5RX",
+    "name": "TELEFONICA DTLD HLDG NA",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE000A1MMCC8",
+    "wkn": "A1MMCC",
+    "name": "MEDIOS AG O.N.",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE000A31C3G1",
+    "wkn": "A31C3G",
+    "name": "NORDEX SE BZR",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE000A40ESG2",
+    "wkn": "A40ESG",
+    "name": "MEDIGENE AG NA O.N.",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE000DS8PAY5",
+    "wkn": "DS8PAY",
+    "name": "DEUT.BANK OPEN END IDX",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE000KGX8881",
+    "wkn": "KGX888",
+    "name": "KION GROUP AG",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE000SHL1006",
+    "wkn": "SHL100",
+    "name": "SIEMENS HEALTH.AG NA O.N.",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "DE000ZAL1111",
+    "wkn": "ZAL111",
+    "name": "ZALANDO SE",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "ES0178430E18",
+    "wkn": "850775",
+    "name": "TELEFONICA INH. EO 1",
+    "verwahrart": "WERTPAPIERRECHNUNG SPANIEN",
+    "currency": "EUR"
+  },
+  {
+    "isin": "FR0010429068",
+    "wkn": "LYX0BX",
+    "name": "LYXOR MSCI E.M.U.ETF C-EO",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "FR0010524777",
+    "wkn": "LYX0CB",
+    "name": "LYXOR NEW ENERGY UC.ETF D",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "FR0011079466",
+    "wkn": "LYX0MG",
+    "name": "LY.MSCI AL.CO.WO.UETF CEO",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "GB00B608Z994",
+    "wkn": "A1CYM5",
+    "name": "ILIKA PLC LS-,01",
+    "verwahrart": "WERTPAPIERRECHNUNG GROSSBRITANNIEN (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "GB00BM9XQ619",
+    "wkn": "A3DTUQ",
+    "name": "VIDAC PHARMA HLDG PLC LS1",
+    "verwahrart": "WERTPAPIERRECHNUNG GROSSBRITANNIEN (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "IE0000ZVYDH0",
+    "wkn": "A3DH0C",
+    "name": "AM.MSCI ACWI SRI CPA A",
+    "verwahrart": "WERTPAPIERRECHNUNG GROSSBRITANNIEN (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "IE000T9EOCL3",
+    "wkn": null,
+    "name": "iShares MSCI World Small Cap ESG Enhanced CTB (Acc)",
+    "verwahrart": null,
+    "currency": "EUR"
+  },
+  {
+    "isin": "IE000YYE6WK5",
+    "wkn": "A3D9M1",
+    "name": "VANECKETFSDFNS ADLA",
+    "verwahrart": "WERTPAPIERRECHNUNG IRLAND (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "IE00B43HR379",
+    "wkn": "A142NZ",
+    "name": "ISHSV-S+P500H.CA.SECT.DLA",
+    "verwahrart": "WERTPAPIERRECHNUNG IRLAND (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "IE00BCBJG560",
+    "wkn": null,
+    "name": "State Street SPDR MSCI World Small Cap (Acc)",
+    "verwahrart": null,
+    "currency": "EUR"
+  },
+  {
+    "isin": "IE00BKM4GZ66",
+    "wkn": "A111X9",
+    "name": "iShs Core MSCI EM IMI U.ETF Registered Shares o.N.",
+    "verwahrart": "645 IRLAND (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "IE00BL25JL35",
+    "wkn": "A1103D",
+    "name": "Xtr.(IE) - MSCI World Quality Registered Shares 1C USD o.N.",
+    "verwahrart": "645 IRLAND (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "IE00BL25JM42",
+    "wkn": null,
+    "name": "Xtrackers MSCI World Value (Acc)",
+    "verwahrart": null,
+    "currency": "EUR"
+  },
+  {
+    "isin": "IE00BL25JP72",
+    "wkn": "A1103G",
+    "name": "Xtr.(IE) - MSCI World Momentum Registered Shares 1C USD o.N.",
+    "verwahrart": "645 IRLAND (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "IE00BYZK4552",
+    "wkn": "A2ANH0",
+    "name": "ISHS IV-AUTO.+ROBOTIC.ETF",
+    "verwahrart": "WERTPAPIERRECHNUNG IRLAND (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "IE00BYZK4776",
+    "wkn": "A2ANH2",
+    "name": "ISHS IV-HEALTHC.INNOV.ETF",
+    "verwahrart": "WERTPAPIERRECHNUNG IRLAND (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "IE00BYZK4883",
+    "wkn": "A2ANH3",
+    "name": "ISHSIV-DIGITILISATION DLA",
+    "verwahrart": "WERTPAPIERRECHNUNG GROSSBRITANNIEN (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "KYG017191142",
+    "wkn": "A2PVFU",
+    "name": "Alibaba Group Holding Ltd. Reg.Shares DL-,000003125",
+    "verwahrart": "850 HONGKONG (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "KYG070341048",
+    "wkn": "A0YCQ6",
+    "name": "Baidu Inc. Registered Shares o.N.",
+    "verwahrart": "850 HONGKONG (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "KYG7171B1068",
+    "wkn": "A41SBP",
+    "name": "Pony AI Inc. Registered Shares Cl.A o.N.",
+    "verwahrart": "850 HONGKONG (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "KYG875721634",
+    "wkn": "A1138D",
+    "name": "TENCENT HLDGS HD-,00002",
+    "verwahrart": "WERTPAPIERRECHNUNG HONGKONG (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "KYG9830T1067",
+    "wkn": "A2JNY1",
+    "name": "XIAOMI CORP. CL.B",
+    "verwahrart": "WERTPAPIERRECHNUNG HONGKONG (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "LU0099574567",
+    "wkn": "921800",
+    "name": "FID.FDS-GL TECHNOL.A GL.",
+    "verwahrart": "WERTPAPIERRECHNUNG LUXEMBURG (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "LU0185157681",
+    "wkn": "A0B94X",
+    "name": "FORTIS L-OBAM EQ.W. INH.C",
+    "verwahrart": "WERTPAPIERRECHNUNG LUXEMBURG (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "LU0217390573",
+    "wkn": "A0F6XG",
+    "name": "JPM-PACIF.EQU.JPMPE AAEO",
+    "verwahrart": "WERTPAPIERRECHNUNG LUXEMBURG (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "LU0274209237",
+    "wkn": "DBX1ME",
+    "name": "DB X-TR.MSCI EUR.IDX.DR1C",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "LU0290357929",
+    "wkn": "DBX0AL",
+    "name": "DB X-TR.II-IB.GL.IN.-L.1C",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "LU0292106167",
+    "wkn": "DBX1LC",
+    "name": "DB X-TR.DBLCI-OY BAL. 1C",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "LU0292107645",
+    "wkn": "DBX1EM",
+    "name": "DB X-TR.MSCI EM IDX.1C",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "LU0392496005",
+    "wkn": "ETF123",
+    "name": "C.-MSCI USA S.C.T.U.ETF I",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "LU0415391431",
+    "wkn": "A0RP23",
+    "name": "BELLE.F.(L)-BB.A.M.+S.BEO",
+    "verwahrart": "WERTPAPIERRECHNUNG LUXEMBURG (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "LU0533033238",
+    "wkn": "LYX0GM",
+    "name": "MUL-LYX.MSCI W.HCTRUE AEO",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "LU0823421689",
+    "wkn": "A1T8X9",
+    "name": "BNPP DISRUPT.TECH. CLCAP",
+    "verwahrart": "WERTPAPIERRECHNUNG LUXEMBURG (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "LU1084870465",
+    "wkn": "A117FW",
+    "name": "WMF(L)-W.G.QUAL.GR.NDLAUH",
+    "verwahrart": "WERTPAPIERRECHNUNG LUXEMBURG (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "LU1279334301",
+    "wkn": "A141RC",
+    "name": "PICTET-ROBOTICS PDYDISEO",
+    "verwahrart": "WERTPAPIERRECHNUNG LUXEMBURG (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "LU1829220216",
+    "wkn": "LYX00C",
+    "name": "MUL AMUN ACWLD ETF E ACC",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "MHY7388L1039",
+    "wkn": "A0Q2R4",
+    "name": "SAFE BULKERS INC. DL-,001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "NL0000235190",
+    "wkn": "938914",
+    "name": "AIRBUS",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "NL0000888691",
+    "wkn": "A0MWED",
+    "name": "AMG ADVANC.METAL.GR.EO-02",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "NL0010273215",
+    "wkn": "A1J4U4",
+    "name": "ASML HOLDING EO -,09",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "NL0015000DX5",
+    "wkn": "A3CSB4",
+    "name": "ATAI LIFE SCIENCES BV EO1",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "SE0013647385",
+    "wkn": "A2PX00",
+    "name": "BICO GROUP AK B O.N.",
+    "verwahrart": "WERTPAPIERRECHNUNG SCHWEDEN (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US00217D1000",
+    "wkn": "A3CL8W",
+    "name": "AST SPACEMOBIL.A DL-,0001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US0079031078",
+    "wkn": "863186",
+    "name": "ADVANCED MIC.DEV. DL-,01",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US01609W1027",
+    "wkn": "A117ME",
+    "name": "ALIBABA GR.HLDG SP.ADR 8",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US02079K3059",
+    "wkn": "A14Y6F",
+    "name": "ALPHABET INC.CL.A DL-,001",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US0231351067",
+    "wkn": "906866",
+    "name": "AMAZON.COM INC. DL-,01",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US03027X1000",
+    "wkn": "A1JRLA",
+    "name": "AMERICAN TOWER DL -,01",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US03969T1097",
+    "wkn": "A2PMAS",
+    "name": "ARCTURUS THER.HLD.DL-,001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US04650F1012",
+    "wkn": null,
+    "name": "AtaiBeckley",
+    "verwahrart": null,
+    "currency": "EUR"
+  },
+  {
+    "isin": "US05464T1043",
+    "wkn": "A2AA7B",
+    "name": "AXSOME THERAPEUT. DL-0001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US0567521085",
+    "wkn": "A0F5DE",
+    "name": "BAIDU A ADR DL-,000000625",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US07373V1052",
+    "wkn": "A2PY7P",
+    "name": "BEAM THERAPEUTICS DL-,01",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US09061G1013",
+    "wkn": "924801",
+    "name": "BIOMARIN PHAR. DL-,001",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US09075V1026",
+    "wkn": "A2PSR2",
+    "name": "BIONTECH SE SPON. ADRS 1",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US09077B1044",
+    "wkn": "A2QLBN",
+    "name": "BIOATLA INC. DL-,0001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US09077B2034",
+    "wkn": "A420KM",
+    "name": "BIOATLA INC. NEW O.N.",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US1241551027",
+    "wkn": "A2QK02",
+    "name": "BUTTERFLY NETWORK CL.A",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US14427M1071",
+    "wkn": "A2QAJC",
+    "name": "CARPARTS.COM INC. DL-,001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US15117F8077",
+    "wkn": "A3DQSD",
+    "name": "CELLECTAR NEW22 DL-00001",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US15117F8804",
+    "wkn": "A41BQ3",
+    "name": "Cellectar Biosciences Inc. Reg. Shares New 2022 DL-,00001",
+    "verwahrart": "700 USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US2183521028",
+    "wkn": "529882",
+    "name": "CORCEPT THERAPEUTICS INC.",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US22663K1079",
+    "wkn": "A2JQTJ",
+    "name": "CRINETICS PHARM. DL-,001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US26740W1099",
+    "wkn": "A3DSV9",
+    "name": "D-WAVE QUANTUM DL-,0001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US29355A1079",
+    "wkn": "A1JC82",
+    "name": "ENPHASE ENERGY INC.DL-,01",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US29444U7000",
+    "wkn": "A14M21",
+    "name": "EQUINIX INC. DL-,001",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US30303M1027",
+    "wkn": "A1JWVX",
+    "name": "META PLATF. A DL-,000006",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US31189P1021",
+    "wkn": "A1W50M",
+    "name": "FATE THERAPEUTICS DL-,001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US35834F1049",
+    "wkn": "A3E3UN",
+    "name": "T1 ENERGY INC. O.N.",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US40131M1099",
+    "wkn": "A2N5RY",
+    "name": "GUARDANT HEALTH CL. A",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US4333131039",
+    "wkn": "A412WK",
+    "name": "HINGE HEALTH INC.",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US4581401001",
+    "wkn": "855681",
+    "name": "INTEL CORP. DL-,001",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US45826J1051",
+    "wkn": "A2AG6H",
+    "name": "INTELLIA THERAPEU DL-,01",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US46222L1089",
+    "wkn": "A3C4QT",
+    "name": "IONQ INC. CL.A DL-,0001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US46269C1027",
+    "wkn": "A0YB48",
+    "name": "IRIDIUM COMCTNS DL-,001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US47215P1066",
+    "wkn": "A112ST",
+    "name": "JD.COM SP.ADR A1 DL-00002",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US5949181045",
+    "wkn": "870747",
+    "name": "MICROSOFT DL-,00000625",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US60855D3098",
+    "wkn": "A407S6",
+    "name": "MOLECULIN BIOTECH DL-,001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US6174468Y83",
+    "wkn": "MS0G3Q",
+    "name": "MORGAN STANL 21 52 FLR",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US6294442099",
+    "wkn": "A4091K",
+    "name": "NRX PHARM.INC. NEW O.N.",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US67421J1088",
+    "wkn": "A3CQRG",
+    "name": "OATLY GROUP AB SP.ADS 1",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US68277Q1058",
+    "wkn": "A40NG6",
+    "name": "ONKURE THERAP.INC. A O.N.",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US6904691010",
+    "wkn": "A2DQ8S",
+    "name": "OVID THERAPEUTICS DL-,001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US7223041028",
+    "wkn": "A2JRK6",
+    "name": "PDD HOLDINGS SP.ADR 4",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US72703X1063",
+    "wkn": "A3C84C",
+    "name": "PLANET LABS PBC A -,0001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US7329081084",
+    "wkn": "A40VVU",
+    "name": "PONY AI INC. SP.ADR 1",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US74767V1098",
+    "wkn": "A2QJX9",
+    "name": "QUANTUMSCAPE A DL-,0001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US75886F1075",
+    "wkn": "881535",
+    "name": "REGENERON PHARMAC.DL-,001",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US76152G1004",
+    "wkn": "A2QK7Q",
+    "name": "REVIVA PHARMACEUT.HLDGS",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US76655K1034",
+    "wkn": "A3DE3J",
+    "name": "RIGETTI COMPUTNG DL-,0001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US7731211089",
+    "wkn": "A419CG",
+    "name": "ROCKET LAB CORP. DL,0001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US79589L1061",
+    "wkn": "A3C9GD",
+    "name": "SAMSARA INC. A DL-,0001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US7995661045",
+    "wkn": "A2QNUE",
+    "name": "SANA BIOTECHNO. DL -,0001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US8006771062",
+    "wkn": "936386",
+    "name": "SANGAMO THERAP.INC.DL-,01",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US81730H1095",
+    "wkn": "A3CTJC",
+    "name": "SENTINELONE INC.A -,0001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US83086J2006",
+    "wkn": "A3ES4X",
+    "name": "SKYE BIOSCIENCE INC.",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US83422N1054",
+    "wkn": "A3C859",
+    "name": "SOLID POWER INC. A -,0001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US8361001071",
+    "wkn": "A3DGJK",
+    "name": "SOUNDHOUND AI A DL -,001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US85916J4094",
+    "wkn": "A1J09L",
+    "name": "STEREOTAXIS DL-,01",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US8740391003",
+    "wkn": "909800",
+    "name": "TAIWAN SEMICON.MANU.ADR 5",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US87990A1060",
+    "wkn": "A3CWF0",
+    "name": "TENAYA THERAP. DL -,0001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US88023B1035",
+    "wkn": "A40EDP",
+    "name": "TEMPUS AI INC. DL-,01",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US88675P1030",
+    "wkn": "A3D6S7",
+    "name": "TIGO ENERGY INC.",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US90184D1000",
+    "wkn": "A2N7L2",
+    "name": "TWIST BIOSCIENCEDL-,00001",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US9311421039",
+    "wkn": "860853",
+    "name": "WALMART DL-,10",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "US9509151083",
+    "wkn": "A40KYH",
+    "name": "WERIDE INC. ADR O.N.",
+    "verwahrart": "WERTPAPIERRECHNUNG USA/KANADA",
+    "currency": "EUR"
+  },
+  {
+    "isin": "XS2089226026",
+    "wkn": "A2YN1R",
+    "name": "DT.TELEKOM MTN 19 49",
+    "verwahrart": "WERTPAPIERRECHNUNG LUXEMBURG (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "XS2263684933",
+    "wkn": "A285PC",
+    "name": "NESTLE F.I. 20 40 MTN",
+    "verwahrart": "WERTPAPIERRECHNUNG LUXEMBURG (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "XS2357951164",
+    "wkn": "A3E5MU",
+    "name": "DT. BAHN 21 51 MTN",
+    "verwahrart": "WERTPAPIERRECHNUNG LUXEMBURG (AKV)",
+    "currency": "EUR"
+  }
+]

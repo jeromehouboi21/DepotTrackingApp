@@ -1,0 +1,4545 @@
+{
+  "schema_version": 1,
+  "last_run": {
+    "run_id": "20260809_160836",
+    "at": "2026-08-09T16:08:36",
+    "new_count": 907
+  },
+  "processed": {
+    "3DF140": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,111_St._WKN_847811_(FMM-FONDS_ANTEILE)_vom_03.11.2008_3DF140.pdf",
+      "run_id": "20260809_160836"
+    },
+    "46D621": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,114_St._WKN_849096(DWS_DEUTSCHLAND_LC)_vom_01.02.2017_46D621.pdf",
+      "run_id": "20260809_160836"
+    },
+    "864A37": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,116_St._WKN_849096(DWS_DEUTSCHLAND_ANTEILE)_vom_01.04.2015_864A37.pdf",
+      "run_id": "20260809_160836"
+    },
+    "28AC85": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,121_St._WKN_849096(DWS_DEUTSCHLAND_ANTEILE)_vom_01.06.2015_28AC85.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1D4975": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,122_St._WKN_849096_(DWS_DEUTSCHLAND_ANTEILE)_vom_02.03.2015_1D4975.pdf",
+      "run_id": "20260809_160836"
+    },
+    "072112": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,123_St._WKN_849096(DWS_DEUTSCHLAND_ANTEILE)_vom_01.07.2015_072112.pdf",
+      "run_id": "20260809_160836"
+    },
+    "2E7B69": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,124_St._WKN_593392(ISHARES_MDAX_UCITS_ETF)_vom_01.02.2017_2E7B69.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3D7D99": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,129_St._WKN_849096_(DWS_DEUTSCHLAND_ANTEILE)_vom_02.02.2015_3D7D99.pdf",
+      "run_id": "20260809_160836"
+    },
+    "BEE9BD": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,12_St._WKN_849096(DWS_DEUTSCHLAND_ANTEILE)_vom_03.08.2015_BEE9BD.pdf",
+      "run_id": "20260809_160836"
+    },
+    "757198": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,12_St._WKN_849096(DWS_DEUTSCHLAND_ANTEILE)_vom_04.05.2015_757198.pdf",
+      "run_id": "20260809_160836"
+    },
+    "580893": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,133_St._WKN_593392(ISHARES_MDAX_UCITS_ETF)_vom_01.04.2015_580893.pdf",
+      "run_id": "20260809_160836"
+    },
+    "33E5CD": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,134_St._WKN_593392(ISHARES_MDAX_UCITS_ETF)_vom_01.06.2015_33E5CD.pdf",
+      "run_id": "20260809_160836"
+    },
+    "0726C7": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,134_St._WKN_593392(ISHARES_MDAX_UCITS_ETF)_vom_03.08.2015_0726C7.pdf",
+      "run_id": "20260809_160836"
+    },
+    "97921E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,136_St._WKN_593392(ISHARES_MDAX_UCITS_ETF)_vom_04.05.2015_97921E.pdf",
+      "run_id": "20260809_160836"
+    },
+    "913B7B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,136_St._WKN_593392_(ISHARES_MDAX_UCITS_ETF)_vom_02.03.2015_913B7B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "0FBE3B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,138_St._WKN_593392(ISHARES_MDAX_UCITS_ETF)_vom_04.01.2016_0FBE3B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "EC3102": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,139_St._WKN_593392(ISHARES_MDAX_UCITS_ETF)_vom_01.07.2015_EC3102.pdf",
+      "run_id": "20260809_160836"
+    },
+    "03C442": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,13_St._WKN_849096(DWS_DEUTSCHLAND_ANTEILE)_vom_04.01.2016_03C442.pdf",
+      "run_id": "20260809_160836"
+    },
+    "750E84": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,147_St._WKN_593392_(ISHARES_MDAX_UCITS_ETF)_vom_02.02.2015_750E84.pdf",
+      "run_id": "20260809_160836"
+    },
+    "5959D4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,201_St._WKN_984811(DWS_TOP_DIVIDENDE_LD)_vom_01.02.2017_5959D4.pdf",
+      "run_id": "20260809_160836"
+    },
+    "EB5B80": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,201_St._WKN_984811(DWS_TOP_DIVIDENDE_LD)_vom_03.08.2015_EB5B80.pdf",
+      "run_id": "20260809_160836"
+    },
+    "662845": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,202_St._WKN_984811(DWS_TOP_DIVIDENDE_LD)_vom_01.06.2015_662845.pdf",
+      "run_id": "20260809_160836"
+    },
+    "7F97C5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,203_St._WKN_984811(DWS_TOP_DIVIDENDE_LD)_vom_01.04.2015_7F97C5.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3EA108": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,204_St._WKN_984811(DWS_TOP_DIVIDENDE_LD)_vom_04.05.2015_3EA108.pdf",
+      "run_id": "20260809_160836"
+    },
+    "683ADB": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,207_St._WKN_984811_(DWS_TOP_DIVIDENDE_LD)_vom_02.03.2015_683ADB.pdf",
+      "run_id": "20260809_160836"
+    },
+    "CBD31A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,211_St._WKN_984811(DWS_TOP_DIVIDENDE_LD)_vom_01.07.2015_CBD31A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "BE34AD": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,214_St._WKN_984811(DWS_TOP_DIVIDENDE_LD)_vom_04.01.2016_BE34AD.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A1C447": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,216_St._WKN_984811_(DWS_TOP_DIVIDENDE_LD)_vom_02.02.2015_A1C447.pdf",
+      "run_id": "20260809_160836"
+    },
+    "27DCB4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,265_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_01.08.2024_27DCB4.pdf",
+      "run_id": "20260809_160836"
+    },
+    "2CD091": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,265_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_02.09.2024_2CD091.pdf",
+      "run_id": "20260809_160836"
+    },
+    "DDA46C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,267_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_01.07.2024_DDA46C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1D4F23": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,275_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_03.06.2024_1D4F23.pdf",
+      "run_id": "20260809_160836"
+    },
+    "27344C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,279_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_02.04.2024_27344C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B5E4AC": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,283_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_02.05.2024_B5E4AC.pdf",
+      "run_id": "20260809_160836"
+    },
+    "7F24EF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,285_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_01.03.2024_7F24EF.pdf",
+      "run_id": "20260809_160836"
+    },
+    "200322": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,298_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_01.02.2024_200322.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D0B28D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,302_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_02.12.2024_D0B28D.pdf",
+      "run_id": "20260809_160836"
+    },
+    "86CD61": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,307_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.01.2024_86CD61.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FA808D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,30_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_02.01.2025_FA808D.pdf",
+      "run_id": "20260809_160836"
+    },
+    "54DD54": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,311_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_03.01.2022_54DD54.pdf",
+      "run_id": "20260809_160836"
+    },
+    "CD900C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,317_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.08.2023_CD900C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "0A4783": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,317_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.12.2023_0A4783.pdf",
+      "run_id": "20260809_160836"
+    },
+    "429BAA": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,319_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.09.2023_429BAA.pdf",
+      "run_id": "20260809_160836"
+    },
+    "7C84F5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,322_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_01.11.2024_7C84F5.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B3A4E4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,322_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.04.2022_B3A4E4.pdf",
+      "run_id": "20260809_160836"
+    },
+    "9E23AA": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,322_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.12.2021_9E23AA.pdf",
+      "run_id": "20260809_160836"
+    },
+    "688C66": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,323_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.11.2021_688C66.pdf",
+      "run_id": "20260809_160836"
+    },
+    "CB25A9": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,324_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_03.07.2023_CB25A9.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6393D0": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,325_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.10.2023_6393D0.pdf",
+      "run_id": "20260809_160836"
+    },
+    "8F5A44": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,325_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.02.2022_8F5A44.pdf",
+      "run_id": "20260809_160836"
+    },
+    "C01A1C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,326_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_01.10.2024_C01A1C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "5D0841": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,333_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.11.2023_5D0841.pdf",
+      "run_id": "20260809_160836"
+    },
+    "0B04EE": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,333_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.08.2022_0B04EE.pdf",
+      "run_id": "20260809_160836"
+    },
+    "81A2DB": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,333_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.09.2021_81A2DB.pdf",
+      "run_id": "20260809_160836"
+    },
+    "AAA4A3": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,334_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.03.2022_AAA4A3.pdf",
+      "run_id": "20260809_160836"
+    },
+    "EA5588": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,337_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.06.2023_EA5588.pdf",
+      "run_id": "20260809_160836"
+    },
+    "AC86C5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,337_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.05.2022_AC86C5.pdf",
+      "run_id": "20260809_160836"
+    },
+    "0EABF2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,338_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.06.2022_0EABF2.pdf",
+      "run_id": "20260809_160836"
+    },
+    "892BA8": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,339_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.09.2022_892BA8.pdf",
+      "run_id": "20260809_160836"
+    },
+    "17EEFC": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,339_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.12.2022_17EEFC.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3D77CF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,341_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.08.2021_3D77CF.pdf",
+      "run_id": "20260809_160836"
+    },
+    "F31E5D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,342_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.10.2021_F31E5D.pdf",
+      "run_id": "20260809_160836"
+    },
+    "206524": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,343_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.05.2023_206524.pdf",
+      "run_id": "20260809_160836"
+    },
+    "BF1BDE": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,343_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_03.04.2023_BF1BDE.pdf",
+      "run_id": "20260809_160836"
+    },
+    "384995": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,344_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.02.2023_384995.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E3F73C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,344_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.07.2021_E3F73C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B0E834": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,345_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.11.2022_B0E834.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E384E9": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,347_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.03.2023_E384E9.pdf",
+      "run_id": "20260809_160836"
+    },
+    "ADBD54": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,353_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_04.10.2022_ADBD54.pdf",
+      "run_id": "20260809_160836"
+    },
+    "91CABF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,357_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.01.2023_91CABF.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FC7B01": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,358_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.06.2021_FC7B01.pdf",
+      "run_id": "20260809_160836"
+    },
+    "4364E9": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,361_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.07.2022_4364E9.pdf",
+      "run_id": "20260809_160836"
+    },
+    "52B716": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,364_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.04.2021_52B716.pdf",
+      "run_id": "20260809_160836"
+    },
+    "275BB9": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,36_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_03.05.2021_275BB9.pdf",
+      "run_id": "20260809_160836"
+    },
+    "414C93": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,37_St._WKN_DBX0AL(DB_X-TR.II-IB.GL.IN.-L.1C)_vom_01.02.2017_414C93.pdf",
+      "run_id": "20260809_160836"
+    },
+    "303985": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,381_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.03.2021_303985.pdf",
+      "run_id": "20260809_160836"
+    },
+    "2EA85A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,382_St._WKN_DBX0AL_(DB_X-TR.II-IB.GL.IN.-L.1C)_vom_02.02.2015_2EA85A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E8ACDB": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,384_St._WKN_DBX0AL(DB_X-TR.II-IB.GL.IN.-L.1C)_vom_01.04.2015_E8ACDB.pdf",
+      "run_id": "20260809_160836"
+    },
+    "346200": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,385_St._WKN_DBX0AL(DB_X-TR.II-IB.GL.IN.-L.1C)_vom_04.05.2015_346200.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3F0A88": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,388_St._WKN_DBX0AL_(DB_X-TR.II-IB.GL.IN.-L.1C)_vom_02.03.2015_3F0A88.pdf",
+      "run_id": "20260809_160836"
+    },
+    "835364": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,391_St._WKN_DBX0AL(DB_X-TR.II-IB.GL.IN.-L.1C)_vom_03.08.2015_835364.pdf",
+      "run_id": "20260809_160836"
+    },
+    "221771": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,393_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.02.2021_221771.pdf",
+      "run_id": "20260809_160836"
+    },
+    "786FDE": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,396_St._WKN_DBX0AL(DB_X-TR.II-IB.GL.IN.-L.1C)_vom_01.07.2015_786FDE.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A9FD7D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,399_St._WKN_DBX0AL(DB_X-TR.II-IB.GL.IN.-L.1C)_vom_04.01.2016_A9FD7D.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1C5846": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,39_St._WKN_DBX0AL(DB_X-TR.II-IB.GL.IN.-L.1C)_vom_01.06.2015_1C5846.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6DF84B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,406_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.12.2020_6DF84B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "64B976": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,40_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_04.01.2021_64B976.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B79A7A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,413_St._WKN_A0D8Q4(IS.DJ_U.S.SELEC.DIV.U.ETF)_vom_01.02.2017_B79A7A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E5256E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,423_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_03.02.2020_E5256E.pdf",
+      "run_id": "20260809_160836"
+    },
+    "9AFDA5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,42_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.01.2020_9AFDA5.pdf",
+      "run_id": "20260809_160836"
+    },
+    "9C1EED": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,434_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.12.2019_9C1EED.pdf",
+      "run_id": "20260809_160836"
+    },
+    "7C4E0A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,435_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.09.2020_7C4E0A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A2ECCF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,437_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.10.2020_A2ECCF.pdf",
+      "run_id": "20260809_160836"
+    },
+    "CA1AFA": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,442_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.11.2020_CA1AFA.pdf",
+      "run_id": "20260809_160836"
+    },
+    "5962F7": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,443_St._WKN_A0B94X_(FORTIS_L-OBAM_EQ.W._INH.C)_vom_03.11.2008_5962F7.pdf",
+      "run_id": "20260809_160836"
+    },
+    "084368": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,445_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.11.2019_084368.pdf",
+      "run_id": "20260809_160836"
+    },
+    "07A330": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,448_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_03.08.2020_07A330.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FD6A79": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,449_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.10.2019_FD6A79.pdf",
+      "run_id": "20260809_160836"
+    },
+    "318D7B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,453_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.07.2020_318D7B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FE0B25": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,455_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.08.2019_FE0B25.pdf",
+      "run_id": "20260809_160836"
+    },
+    "13E0E5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,457_St._WKN_DBX1ME(DB_X-TR.MSCI_EUR.IDX.DR1C)_vom_03.08.2015_13E0E5.pdf",
+      "run_id": "20260809_160836"
+    },
+    "656A17": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,45_St._WKN_DBX1ME(DB_X-TR.MSCI_EUR.IDX.DR1C)_vom_01.06.2015_656A17.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D0C1D5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,461_St._WKN_DBX1ME(DB_X-TR.MSCI_EUR.IDX.DR1C)_vom_01.04.2015_D0C1D5.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A9F21C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,461_St._WKN_DBX1ME(DB_X-TR.MSCI_EUR.IDX.DR1C)_vom_04.05.2015_A9F21C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1F4EEF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,463_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.07.2019_1F4EEF.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E22114": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,463_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.03.2020_E22114.pdf",
+      "run_id": "20260809_160836"
+    },
+    "7C0042": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,464_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.09.2019_7C0042.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FDA4A8": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,465_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.05.2019_FDA4A8.pdf",
+      "run_id": "20260809_160836"
+    },
+    "99DEED": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,467_St._WKN_DBX1ME_(DB_X-TR.MSCI_EUR.IDX.DR1C)_vom_02.03.2015_99DEED.pdf",
+      "run_id": "20260809_160836"
+    },
+    "F053D8": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,46_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.06.2020_F053D8.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3AF17A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,472_St._WKN_A0D8Q4(IS.DJ_U.S.SELEC.DIV.U.ETF)_vom_01.04.2015_3AF17A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "15EC40": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,472_St._WKN_DBX1ME(DB_X-TR.MSCI_EUR.IDX.DR1C)_vom_01.07.2015_15EC40.pdf",
+      "run_id": "20260809_160836"
+    },
+    "61FF30": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,473_St._WKN_DBX1ME(DB_X-TR.MSCI_EUR.IDX.DR1C)_vom_01.02.2017_61FF30.pdf",
+      "run_id": "20260809_160836"
+    },
+    "95AA9A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,476_St._WKN_A0D8Q4(IS.DJ_U.S.SELEC.DIV.U.ETF)_vom_01.06.2015_95AA9A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B13A40": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,476_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.04.2019_B13A40.pdf",
+      "run_id": "20260809_160836"
+    },
+    "ECCDB4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,482_St._WKN_A0D8Q4_(IS.DJ_U.S.SELEC.DIV.U.ETF)_vom_02.03.2015_ECCDB4.pdf",
+      "run_id": "20260809_160836"
+    },
+    "0FC9D0": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,482_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_01.10.2018_0FC9D0.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D25F51": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,486_St._WKN_A0D8Q4(IS.DJ_U.S.SELEC.DIV.U.ETF)_vom_04.05.2015_D25F51.pdf",
+      "run_id": "20260809_160836"
+    },
+    "DEB538": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,487_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_03.09.2018_DEB538.pdf",
+      "run_id": "20260809_160836"
+    },
+    "CC9B8B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,494_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_01.08.2018_CC9B8B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B62072": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,495_St._WKN_A0D8Q4(IS.DJ_U.S.SELEC.DIV.U.ETF)_vom_03.08.2015_B62072.pdf",
+      "run_id": "20260809_160836"
+    },
+    "233CCC": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,496_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_03.12.2018_233CCC.pdf",
+      "run_id": "20260809_160836"
+    },
+    "79A436": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,496_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_04.05.2020_79A436.pdf",
+      "run_id": "20260809_160836"
+    },
+    "2BC43A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,49_St._WKN_A0D8Q4_(IS.DJ_U.S.SELEC.DIV.U.ETF)_vom_02.02.2015_2BC43A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "807EA6": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,49_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.03.2019_807EA6.pdf",
+      "run_id": "20260809_160836"
+    },
+    "56336D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,49_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_03.06.2019_56336D.pdf",
+      "run_id": "20260809_160836"
+    },
+    "DF17B3": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,501_St._WKN_A0D8Q4(IS.DJ_U.S.SELEC.DIV.U.ETF)_vom_01.07.2015_DF17B3.pdf",
+      "run_id": "20260809_160836"
+    },
+    "2599D6": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,502_St._WKN_DBX1ME_(DB_X-TR.MSCI_EUR.IDX.DR1C)_vom_02.02.2015_2599D6.pdf",
+      "run_id": "20260809_160836"
+    },
+    "90A03A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,502_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_01.06.2018_90A03A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E0BF31": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,503_St._WKN_DBX1ME(DB_X-TR.MSCI_EUR.IDX.DR1C)_vom_04.01.2016_E0BF31.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A549E0": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,504_St._WKN_A0D8Q4(IS.DJ_U.S.SELEC.DIV.U.ETF)_vom_04.01.2016_A549E0.pdf",
+      "run_id": "20260809_160836"
+    },
+    "92A0A5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,509_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.02.2019_92A0A5.pdf",
+      "run_id": "20260809_160836"
+    },
+    "C04411": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,511_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_01.02.2018_C04411.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D8E7D9": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,511_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_01.11.2018_D8E7D9.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A641F2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,51_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_02.07.2018_A641F2.pdf",
+      "run_id": "20260809_160836"
+    },
+    "479E5E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,521_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_02.05.2018_479E5E.pdf",
+      "run_id": "20260809_160836"
+    },
+    "4E293B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,524_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_01.03.2018_4E293B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "8FBBE5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,52_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_02.01.2018_8FBBE5.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A9C259": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,543_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_03.04.2018_A9C259.pdf",
+      "run_id": "20260809_160836"
+    },
+    "5710AF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,545_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.04.2020_5710AF.pdf",
+      "run_id": "20260809_160836"
+    },
+    "F67C92": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,551_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.01.2019_F67C92.pdf",
+      "run_id": "20260809_160836"
+    },
+    "818346": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,671_St._WKN_DBX1EM(DB_X-TR.MSCI_EM_IDX.1C)_vom_04.05.2015_818346.pdf",
+      "run_id": "20260809_160836"
+    },
+    "85E52C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,685_St._WKN_DBX1EM(DB_X-TR.MSCI_EM_IDX.1C)_vom_01.06.2015_85E52C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "0C2F81": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,694_St._WKN_DBX1EM(DB_X-TR.MSCI_EM_IDX.1C)_vom_01.04.2015_0C2F81.pdf",
+      "run_id": "20260809_160836"
+    },
+    "80530A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,705_St._WKN_DBX1EM(DB_X-TR.MSCI_EM_IDX.1C)_vom_01.02.2017_80530A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "130948": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,718_St._WKN_DBX1EM(DB_X-TR.MSCI_EM_IDX.1C)_vom_01.07.2015_130948.pdf",
+      "run_id": "20260809_160836"
+    },
+    "C222F3": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,71_St._WKN_DBX1EM_(DB_X-TR.MSCI_EM_IDX.1C)_vom_02.03.2015_C222F3.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6E39B7": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,744_St._WKN_DBX1EM_(DB_X-TR.MSCI_EM_IDX.1C)_vom_02.02.2015_6E39B7.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3DBBC3": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,772_St._WKN_DBX1EM(DB_X-TR.MSCI_EM_IDX.1C)_vom_03.08.2015_3DBBC3.pdf",
+      "run_id": "20260809_160836"
+    },
+    "AACAE2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,875_St._WKN_DBX1EM(DB_X-TR.MSCI_EM_IDX.1C)_vom_04.01.2016_AACAE2.pdf",
+      "run_id": "20260809_160836"
+    },
+    "9C1675": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,938_St._WKN_977700_(ASTRA-FONDS_ANTEILE)_vom_15.10.2009_9C1675.pdf",
+      "run_id": "20260809_160836"
+    },
+    "0C652A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,98_St._WKN_977700_(ASTRA-FONDS_ANTEILE)_vom_15.09.2009_0C652A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E464A7": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1,295_St._WKN_ETF123(C.-MSCI_USA_S.C.T.U.ETF_I)_vom_01.02.2017_E464A7.pdf",
+      "run_id": "20260809_160836"
+    },
+    "50DCE4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1,441_St._WKN_ETF123(C.-MSCI_USA_S.C.T.U.ETF_I)_vom_01.04.2015_50DCE4.pdf",
+      "run_id": "20260809_160836"
+    },
+    "74E71A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1,462_St._WKN_ETF123(C.-MSCI_USA_S.C.T.U.ETF_I)_vom_01.06.2015_74E71A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "96278C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1,497_St._WKN_ETF123(C.-MSCI_USA_S.C.T.U.ETF_I)_vom_01.07.2015_96278C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6C5463": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1,497_St._WKN_ETF123(C.-MSCI_USA_S.C.T.U.ETF_I)_vom_03.08.2015_6C5463.pdf",
+      "run_id": "20260809_160836"
+    },
+    "68E4CB": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1,522_St._WKN_ETF123(C.-MSCI_USA_S.C.T.U.ETF_I)_vom_04.05.2015_68E4CB.pdf",
+      "run_id": "20260809_160836"
+    },
+    "13FD74": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1,522_St._WKN_ETF123_(C.-MSCI_USA_S.C.T.U.ETF_I)_vom_02.03.2015_13FD74.pdf",
+      "run_id": "20260809_160836"
+    },
+    "5A6B62": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1,638_St._WKN_ETF123_(C.-MSCI_USA_S.C.T.U.ETF_I)_vom_02.02.2015_5A6B62.pdf",
+      "run_id": "20260809_160836"
+    },
+    "5DEF88": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1,639_St._WKN_ETF123(C.-MSCI_USA_S.C.T.U.ETF_I)_vom_04.01.2016_5DEF88.pdf",
+      "run_id": "20260809_160836"
+    },
+    "15FFA2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1,681_St._WKN_591730_(RAIFF.EURASIEN_AKT._A_ST.)_vom_03.11.2008_15FFA2.pdf",
+      "run_id": "20260809_160836"
+    },
+    "40C550": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1.000_EUR_A285PC_(NESTLE_F.I._20_40_MTN)_vom_16.09.2025_40C550.pdf",
+      "run_id": "20260809_160836"
+    },
+    "5F671B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1.000_EUR_A2YN1R_(DT.TELEKOM_MTN_19_49)_vom_16.09.2025_5F671B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "610CB2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1.000_EUR_A3E5MU_(DT._BAHN_21_51_MTN)_vom_16.09.2025_610CB2.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FD7541": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1.000_St._A1CYM5_(ILIKA_PLC_LS-,01)_vom_23.09.2025_FD7541.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FBCF66": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1.000_St._A3D51F_(THIOGENESIS_THERAP._CORP.)_vom_12.06.2025_FBCF66.pdf",
+      "run_id": "20260809_160836"
+    },
+    "651F1C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1.000_USD_MS0G3Q_(MORGAN_STANL_21_52_FLR)_vom_16.09.2025_651F1C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3A8ACE": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1.111_St._A3DTUQ_(VIDAC_PHARMA_HLDG_PLC_LS1)_vom_10.10.2024_3A8ACE.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1B2B4F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1.500_St._A40F2B_(REALBOTIX_CORP.)_vom_24.09.2025_1B2B4F.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3625E8": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1.639_St._A2QLBN_(BIOATLA_INC._DL-,0001)_vom_19.11.2025_3625E8.pdf",
+      "run_id": "20260809_160836"
+    },
+    "5097E6": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1.700_St._936386_(SANGAMO_THERAP.INC.DL-,01)_vom_24.09.2025_5097E6.pdf",
+      "run_id": "20260809_160836"
+    },
+    "12757B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1.777_St._A1KBAV_(DYNACERT_INC.)_vom_14.10.2024_12757B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1F58A4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1.900_St._A407S6_(MOLECULIN_BIOTECH_DL-,001)_vom_29.09.2025_1F58A4.pdf",
+      "run_id": "20260809_160836"
+    },
+    "60DFEB": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_10,271_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_01.06.2026_60DFEB.pdf",
+      "run_id": "20260809_160836"
+    },
+    "9C5378": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_10,712_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_04.05.2026_9C5378.pdf",
+      "run_id": "20260809_160836"
+    },
+    "CFFDD5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_10,968_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_02.03.2026_CFFDD5.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6D878E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_100_St._A1W50M_(FATE_THERAPEUTICS_DL-,001)_vom_13.06.2025_6D878E.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B0CAE1": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_103_St._A2QJX9_(QUANTUMSCAPE_A_DL-,0001)_vom_14.07.2025_B0CAE1.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A3F42B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_10_St._906866_(AMAZON.COM_INC._DL-,01)_vom_14.07.2025_A3F42B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "ABB0E0": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_10_St._A1JRLA_(AMERICAN_TOWER_DL_-,01)_vom_14.07.2025_ABB0E0.pdf",
+      "run_id": "20260809_160836"
+    },
+    "765181": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_10_St._A419CG_(ROCKET_LAB_CORP._DL,0001)_vom_18.06.2025_765181.pdf",
+      "run_id": "20260809_160836"
+    },
+    "2C7CA5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_10_St._WKN_803200_(COMMERZBANK_AG_O.N.)_vom_11.06.2009_2C7CA5.pdf",
+      "run_id": "20260809_160836"
+    },
+    "730220": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_10_St._WKN_A2PX00(BICO_GROUP_AK_B_O.N.)_vom_22.11.2021_730220.pdf",
+      "run_id": "20260809_160836"
+    },
+    "718746": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_11,042_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_02.02.2026_718746.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A0BE70": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_11,387_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_02.01.2026_A0BE70.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E89211": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_11,389_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_03.11.2025_E89211.pdf",
+      "run_id": "20260809_160836"
+    },
+    "C9E576": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_11,443_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_01.04.2026_C9E576.pdf",
+      "run_id": "20260809_160836"
+    },
+    "081DA8": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_11,673_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_01.12.2025_081DA8.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B39B3C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_11,737_St._A3DH0C_(AMUNDI_MSCI_ACWI_SRI_PAB)_vom_03.02.2025_B39B3C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "26EEC2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_11,755_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_01.10.2025_26EEC2.pdf",
+      "run_id": "20260809_160836"
+    },
+    "C42802": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_11,906_St._A3DH0C_(AMUNDI_MSCI_ACWI_SRI_PAB)_vom_03.03.2025_C42802.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FCBDBB": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_110_St._A4091K_(NRX_PHARM.INC._NEW_O.N.)_vom_29.09.2025_FCBDBB.pdf",
+      "run_id": "20260809_160836"
+    },
+    "250029": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_110_St._WKN_513700(Q.BEYOND_AG_NA_O.N.)_vom_22.11.2021_250029.pdf",
+      "run_id": "20260809_160836"
+    },
+    "785908": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_11_St._A412WK_(HINGE_HEALTH_INC.)_vom_18.06.2025_785908.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E36F3E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_12,145_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_01.09.2025_E36F3E.pdf",
+      "run_id": "20260809_160836"
+    },
+    "43B601": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_12,374_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_01.07.2025_43B601.pdf",
+      "run_id": "20260809_160836"
+    },
+    "2358C3": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_12,404_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_01.08.2025_2358C3.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B7A233": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_12,533_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_02.06.2025_B7A233.pdf",
+      "run_id": "20260809_160836"
+    },
+    "DB3FC1": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_12,899_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_01.04.2025_DB3FC1.pdf",
+      "run_id": "20260809_160836"
+    },
+    "C12813": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_120_St._A2PY7P_(BEAM_THERAPEUTICS_DL-,01)_vom_18.09.2025_C12813.pdf",
+      "run_id": "20260809_160836"
+    },
+    "842919": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_125_St._A3DE3J_(RIGETTI_COMPUTNG_DL-,0001)_vom_18.09.2025_842919.pdf",
+      "run_id": "20260809_160836"
+    },
+    "12B5F8": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_125_St._A3DSV9_(D-WAVE_QUANTUM_DL-,0001)_vom_18.09.2025_12B5F8.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B3D0F8": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_12_St._A14Y6F_(ALPHABET_INC.CL.A_DL-,001)_vom_18.09.2025_B3D0F8.pdf",
+      "run_id": "20260809_160836"
+    },
+    "887F80": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_12_St._A2AA7B_(AXSOME_THERAPEUT._DL-0001)_vom_03.11.2025_887F80.pdf",
+      "run_id": "20260809_160836"
+    },
+    "8F9402": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_12_St._A2PSR2_(BIONTECH_SE_SPON._ADRS_1)_vom_12.09.2024_8F9402.pdf",
+      "run_id": "20260809_160836"
+    },
+    "52D549": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_12_St._A3DSV9_(D-WAVE_QUANTUM_DL-,0001)_vom_16.06.2025_52D549.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B8FE2C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_13,063_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_02.05.2025_B8FE2C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "5E1F1C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_130_St._A2AG6H_(INTELLIA_THERAPEU_DL-,01)_vom_27.10.2025_5E1F1C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "ED99E4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_130_St._A40NG6_(ONKURE_THERAP.INC._A_O.N.)_vom_29.09.2025_ED99E4.pdf",
+      "run_id": "20260809_160836"
+    },
+    "94DAF1": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_133_St._A2AG6H_(INTELLIA_THERAPEU_DL-,01)_vom_30.09.2025_94DAF1.pdf",
+      "run_id": "20260809_160836"
+    },
+    "BBA05A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_13_St._A14Y6F_(ALPHABET_INC.CL.A_DL-,001)_vom_14.07.2025_BBA05A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "94BA8C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_15_St._A2PSR2_(BIONTECH_SE_SPON._ADRS_1)_vom_28.08.2024_94BA8C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A75D35": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_15_St._WKN_A14KEB(HOME24_SE_INH_O.N.)_vom_22.11.2021_A75D35.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E0BB76": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_163_St._A3C84C_(PLANET_LABS_PBC_A_-,0001)_vom_14.07.2025_E0BB76.pdf",
+      "run_id": "20260809_160836"
+    },
+    "ECEA27": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_170_St._A40VVU_(PONY_AI_INC._SP.ADR_1)_vom_18.09.2025_ECEA27.pdf",
+      "run_id": "20260809_160836"
+    },
+    "29B2C9": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_180_St._WKN_A2PBCR(SCOTCH_CREEK_VENTURES)_vom_14.11.2022_29B2C9.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3658A1": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_18_St._A117ME_(ALIBABA_GR.HLDG_SP.ADR_8)_vom_18.09.2025_3658A1.pdf",
+      "run_id": "20260809_160836"
+    },
+    "AEFBB7": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_18_St._A3DE3J_(RIGETTI_COMPUTNG_DL-,0001)_vom_18.06.2025_AEFBB7.pdf",
+      "run_id": "20260809_160836"
+    },
+    "85AD92": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_18_St._A3DGJK_(SOUNDHOUND_AI_A_DL_-,001)_vom_16.06.2025_85AD92.pdf",
+      "run_id": "20260809_160836"
+    },
+    "24C0D9": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_194_St._A3D9M1_(VANECKETFSDFNS_ADLA)_vom_29.01.2025_24C0D9.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3F8461": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1_St._A1T8X9_(BNPP_DISRUPT.TECH._CLCAP)_vom_30.08.2024_3F8461.pdf",
+      "run_id": "20260809_160836"
+    },
+    "2B5332": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1_St._WKN_A0RP23(BELLE.F.(L)-BB.A.M.+S.BEO)_vom_08.07.2019_2B5332.pdf",
+      "run_id": "20260809_160836"
+    },
+    "CADFC4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1_St._WKN_LYX0GM(MUL-LYX.MSCI_W.HCTRUE_AEO)_vom_08.07.2019_CADFC4.pdf",
+      "run_id": "20260809_160836"
+    },
+    "F8A470": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2,728_St._WKN_DBX1LC_(DB_X-TR.DBLCI-OY_BAL._1C)_vom_03.11.2008_F8A470.pdf",
+      "run_id": "20260809_160836"
+    },
+    "034010": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2.500_St._A2QLBN_(BIOATLA_INC._DL-,0001)_vom_29.09.2025_034010.pdf",
+      "run_id": "20260809_160836"
+    },
+    "F5DE6B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_200_St._A3CSB4_(ATAI_LIFE_SCIENCES_BV_EO1)_vom_23.10.2025_F5DE6B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "927340": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_200_St._A4091K_(NRX_PHARM.INC._NEW_O.N.)_vom_30.10.2025_927340.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FA16AE": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_200_St._A40KYH_(WERIDE_INC._ADR_O.N.)_vom_22.09.2025_FA16AE.pdf",
+      "run_id": "20260809_160836"
+    },
+    "AC7C65": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_20_St._909800_(TAIWAN_SEMICON.MANU.ADR_5)_vom_24.09.2025_AC7C65.pdf",
+      "run_id": "20260809_160836"
+    },
+    "DDAD42": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_20_St._A2AT0Z_(CRISPR_THERAPEUT._SF_-,03)_vom_14.07.2025_DDAD42.pdf",
+      "run_id": "20260809_160836"
+    },
+    "65CF24": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_20_St._A2JRK6_(PDD_HOLDINGS_SP.ADR_4)_vom_10.10.2025_65CF24.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3C9358": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_20_St._A40EDP_(TEMPUS_AI_INC._DL-,01)_vom_14.07.2025_3C9358.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E1DBA6": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_20_St._WKN_A0D655(NORDEX_SE_O.N.)_vom_22.11.2021_E1DBA6.pdf",
+      "run_id": "20260809_160836"
+    },
+    "965F39": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_20_St._WKN_A2QAJC(CARPARTS.COM_INC._DL-,001)_vom_22.11.2021_965F39.pdf",
+      "run_id": "20260809_160836"
+    },
+    "8A7587": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_210_St._WKN_A2PNZE(ELSE_NUTRITION_HLDG)_vom_10.11.2022_8A7587.pdf",
+      "run_id": "20260809_160836"
+    },
+    "C27E63": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_21_St._A117ME_(ALIBABA_GR.HLDG_SP.ADR_8)_vom_14.07.2025_C27E63.pdf",
+      "run_id": "20260809_160836"
+    },
+    "AEC9E2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_222_St._A3E3UN_(T1_ENERGY_INC._O.N.)_vom_18.06.2025_AEC9E2.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A3C80F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_22_St._A14Y6F_(ALPHABET_INC.CL.A_DL-,001)_vom_24.09.2025_A3C80F.pdf",
+      "run_id": "20260809_160836"
+    },
+    "53ACD9": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_234_St._A2QNUE_(SANA_BIOTECHNO._DL_-,0001)_vom_14.07.2025_53ACD9.pdf",
+      "run_id": "20260809_160836"
+    },
+    "832813": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_23_St._A2N5RY_(GUARDANT_HEALTH_CL._A)_vom_14.07.2025_832813.pdf",
+      "run_id": "20260809_160836"
+    },
+    "2F83F2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_242_St._WKN_A2ANH0(ISHS_IV-AUTO.+ROBOTIC.ETF)_vom_27.08.2020_2F83F2.pdf",
+      "run_id": "20260809_160836"
+    },
+    "148224": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_24_St._860853_(WALMART_DL-,10)_vom_14.07.2025_148224.pdf",
+      "run_id": "20260809_160836"
+    },
+    "F1722C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_250_St._A2PX00_(BICO_GROUP_AK_B_O.N.)_vom_04.11.2025_F1722C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "488A91": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_250_St._A3C859_(SOLID_POWER_INC._A_-,0001)_vom_23.09.2025_488A91.pdf",
+      "run_id": "20260809_160836"
+    },
+    "715ADE": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_259_St._WKN_A2ANH3(ISHSIV-DIGITILISATION_DLA)_vom_27.08.2020_715ADE.pdf",
+      "run_id": "20260809_160836"
+    },
+    "BC4037": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_25_St._529882_(CORCEPT_THERAPEUTICS_INC.)_vom_09.10.2025_BC4037.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6CA095": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_25_St._A3C4QT_(IONQ_INC._CL.A_DL-,0001)_vom_18.09.2025_6CA095.pdf",
+      "run_id": "20260809_160836"
+    },
+    "227DF1": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_25_St._WKN_630500(DEUTZ_AG_AKTIEN_O.N.)_vom_22.11.2021_227DF1.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FD6C94": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_260_St._A3C84C_(PLANET_LABS_PBC_A_-,0001)_vom_18.09.2025_FD6C94.pdf",
+      "run_id": "20260809_160836"
+    },
+    "676AAD": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_26_St._A2PSR2_(BIONTECH_SE_SPON._ADRS_1)_vom_13.09.2024_676AAD.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E97B55": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_270_St._A40ESG_(MEDIGENE_AG_NA_O.N.)_vom_16.09.2024_E97B55.pdf",
+      "run_id": "20260809_160836"
+    },
+    "4EFD39": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_273_St._WKN_A117FW(WMF(L)-W.G.QUAL.GR.NDLAUH)_vom_18.10.2019_4EFD39.pdf",
+      "run_id": "20260809_160836"
+    },
+    "EFB0A1": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_282_St._WKN_A2ANH2(ISHS_IV-HEALTHC.INNOV.ETF)_vom_27.08.2020_EFB0A1.pdf",
+      "run_id": "20260809_160836"
+    },
+    "43184F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_288_St._A2JNY1_(XIAOMI_CORP._CL.B)_vom_29.09.2025_43184F.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D2D8B6": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_28_St._860853_(WALMART_DL-,10)_vom_18.09.2025_D2D8B6.pdf",
+      "run_id": "20260809_160836"
+    },
+    "05FE83": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2_St._A1J4U4_(ASML_HOLDING_EO_-,09)_vom_18.07.2025_05FE83.pdf",
+      "run_id": "20260809_160836"
+    },
+    "00E430": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2_St._WKN_A117ME(ALIBABA_GR.HLDG_SP.ADR_8)_vom_22.11.2021_00E430.pdf",
+      "run_id": "20260809_160836"
+    },
+    "253D78": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3,702_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.07.2021_253D78.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A2BB54": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3,756_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.04.2021_A2BB54.pdf",
+      "run_id": "20260809_160836"
+    },
+    "2CE176": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3,772_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.06.2021_2CE176.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E55E3C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3,803_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.03.2021_E55E3C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "DDE165": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3,841_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.02.2021_DDE165.pdf",
+      "run_id": "20260809_160836"
+    },
+    "7E67C9": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3,852_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.09.2021_7E67C9.pdf",
+      "run_id": "20260809_160836"
+    },
+    "C46302": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3,879_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_03.05.2021_C46302.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3F31BF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3,885_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.11.2021_3F31BF.pdf",
+      "run_id": "20260809_160836"
+    },
+    "540D47": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3,893_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.02.2022_540D47.pdf",
+      "run_id": "20260809_160836"
+    },
+    "DD7ED9": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3,913_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_03.01.2022_DD7ED9.pdf",
+      "run_id": "20260809_160836"
+    },
+    "7622A5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3,921_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.12.2021_7622A5.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1AB1C6": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3,923_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_02.08.2021_1AB1C6.pdf",
+      "run_id": "20260809_160836"
+    },
+    "9575FE": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3,959_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.10.2021_9575FE.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D5BFEF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3,967_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_01.08.2024_D5BFEF.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D54601": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3,96_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_01.07.2024_D54601.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E46E7C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3.000_St._A2QK7Q_(REVIVA_PHARMACEUT.HLDGS)_vom_29.09.2025_E46E7C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "DD47AA": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3.000_St._A2QLBN_(BIOATLA_INC._DL-,0001)_vom_31.12.2025_DD47AA.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B11186": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_300_St._A3C5SS_(TIZIANA_LIFE_SCIENCES_LTD)_vom_23.09.2025_B11186.pdf",
+      "run_id": "20260809_160836"
+    },
+    "0D3F13": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_300_St._A3DQSD_(CELLECTAR_NEW22_DL-00001)_vom_13.06.2025_0D3F13.pdf",
+      "run_id": "20260809_160836"
+    },
+    "2333A5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_300_St._A3ES4X_(SKYE_BIOSCIENCE_INC.)_vom_24.09.2025_2333A5.pdf",
+      "run_id": "20260809_160836"
+    },
+    "47E93C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_300_St._WKN_A2N4RL(SPEY_RESOURCES_CORP.)_vom_14.11.2022_47E93C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "887B51": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_30_St._924801_(BIOMARIN_PHAR._DL-,001)_vom_03.11.2025_887B51.pdf",
+      "run_id": "20260809_160836"
+    },
+    "55C803": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_30_St._A3CTJC_(SENTINELONE_INC.A_-,0001)_vom_16.06.2025_55C803.pdf",
+      "run_id": "20260809_160836"
+    },
+    "675237": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_30_St._A40VVU_(PONY_AI_INC._SP.ADR_1)_vom_18.06.2025_675237.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FF35F8": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_32_St._WKN_ZAL111(ZALANDO_SE)_vom_11.11.2022_FF35F8.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1A7E63": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_33_St._A0F5DE_(BAIDU_A_ADR_DL-,000000625)_vom_10.10.2025_1A7E63.pdf",
+      "run_id": "20260809_160836"
+    },
+    "076639": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_35_St._A0YB48_(IRIDIUM_COMCTNS_DL-,001)_vom_14.07.2025_076639.pdf",
+      "run_id": "20260809_160836"
+    },
+    "2F05BE": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3_St._881535_(REGENERON_PHARMAC.DL-,001)_vom_03.11.2025_2F05BE.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6271E6": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3_St._A14M21_(EQUINIX_INC._DL-,001)_vom_14.07.2025_6271E6.pdf",
+      "run_id": "20260809_160836"
+    },
+    "63FF73": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3_St._A1J4U4_(ASML_HOLDING_EO_-,09)_vom_18.09.2025_63FF73.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FC3D4B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3_St._A1JWVX_(META_PLATF._A_DL-,000006)_vom_14.07.2025_FC3D4B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "8FA3E4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,012_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.03.2022_8FA3E4.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D52AC2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,033_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_02.09.2024_D52AC2.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1D72B1": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,041_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_04.01.2021_1D72B1.pdf",
+      "run_id": "20260809_160836"
+    },
+    "ADEF7F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,056_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.04.2022_ADEF7F.pdf",
+      "run_id": "20260809_160836"
+    },
+    "C6E0BF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,065_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_03.06.2024_C6E0BF.pdf",
+      "run_id": "20260809_160836"
+    },
+    "8877E7": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,089_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_02.05.2024_8877E7.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1CD4D4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,155_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_02.04.2024_1CD4D4.pdf",
+      "run_id": "20260809_160836"
+    },
+    "AD5F99": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,207_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.06.2022_AD5F99.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D8C4FA": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,216_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_02.05.2022_D8C4FA.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E3FC89": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,236_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.12.2020_E3FC89.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A50C26": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,262_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.09.2022_A50C26.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1BEB1E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,272_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_01.03.2024_1BEB1E.pdf",
+      "run_id": "20260809_160836"
+    },
+    "574104": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,302_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.02.2023_574104.pdf",
+      "run_id": "20260809_160836"
+    },
+    "59E6DD": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,304_St._LYX0BX_(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.08.2023_59E6DD.pdf",
+      "run_id": "20260809_160836"
+    },
+    "565AB8": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,312_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_02.01.2020_565AB8.pdf",
+      "run_id": "20260809_160836"
+    },
+    "59FFF8": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,338_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.08.2022_59FFF8.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D7810F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,37_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.07.2022_D7810F.pdf",
+      "run_id": "20260809_160836"
+    },
+    "73566B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,397_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_02.01.2024_73566B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "43DF75": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,424_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.12.2022_43DF75.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D9240D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,434_St._LYX0BX_(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_03.07.2023_D9240D.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A4239B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,452_St._LYX0BX_(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.09.2023_A4239B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "61934C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,457_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_01.02.2024_61934C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1D13AD": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,492_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.03.2023_1D13AD.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A38DB3": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,508_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_01.12.2023_A38DB3.pdf",
+      "run_id": "20260809_160836"
+    },
+    "79E1F4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,512_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_02.11.2020_79E1F4.pdf",
+      "run_id": "20260809_160836"
+    },
+    "297133": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,521_St._LYX0BX_(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_02.10.2023_297133.pdf",
+      "run_id": "20260809_160836"
+    },
+    "10D06B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,522_St._LYX0BX_(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_03.04.2023_10D06B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "478B75": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,568_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_03.02.2020_478B75.pdf",
+      "run_id": "20260809_160836"
+    },
+    "38CAC8": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,56_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_04.10.2022_38CAC8.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FAC929": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,585_St._LYX0BX_(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.06.2023_FAC929.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1FE8A3": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,59_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.02.2018_1FE8A3.pdf",
+      "run_id": "20260809_160836"
+    },
+    "730534": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,602_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_06.10.2020_730534.pdf",
+      "run_id": "20260809_160836"
+    },
+    "0116F3": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,613_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_02.01.2023_0116F3.pdf",
+      "run_id": "20260809_160836"
+    },
+    "DF773C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,631_St._LYX0BX_(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_02.05.2023_DF773C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D27FAC": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,65_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.09.2020_D27FAC.pdf",
+      "run_id": "20260809_160836"
+    },
+    "30CCBB": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,664_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_01.11.2023_30CCBB.pdf",
+      "run_id": "20260809_160836"
+    },
+    "36EB47": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,685_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_02.05.2019_36EB47.pdf",
+      "run_id": "20260809_160836"
+    },
+    "9B9AFB": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,692_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.03.2018_9B9AFB.pdf",
+      "run_id": "20260809_160836"
+    },
+    "790755": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,698_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_03.08.2020_790755.pdf",
+      "run_id": "20260809_160836"
+    },
+    "CC0257": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,707_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_02.01.2018_CC0257.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B1C846": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,711_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.11.2019_B1C846.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A91CDC": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,715_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_02.12.2019_A91CDC.pdf",
+      "run_id": "20260809_160836"
+    },
+    "F07DB3": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,716_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.06.2018_F07DB3.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FC77A6": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,721_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.04.2019_FC77A6.pdf",
+      "run_id": "20260809_160836"
+    },
+    "346423": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,728_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.07.2019_346423.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A6243A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,744_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.11.2022_A6243A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "7CD14E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,783_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_02.05.2018_7CD14E.pdf",
+      "run_id": "20260809_160836"
+    },
+    "69B902": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,788_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_03.04.2018_69B902.pdf",
+      "run_id": "20260809_160836"
+    },
+    "97E91A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,803_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.08.2019_97E91A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "158D9A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,822_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_02.03.2020_158D9A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E74AE6": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,845_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.10.2019_E74AE6.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A8F160": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,867_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.07.2020_A8F160.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3A7235": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,868_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.03.2019_3A7235.pdf",
+      "run_id": "20260809_160836"
+    },
+    "AE8515": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,878_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.08.2018_AE8515.pdf",
+      "run_id": "20260809_160836"
+    },
+    "9CBA90": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,906_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.02.2019_9CBA90.pdf",
+      "run_id": "20260809_160836"
+    },
+    "660676": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,979_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_02.09.2019_660676.pdf",
+      "run_id": "20260809_160836"
+    },
+    "806F5A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4,99_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_03.06.2019_806F5A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "EF62F7": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4.500_St._A2QK7Q_(REVIVA_PHARMACEUT.HLDGS)_vom_02.10.2025_EF62F7.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D15FD8": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_400_St._A3D6S7_(TIGO_ENERGY_INC.)_vom_24.09.2025_D15FD8.pdf",
+      "run_id": "20260809_160836"
+    },
+    "C362C7": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_400_St._WKN_A3CS6B(PLANT_VEDA_FOODS_LTD)_vom_11.11.2022_C362C7.pdf",
+      "run_id": "20260809_160836"
+    },
+    "0C9B05": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_40_St._A2JQTJ_(CRINETICS_PHARM._DL-,001)_vom_16.01.2026_0C9B05.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B0B980": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_40_St._A2PSR2_(BIONTECH_SE_SPON._ADRS_1)_vom_08.09.2025_B0B980.pdf",
+      "run_id": "20260809_160836"
+    },
+    "525670": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_40_St._A2QJX9_(QUANTUMSCAPE_A_DL-,0001)_vom_16.06.2025_525670.pdf",
+      "run_id": "20260809_160836"
+    },
+    "9CC5C7": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_41_St._A2N7L2_(TWIST_BIOSCIENCEDL-,00001)_vom_23.09.2025_9CC5C7.pdf",
+      "run_id": "20260809_160836"
+    },
+    "CE191E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_43_St._SHL100_(SIEMENS_HEALTH.AG_NA_O.N.)_vom_14.07.2025_CE191E.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E58765": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_444_St._A3DGJJ_(MIMEDIA_HLDGS_INC.)_vom_04.06.2025_E58765.pdf",
+      "run_id": "20260809_160836"
+    },
+    "BD7DC2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_450_St._A2QNUE_(SANA_BIOTECHNO._DL_-,0001)_vom_16.10.2025_BD7DC2.pdf",
+      "run_id": "20260809_160836"
+    },
+    "BE0003": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_450_St._A40EDP_(TEMPUS_AI_INC._DL-,01)_vom_11.09.2025_BE0003.pdf",
+      "run_id": "20260809_160836"
+    },
+    "F8740E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_45_St._A412WK_(HINGE_HEALTH_INC.)_vom_18.09.2025_F8740E.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A31D16": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_45_St._WKN_A2PX00(BICO_GROUP_AK_B_O.N.)_vom_10.11.2022_A31D16.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D7B7D5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_46_St._A2PSR2_(BIONTECH_SE_SPON._ADRS_1)_vom_23.12.2024_D7B7D5.pdf",
+      "run_id": "20260809_160836"
+    },
+    "9FF80B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_47_St._A2PY7P_(BEAM_THERAPEUTICS_DL-,01)_vom_14.07.2025_9FF80B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "AC9FA8": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_48_St._WKN_A2PMFM(JUSHI_HLDGS_INC)_vom_22.11.2021_AC9FA8.pdf",
+      "run_id": "20260809_160836"
+    },
+    "89B1E6": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_49_St._WKN_A0F6XG(JPM-PACIF.EQU.JPMPE_AAEO)_vom_18.10.2019_89B1E6.pdf",
+      "run_id": "20260809_160836"
+    },
+    "0D501B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4_St._863186_(ADVANCED_MIC.DEV._DL-,01)_vom_14.10.2024_0D501B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "9879B0": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4_St._A14M21_(EQUINIX_INC._DL-,001)_vom_18.09.2025_9879B0.pdf",
+      "run_id": "20260809_160836"
+    },
+    "682676": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4_St._A1JC82_(ENPHASE_ENERGY_INC.DL-,01)_vom_16.06.2025_682676.pdf",
+      "run_id": "20260809_160836"
+    },
+    "54869B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4_St._A1JWVX_(META_PLATF._A_DL-,000006)_vom_18.09.2025_54869B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "26720C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4_St._WKN_938914(AIRBUS)_vom_08.07.2019_26720C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "719C25": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4_St._WKN_A0JQ5U(MANZ_AG)_vom_22.11.2021_719C25.pdf",
+      "run_id": "20260809_160836"
+    },
+    "8D26CD": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4_St._WKN_A141RC(PICTET-ROBOTICS_PDYDISEO)_vom_08.07.2019_8D26CD.pdf",
+      "run_id": "20260809_160836"
+    },
+    "0FCB30": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_4_St._WKN_DS8PAY(DEUT.BANK_OPEN_END_IDX)_vom_08.07.2019_0FCB30.pdf",
+      "run_id": "20260809_160836"
+    },
+    "23634D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_5,006_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.10.2018_23634D.pdf",
+      "run_id": "20260809_160836"
+    },
+    "630016": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_5,008_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_03.12.2018_630016.pdf",
+      "run_id": "20260809_160836"
+    },
+    "244926": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_5,024_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_03.09.2018_244926.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1A4ECA": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_5,038_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_02.07.2018_1A4ECA.pdf",
+      "run_id": "20260809_160836"
+    },
+    "88B4CE": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_5,053_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_02.06.2020_88B4CE.pdf",
+      "run_id": "20260809_160836"
+    },
+    "63FC1C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_5,295_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.11.2018_63FC1C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A5EABD": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_5,39_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_02.01.2019_A5EABD.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6A0353": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_5,423_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_04.05.2020_6A0353.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A52E93": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_5,786_St._WKN_LYX0BX(LYXOR_MSCI_E.M.U.ETF_C-EO)_vom_01.04.2020_A52E93.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B08510": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_500_St._A2DMAA_(DRONESHIELD_LTD)_vom_06.10.2025_B08510.pdf",
+      "run_id": "20260809_160836"
+    },
+    "284F6F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_50_St._A117ME_(ALIBABA_GR.HLDG_SP.ADR_8)_vom_10.10.2025_284F6F.pdf",
+      "run_id": "20260809_160836"
+    },
+    "DB9202": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_50_St._A2N5RY_(GUARDANT_HEALTH_CL._A)_vom_18.09.2025_DB9202.pdf",
+      "run_id": "20260809_160836"
+    },
+    "05F48A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_50_St._A40KYH_(WERIDE_INC._ADR_O.N.)_vom_18.06.2025_05F48A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "49B0CE": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_50_St._WKN_A0Q2R4(SAFE_BULKERS_INC._DL-,001)_vom_22.11.2021_49B0CE.pdf",
+      "run_id": "20260809_160836"
+    },
+    "637CA3": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_50_St._WKN_A3CQRG(OATLY_GROUP_AB_SP.ADS_1)_vom_11.11.2022_637CA3.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A761FF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_520_St._A2APH0_(WEEBIT_NANO_LTD)_vom_23.09.2025_A761FF.pdf",
+      "run_id": "20260809_160836"
+    },
+    "AE253C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_550_St._A2QK02_(BUTTERFLY_NETWORK_CL.A)_vom_14.07.2025_AE253C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "872C84": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_555_St._A40F2B_(REALBOTIX_CORP.)_vom_04.07.2025_872C84.pdf",
+      "run_id": "20260809_160836"
+    },
+    "59E2DC": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_55_St._WKN_A0KD0F(MUEHLHAN_O.N.)_vom_22.11.2021_59E2DC.pdf",
+      "run_id": "20260809_160836"
+    },
+    "52E6A5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_58_St._WKN_LYX0CB(LYXOR_NEW_ENERGY_UC.ETF_D)_vom_27.08.2020_52E6A5.pdf",
+      "run_id": "20260809_160836"
+    },
+    "C17C6A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_5_St._870747_(MICROSOFT_DL-,00000625)_vom_14.07.2025_C17C6A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "F01212": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_5_St._870747_(MICROSOFT_DL-,00000625)_vom_18.09.2025_F01212.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6C2E4D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_5_St._906866_(AMAZON.COM_INC._DL-,01)_vom_18.09.2025_6C2E4D.pdf",
+      "run_id": "20260809_160836"
+    },
+    "F98543": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_5_St._A1J4U4_(ASML_HOLDING_EO_-,09)_vom_24.09.2025_F98543.pdf",
+      "run_id": "20260809_160836"
+    },
+    "8149E1": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_5_St._WKN_723132(SIXT_SE_ST_O.N.)_vom_08.07.2019_8149E1.pdf",
+      "run_id": "20260809_160836"
+    },
+    "072C36": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_5_St._WKN_A1MMCC(MEDIOS_AG_O.N.)_vom_22.11.2021_072C36.pdf",
+      "run_id": "20260809_160836"
+    },
+    "7A27CD": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_600_St._A3C5SS_(TIZIANA_LIFE_SCIENCES_LTD)_vom_25.09.2025_7A27CD.pdf",
+      "run_id": "20260809_160836"
+    },
+    "31058B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_60_St._921800_(FID.FDS-GL_TECHNOL.A_GL.)_vom_30.08.2024_31058B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "C0AF0C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_60_St._A2QNUE_(SANA_BIOTECHNO._DL_-,0001)_vom_16.06.2025_C0AF0C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "468FD3": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_60_St._A419CG_(ROCKET_LAB_CORP._DL-,0001)_vom_18.09.2025_468FD3.pdf",
+      "run_id": "20260809_160836"
+    },
+    "F0A31F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_63_St._WKN_A0F5UF(ISHARES_NASDAQ-100_U.ETF)_vom_19.08.2020_F0A31F.pdf",
+      "run_id": "20260809_160836"
+    },
+    "85DE7B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_685_St._WKN_A1J5RX(TELEFONICA_DTLD_HLDG_NA)_vom_06.11.2019_85DE7B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "22C239": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_6_St._A3C9GD_(SAMSARA_INC._A_DL-,0001)_vom_18.06.2025_22C239.pdf",
+      "run_id": "20260809_160836"
+    },
+    "BF9102": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_6_St._WKN_855681(INTEL_CORP._DL-,001)_vom_22.11.2021_BF9102.pdf",
+      "run_id": "20260809_160836"
+    },
+    "7DC4DC": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_6_St._WKN_A0LFBM(DPAM_I.B-EQ.N.GEM.SUS._BC)_vom_08.07.2019_7DC4DC.pdf",
+      "run_id": "20260809_160836"
+    },
+    "222B50": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_700_St._WKN_A1J5RX(TELEFONICA_DTLD_HLDG_NA)_vom_13.11.2019_222B50.pdf",
+      "run_id": "20260809_160836"
+    },
+    "904D83": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_70_St._A0YB48_(IRIDIUM_COMCTNS_DL-,001)_vom_24.07.2025_904D83.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D590A2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_70_St._A3DGJK_(SOUNDHOUND_AI_A_DL_-,001)_vom_22.09.2025_D590A2.pdf",
+      "run_id": "20260809_160836"
+    },
+    "17F72E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_725_St._A1J09L_(STEREOTAXIS_DL-,01)_vom_07.10.2025_17F72E.pdf",
+      "run_id": "20260809_160836"
+    },
+    "076609": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_72_St._A1138D_(TENCENT_HLDGS_HD-,00002)_vom_10.10.2025_076609.pdf",
+      "run_id": "20260809_160836"
+    },
+    "5DB027": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_740_St._WKN_A142NZ(ISHSV-S+P500H.CA.SECT.DLA)_vom_19.08.2020_5DB027.pdf",
+      "run_id": "20260809_160836"
+    },
+    "EB3C50": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_750_St._A3CWF0_(TENAYA_THERAP._DL_-,0001)_vom_24.09.2025_EB3C50.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1DF714": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_75_St._A40VVU_(PONY_AI_INC._SP.ADR_1)_vom_30.09.2025_1DF714.pdf",
+      "run_id": "20260809_160836"
+    },
+    "AE9FB5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_7_St._A2AT0Z_(CRISPR_THERAPEUT._SF_-,03)_vom_16.06.2025_AE9FB5.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FDF520": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_7_St._A3C4QT_(IONQ_INC._CL.A_DL-,0001)_vom_18.06.2025_FDF520.pdf",
+      "run_id": "20260809_160836"
+    },
+    "9C6DF8": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_8.500_St._A14Z7W_(BRAINCHIP_HOLDINGS_LTD)_vom_23.09.2025_9C6DF8.pdf",
+      "run_id": "20260809_160836"
+    },
+    "13F895": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_800_St._A2DQ8S_(OVID_THERAPEUTICS_DL-,001)_vom_24.09.2025_13F895.pdf",
+      "run_id": "20260809_160836"
+    },
+    "8AADB4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_80_St._A3C84C_(PLANET_LABS_PBC_A_-,0001)_vom_18.06.2025_8AADB4.pdf",
+      "run_id": "20260809_160836"
+    },
+    "585B05": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_820_St._A3DTUQ_(VIDAC_PHARMA_HLDG_PLC_LS1)_vom_15.10.2024_585B05.pdf",
+      "run_id": "20260809_160836"
+    },
+    "BFBDD0": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_850_St._A3DM9Q_(PROMIS_NEUROSCIENCES)_vom_29.09.2025_BFBDD0.pdf",
+      "run_id": "20260809_160836"
+    },
+    "AC9DC7": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_85_St._A2PMAS_(ARCTURUS_THER.HLD.DL-,001)_vom_30.09.2025_AC9DC7.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B6CB06": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_8_St._A117ME_(ALIBABA_GR.HLDG_SP.ADR_8)_vom_02.10.2025_B6CB06.pdf",
+      "run_id": "20260809_160836"
+    },
+    "645FE9": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_8_St._A3CL8W_(AST_SPACEMOBIL.A_DL-,0001)_vom_18.06.2025_645FE9.pdf",
+      "run_id": "20260809_160836"
+    },
+    "11930C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_8_St._WKN_620010(INDUS_HOLDING_AG)_vom_22.11.2021_11930C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "7A776C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_8_St._WKN_A0MWED(AMG_ADVANC.METAL.GR.EO-02)_vom_22.11.2021_7A776C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B8CED4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_8_St._WKN_KGX888(KION_GROUP_AG)_vom_11.11.2022_B8CED4.pdf",
+      "run_id": "20260809_160836"
+    },
+    "EEE631": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_9,668_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_01.07.2026_EEE631.pdf",
+      "run_id": "20260809_160836"
+    },
+    "560EC3": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_9,977_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_03.08.2026_560EC3.pdf",
+      "run_id": "20260809_160836"
+    },
+    "48FF2D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_90_St._A112ST_(JD.COM_SP.ADR_A1_DL-00002)_vom_10.10.2025_48FF2D.pdf",
+      "run_id": "20260809_160836"
+    },
+    "93EC5D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_91_St._A40VVU_(PONY_AI_INC._SP.ADR_1)_vom_14.07.2025_93EC5D.pdf",
+      "run_id": "20260809_160836"
+    },
+    "24C0BA": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,033_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_27.01.2025_24C0BA.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E29829": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,097_St._WKN_593392(ISHARES_MDAX_UCITS_ETF)_vom_02.01.2017_E29829.pdf",
+      "run_id": "20260809_160836"
+    },
+    "77CAE2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,111_St._WKN_847811_(FMM-FONDS_ANTEILE)_vom_10.11.2008_77CAE2.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6B2175": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,114_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_30.08.2024_6B2175.pdf",
+      "run_id": "20260809_160836"
+    },
+    "4DF433": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,114_St._WKN_849096(DWS_DEUTSCHLAND_LC)_vom_31.08.2020_4DF433.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A4086D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,115_St._WKN_DBX0AL(DB_X-TR.II-IB.GL.IN.-L.1C)_vom_02.01.2017_A4086D.pdf",
+      "run_id": "20260809_160836"
+    },
+    "AEC4C6": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,124_St._WKN_593392(ISHARES_MDAX_UCITS_ETF)_vom_31.08.2020_AEC4C6.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E0C704": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,201_St._WKN_984811(DWS_TOP_DIVIDENDE_LD)_vom_31.08.2020_E0C704.pdf",
+      "run_id": "20260809_160836"
+    },
+    "BAB39C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,218_St._WKN_ETF123(C.-MSCI_USA_S.C.T.U.ETF_I)_vom_02.01.2017_BAB39C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "ACEEF1": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,295_St._WKN_ETF123(CS.-CS_S+P_S.C.600_UETF_I)_vom_31.08.2020_ACEEF1.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E8119B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,298_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_05.06.2026_E8119B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "C559A4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,37_St._DBX0AL_(XTR.II_GL.INF.-LI.B.1CEOH)_vom_26.04.2023_C559A4.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1C1828": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,413_St._WKN_A0D8Q4(IS.DJ_U.S.SELEC.DIV.U.ETF)_vom_31.08.2020_1C1828.pdf",
+      "run_id": "20260809_160836"
+    },
+    "756C8F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,443_St._WKN_A0B94X_(FORTIS_L-OBAM_EQ.W._INH.C)_vom_10.11.2008_756C8F.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6DA016": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,473_St._WKN_DBX1ME(XTR.MSCI_EUROPE_1C)_vom_02.09.2020_6DA016.pdf",
+      "run_id": "20260809_160836"
+    },
+    "EC78FF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,658_St._WKN_984811(DWS_TOP_DIVIDENDE_LD)_vom_02.01.2017_EC78FF.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E328C9": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,681_St._WKN_591730_(RAIFF.EURASIEN_AKT._A_ST.)_vom_11.11.2008_E328C9.pdf",
+      "run_id": "20260809_160836"
+    },
+    "54EE36": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,701_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_05.06.2026_54EE36.pdf",
+      "run_id": "20260809_160836"
+    },
+    "AD7892": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,705_St._WKN_DBX1EM(XTR.MSCI_EM.MKT.SWAP_1C)_vom_31.08.2020_AD7892.pdf",
+      "run_id": "20260809_160836"
+    },
+    "F1392D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,728_St._WKN_DBX1LC_(DB_X-TR.DBLCI-OY_BAL._1C)_vom_10.11.2008_F1392D.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3F0F28": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,773_St._WKN_DBX1ME(DB_X-TR.MSCI_EUR.IDX.DR1C)_vom_02.01.2017_3F0F28.pdf",
+      "run_id": "20260809_160836"
+    },
+    "F26411": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,869_St._WKN_DBX1EM(DB_X-TR.MSCI_EM_IDX.1C)_vom_02.01.2017_F26411.pdf",
+      "run_id": "20260809_160836"
+    },
+    "7C0F14": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,906_St._WKN_A0D8Q4(IS.DJ_U.S.SELEC.DIV.U.ETF)_vom_02.01.2017_7C0F14.pdf",
+      "run_id": "20260809_160836"
+    },
+    "25AD26": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_0,981_St._WKN_849096(DWS_DEUTSCHLAND_LC)_vom_02.01.2017_25AD26.pdf",
+      "run_id": "20260809_160836"
+    },
+    "784AC2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_1.000_EUR_A285PC_(NESTLE_F.I._20_40_MTN)_vom_17.09.2025_784AC2.pdf",
+      "run_id": "20260809_160836"
+    },
+    "335740": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_1.000_EUR_A2YN1R_(DT.TELEKOM_MTN_19_49)_vom_17.09.2025_335740.pdf",
+      "run_id": "20260809_160836"
+    },
+    "4FF1A2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_1.000_EUR_A3E5MU_(DT._BAHN_21_51_MTN)_vom_17.09.2025_4FF1A2.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B6A332": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_1.000_St._A2QLBN_(BIOATLA_INC._DL-,0001)_vom_30.10.2025_B6A332.pdf",
+      "run_id": "20260809_160836"
+    },
+    "925CDF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_1.000_USD_MS0G3Q_(MORGAN_STANL_21_52_FLR)_vom_17.09.2025_925CDF.pdf",
+      "run_id": "20260809_160836"
+    },
+    "99897A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_1.111_St._A3DTUQ_(VIDAC_PHARMA_HLDG_PLC_LS1)_vom_15.10.2024_99897A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "9EB5CC": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_1.700_St._936386_(SANGAMO_THERAP.INC.DL-,01)_vom_02.10.2025_9EB5CC.pdf",
+      "run_id": "20260809_160836"
+    },
+    "C0EFED": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_1.777_St._A1KBAV_(DYNACERT_INC.)_vom_15.07.2025_C0EFED.pdf",
+      "run_id": "20260809_160836"
+    },
+    "52F709": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_1.900_St._A407S6_(MOLECULIN_BIOTECH_DL-,001)_vom_03.11.2025_52F709.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B9687A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_100_St._A1W50M_(FATE_THERAPEUTICS_DL-,001)_vom_29.09.2025_B9687A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "8B810C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_103_St._A2QJX9_(QUANTUMSCAPE_A_DL-,0001)_vom_21.07.2025_8B810C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "66F4E7": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_105_St._A0YB48_(IRIDIUM_COMCTNS_DL-,001)_vom_23.10.2025_66F4E7.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3D68D1": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_105_St._A3C84C_(PLANET_LABS_PBC_A_-,0001)_vom_19.09.2025_3D68D1.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FB6505": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_10_St._870747_(MICROSOFT_DL-,00000625)_vom_10.10.2025_FB6505.pdf",
+      "run_id": "20260809_160836"
+    },
+    "F497E2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_10_St._A1J4U4_(ASML_HOLDING_EO_-,09)_vom_10.10.2025_F497E2.pdf",
+      "run_id": "20260809_160836"
+    },
+    "74F276": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_10_St._A1JRLA_(AMERICAN_TOWER_DL_-,01)_vom_08.09.2025_74F276.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A4EC15": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_10_St._WKN_803200_(COMMERZBANK_AG_O.N.)_vom_10.09.2009_A4EC15.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D6325E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_110_St._513700_(Q.BEYOND_AG_NA_O.N.)_vom_25.04.2023_D6325E.pdf",
+      "run_id": "20260809_160836"
+    },
+    "36147D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_122_St._A420KM_(BIOATLA_INC._NEW_O.N.)_vom_13.05.2026_36147D.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A606A7": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_123_St._A3DSV9_(D-WAVE_QUANTUM_DL-,0001)_vom_29.09.2025_A606A7.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3F5577": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_12_St._WKN_ETF123(C.-MSCI_USA_S.C.T.U.ETF_I)_vom_02.01.2017_3F5577.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B75436": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_130_St._A40NG6_(ONKURE_THERAP.INC._A_O.N.)_vom_03.11.2025_B75436.pdf",
+      "run_id": "20260809_160836"
+    },
+    "81E67D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_149_St._A2PY7P_(BEAM_THERAPEUTICS_DL-,01)_vom_29.09.2025_81E67D.pdf",
+      "run_id": "20260809_160836"
+    },
+    "66B8C0": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_14_St._A3DSV9_(D-WAVE_QUANTUM_DL-,0001)_vom_19.09.2025_66B8C0.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6F6839": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_15_St._906866_(AMAZON.COM_INC._DL-,01)_vom_24.09.2025_6F6839.pdf",
+      "run_id": "20260809_160836"
+    },
+    "EE6960": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_15_St._WKN_A14KEB(HOME24_SE_INH_O.N.)_vom_02.01.2023_EE6960.pdf",
+      "run_id": "20260809_160836"
+    },
+    "19479A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_180_St._A2PBCR_(SCOTCH_CREEK_VENTURES)_vom_25.04.2023_19479A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1820E4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_18_St._A2PY7P_(BEAM_THERAPEUTICS_DL-,01)_vom_19.09.2025_1820E4.pdf",
+      "run_id": "20260809_160836"
+    },
+    "56215D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_18_St._A3DE3J_(RIGETTI_COMPUTNG_DL-,0001)_vom_19.09.2025_56215D.pdf",
+      "run_id": "20260809_160836"
+    },
+    "CB53D2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_18_St._A3DE3J_(RIGETTI_COMPUTNG_DL-,0001)_vom_29.09.2025_CB53D2.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6AE03A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_194_St._A3D9M1_(VANECKETFSDFNS_ADLA)_vom_16.04.2025_6AE03A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "30B4F1": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_1_St._A0RP23_(BELLE.F.(L)-BB.A.M.+S.BEO)_vom_25.04.2023_30B4F1.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FC9DCF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_1_St._A1T8X9_(BNPP_DISRUPT.TECH._CLCAP)_vom_27.01.2025_FC9DCF.pdf",
+      "run_id": "20260809_160836"
+    },
+    "25F839": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_1_St._LYX0GM_(MUL-LYX.MSCI_W.HCTRUE_AEO)_vom_25.04.2023_25F839.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D7D5CC": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_1_St._WKN_591730_(RAIFF.EURASIEN_AKT._A_ST.)_vom_10.11.2008_D7D5CC.pdf",
+      "run_id": "20260809_160836"
+    },
+    "48324E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_1_St._WKN_593392(ISHARES_MDAX_UCITS_ETF)_vom_02.01.2017_48324E.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3484E4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_1_St._WKN_984811(DWS_TOP_DIVIDENDE_LD)_vom_02.01.2017_3484E4.pdf",
+      "run_id": "20260809_160836"
+    },
+    "77A536": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_1_St._WKN_ETF123(CS.-CS_S+P_S.C.600_UETF_I)_vom_28.08.2020_77A536.pdf",
+      "run_id": "20260809_160836"
+    },
+    "F16556": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_2.055_St._A40F2B_(REALBOTIX_CORP.)_vom_03.11.2025_F16556.pdf",
+      "run_id": "20260809_160836"
+    },
+    "7D6AA6": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_20_St._909800_(TAIWAN_SEMICON.MANU.ADR_5)_vom_10.10.2025_7D6AA6.pdf",
+      "run_id": "20260809_160836"
+    },
+    "94B880": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_20_St._A0D655_(NORDEX_SE_O.N.)_vom_25.04.2023_94B880.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D34BC9": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_20_St._A2JRK6_(PDD_HOLDINGS_SP.ADR_4)_vom_19.11.2025_D34BC9.pdf",
+      "run_id": "20260809_160836"
+    },
+    "65CC54": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_20_St._A2QAJC_(CARPARTS.COM_INC._DL-,001)_vom_25.04.2023_65CC54.pdf",
+      "run_id": "20260809_160836"
+    },
+    "7788AD": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_20_St._A40EDP_(TEMPUS_AI_INC._DL-,01)_vom_24.09.2025_7788AD.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6FA484": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_20_St._WKN_A31C3G(NORDEX_SE_BZR)_vom_21.07.2022_6FA484.pdf",
+      "run_id": "20260809_160836"
+    },
+    "DED5C2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_210_St._A2PNZE_(ELSE_NUTRITION_HLDG)_vom_24.06.2024_DED5C2.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6EE653": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_222_St._A3E3UN_(T1_ENERGY_INC._O.N.)_vom_02.10.2025_6EE653.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6B44B2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_242_St._WKN_A2ANH0(ISHS_IV-AUTO.+ROBOTIC.ETF)_vom_14.02.2022_6B44B2.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D5F14D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_24_St._A3DE3J_(RIGETTI_COMPUTNG_DL-,0001)_vom_19.09.2025_D5F14D.pdf",
+      "run_id": "20260809_160836"
+    },
+    "09B97C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_259_St._WKN_A2ANH3(ISHSIV-DIGITALISATION_DLA)_vom_14.02.2022_09B97C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B782D8": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_25_St._630500_(DEUTZ_AG_AKTIEN_O.N.)_vom_25.04.2023_B782D8.pdf",
+      "run_id": "20260809_160836"
+    },
+    "19F466": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_270_St._A40ESG_(MEDIGENE_AG_NA_O.N.)_vom_06.08.2025_19F466.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E5D499": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_273_St._A117FW_(WMF(L)-W.G.QUAL.GR.NDLAUH)_vom_25.04.2023_E5D499.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B009E4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_282_St._WKN_A2ANH2(ISHS_IV-HEALTHC.INNOV.ETF)_vom_14.02.2022_B009E4.pdf",
+      "run_id": "20260809_160836"
+    },
+    "11C6E0": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_2_St._A117ME_(ALIBABA_GR.HLDG_SP.ADR_8)_vom_25.04.2023_11C6E0.pdf",
+      "run_id": "20260809_160836"
+    },
+    "381D95": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_2_St._WKN_DBX1LC_(DB_X-TR.DBLCI-OY_BAL._1C)_vom_07.11.2008_381D95.pdf",
+      "run_id": "20260809_160836"
+    },
+    "0C28C4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_300_St._A2N4RL_(SPEY_RESOURCES_CORP.)_vom_25.04.2023_0C28C4.pdf",
+      "run_id": "20260809_160836"
+    },
+    "B74990": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_300_St._A3ES4X_(SKYE_BIOSCIENCE_INC.)_vom_13.05.2026_B74990.pdf",
+      "run_id": "20260809_160836"
+    },
+    "C361EB": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_305_St._A2PX00_(BICO_GROUP_AK_B_O.N.)_vom_07.05.2026_C361EB.pdf",
+      "run_id": "20260809_160836"
+    },
+    "84300C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_30_St._A1138D_(TENCENT_HLDGS_HD-,00002)_vom_16.01.2026_84300C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "50DC90": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_30_St._A3CTJC_(SENTINELONE_INC.A_-,0001)_vom_22.09.2025_50DC90.pdf",
+      "run_id": "20260809_160836"
+    },
+    "31C7FD": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_318_St._WKN_850775(TELEFONICA_INH._EO_1)_vom_12.11.2019_31C7FD.pdf",
+      "run_id": "20260809_160836"
+    },
+    "CB8D66": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_32_St._ZAL111_(ZALANDO_SE)_vom_24.06.2024_CB8D66.pdf",
+      "run_id": "20260809_160836"
+    },
+    "48DF45": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_348_St._850775_(TELEFONICA_INH._EO_1)_vom_26.04.2024_48DF45.pdf",
+      "run_id": "20260809_160836"
+    },
+    "5D3EE3": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_359_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_29.08.2024_5D3EE3.pdf",
+      "run_id": "20260809_160836"
+    },
+    "5B4455": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_398_St._A3C84C_(PLANET_LABS_PBC_A_-,0001)_vom_10.10.2025_5B4455.pdf",
+      "run_id": "20260809_160836"
+    },
+    "51715B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_3_St._A14Y6F_(ALPHABET_INC.CL.A_DL-,001)_vom_19.09.2025_51715B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E10DB6": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_3_St._WKN_A0D8Q4(IS.DJ_U.S.SELEC.DIV.U.ETF)_vom_02.01.2017_E10DB6.pdf",
+      "run_id": "20260809_160836"
+    },
+    "CE967D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_3_St._WKN_DBX0AL(DB_X-TR.II-IB.GL.IN.-L.1C)_vom_02.01.2017_CE967D.pdf",
+      "run_id": "20260809_160836"
+    },
+    "9EA5F6": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_3_St._WKN_DBX1ME(DB_X-TR.MSCI_EUR.IDX.DR1C)_vom_02.01.2017_9EA5F6.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6E2B7A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_400_St._A3CS6B_(PLANT_VEDA_FOODS_LTD)_vom_25.04.2023_6E2B7A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "F2787A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_400_St._A3D6S7_(TIGO_ENERGY_INC.)_vom_04.05.2026_F2787A.pdf",
+      "run_id": "20260809_160836"
+    },
+    "7EBA69": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_40_St._A2QJX9_(QUANTUMSCAPE_A_DL-,0001)_vom_21.07.2025_7EBA69.pdf",
+      "run_id": "20260809_160836"
+    },
+    "0C3E4D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_425_St._850775_(TELEFONICA_INH._EO_1)_vom_02.05.2024_0C3E4D.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FF71FA": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_43_St._SHL100_(SIEMENS_HEALTH.AG_NA_O.N.)_vom_22.09.2025_FF71FA.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3A4EB0": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_444_St._A3DGJJ_(MIMEDIA_HLDGS_INC.)_vom_16.07.2025_3A4EB0.pdf",
+      "run_id": "20260809_160836"
+    },
+    "79EBDF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_44_St._A14Y6F_(ALPHABET_INC.CL.A_DL-,001)_vom_13.11.2025_79EBDF.pdf",
+      "run_id": "20260809_160836"
+    },
+    "BE816C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_450_St._A40EDP_(TEMPUS_AI_INC._DL-,01)_vom_11.09.2025_BE816C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "0820FB": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_48_St._A2PMFM_(JUSHI_HLDGS_INC)_vom_25.04.2023_0820FB.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1A11AF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_49_St._WKN_A0F6XG(JPM-PACIF.EQU.JPMPE_AAEO)_vom_15.02.2022_1A11AF.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FC6556": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_4_St._863186_(ADVANCED_MIC.DEV._DL-,01)_vom_05.08.2025_FC6556.pdf",
+      "run_id": "20260809_160836"
+    },
+    "394C34": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_4_St._938914_(AIRBUS_SE)_vom_02.05.2024_394C34.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3E3488": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_4_St._A0JQ5U_(MANZ_AG)_vom_25.04.2023_3E3488.pdf",
+      "run_id": "20260809_160836"
+    },
+    "4734B1": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_4_St._A1JC82_(ENPHASE_ENERGY_INC.DL-,01)_vom_15.07.2025_4734B1.pdf",
+      "run_id": "20260809_160836"
+    },
+    "AF63A8": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_4_St._LYX0BX_(MUF-AMU.MSCI_EMERMKT3_EOA)_vom_27.01.2025_AF63A8.pdf",
+      "run_id": "20260809_160836"
+    },
+    "FE9772": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_4_St._WKN_A141RC(PICTET-ROBOTICS_PDYDISEO)_vom_15.02.2022_FE9772.pdf",
+      "run_id": "20260809_160836"
+    },
+    "8B9B5D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_50_St._A0Q2R4_(SAFE_BULKERS_INC._DL-,001)_vom_25.04.2023_8B9B5D.pdf",
+      "run_id": "20260809_160836"
+    },
+    "E32CC0": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_50_St._A3CQRG_(OATLY_GROUP_AB_SP.ADS_1)_vom_24.06.2024_E32CC0.pdf",
+      "run_id": "20260809_160836"
+    },
+    "4CF783": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_50_St._A40VVU_(PONY_AI_INC._SP.ADR_1)_vom_19.09.2025_4CF783.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3CC2EF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_52_St._860853_(WALMART_DL-,10)_vom_24.09.2025_3CC2EF.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A2DD47": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_53_St._A2PSR2_(BIONTECH_SE_SPON._ADRS_1)_vom_04.11.2024_A2DD47.pdf",
+      "run_id": "20260809_160836"
+    },
+    "3582A1": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_55_St._A0KD0F_(MUEHLHAN_O.N.)_vom_25.04.2023_3582A1.pdf",
+      "run_id": "20260809_160836"
+    },
+    "DF3B42": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_56_St._A412WK_(HINGE_HEALTH_INC.)_vom_07.10.2025_DF3B42.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6336DA": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_58_St._WKN_LYX0CB(LYX.MSCI_NE_ESG_FIL.DR_D)_vom_14.02.2022_6336DA.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6E5E06": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_5_St._723132_(SIXT_SE_ST_O.N.)_vom_03.05.2024_6E5E06.pdf",
+      "run_id": "20260809_160836"
+    },
+    "84610B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_5_St._A1MMCC_(MEDIOS_AG_O.N.)_vom_25.04.2023_84610B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "BF6557": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_5_St._WKN_DBX1EM(DB_X-TR.MSCI_EM_IDX.1C)_vom_02.01.2017_BF6557.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A0C227": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_60_St._921800_(FID.FDS-GL_TECHNOL.A_GL.)_vom_27.01.2025_A0C227.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1A3EB5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_63_St._WKN_A0F5UF(ISHARES_NASDAQ-100_U.ETF)_vom_18.02.2022_1A3EB5.pdf",
+      "run_id": "20260809_160836"
+    },
+    "5E345B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_6_St._855681_(INTEL_CORP._DL-,001)_vom_25.04.2023_5E345B.pdf",
+      "run_id": "20260809_160836"
+    },
+    "0D160F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_6_St._A0LFBM_(DPAM_B-EQ.N.GEM.SU._BEOA)_vom_25.04.2023_0D160F.pdf",
+      "run_id": "20260809_160836"
+    },
+    "D2C416": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_6_St._A3C9GD_(SAMSARA_INC._A_DL-,0001)_vom_22.09.2025_D2C416.pdf",
+      "run_id": "20260809_160836"
+    },
+    "66C6F5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_7.500_St._A2QK7Q_(REVIVA_PHARMACEUT.HLDGS)_vom_08.10.2025_66C6F5.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1C69CE": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_70_St._A419CG_(ROCKET_LAB_CORP._DL-,0001)_vom_10.10.2025_1C69CE.pdf",
+      "run_id": "20260809_160836"
+    },
+    "07A4CB": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_740_St._WKN_A142NZ(ISHSV-S+P500H.CA.SECT.DLA)_vom_14.02.2022_07A4CB.pdf",
+      "run_id": "20260809_160836"
+    },
+    "DB0A1F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_7_St._A117ME_(ALIBABA_GR.HLDG_SP.ADR_8)_vom_19.09.2025_DB0A1F.pdf",
+      "run_id": "20260809_160836"
+    },
+    "610752": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_7_St._A14M21_(EQUINIX_INC._DL-,001)_vom_24.09.2025_610752.pdf",
+      "run_id": "20260809_160836"
+    },
+    "6458FC": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_7_St._A1JWVX_(META_PLATF._A_DL-,000006)_vom_24.09.2025_6458FC.pdf",
+      "run_id": "20260809_160836"
+    },
+    "100101": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_800_St._A2DQ8S_(OVID_THERAPEUTICS_DL-,001)_vom_29.09.2025_100101.pdf",
+      "run_id": "20260809_160836"
+    },
+    "CF58C6": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_820_St._A3DTUQ_(VIDAC_PHARMA_HLDG_PLC_LS1)_vom_15.10.2024_CF58C6.pdf",
+      "run_id": "20260809_160836"
+    },
+    "70F1F1": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_83_St._A3DE3J_(RIGETTI_COMPUTNG_DL-,0001)_vom_29.09.2025_70F1F1.pdf",
+      "run_id": "20260809_160836"
+    },
+    "CE22C9": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_850_St._A3DM9Q_(PROMIS_NEUROSCIENCES)_vom_03.11.2025_CE22C9.pdf",
+      "run_id": "20260809_160836"
+    },
+    "2F5233": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_88_St._A3DGJK_(SOUNDHOUND_AI_A_DL_-,001)_vom_25.09.2025_2F5233.pdf",
+      "run_id": "20260809_160836"
+    },
+    "1DD47E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_8_St._620010_(INDUS_HOLDING_AG)_vom_25.04.2023_1DD47E.pdf",
+      "run_id": "20260809_160836"
+    },
+    "A90CEC": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_8_St._A0MWED_(AMG_CRITICAL_MATER._EO-02)_vom_08.05.2024_A90CEC.pdf",
+      "run_id": "20260809_160836"
+    },
+    "BD7D3C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_8_St._A3CL8W_(AST_SPACEMOBIL.A_DL-,0001)_vom_22.09.2025_BD7D3C.pdf",
+      "run_id": "20260809_160836"
+    },
+    "28E31E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_8_St._KGX888_(KION_GROUP_AG)_vom_24.06.2024_28E31E.pdf",
+      "run_id": "20260809_160836"
+    },
+    "8725C9": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_900_St._A3C5SS_(TIZIANA_LIFE_SCIENCES_LTD)_vom_03.11.2025_8725C9.pdf",
+      "run_id": "20260809_160836"
+    },
+    "AF9427": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Verkauf_90_St._A112ST_(JD.COM_SP.ADR_A1_DL-00002)_vom_08.01.2026_AF9427.pdf",
+      "run_id": "20260809_160836"
+    },
+    "07WD026WVGT622AM": {
+      "source": "comdirect_transfer",
+      "raw_ref": "comdirect_wertpapiereingang_depotuebertrag.csv#L2",
+      "run_id": "20260809_160836"
+    },
+    "07WD0QZ5NWW6RUAM": {
+      "source": "comdirect_transfer",
+      "raw_ref": "comdirect_wertpapiereingang_depotuebertrag.csv#L3",
+      "run_id": "20260809_160836"
+    },
+    "07WD01TROO7496AM": {
+      "source": "comdirect_transfer",
+      "raw_ref": "comdirect_wertpapiereingang_depotuebertrag.csv#L4",
+      "run_id": "20260809_160836"
+    },
+    "07WD06UGPHSGCQAM": {
+      "source": "comdirect_transfer",
+      "raw_ref": "comdirect_wertpapiereingang_depotuebertrag.csv#L5",
+      "run_id": "20260809_160836"
+    },
+    "07WD0GTXU2CG3UAM": {
+      "source": "comdirect_transfer",
+      "raw_ref": "comdirect_wertpapiereingang_depotuebertrag.csv#L6",
+      "run_id": "20260809_160836"
+    },
+    "07WD0LR27WQYEIAM": {
+      "source": "comdirect_transfer",
+      "raw_ref": "comdirect_wertpapiereingang_depotuebertrag.csv#L7",
+      "run_id": "20260809_160836"
+    },
+    "07WD0NZ77OXC0AAM": {
+      "source": "comdirect_transfer",
+      "raw_ref": "comdirect_wertpapiereingang_depotuebertrag.csv#L8",
+      "run_id": "20260809_160836"
+    },
+    "07WD08ME9LQDEYAM": {
+      "source": "comdirect_transfer",
+      "raw_ref": "comdirect_wertpapiereingang_depotuebertrag.csv#L9",
+      "run_id": "20260809_160836"
+    },
+    "07WD0N4G28AUCQAM": {
+      "source": "comdirect_transfer",
+      "raw_ref": "comdirect_wertpapiereingang_depotuebertrag.csv#L10",
+      "run_id": "20260809_160836"
+    },
+    "07WD0X3SL70MWAAM": {
+      "source": "comdirect_transfer",
+      "raw_ref": "comdirect_wertpapiereingang_depotuebertrag.csv#L11",
+      "run_id": "20260809_160836"
+    },
+    "07WD0O4K5PD85MAM": {
+      "source": "comdirect_transfer",
+      "raw_ref": "comdirect_wertpapiereingang_depotuebertrag.csv#L12",
+      "run_id": "20260809_160836"
+    },
+    "QKFRVFNZALXSK46BJKQEO1": {
+      "source": "scalable",
+      "raw_ref": "QKFRVFNZALXSK46BJKQEO1",
+      "run_id": "20260809_160836"
+    },
+    "SCALK9gXc8ZTgSp": {
+      "source": "scalable",
+      "raw_ref": "SCALK9gXc8ZTgSp",
+      "run_id": "20260809_160836"
+    },
+    "SCALW6ZHBnWxbzY": {
+      "source": "scalable",
+      "raw_ref": "SCALW6ZHBnWxbzY",
+      "run_id": "20260809_160836"
+    },
+    "SCALwccGcxfSKJo": {
+      "source": "scalable",
+      "raw_ref": "SCALwccGcxfSKJo",
+      "run_id": "20260809_160836"
+    },
+    "SCAL6SMrgTYpUmo": {
+      "source": "scalable",
+      "raw_ref": "SCAL6SMrgTYpUmo",
+      "run_id": "20260809_160836"
+    },
+    "SCALnTjMJ82rjfL": {
+      "source": "scalable",
+      "raw_ref": "SCALnTjMJ82rjfL",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_GB00B608Z994": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_GB00B608Z994",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_KYG070341048": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_KYG070341048",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_US45826J1051": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_US45826J1051",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_US9509151083": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_US9509151083",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_US85916J4094": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_US85916J4094",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_CH0334081137": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_CH0334081137",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_IE0000ZVYDH0": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_IE0000ZVYDH0",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_KYG017191142": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_KYG017191142",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_KYG7171B1068": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_KYG7171B1068",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_US75886F1075": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_US75886F1075",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_US6294442099": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_US6294442099",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_US2183521028": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_US2183521028",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_IE00BL25JP72": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_IE00BL25JP72",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_IE00BL25JL35": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_IE00BL25JL35",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_KYG875721634": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_KYG875721634",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_IE00BKM4GZ66": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_IE00BKM4GZ66",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_AU000000DRO2": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_AU000000DRO2",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_US46222L1089": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_US46222L1089",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_AU000000BRN8": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_AU000000BRN8",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_LU1829220216": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_LU1829220216",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_AU000000WBT5": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_AU000000WBT5",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_US15117F8804": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_US15117F8804",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_KYG9830T1067": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_KYG9830T1067",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_IE00BL25JM42": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_IE00BL25JM42",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_US05464T1043": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_US05464T1043",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_US09061G1013": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_US09061G1013",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_US90184D1000": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_US90184D1000",
+      "run_id": "20260809_160836"
+    },
+    "SCTO8PWTE_US40131M1099": {
+      "source": "scalable",
+      "raw_ref": "SCTO8PWTE_US40131M1099",
+      "run_id": "20260809_160836"
+    },
+    "ALF3ID8S8NAALIB78HAVNN": {
+      "source": "scalable",
+      "raw_ref": "ALF3ID8S8NAALIB78HAVNN",
+      "run_id": "20260809_160836"
+    },
+    "SCALp7XFJMaic5d": {
+      "source": "scalable",
+      "raw_ref": "SCALp7XFJMaic5d",
+      "run_id": "20260809_160836"
+    },
+    "SCALtgNsnTZHzJM": {
+      "source": "scalable",
+      "raw_ref": "SCALtgNsnTZHzJM",
+      "run_id": "20260809_160836"
+    },
+    "8RDG7KTABSBUIZRM": {
+      "source": "scalable",
+      "raw_ref": "8RDG7KTABSBUIZRM",
+      "run_id": "20260809_160836"
+    },
+    "673065_6EkSeM5SsSfaMaLwBJqHcF": {
+      "source": "scalable",
+      "raw_ref": "673065_6EkSeM5SsSfaMaLwBJqHcF",
+      "run_id": "20260809_160836"
+    },
+    "SCAL3EgXCuJ1wqq": {
+      "source": "scalable",
+      "raw_ref": "SCAL3EgXCuJ1wqq",
+      "run_id": "20260809_160836"
+    },
+    "SCTI8M796_US9509151083": {
+      "source": "scalable",
+      "raw_ref": "SCTI8M796_US9509151083",
+      "run_id": "20260809_160836"
+    },
+    "SCALtaEaEAtxdLn": {
+      "source": "scalable",
+      "raw_ref": "SCALtaEaEAtxdLn",
+      "run_id": "20260809_160836"
+    },
+    "SCALWp2sJZ5XBX8": {
+      "source": "scalable",
+      "raw_ref": "SCALWp2sJZ5XBX8",
+      "run_id": "20260809_160836"
+    },
+    "SCAL1F3sb6tyTDv": {
+      "source": "scalable",
+      "raw_ref": "SCAL1F3sb6tyTDv",
+      "run_id": "20260809_160836"
+    },
+    "SCALM2qXkBcUyPS": {
+      "source": "scalable",
+      "raw_ref": "SCALM2qXkBcUyPS",
+      "run_id": "20260809_160836"
+    },
+    "SCALXyfhvnq2qoX": {
+      "source": "scalable",
+      "raw_ref": "SCALXyfhvnq2qoX",
+      "run_id": "20260809_160836"
+    },
+    "SCALXqgpHwuPF5F": {
+      "source": "scalable",
+      "raw_ref": "SCALXqgpHwuPF5F",
+      "run_id": "20260809_160836"
+    },
+    "SCTINSRM8_US15117F8804": {
+      "source": "scalable",
+      "raw_ref": "SCTINSRM8_US15117F8804",
+      "run_id": "20260809_160836"
+    },
+    "SCTIY8T83_US09075V1026": {
+      "source": "scalable",
+      "raw_ref": "SCTIY8T83_US09075V1026",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_US0567521085": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_US0567521085",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_US75886F1075": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_US75886F1075",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_KYG875721634": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_KYG875721634",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_AU000000BRN8": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_AU000000BRN8",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_LU1829220216": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_LU1829220216",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_US6294442099": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_US6294442099",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_US90184D1000": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_US90184D1000",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_US7329081084": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_US7329081084",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_US2183521028": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_US2183521028",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_US45826J1051": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_US45826J1051",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_US46222L1089": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_US46222L1089",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_CH0334081137": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_CH0334081137",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_US09061G1013": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_US09061G1013",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_US01609W1027": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_US01609W1027",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_US04650F1012": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_US04650F1012",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_GB00B608Z994": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_GB00B608Z994",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_US85916J4094": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_US85916J4094",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_KYG9830T1067": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_KYG9830T1067",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_US22663K1079": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_US22663K1079",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_US05464T1043": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_US05464T1043",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_AU000000DRO2": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_AU000000DRO2",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_IE0000ZVYDH0": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_IE0000ZVYDH0",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_AU000000WBT5": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_AU000000WBT5",
+      "run_id": "20260809_160836"
+    },
+    "SCTI2UUFP_US40131M1099": {
+      "source": "scalable",
+      "raw_ref": "SCTI2UUFP_US40131M1099",
+      "run_id": "20260809_160836"
+    },
+    "N6KUYLUDY1X6Z2T1WRFB54": {
+      "source": "scalable",
+      "raw_ref": "N6KUYLUDY1X6Z2T1WRFB54",
+      "run_id": "20260809_160836"
+    },
+    "832ee9bf-ba2d-48ca-97f7-7902272c27a9": {
+      "source": "scalable",
+      "raw_ref": "832ee9bf-ba2d-48ca-97f7-7902272c27a9",
+      "run_id": "20260809_160836"
+    },
+    "52c4ba31-66bd-46f1-a00c-55f817651d56": {
+      "source": "scalable",
+      "raw_ref": "52c4ba31-66bd-46f1-a00c-55f817651d56",
+      "run_id": "20260809_160836"
+    },
+    "CDS_DTA_yDwxzHTVWxrUGV6Rx2DqE_0_nm2GLohmXhFFo4AtzhqA5R": {
+      "source": "scalable",
+      "raw_ref": "CDS_DTA_yDwxzHTVWxrUGV6Rx2DqE_0_nm2GLohmXhFFo4AtzhqA5R",
+      "run_id": "20260809_160836"
+    },
+    "5KX6MI": {
+      "source": "scalable",
+      "raw_ref": "5KX6MI",
+      "run_id": "20260809_160836"
+    },
+    "SWITCH-101-6EkSeM5SsSfaMaLwBJqHcF-US46222L1089-WDP": {
+      "source": "scalable",
+      "raw_ref": "SWITCH-101-6EkSeM5SsSfaMaLwBJqHcF-US46222L1089-WDP",
+      "run_id": "20260809_160836"
+    },
+    "SWITCH-101-6EkSeM5SsSfaMaLwBJqHcF-EUR-DEPOSIT": {
+      "source": "scalable",
+      "raw_ref": "SWITCH-101-6EkSeM5SsSfaMaLwBJqHcF-EUR-DEPOSIT",
+      "run_id": "20260809_160836"
+    },
+    "WWUM 00597618127": {
+      "source": "scalable",
+      "raw_ref": "WWUM 00597618127",
+      "run_id": "20260809_160836"
+    },
+    "SCALKKYJx6i1S2R": {
+      "source": "scalable",
+      "raw_ref": "SCALKKYJx6i1S2R",
+      "run_id": "20260809_160836"
+    },
+    "SCALh1rx4r22sPp": {
+      "source": "scalable",
+      "raw_ref": "SCALh1rx4r22sPp",
+      "run_id": "20260809_160836"
+    },
+    "SCALtbAUvQ4SE11": {
+      "source": "scalable",
+      "raw_ref": "SCALtbAUvQ4SE11",
+      "run_id": "20260809_160836"
+    },
+    "SCALrybFyrtuCy8": {
+      "source": "scalable",
+      "raw_ref": "SCALrybFyrtuCy8",
+      "run_id": "20260809_160836"
+    },
+    "SCALFzwbPcAj7yp": {
+      "source": "scalable",
+      "raw_ref": "SCALFzwbPcAj7yp",
+      "run_id": "20260809_160836"
+    },
+    "SCALejoYb3NVKuE": {
+      "source": "scalable",
+      "raw_ref": "SCALejoYb3NVKuE",
+      "run_id": "20260809_160836"
+    },
+    "SCALL5TRkdDXcCp": {
+      "source": "scalable",
+      "raw_ref": "SCALL5TRkdDXcCp",
+      "run_id": "20260809_160836"
+    },
+    "SCALSDJqLLcmHah": {
+      "source": "scalable",
+      "raw_ref": "SCALSDJqLLcmHah",
+      "run_id": "20260809_160836"
+    },
+    "SCALkbt6a41ufbF": {
+      "source": "scalable",
+      "raw_ref": "SCALkbt6a41ufbF",
+      "run_id": "20260809_160836"
+    },
+    "SCALxhk1sVcgyhe": {
+      "source": "scalable",
+      "raw_ref": "SCALxhk1sVcgyhe",
+      "run_id": "20260809_160836"
+    },
+    "SCALSpxVEtsDSvf": {
+      "source": "scalable",
+      "raw_ref": "SCALSpxVEtsDSvf",
+      "run_id": "20260809_160836"
+    },
+    "SCALZi8Y9BFEeZh": {
+      "source": "scalable",
+      "raw_ref": "SCALZi8Y9BFEeZh",
+      "run_id": "20260809_160836"
+    },
+    "OSA4KWV87MDW6VZAPKJEH1": {
+      "source": "scalable",
+      "raw_ref": "OSA4KWV87MDW6VZAPKJEH1",
+      "run_id": "20260809_160836"
+    },
+    "SCALVdUXoXJnaSz": {
+      "source": "scalable",
+      "raw_ref": "SCALVdUXoXJnaSz",
+      "run_id": "20260809_160836"
+    },
+    "SCALoUfcvyjqAtS": {
+      "source": "scalable",
+      "raw_ref": "SCALoUfcvyjqAtS",
+      "run_id": "20260809_160836"
+    },
+    "SCAL88VQRCQu5Yu": {
+      "source": "scalable",
+      "raw_ref": "SCAL88VQRCQu5Yu",
+      "run_id": "20260809_160836"
+    },
+    "SCAL1qZww99Wp3e": {
+      "source": "scalable",
+      "raw_ref": "SCAL1qZww99Wp3e",
+      "run_id": "20260809_160836"
+    },
+    "SCALDGVpfXiApga": {
+      "source": "scalable",
+      "raw_ref": "SCALDGVpfXiApga",
+      "run_id": "20260809_160836"
+    },
+    "EWKRXW54ZN2QYRLGOXCMWB": {
+      "source": "scalable",
+      "raw_ref": "EWKRXW54ZN2QYRLGOXCMWB",
+      "run_id": "20260809_160836"
+    },
+    "1205e7e5-b427-442a-a2cb-e7da2d065ea5": {
+      "source": "scalable",
+      "raw_ref": "1205e7e5-b427-442a-a2cb-e7da2d065ea5",
+      "run_id": "20260809_160836"
+    },
+    "SCAL6y4hzAUwgTE": {
+      "source": "scalable",
+      "raw_ref": "SCAL6y4hzAUwgTE",
+      "run_id": "20260809_160836"
+    },
+    "SCALoHXomvKfDoq": {
+      "source": "scalable",
+      "raw_ref": "SCALoHXomvKfDoq",
+      "run_id": "20260809_160836"
+    },
+    "SCAL9myx9wY3HS7": {
+      "source": "scalable",
+      "raw_ref": "SCAL9myx9wY3HS7",
+      "run_id": "20260809_160836"
+    },
+    "SCALvbGnxHeBdU7": {
+      "source": "scalable",
+      "raw_ref": "SCALvbGnxHeBdU7",
+      "run_id": "20260809_160836"
+    },
+    "SCALJNLDE7aH6VQ": {
+      "source": "scalable",
+      "raw_ref": "SCALJNLDE7aH6VQ",
+      "run_id": "20260809_160836"
+    },
+    "XSANRBJZ4XVTZ7VNM7RC82": {
+      "source": "scalable",
+      "raw_ref": "XSANRBJZ4XVTZ7VNM7RC82",
+      "run_id": "20260809_160836"
+    },
+    "SCALrPU5jbgdcY7": {
+      "source": "scalable",
+      "raw_ref": "SCALrPU5jbgdcY7",
+      "run_id": "20260809_160836"
+    },
+    "SCAL86DAKWYErWe": {
+      "source": "scalable",
+      "raw_ref": "SCAL86DAKWYErWe",
+      "run_id": "20260809_160836"
+    },
+    "SCALTsVGJn6ofh3": {
+      "source": "scalable",
+      "raw_ref": "SCALTsVGJn6ofh3",
+      "run_id": "20260809_160836"
+    },
+    "SCALzo6jYC8oKtx": {
+      "source": "scalable",
+      "raw_ref": "SCALzo6jYC8oKtx",
+      "run_id": "20260809_160836"
+    },
+    "SCAL3fg2ikePqXA": {
+      "source": "scalable",
+      "raw_ref": "SCAL3fg2ikePqXA",
+      "run_id": "20260809_160836"
+    },
+    "BK9IDEZBPQWC4POP1N8HYU": {
+      "source": "scalable",
+      "raw_ref": "BK9IDEZBPQWC4POP1N8HYU",
+      "run_id": "20260809_160836"
+    },
+    "SCAL5ChMtjqCi6T": {
+      "source": "scalable",
+      "raw_ref": "SCAL5ChMtjqCi6T",
+      "run_id": "20260809_160836"
+    },
+    "SCALnD2xrS4kz8T": {
+      "source": "scalable",
+      "raw_ref": "SCALnD2xrS4kz8T",
+      "run_id": "20260809_160836"
+    },
+    "SCALGP4sXEsCELy": {
+      "source": "scalable",
+      "raw_ref": "SCALGP4sXEsCELy",
+      "run_id": "20260809_160836"
+    },
+    "SCALtLde2s3LiEm": {
+      "source": "scalable",
+      "raw_ref": "SCALtLde2s3LiEm",
+      "run_id": "20260809_160836"
+    },
+    "SCALAcQDwvjhPZt": {
+      "source": "scalable",
+      "raw_ref": "SCALAcQDwvjhPZt",
+      "run_id": "20260809_160836"
+    },
+    "2WDQZVELTFIZ2RMWHPDCLE": {
+      "source": "scalable",
+      "raw_ref": "2WDQZVELTFIZ2RMWHPDCLE",
+      "run_id": "20260809_160836"
+    },
+    "SCALXqLymv51GJf": {
+      "source": "scalable",
+      "raw_ref": "SCALXqLymv51GJf",
+      "run_id": "20260809_160836"
+    },
+    "SCALSir2nHW3GFG": {
+      "source": "scalable",
+      "raw_ref": "SCALSir2nHW3GFG",
+      "run_id": "20260809_160836"
+    },
+    "SCALpJQ4n7NUxnV": {
+      "source": "scalable",
+      "raw_ref": "SCALpJQ4n7NUxnV",
+      "run_id": "20260809_160836"
+    },
+    "SCALSb7ZUX4XXh4": {
+      "source": "scalable",
+      "raw_ref": "SCALSb7ZUX4XXh4",
+      "run_id": "20260809_160836"
+    },
+    "SCALWHLH8fpExiY": {
+      "source": "scalable",
+      "raw_ref": "SCALWHLH8fpExiY",
+      "run_id": "20260809_160836"
+    },
+    "GXZ5MWDSXBN9G1EFGJHK2J": {
+      "source": "scalable",
+      "raw_ref": "GXZ5MWDSXBN9G1EFGJHK2J",
+      "run_id": "20260809_160836"
+    },
+    "P2FV64ECki4N8jT1NNS6s": {
+      "source": "scalable",
+      "raw_ref": "P2FV64ECki4N8jT1NNS6s",
+      "run_id": "20260809_160836"
+    },
+    "SCALR8aHDQfbt2E": {
+      "source": "scalable",
+      "raw_ref": "SCALR8aHDQfbt2E",
+      "run_id": "20260809_160836"
+    },
+    "SCAL8yFJHwV7tZf": {
+      "source": "scalable",
+      "raw_ref": "SCAL8yFJHwV7tZf",
+      "run_id": "20260809_160836"
+    },
+    "SCALz5ohh5BFTdw": {
+      "source": "scalable",
+      "raw_ref": "SCALz5ohh5BFTdw",
+      "run_id": "20260809_160836"
+    },
+    "SCALwP8JXHYFRWc": {
+      "source": "scalable",
+      "raw_ref": "SCALwP8JXHYFRWc",
+      "run_id": "20260809_160836"
+    },
+    "SCALuivmMADjQNW": {
+      "source": "scalable",
+      "raw_ref": "SCALuivmMADjQNW",
+      "run_id": "20260809_160836"
+    },
+    "9KQPMGNWQDOD5WGJZFZTTZ": {
+      "source": "scalable",
+      "raw_ref": "9KQPMGNWQDOD5WGJZFZTTZ",
+      "run_id": "20260809_160836"
+    },
+    "SCALKygYgXYkHsQ": {
+      "source": "scalable",
+      "raw_ref": "SCALKygYgXYkHsQ",
+      "run_id": "20260809_160836"
+    },
+    "SCALDSHWp8LgFe2": {
+      "source": "scalable",
+      "raw_ref": "SCALDSHWp8LgFe2",
+      "run_id": "20260809_160836"
+    },
+    "SCALUGp7KUq6vfG": {
+      "source": "scalable",
+      "raw_ref": "SCALUGp7KUq6vfG",
+      "run_id": "20260809_160836"
+    },
+    "SCALogMcZmcVni1": {
+      "source": "scalable",
+      "raw_ref": "SCALogMcZmcVni1",
+      "run_id": "20260809_160836"
+    },
+    "SCALnXH77NsY2hn": {
+      "source": "scalable",
+      "raw_ref": "SCALnXH77NsY2hn",
+      "run_id": "20260809_160836"
+    },
+    "CFMDGPBRXBJAZGRBZUAGQA": {
+      "source": "scalable",
+      "raw_ref": "CFMDGPBRXBJAZGRBZUAGQA",
+      "run_id": "20260809_160836"
+    },
+    "SCALXiFA92iuvmL": {
+      "source": "scalable",
+      "raw_ref": "SCALXiFA92iuvmL",
+      "run_id": "20260809_160836"
+    },
+    "SCALX9joLneNG1R": {
+      "source": "scalable",
+      "raw_ref": "SCALX9joLneNG1R",
+      "run_id": "20260809_160836"
+    },
+    "SCAL8vfzmUPhGsM": {
+      "source": "scalable",
+      "raw_ref": "SCAL8vfzmUPhGsM",
+      "run_id": "20260809_160836"
+    },
+    "SCALcbT7tt7FRHN": {
+      "source": "scalable",
+      "raw_ref": "SCALcbT7tt7FRHN",
+      "run_id": "20260809_160836"
+    },
+    "SCAL8PFm2Rkmmdf": {
+      "source": "scalable",
+      "raw_ref": "SCAL8PFm2Rkmmdf",
+      "run_id": "20260809_160836"
+    },
+    "GOKG3JXFUVTCUJ9GN9CLZ4": {
+      "source": "scalable",
+      "raw_ref": "GOKG3JXFUVTCUJ9GN9CLZ4",
+      "run_id": "20260809_160836"
+    },
+    "SCALjDfyZPQWShD": {
+      "source": "scalable",
+      "raw_ref": "SCALjDfyZPQWShD",
+      "run_id": "20260809_160836"
+    },
+    "SCALRxaj3bQbGET": {
+      "source": "scalable",
+      "raw_ref": "SCALRxaj3bQbGET",
+      "run_id": "20260809_160836"
+    },
+    "SCALap3RaqMSYqK": {
+      "source": "scalable",
+      "raw_ref": "SCALap3RaqMSYqK",
+      "run_id": "20260809_160836"
+    },
+    "SCAL1eEAuDaVEty": {
+      "source": "scalable",
+      "raw_ref": "SCAL1eEAuDaVEty",
+      "run_id": "20260809_160836"
+    },
+    "SCALNacJK2R8Fg8": {
+      "source": "scalable",
+      "raw_ref": "SCALNacJK2R8Fg8",
+      "run_id": "20260809_160836"
+    },
+    "8FEU5CBVR1U2VBHBUAXPJE": {
+      "source": "scalable",
+      "raw_ref": "8FEU5CBVR1U2VBHBUAXPJE",
+      "run_id": "20260809_160836"
+    },
+    "SCALbeokiYeNkuv": {
+      "source": "scalable",
+      "raw_ref": "SCALbeokiYeNkuv",
+      "run_id": "20260809_160836"
+    },
+    "SCALypLxCqT3fAx": {
+      "source": "scalable",
+      "raw_ref": "SCALypLxCqT3fAx",
+      "run_id": "20260809_160836"
+    },
+    "SCALbZd7UCqLMBV": {
+      "source": "scalable",
+      "raw_ref": "SCALbZd7UCqLMBV",
+      "run_id": "20260809_160836"
+    },
+    "SCALiwyWmRw2Vox": {
+      "source": "scalable",
+      "raw_ref": "SCALiwyWmRw2Vox",
+      "run_id": "20260809_160836"
+    },
+    "SCALuAjFWqqAjP7": {
+      "source": "scalable",
+      "raw_ref": "SCALuAjFWqqAjP7",
+      "run_id": "20260809_160836"
+    },
+    "G5179G8P899DSNUJWJC8QE": {
+      "source": "scalable",
+      "raw_ref": "G5179G8P899DSNUJWJC8QE",
+      "run_id": "20260809_160836"
+    },
+    "SCALm7e6kW6xYBB": {
+      "source": "scalable",
+      "raw_ref": "SCALm7e6kW6xYBB",
+      "run_id": "20260809_160836"
+    },
+    "SCALxhJ1KqMJtV4": {
+      "source": "scalable",
+      "raw_ref": "SCALxhJ1KqMJtV4",
+      "run_id": "20260809_160836"
+    },
+    "SCALGe5LDpyqW3i": {
+      "source": "scalable",
+      "raw_ref": "SCALGe5LDpyqW3i",
+      "run_id": "20260809_160836"
+    },
+    "SCALFBxzsDQbVcJ": {
+      "source": "scalable",
+      "raw_ref": "SCALFBxzsDQbVcJ",
+      "run_id": "20260809_160836"
+    },
+    "SCALBbmucyJTtCz": {
+      "source": "scalable",
+      "raw_ref": "SCALBbmucyJTtCz",
+      "run_id": "20260809_160836"
+    },
+    "4P2FGD1Y3XSVXT4YZMKTIX": {
+      "source": "scalable",
+      "raw_ref": "4P2FGD1Y3XSVXT4YZMKTIX",
+      "run_id": "20260809_160836"
+    },
+    "SCALcX42wq4xEgn": {
+      "source": "scalable",
+      "raw_ref": "SCALcX42wq4xEgn",
+      "run_id": "20260809_160836"
+    },
+    "SCALj6X19YTzxWr": {
+      "source": "scalable",
+      "raw_ref": "SCALj6X19YTzxWr",
+      "run_id": "20260809_160836"
+    },
+    "SCALn3Acrob1bNb": {
+      "source": "scalable",
+      "raw_ref": "SCALn3Acrob1bNb",
+      "run_id": "20260809_160836"
+    },
+    "SCALnBvQFEQosr3": {
+      "source": "scalable",
+      "raw_ref": "SCALnBvQFEQosr3",
+      "run_id": "20260809_160836"
+    },
+    "SCALveeg9aqWmrX": {
+      "source": "scalable",
+      "raw_ref": "SCALveeg9aqWmrX",
+      "run_id": "20260809_160836"
+    },
+    "B6WRUVWWXFJRCKSJQG3SAZ": {
+      "source": "scalable",
+      "raw_ref": "B6WRUVWWXFJRCKSJQG3SAZ",
+      "run_id": "20260809_160836"
+    },
+    "SCALzpx7BoHxg2w": {
+      "source": "scalable",
+      "raw_ref": "SCALzpx7BoHxg2w",
+      "run_id": "20260809_160836"
+    },
+    "SCALSSVKheZ7yd9": {
+      "source": "scalable",
+      "raw_ref": "SCALSSVKheZ7yd9",
+      "run_id": "20260809_160836"
+    },
+    "SCALUDzaPAzB7Y2": {
+      "source": "scalable",
+      "raw_ref": "SCALUDzaPAzB7Y2",
+      "run_id": "20260809_160836"
+    },
+    "SCALpSoRj93aJRL": {
+      "source": "scalable",
+      "raw_ref": "SCALpSoRj93aJRL",
+      "run_id": "20260809_160836"
+    },
+    "SCALKupF97uaugs": {
+      "source": "scalable",
+      "raw_ref": "SCALKupF97uaugs",
+      "run_id": "20260809_160836"
+    },
+    "TQ8IPVVZE8IAWGPQCRWKOB": {
+      "source": "scalable",
+      "raw_ref": "TQ8IPVVZE8IAWGPQCRWKOB",
+      "run_id": "20260809_160836"
+    },
+    "V5T1H6VVNOVN5XSVXMNTLY": {
+      "source": "scalable",
+      "raw_ref": "V5T1H6VVNOVN5XSVXMNTLY",
+      "run_id": "20260809_160836"
+    },
+    "AASE 49968733": {
+      "source": "scalable",
+      "raw_ref": "AASE 49968733",
+      "run_id": "20260809_160836"
+    },
+    "SCALanA1eryK8V5": {
+      "source": "scalable",
+      "raw_ref": "SCALanA1eryK8V5",
+      "run_id": "20260809_160836"
+    },
+    "SCAL7sUGrv2cK19": {
+      "source": "scalable",
+      "raw_ref": "SCAL7sUGrv2cK19",
+      "run_id": "20260809_160836"
+    },
+    "SCALvrjwCCht7YE": {
+      "source": "scalable",
+      "raw_ref": "SCALvrjwCCht7YE",
+      "run_id": "20260809_160836"
+    },
+    "SCAL8R6iQ44CqCW": {
+      "source": "scalable",
+      "raw_ref": "SCAL8R6iQ44CqCW",
+      "run_id": "20260809_160836"
+    },
+    "SCALQDCBemidkr8": {
+      "source": "scalable",
+      "raw_ref": "SCALQDCBemidkr8",
+      "run_id": "20260809_160836"
+    },
+    "SCALKG64XhpjyD9": {
+      "source": "scalable",
+      "raw_ref": "SCALKG64XhpjyD9",
+      "run_id": "20260809_160836"
+    },
+    "SCAL3FfPCQLcDmc": {
+      "source": "scalable",
+      "raw_ref": "SCAL3FfPCQLcDmc",
+      "run_id": "20260809_160836"
+    },
+    "SCALtcvNRQcpSzc": {
+      "source": "scalable",
+      "raw_ref": "SCALtcvNRQcpSzc",
+      "run_id": "20260809_160836"
+    },
+    "SCAL6BmF8QZZ1DU": {
+      "source": "scalable",
+      "raw_ref": "SCAL6BmF8QZZ1DU",
+      "run_id": "20260809_160836"
+    },
+    "SCALnxmtRsGzT7c": {
+      "source": "scalable",
+      "raw_ref": "SCALnxmtRsGzT7c",
+      "run_id": "20260809_160836"
+    },
+    "VMDRD9GJNFMV1WUTSJNV6G": {
+      "source": "scalable",
+      "raw_ref": "VMDRD9GJNFMV1WUTSJNV6G",
+      "run_id": "20260809_160836"
+    },
+    "SCALNXmneW5EyLr": {
+      "source": "scalable",
+      "raw_ref": "SCALNXmneW5EyLr",
+      "run_id": "20260809_160836"
+    },
+    "SCALT1cdEhGZQyb": {
+      "source": "scalable",
+      "raw_ref": "SCALT1cdEhGZQyb",
+      "run_id": "20260809_160836"
+    },
+    "SCALf5Z5TtKPbTv": {
+      "source": "scalable",
+      "raw_ref": "SCALf5Z5TtKPbTv",
+      "run_id": "20260809_160836"
+    },
+    "SCALF1Y8gNi5ECg": {
+      "source": "scalable",
+      "raw_ref": "SCALF1Y8gNi5ECg",
+      "run_id": "20260809_160836"
+    },
+    "SCALujLxY7MbR15": {
+      "source": "scalable",
+      "raw_ref": "SCALujLxY7MbR15",
+      "run_id": "20260809_160836"
+    },
+    "CPGOHAB2WKSABJQE8HYWAW": {
+      "source": "scalable",
+      "raw_ref": "CPGOHAB2WKSABJQE8HYWAW",
+      "run_id": "20260809_160836"
+    },
+    "SCALWvUqP2fvbKF": {
+      "source": "scalable",
+      "raw_ref": "SCALWvUqP2fvbKF",
+      "run_id": "20260809_160836"
+    },
+    "SCALFrjmjcZoGFN": {
+      "source": "scalable",
+      "raw_ref": "SCALFrjmjcZoGFN",
+      "run_id": "20260809_160836"
+    },
+    "SCALVGSCAPVmYx6": {
+      "source": "scalable",
+      "raw_ref": "SCALVGSCAPVmYx6",
+      "run_id": "20260809_160836"
+    },
+    "SCALU1mgp2j34Vw": {
+      "source": "scalable",
+      "raw_ref": "SCALU1mgp2j34Vw",
+      "run_id": "20260809_160836"
+    },
+    "SCALYCW66BdRzGa": {
+      "source": "scalable",
+      "raw_ref": "SCALYCW66BdRzGa",
+      "run_id": "20260809_160836"
+    },
+    "A3OKG6QVSANI8YFUTTYBDV": {
+      "source": "scalable",
+      "raw_ref": "A3OKG6QVSANI8YFUTTYBDV",
+      "run_id": "20260809_160836"
+    },
+    "SCALsLYK9UjDSev": {
+      "source": "scalable",
+      "raw_ref": "SCALsLYK9UjDSev",
+      "run_id": "20260809_160836"
+    },
+    "SCALr32gimg21p7": {
+      "source": "scalable",
+      "raw_ref": "SCALr32gimg21p7",
+      "run_id": "20260809_160836"
+    },
+    "SCALZVMc3VYcym8": {
+      "source": "scalable",
+      "raw_ref": "SCALZVMc3VYcym8",
+      "run_id": "20260809_160836"
+    },
+    "SCAL4i6izgdT36R": {
+      "source": "scalable",
+      "raw_ref": "SCAL4i6izgdT36R",
+      "run_id": "20260809_160836"
+    },
+    "SCAL6SYmgJGTqcu": {
+      "source": "scalable",
+      "raw_ref": "SCAL6SYmgJGTqcu",
+      "run_id": "20260809_160836"
+    },
+    "TM8AQKJOSWELDZ8UQ3QGQP": {
+      "source": "scalable",
+      "raw_ref": "TM8AQKJOSWELDZ8UQ3QGQP",
+      "run_id": "20260809_160836"
+    },
+    "SCALa8NEK9YiewH": {
+      "source": "scalable",
+      "raw_ref": "SCALa8NEK9YiewH",
+      "run_id": "20260809_160836"
+    },
+    "SCAL6xbgTRdRX2s": {
+      "source": "scalable",
+      "raw_ref": "SCAL6xbgTRdRX2s",
+      "run_id": "20260809_160836"
+    },
+    "SCALDQUY7GjyWu1": {
+      "source": "scalable",
+      "raw_ref": "SCALDQUY7GjyWu1",
+      "run_id": "20260809_160836"
+    },
+    "SCAL5MvVGpt6eig": {
+      "source": "scalable",
+      "raw_ref": "SCAL5MvVGpt6eig",
+      "run_id": "20260809_160836"
+    },
+    "SCALVQtLFvF5pCZ": {
+      "source": "scalable",
+      "raw_ref": "SCALVQtLFvF5pCZ",
+      "run_id": "20260809_160836"
+    },
+    "7MM7EZFQTMOGAH1H6QEZDW": {
+      "source": "scalable",
+      "raw_ref": "7MM7EZFQTMOGAH1H6QEZDW",
+      "run_id": "20260809_160836"
+    },
+    "SCAL6VkAWBYcdbv": {
+      "source": "scalable",
+      "raw_ref": "SCAL6VkAWBYcdbv",
+      "run_id": "20260809_160836"
+    },
+    "SCALJHhtquei3WD": {
+      "source": "scalable",
+      "raw_ref": "SCALJHhtquei3WD",
+      "run_id": "20260809_160836"
+    },
+    "SCALf2VcDtSRS9S": {
+      "source": "scalable",
+      "raw_ref": "SCALf2VcDtSRS9S",
+      "run_id": "20260809_160836"
+    },
+    "SCALNxys3gN9mQD": {
+      "source": "scalable",
+      "raw_ref": "SCALNxys3gN9mQD",
+      "run_id": "20260809_160836"
+    },
+    "SCALGXvq9idcgxn": {
+      "source": "scalable",
+      "raw_ref": "SCALGXvq9idcgxn",
+      "run_id": "20260809_160836"
+    },
+    "D7GYCNLWYGRWGWJB7KB4UR": {
+      "source": "scalable",
+      "raw_ref": "D7GYCNLWYGRWGWJB7KB4UR",
+      "run_id": "20260809_160836"
+    },
+    "SCALJkqGYuCJwDY": {
+      "source": "scalable",
+      "raw_ref": "SCALJkqGYuCJwDY",
+      "run_id": "20260809_160836"
+    },
+    "SCALqgtnLUkSrzJ": {
+      "source": "scalable",
+      "raw_ref": "SCALqgtnLUkSrzJ",
+      "run_id": "20260809_160836"
+    },
+    "SCAL4bi3zvktgUp": {
+      "source": "scalable",
+      "raw_ref": "SCAL4bi3zvktgUp",
+      "run_id": "20260809_160836"
+    },
+    "SCALbtG5PjJ1Zgw": {
+      "source": "scalable",
+      "raw_ref": "SCALbtG5PjJ1Zgw",
+      "run_id": "20260809_160836"
+    },
+    "SCAL1rsAATbyBaQ": {
+      "source": "scalable",
+      "raw_ref": "SCAL1rsAATbyBaQ",
+      "run_id": "20260809_160836"
+    },
+    "RKKTU5IENZGRHVFS2RGAMA": {
+      "source": "scalable",
+      "raw_ref": "RKKTU5IENZGRHVFS2RGAMA",
+      "run_id": "20260809_160836"
+    },
+    "SCALi8fJFWTwxcD": {
+      "source": "scalable",
+      "raw_ref": "SCALi8fJFWTwxcD",
+      "run_id": "20260809_160836"
+    },
+    "SCALoSvPR45BdTk": {
+      "source": "scalable",
+      "raw_ref": "SCALoSvPR45BdTk",
+      "run_id": "20260809_160836"
+    },
+    "SCALRQsnbzdvA78": {
+      "source": "scalable",
+      "raw_ref": "SCALRQsnbzdvA78",
+      "run_id": "20260809_160836"
+    },
+    "SCALAU6qp1WXtzy": {
+      "source": "scalable",
+      "raw_ref": "SCALAU6qp1WXtzy",
+      "run_id": "20260809_160836"
+    },
+    "SCALnwZiy8azswZ": {
+      "source": "scalable",
+      "raw_ref": "SCALnwZiy8azswZ",
+      "run_id": "20260809_160836"
+    },
+    "C65BMF4JIWQCWGPSUPKSHU": {
+      "source": "scalable",
+      "raw_ref": "C65BMF4JIWQCWGPSUPKSHU",
+      "run_id": "20260809_160836"
+    },
+    "SCALAR3f9Rzyy2m": {
+      "source": "scalable",
+      "raw_ref": "SCALAR3f9Rzyy2m",
+      "run_id": "20260809_160836"
+    },
+    "SCALnheZdowymYH": {
+      "source": "scalable",
+      "raw_ref": "SCALnheZdowymYH",
+      "run_id": "20260809_160836"
+    },
+    "SCALVxX9tBpMsUT": {
+      "source": "scalable",
+      "raw_ref": "SCALVxX9tBpMsUT",
+      "run_id": "20260809_160836"
+    },
+    "SCALTGAP3f74EfQ": {
+      "source": "scalable",
+      "raw_ref": "SCALTGAP3f74EfQ",
+      "run_id": "20260809_160836"
+    },
+    "SCALYGioKX3U13g": {
+      "source": "scalable",
+      "raw_ref": "SCALYGioKX3U13g",
+      "run_id": "20260809_160836"
+    },
+    "UPUUK9YYVJOYKMGNXMZZHC": {
+      "source": "scalable",
+      "raw_ref": "UPUUK9YYVJOYKMGNXMZZHC",
+      "run_id": "20260809_160836"
+    },
+    "SCALgYKU27notwN": {
+      "source": "scalable",
+      "raw_ref": "SCALgYKU27notwN",
+      "run_id": "20260809_160836"
+    },
+    "SCALbmrSBB9fxwv": {
+      "source": "scalable",
+      "raw_ref": "SCALbmrSBB9fxwv",
+      "run_id": "20260809_160836"
+    },
+    "SCALsoNspybBp8w": {
+      "source": "scalable",
+      "raw_ref": "SCALsoNspybBp8w",
+      "run_id": "20260809_160836"
+    },
+    "SCALYynYzaKUnNT": {
+      "source": "scalable",
+      "raw_ref": "SCALYynYzaKUnNT",
+      "run_id": "20260809_160836"
+    },
+    "SCAL2zauH7F911Z": {
+      "source": "scalable",
+      "raw_ref": "SCAL2zauH7F911Z",
+      "run_id": "20260809_160836"
+    },
+    "CWNKPXCGQKYNFIXOPXPMKK": {
+      "source": "scalable",
+      "raw_ref": "CWNKPXCGQKYNFIXOPXPMKK",
+      "run_id": "20260809_160836"
+    },
+    "SCALZB3FqKtpVch": {
+      "source": "scalable",
+      "raw_ref": "SCALZB3FqKtpVch",
+      "run_id": "20260809_160836"
+    },
+    "SCALmbzvzmcuXAf": {
+      "source": "scalable",
+      "raw_ref": "SCALmbzvzmcuXAf",
+      "run_id": "20260809_160836"
+    },
+    "SCAL8Jo7F62BxDW": {
+      "source": "scalable",
+      "raw_ref": "SCAL8Jo7F62BxDW",
+      "run_id": "20260809_160836"
+    },
+    "SCAL4UyaRPVucPz": {
+      "source": "scalable",
+      "raw_ref": "SCAL4UyaRPVucPz",
+      "run_id": "20260809_160836"
+    },
+    "SCALoxLVECX45VW": {
+      "source": "scalable",
+      "raw_ref": "SCALoxLVECX45VW",
+      "run_id": "20260809_160836"
+    },
+    "PXJTLSNWJYIRQ5UCHEYQWQ": {
+      "source": "scalable",
+      "raw_ref": "PXJTLSNWJYIRQ5UCHEYQWQ",
+      "run_id": "20260809_160836"
+    },
+    "SCALp8fc8BqNBs9": {
+      "source": "scalable",
+      "raw_ref": "SCALp8fc8BqNBs9",
+      "run_id": "20260809_160836"
+    },
+    "SCALRnjdhhCEaBr": {
+      "source": "scalable",
+      "raw_ref": "SCALRnjdhhCEaBr",
+      "run_id": "20260809_160836"
+    },
+    "SCALfvNamEZ9U5s": {
+      "source": "scalable",
+      "raw_ref": "SCALfvNamEZ9U5s",
+      "run_id": "20260809_160836"
+    },
+    "SCALn4movq7Y55j": {
+      "source": "scalable",
+      "raw_ref": "SCALn4movq7Y55j",
+      "run_id": "20260809_160836"
+    },
+    "SCAL2j3pEZgRmfw": {
+      "source": "scalable",
+      "raw_ref": "SCAL2j3pEZgRmfw",
+      "run_id": "20260809_160836"
+    },
+    "2HBZRUXT8ERVP8ESWR8BJC": {
+      "source": "scalable",
+      "raw_ref": "2HBZRUXT8ERVP8ESWR8BJC",
+      "run_id": "20260809_160836"
+    },
+    "SCALQVPxQ4grVWC": {
+      "source": "scalable",
+      "raw_ref": "SCALQVPxQ4grVWC",
+      "run_id": "20260809_160836"
+    },
+    "SCALtgaUZ4mNTFD": {
+      "source": "scalable",
+      "raw_ref": "SCALtgaUZ4mNTFD",
+      "run_id": "20260809_160836"
+    },
+    "SCALFkinR1yWWip": {
+      "source": "scalable",
+      "raw_ref": "SCALFkinR1yWWip",
+      "run_id": "20260809_160836"
+    },
+    "SCALm8BZNJbTBsw": {
+      "source": "scalable",
+      "raw_ref": "SCALm8BZNJbTBsw",
+      "run_id": "20260809_160836"
+    },
+    "SCALHW9FbQkF2Pm": {
+      "source": "scalable",
+      "raw_ref": "SCALHW9FbQkF2Pm",
+      "run_id": "20260809_160836"
+    },
+    "7VR3TNDCQ1AMRLV8B5NRPE": {
+      "source": "scalable",
+      "raw_ref": "7VR3TNDCQ1AMRLV8B5NRPE",
+      "run_id": "20260809_160836"
+    },
+    "SCALyD2mmHRmZdM": {
+      "source": "scalable",
+      "raw_ref": "SCALyD2mmHRmZdM",
+      "run_id": "20260809_160836"
+    },
+    "SCALhNXMr126M8N": {
+      "source": "scalable",
+      "raw_ref": "SCALhNXMr126M8N",
+      "run_id": "20260809_160836"
+    },
+    "SCALaRWLwmigLSy": {
+      "source": "scalable",
+      "raw_ref": "SCALaRWLwmigLSy",
+      "run_id": "20260809_160836"
+    },
+    "SCALKSdCMDotG7W": {
+      "source": "scalable",
+      "raw_ref": "SCALKSdCMDotG7W",
+      "run_id": "20260809_160836"
+    },
+    "SCALYXyGvz6xAyX": {
+      "source": "scalable",
+      "raw_ref": "SCALYXyGvz6xAyX",
+      "run_id": "20260809_160836"
+    },
+    "AIYGMMDCGWY2EHVPPZKUUE": {
+      "source": "scalable",
+      "raw_ref": "AIYGMMDCGWY2EHVPPZKUUE",
+      "run_id": "20260809_160836"
+    },
+    "SCALhWScSkns8eZ": {
+      "source": "scalable",
+      "raw_ref": "SCALhWScSkns8eZ",
+      "run_id": "20260809_160836"
+    },
+    "SCALaWC721PhVjS": {
+      "source": "scalable",
+      "raw_ref": "SCALaWC721PhVjS",
+      "run_id": "20260809_160836"
+    },
+    "SCALG3wLkuFhHop": {
+      "source": "scalable",
+      "raw_ref": "SCALG3wLkuFhHop",
+      "run_id": "20260809_160836"
+    },
+    "SCALisSk9dr23jw": {
+      "source": "scalable",
+      "raw_ref": "SCALisSk9dr23jw",
+      "run_id": "20260809_160836"
+    },
+    "SCALP5c8wo512tD": {
+      "source": "scalable",
+      "raw_ref": "SCALP5c8wo512tD",
+      "run_id": "20260809_160836"
+    },
+    "2FEEJ5YWVBOY9HRVC2UOH9": {
+      "source": "scalable",
+      "raw_ref": "2FEEJ5YWVBOY9HRVC2UOH9",
+      "run_id": "20260809_160836"
+    },
+    "SCALe6QG8rC9527": {
+      "source": "scalable",
+      "raw_ref": "SCALe6QG8rC9527",
+      "run_id": "20260809_160836"
+    },
+    "SCALiZ3h7LrwZct": {
+      "source": "scalable",
+      "raw_ref": "SCALiZ3h7LrwZct",
+      "run_id": "20260809_160836"
+    },
+    "SCALCGy69Q4uMvQ": {
+      "source": "scalable",
+      "raw_ref": "SCALCGy69Q4uMvQ",
+      "run_id": "20260809_160836"
+    },
+    "SCALaZFCfPnVnVC": {
+      "source": "scalable",
+      "raw_ref": "SCALaZFCfPnVnVC",
+      "run_id": "20260809_160836"
+    },
+    "SCALzAHyAtoafLt": {
+      "source": "scalable",
+      "raw_ref": "SCALzAHyAtoafLt",
+      "run_id": "20260809_160836"
+    },
+    "21BHKN6XZRVNQVRSHGJDOZ": {
+      "source": "scalable",
+      "raw_ref": "21BHKN6XZRVNQVRSHGJDOZ",
+      "run_id": "20260809_160836"
+    },
+    "SCALhptt3c3oKU5": {
+      "source": "scalable",
+      "raw_ref": "SCALhptt3c3oKU5",
+      "run_id": "20260809_160836"
+    },
+    "SCALLmRQ2iWMEve": {
+      "source": "scalable",
+      "raw_ref": "SCALLmRQ2iWMEve",
+      "run_id": "20260809_160836"
+    },
+    "SCALmEsiDhoUPXS": {
+      "source": "scalable",
+      "raw_ref": "SCALmEsiDhoUPXS",
+      "run_id": "20260809_160836"
+    },
+    "SCAL3MaDMutxtTv": {
+      "source": "scalable",
+      "raw_ref": "SCAL3MaDMutxtTv",
+      "run_id": "20260809_160836"
+    },
+    "SCALkC12kujKg56": {
+      "source": "scalable",
+      "raw_ref": "SCALkC12kujKg56",
+      "run_id": "20260809_160836"
+    },
+    "CJSNN93VTOM4UJSABYEGGI": {
+      "source": "scalable",
+      "raw_ref": "CJSNN93VTOM4UJSABYEGGI",
+      "run_id": "20260809_160836"
+    },
+    "SCALmxLC6ci3tmT": {
+      "source": "scalable",
+      "raw_ref": "SCALmxLC6ci3tmT",
+      "run_id": "20260809_160836"
+    },
+    "SCALvDZbdPRvkJf": {
+      "source": "scalable",
+      "raw_ref": "SCALvDZbdPRvkJf",
+      "run_id": "20260809_160836"
+    },
+    "SCALtM9aa4QuuVf": {
+      "source": "scalable",
+      "raw_ref": "SCALtM9aa4QuuVf",
+      "run_id": "20260809_160836"
+    },
+    "SCALcsg4WuzrC2j": {
+      "source": "scalable",
+      "raw_ref": "SCALcsg4WuzrC2j",
+      "run_id": "20260809_160836"
+    },
+    "SCAL6qdCK8TgFbu": {
+      "source": "scalable",
+      "raw_ref": "SCAL6qdCK8TgFbu",
+      "run_id": "20260809_160836"
+    },
+    "NTW1M6JWLCPYCASFNR5NHU": {
+      "source": "scalable",
+      "raw_ref": "NTW1M6JWLCPYCASFNR5NHU",
+      "run_id": "20260809_160836"
+    },
+    "SCALZbuGr7zj2NZ": {
+      "source": "scalable",
+      "raw_ref": "SCALZbuGr7zj2NZ",
+      "run_id": "20260809_160836"
+    },
+    "SCALPmAHLdeGyvL": {
+      "source": "scalable",
+      "raw_ref": "SCALPmAHLdeGyvL",
+      "run_id": "20260809_160836"
+    },
+    "SCALHbc3mxhf9bk": {
+      "source": "scalable",
+      "raw_ref": "SCALHbc3mxhf9bk",
+      "run_id": "20260809_160836"
+    },
+    "SCALbEYKYX7a2bE": {
+      "source": "scalable",
+      "raw_ref": "SCALbEYKYX7a2bE",
+      "run_id": "20260809_160836"
+    },
+    "SCALXr9CWH8zJ6t": {
+      "source": "scalable",
+      "raw_ref": "SCALXr9CWH8zJ6t",
+      "run_id": "20260809_160836"
+    },
+    "MXYLPCOY5NRZ8LDRPE5S24": {
+      "source": "scalable",
+      "raw_ref": "MXYLPCOY5NRZ8LDRPE5S24",
+      "run_id": "20260809_160836"
+    },
+    "SCAL9u12NUYRxn4": {
+      "source": "scalable",
+      "raw_ref": "SCAL9u12NUYRxn4",
+      "run_id": "20260809_160836"
+    },
+    "SCALaaStGQH6SDh": {
+      "source": "scalable",
+      "raw_ref": "SCALaaStGQH6SDh",
+      "run_id": "20260809_160836"
+    },
+    "SCALJf4RSggjcYN": {
+      "source": "scalable",
+      "raw_ref": "SCALJf4RSggjcYN",
+      "run_id": "20260809_160836"
+    },
+    "SCALymkinZAkFVt": {
+      "source": "scalable",
+      "raw_ref": "SCALymkinZAkFVt",
+      "run_id": "20260809_160836"
+    },
+    "SCAL6RFeTsmgpGg": {
+      "source": "scalable",
+      "raw_ref": "SCAL6RFeTsmgpGg",
+      "run_id": "20260809_160836"
+    },
+    "4HVS2PFCRHOKZREP2AHEXG": {
+      "source": "scalable",
+      "raw_ref": "4HVS2PFCRHOKZREP2AHEXG",
+      "run_id": "20260809_160836"
+    },
+    "SCAL7X21t5wDgTC": {
+      "source": "scalable",
+      "raw_ref": "SCAL7X21t5wDgTC",
+      "run_id": "20260809_160836"
+    },
+    "SCALT5YWpyeuwMp": {
+      "source": "scalable",
+      "raw_ref": "SCALT5YWpyeuwMp",
+      "run_id": "20260809_160836"
+    },
+    "SCAL7uHrw8S8R7P": {
+      "source": "scalable",
+      "raw_ref": "SCAL7uHrw8S8R7P",
+      "run_id": "20260809_160836"
+    },
+    "SCALHaDgJ2qvhdN": {
+      "source": "scalable",
+      "raw_ref": "SCALHaDgJ2qvhdN",
+      "run_id": "20260809_160836"
+    },
+    "SCALLa4JF6ZYM9w": {
+      "source": "scalable",
+      "raw_ref": "SCALLa4JF6ZYM9w",
+      "run_id": "20260809_160836"
+    },
+    "MDNL98M49TEVIYH3AOKWML": {
+      "source": "scalable",
+      "raw_ref": "MDNL98M49TEVIYH3AOKWML",
+      "run_id": "20260809_160836"
+    },
+    "WWUM 00152087283": {
+      "source": "scalable",
+      "raw_ref": "WWUM 00152087283",
+      "run_id": "20260809_160836"
+    },
+    "SCALbpty6XaXrr4": {
+      "source": "scalable",
+      "raw_ref": "SCALbpty6XaXrr4",
+      "run_id": "20260809_160836"
+    },
+    "SCALd63BNkSgkCU": {
+      "source": "scalable",
+      "raw_ref": "SCALd63BNkSgkCU",
+      "run_id": "20260809_160836"
+    },
+    "SCALsyZQjZYgbcD": {
+      "source": "scalable",
+      "raw_ref": "SCALsyZQjZYgbcD",
+      "run_id": "20260809_160836"
+    },
+    "SCAL697Fft8Dzxf": {
+      "source": "scalable",
+      "raw_ref": "SCAL697Fft8Dzxf",
+      "run_id": "20260809_160836"
+    },
+    "SCALqRHS1jkpy3P": {
+      "source": "scalable",
+      "raw_ref": "SCALqRHS1jkpy3P",
+      "run_id": "20260809_160836"
+    },
+    "SCGIFT2823761008": {
+      "source": "scalable",
+      "raw_ref": "SCGIFT2823761008",
+      "run_id": "20260809_160836"
+    },
+    "KY3DHE1WB7ZSLTWORSUH5R": {
+      "source": "scalable",
+      "raw_ref": "KY3DHE1WB7ZSLTWORSUH5R",
+      "run_id": "20260809_160836"
+    },
+    "SCAL7qHpdxkB7MH": {
+      "source": "scalable",
+      "raw_ref": "SCAL7qHpdxkB7MH",
+      "run_id": "20260809_160836"
+    },
+    "SCAL32oRmUEjKLF": {
+      "source": "scalable",
+      "raw_ref": "SCAL32oRmUEjKLF",
+      "run_id": "20260809_160836"
+    },
+    "SCALiw5Np7DcR1s": {
+      "source": "scalable",
+      "raw_ref": "SCALiw5Np7DcR1s",
+      "run_id": "20260809_160836"
+    },
+    "SCALD2ro7xj4kyp": {
+      "source": "scalable",
+      "raw_ref": "SCALD2ro7xj4kyp",
+      "run_id": "20260809_160836"
+    },
+    "SCALbfrVtGV9kGt": {
+      "source": "scalable",
+      "raw_ref": "SCALbfrVtGV9kGt",
+      "run_id": "20260809_160836"
+    },
+    "VSSPNUJ1T7KQHY6G14SAW3": {
+      "source": "scalable",
+      "raw_ref": "VSSPNUJ1T7KQHY6G14SAW3",
+      "run_id": "20260809_160836"
+    },
+    "RH1IIWGM37XAYCAZMDCRCT": {
+      "source": "scalable",
+      "raw_ref": "RH1IIWGM37XAYCAZMDCRCT",
+      "run_id": "20260809_160836"
+    }
+  }
+}
