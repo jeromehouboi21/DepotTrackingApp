@@ -103,6 +103,10 @@ def extract_price_and_gross(page1: str, shares: float) -> tuple[float | None, fl
         if m:
             gross = parse_signed_amount(m.group(1))
 
+    if gross is None and price is not None and shares:
+        # Festpreisgeschäft (Fonds): nur "St. <n> EUR <Festpreis>", keine eigene Kurswert-Zeile.
+        gross = price * shares
+
     if price is None and gross is not None and shares:
         price = gross / shares
 
@@ -197,6 +201,55 @@ def extract_cost_lots(page3: str) -> list[dict]:
     return lots
 
 
+LOTS_PAGE_RE = re.compile(r"Hinweise\s*zur\s*Ermittlung", re.IGNORECASE)
+TAX_PAGE_RE = re.compile(r"Steuerliche\s*Behandlung", re.IGNORECASE)
+
+
+def _is_lots_page(p: str, cp: str) -> bool:
+    # Die Steuermitteilungs-Seite VERWEIST per Fußnote auf "Hinweise zur
+    # Ermittlung ... auf der Folgeseite" - das ist noch keine Kostenlot-Seite,
+    # erkennbar am "Folgeseite" kurz danach. Manche Verkäufe (keine eigenen
+    # Kauf-Lots zuordenbar) liefern auf der echten Seite trotzdem keine
+    # "Anschaffung vom ..."-Zeilen, nur die aggregierte Steuerbemessungs-
+    # grundlage - daher NICHT zusätzlich auf "Anschaffung" prüfen.
+    for text in (p, cp):
+        m = LOTS_PAGE_RE.search(text)
+        if not m:
+            continue
+        window = text[m.end(): m.end() + 60]
+        if "folgeseite" in window.lower():
+            continue
+        return True
+    return False
+
+
+def classify_pages(pages: list[str]) -> tuple[str, str, str]:
+    """Ordnet Seiten nach Inhalt statt nach fester Position zu (§4.2).
+
+    Bei umfangreichen Teilausführungen setzt sich die Geschäftsabrechnung
+    über mehrere Blätter fort ("Fortsetzung auf Blatt 2"), wodurch sich Steuer-
+    und Kostenlot-Seite nach hinten verschieben. Seite 1 (fixer Index) reicht
+    dann nicht mehr; stattdessen wird jede Seite anhand ihrer Überschrift der
+    Geschäftsabrechnung, der Steuermitteilung oder den Anschaffungskosten-
+    Hinweisen zugeordnet.
+
+    Gibt (geschaeft_text, tax_text, lots_text) zurück - geschaeft_text ist die
+    Verkettung aller Geschäftsabrechnungs-/Fortsetzungsseiten.
+    """
+    geschaeft_parts = []
+    tax_text = ""
+    lots_text = ""
+    for p in pages:
+        cp = _compact(p)
+        if not lots_text and _is_lots_page(p, cp):
+            lots_text = p
+        elif not tax_text and (TAX_PAGE_RE.search(p) or TAX_PAGE_RE.search(cp)):
+            tax_text = p
+        else:
+            geschaeft_parts.append(p)
+    return "\n".join(geschaeft_parts), tax_text, lots_text
+
+
 def parse_pdf(path: str, shares: float = 0.0) -> dict:
     """Extrahiert alle PDF-Textfelder. Kombiniert mit Dateiname-Daten in core/model.py.
 
@@ -205,15 +258,13 @@ def parse_pdf(path: str, shares: float = 0.0) -> dict:
     """
     pages = extract_pages(path)
     fmt = detect_format(pages)
-    page1 = pages[0] if len(pages) > 0 else ""
-    page2 = pages[1] if len(pages) > 1 else ""
-    page3 = pages[2] if len(pages) > 2 else ""
+    geschaeft_text, tax_text, lots_text = classify_pages(pages)
 
-    isin = extract_isin(page1)
-    price, gross = extract_price_and_gross(page1, shares)
-    fees = extract_fees(page1)
-    net_magnitude, richtung = extract_net(page1)
-    verwahrart = extract_verwahrart(page1)
+    isin = extract_isin(geschaeft_text)
+    price, gross = extract_price_and_gross(geschaeft_text, shares)
+    fees = extract_fees(geschaeft_text)
+    net_magnitude, richtung = extract_net(geschaeft_text)
+    verwahrart = extract_verwahrart(geschaeft_text)
 
     result = {
         "format": fmt,
@@ -234,23 +285,23 @@ def parse_pdf(path: str, shares: float = 0.0) -> dict:
     else:
         result["flags"] = []
 
-    if page2:
-        result["tax"] = extract_tax(page2)
+    if tax_text:
+        result["tax"] = extract_tax(tax_text)
         if result["tax"] is None:
-            result["tax"] = extract_tax(_compact(page2))
+            result["tax"] = extract_tax(_compact(tax_text))
         if result["reported_realized_pl"] is None:
-            result["reported_realized_pl"] = extract_reported_realized_pl(page2)
+            result["reported_realized_pl"] = extract_reported_realized_pl(tax_text)
         if result["reported_realized_pl"] is None:
-            result["reported_realized_pl"] = extract_reported_realized_pl(_compact(page2))
-    if page3:
-        lots = extract_cost_lots(page3)
+            result["reported_realized_pl"] = extract_reported_realized_pl(_compact(tax_text))
+    if lots_text:
+        lots = extract_cost_lots(lots_text)
         if not lots:
-            lots = extract_cost_lots(_compact(page3))
+            lots = extract_cost_lots(_compact(lots_text))
         result["cost_lots"] = lots
 
-        rpl3 = extract_reported_realized_pl(page3)
+        rpl3 = extract_reported_realized_pl(lots_text)
         if rpl3 is None:
-            rpl3 = extract_reported_realized_pl(_compact(page3))
+            rpl3 = extract_reported_realized_pl(_compact(lots_text))
         if rpl3 is not None:
             result["reported_realized_pl"] = rpl3
 
