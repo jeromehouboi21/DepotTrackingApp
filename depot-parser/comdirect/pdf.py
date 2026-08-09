@@ -91,8 +91,9 @@ def extract_price_and_gross(page1: str, shares: float) -> tuple[float | None, fl
         gross = parse_signed_amount(m.group(1))
 
     if gross is None:
-        m = re.search(r"Umrechnung?\.?\s*zum\s*Dev(?:\.|isen)?\s*kurs.*?EUR\s*(" + AMOUNT_TOKEN + r")",
-                       page1, re.IGNORECASE)
+        m = re.search(
+            r"(?:Umrechnung|Umrechn\.?)\s*zum\s*(?:Devisenkurs|Dev\.?\s*kurs).*?EUR\s*(" + AMOUNT_TOKEN + r")",
+            page1, re.IGNORECASE)
         if m:
             gross = parse_signed_amount(m.group(1))
 
@@ -175,7 +176,7 @@ def extract_tax(page2: str) -> float | None:
 
 def extract_reported_realized_pl(text: str) -> float | None:
     m = re.search(
-        r"Steuerbemessungsgrundlage\s*vor\s*Verlustverrechnung\s*(?:\(1\))?\s*EUR\s*(" + AMOUNT_TOKEN + r")",
+        r"Steuerbemessungsgrundlage\s*vor\s*Verlustverrechnung\s*(?:\(\d+\))?\s*EUR\s*(" + AMOUNT_TOKEN + r")",
         text, re.IGNORECASE,
     )
     if not m:
