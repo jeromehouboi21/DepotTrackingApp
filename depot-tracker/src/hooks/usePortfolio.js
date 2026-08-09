@@ -38,7 +38,7 @@ export function usePortfolio() {
       setLoading(true);
       setError(null);
       try {
-        const [transactions, overrides, manualCostLots, transferLinks, securities, quotes, priceOverrides] =
+        const [transactions, overrides, manualCostLots, transferLinks, securities, quotes, priceOverrides, manualTransactions] =
           await Promise.all([
             fetchAll("transactions"),
             fetchAll("transaction_overrides"),
@@ -47,8 +47,9 @@ export function usePortfolio() {
             fetchAll("securities"),
             fetchAll("price_quotes"),
             fetchAll("price_overrides"),
+            fetchAll("manual_transactions"),
           ]);
-        if (!cancelled) setRaw({ transactions, overrides, manualCostLots, transferLinks, securities, quotes, priceOverrides });
+        if (!cancelled) setRaw({ transactions, overrides, manualCostLots, transferLinks, securities, quotes, priceOverrides, manualTransactions });
       } catch (e) {
         logger.error("usePortfolio load failed", { message: e.message });
         if (!cancelled) setError(e);
@@ -83,8 +84,31 @@ export function usePortfolio() {
       date: typeof t.date === "string" ? t.date.slice(0, 10) : t.date,
     });
 
+    // Manuell nachgetragene Transaktionen (F2): vor dem Engine-Aufruf ins
+    // kanonische Schema mappen und einmischen - die Engine bleibt unveraendert.
+    const manualTxCanonical = (raw.manualTransactions ?? []).map((m) => ({
+      id: `manual:${m.id}`,
+      source: "manual",
+      date: String(m.date).slice(0, 10),
+      type: m.type,
+      isin: m.isin,
+      wkn: securityMeta[m.isin]?.wkn ?? null,
+      name: securityMeta[m.isin]?.name ?? null,
+      shares: Number(m.shares),
+      price: m.price == null ? 0 : Number(m.price),
+      gross: m.gross == null ? 0 : Number(m.gross),
+      fees: Number(m.fees ?? 0),
+      tax: Number(m.tax ?? 0),
+      net: Number(m.net),
+      currency: m.currency ?? "EUR",
+      raw_ref: m.note ?? "manuell nachgetragen",
+      reported_realized_pl: m.reported_realized_pl == null ? null : Number(m.reported_realized_pl),
+      cost_lots: [],
+      flags: ["MANUAL"],
+    }));
+
     return computePortfolio({
-      transactions: raw.transactions.map(toNum),
+      transactions: [...raw.transactions.map(toNum), ...manualTxCanonical],
       overrides: raw.overrides,
       manualCostLots: raw.manualCostLots.map((m) => ({ ...m, shares: Number(m.shares), cost: Number(m.cost), date: String(m.date).slice(0, 10) })),
       transferLinks: raw.transferLinks.map((l) => ({ ...l, carried_cost_basis: l.carried_cost_basis == null ? null : Number(l.carried_cost_basis) })),

@@ -116,6 +116,22 @@ describe("Overrides & Korrekturen", () => {
     expect(withLot.positions[0].realizedPl).toBeCloseTo(50, 2);
   });
 
+  it("manuell nachgetragener SELL schliesst die Position (F2)", () => {
+    // Simuliert die usePortfolio-Einmischung: kanonische manuelle Transaktion
+    const manualSell: Transaction = {
+      id: "manual:abc", source: "manual", date: "2026-08-01", type: "SELL",
+      isin: "DE0000000001", wkn: null, name: null, shares: 10, price: 0,
+      gross: 0, fees: 0, tax: 0, net: 105, currency: "EUR",
+      raw_ref: "manuell nachgetragen", reported_realized_pl: null,
+      cost_lots: [], flags: ["MANUAL"],
+    };
+    const r = computePortfolio({ transactions: [baseTx, manualSell] });
+    const pos = r.positions[0];
+    expect(pos.sharesHeld).toBe(0); // faellt aus dem "Mit Bestand"-Filter
+    expect(pos.realizedPl).toBeCloseTo(0, 2); // Erloes = Kostenbasis -> kein erfundener G/V
+    expect(pos.flags).toContain("MANUAL");
+  });
+
   it("Override 'gemeldeten Bankwert uebernehmen' beseitigt den Mismatch", () => {
     const buy = { ...baseTx };
     const sell: Transaction = {

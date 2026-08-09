@@ -15,7 +15,245 @@ import { LotTable } from "../../components/position/LotTable";
 import { BrokerSelect } from "../../components/broker/BrokerSelect";
 import { CustodyStatusBadge } from "../../components/broker/CustodyStatusBadge";
 import { OverrideFieldForm } from "../../components/warnings/OverrideFieldForm";
-import { fmtDate, fmtShares } from "../../lib/format";
+import { fmtDate, fmtShares, fmtEur } from "../../lib/format";
+
+const GERMAN_MICS = ["XETR", "XFRA", "XSTU", "XMUN", "XDUS", "XBER", "XHAM", "XHAN"];
+
+/** F1: Kurs-Symbol (marketstack-Ticker) manuell setzen - NICHT dasselbe wie der
+ *  manuelle EUR-Kurs (price_overrides); beide Mechanismen bleiben nebeneinander. */
+function SymbolCard({ user, isin, security, portfolio, onFetchPrice, fetching }) {
+  const [symbol, setSymbol] = useState(security?.price_symbol ?? "");
+  const [mic, setMic] = useState(security?.price_mic ?? "");
+  const [currency, setCurrency] = useState(security?.price_currency ?? "EUR");
+  const [busy, setBusy] = useState(false);
+
+  const save = async () => {
+    if (!symbol.trim()) return;
+    setBusy(true);
+    await supabase.from("securities").upsert(
+      {
+        user_id: user.id,
+        isin,
+        price_symbol: symbol.trim(),
+        price_mic: mic.trim() || null,
+        price_currency: (currency.trim() || "EUR").toUpperCase(),
+        mapping_source: "manual",
+        mapping_status: "manual",
+        mapping_checked_at: new Date().toISOString(),
+      },
+      { onConflict: "user_id,isin" },
+    );
+    setBusy(false);
+    portfolio.refresh();
+  };
+
+  const reset = async () => {
+    setBusy(true);
+    await supabase.from("securities").update({
+      price_symbol: null, price_mic: null, price_currency: null,
+      mapping_source: null, mapping_status: "unresolved",
+      mapping_checked_at: new Date().toISOString(),
+    }).eq("user_id", user.id).eq("isin", isin);
+    setSymbol("");
+    setMic("");
+    setCurrency("EUR");
+    setBusy(false);
+    portfolio.refresh();
+  };
+
+  const status = security?.mapping_status ?? "unresolved";
+
+  return (
+    <Card title="Kurs-Symbol (marketstack)">
+      <div className="text-xs text-ink-3 mb-2 flex items-center gap-2 flex-wrap">
+        <span>Aktuell:</span>
+        {security?.price_symbol ? (
+          <span className="tnum">
+            {security.price_symbol}
+            {security.price_mic ? ` @ ${security.price_mic}` : " (Heimatbörse)"}
+            {security.price_currency ? ` · ${security.price_currency}` : ""}
+          </span>
+        ) : (
+          <span>kein Symbol gesetzt</span>
+        )}
+        <Badge variant={status === "verified" || status === "manual" ? "accent" : status === "needs_review" ? "warn" : "neutral"}>
+          {status}
+        </Badge>
+      </div>
+      <div className="flex items-end gap-2 flex-wrap">
+        <label className="text-sm">
+          <span className="text-ink-2 block text-xs mb-0.5">Symbol *</span>
+          <input value={symbol} onChange={(e) => setSymbol(e.target.value)} placeholder="z. B. TEF"
+            className="rounded border border-surface-2 px-2 py-1 text-sm w-28 bg-bg tnum" />
+        </label>
+        <label className="text-sm">
+          <span className="text-ink-2 block text-xs mb-0.5">Börse (MIC, optional)</span>
+          <input list={`mics-${isin}`} value={mic} onChange={(e) => setMic(e.target.value)} placeholder="leer = Heimatbörse"
+            className="rounded border border-surface-2 px-2 py-1 text-sm w-36 bg-bg" />
+          <datalist id={`mics-${isin}`}>
+            {GERMAN_MICS.map((m) => <option key={m} value={m} />)}
+          </datalist>
+        </label>
+        <label className="text-sm">
+          <span className="text-ink-2 block text-xs mb-0.5">Währung</span>
+          <input value={currency} onChange={(e) => setCurrency(e.target.value)}
+            className="rounded border border-surface-2 px-2 py-1 text-sm w-16 bg-bg" />
+        </label>
+        <Button onClick={save} disabled={busy || !symbol.trim()}>Speichern</Button>
+        {security?.price_symbol && (
+          <>
+            <Button variant="secondary" onClick={onFetchPrice} disabled={fetching}>
+              {fetching ? "Rufe ab…" : "Kurs jetzt abrufen"}
+            </Button>
+            <Button variant="ghost" onClick={reset} disabled={busy}>Zurücksetzen</Button>
+          </>
+        )}
+      </div>
+    </Card>
+  );
+}
+
+/** F2: Fehlende Transaktion nachtragen (additiv, E2) - z. B. Position schliessen,
+ *  wenn ein Verkaufsbeleg fehlt. Importierte Rohdaten bleiben unberuehrt. */
+function ManualTransactionCard({ user, isin, position, manualTxs, portfolio }) {
+  const [showForm, setShowForm] = useState(false);
+  const [type, setType] = useState("SELL");
+  const [date, setDate] = useState("");
+  const [shares, setShares] = useState(String(position.sharesHeld || ""));
+  const [net, setNet] = useState(
+    position.costBasisRemaining > 0 ? position.costBasisRemaining.toFixed(2) : "",
+  );
+  const [fees, setFees] = useState("0");
+  const [tax, setTax] = useState("0");
+  const [reported, setReported] = useState("");
+  const [note, setNote] = useState("");
+  const [busy, setBusy] = useState(false);
+
+  const num = (s) => Number(String(s).replace(",", "."));
+
+  const save = async (e) => {
+    e.preventDefault();
+    setBusy(true);
+    const netVal = num(net);
+    await supabase.from("manual_transactions").insert({
+      user_id: user.id,
+      isin,
+      date,
+      type,
+      shares: num(shares),
+      fees: num(fees) || 0,
+      tax: num(tax) || 0,
+      // Vorzeichen-Konvention wie im Parser: SELL Erloes positiv, BUY Aufwand negativ
+      net: type === "BUY" ? -Math.abs(netVal) : type === "SELL" ? Math.abs(netVal) : 0,
+      reported_realized_pl: reported === "" ? null : num(reported),
+      note: note || null,
+    });
+    setBusy(false);
+    setShowForm(false);
+    portfolio.refresh();
+  };
+
+  const remove = async (id) => {
+    await supabase.from("manual_transactions").delete().eq("id", id);
+    portfolio.refresh();
+  };
+
+  return (
+    <Card title="Bestand korrigieren">
+      <p className="text-xs text-ink-3 mb-2">
+        Fehlt ein Beleg (z. B. ein Verkauf aus der Postbox), hier die Transaktion nachtragen –
+        die importierten Rohdaten bleiben unverändert. Tipp: Ohne bekannte Verkaufszahlen einen
+        Verkauf über die volle Stückzahl mit Erlös ≈ Kostenbasis
+        ({fmtEur(position.costBasisRemaining)}) erfassen, dann entsteht kein erfundener G/V.
+      </p>
+
+      {manualTxs.length > 0 && (
+        <ul className="text-sm space-y-1 mb-3">
+          {manualTxs.map((m) => (
+            <li key={m.id} className="flex items-center gap-2 flex-wrap border-b border-surface-2 pb-1">
+              <Badge variant="accent">MANUELL</Badge>
+              <span>{m.type}</span>
+              <span>{fmtDate(String(m.date))}</span>
+              <span className="tnum">{fmtShares(Number(m.shares))} St.</span>
+              <Money value={Number(m.net)} signed />
+              {m.reported_realized_pl != null && (
+                <span className="text-xs text-ink-2">
+                  G/V: <Money value={Number(m.reported_realized_pl)} signed />
+                </span>
+              )}
+              {m.note && <span className="text-xs text-ink-3">{m.note}</span>}
+              <button className="text-xs text-loss ml-auto" onClick={() => remove(m.id)}>
+                Löschen
+              </button>
+            </li>
+          ))}
+        </ul>
+      )}
+
+      {!showForm ? (
+        <Button variant="secondary" onClick={() => setShowForm(true)}>
+          Fehlende Transaktion nachtragen
+        </Button>
+      ) : (
+        <form onSubmit={save} className="space-y-2">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+            <label className="text-sm">
+              <span className="text-ink-2 block text-xs mb-0.5">Typ</span>
+              <select value={type} onChange={(e) => setType(e.target.value)}
+                className="rounded border border-surface-2 px-2 py-1 text-sm w-full bg-bg">
+                <option value="SELL">SELL (Verkauf)</option>
+                <option value="BUY">BUY (Kauf)</option>
+                <option value="TRANSFER_OUT">TRANSFER_OUT (Abgang ohne G/V)</option>
+              </select>
+            </label>
+            <label className="text-sm">
+              <span className="text-ink-2 block text-xs mb-0.5">Datum *</span>
+              <input type="date" required value={date} onChange={(e) => setDate(e.target.value)}
+                className="rounded border border-surface-2 px-2 py-1 text-sm w-full bg-bg" />
+            </label>
+            <label className="text-sm">
+              <span className="text-ink-2 block text-xs mb-0.5">Stück *</span>
+              <input required value={shares} onChange={(e) => setShares(e.target.value)}
+                className="rounded border border-surface-2 px-2 py-1 text-sm w-full bg-bg tnum" />
+            </label>
+            <label className="text-sm">
+              <span className="text-ink-2 block text-xs mb-0.5">
+                {type === "BUY" ? "Aufwand (€) *" : type === "SELL" ? "Erlös/Netto (€) *" : "Netto (€)"}
+              </span>
+              <input required={type !== "TRANSFER_OUT"} value={net} onChange={(e) => setNet(e.target.value)}
+                disabled={type === "TRANSFER_OUT"}
+                className="rounded border border-surface-2 px-2 py-1 text-sm w-full bg-bg tnum disabled:opacity-50" />
+            </label>
+            <label className="text-sm">
+              <span className="text-ink-2 block text-xs mb-0.5">Gebühren (€)</span>
+              <input value={fees} onChange={(e) => setFees(e.target.value)}
+                className="rounded border border-surface-2 px-2 py-1 text-sm w-full bg-bg tnum" />
+            </label>
+            <label className="text-sm">
+              <span className="text-ink-2 block text-xs mb-0.5">Steuern (€)</span>
+              <input value={tax} onChange={(e) => setTax(e.target.value)}
+                className="rounded border border-surface-2 px-2 py-1 text-sm w-full bg-bg tnum" />
+            </label>
+            <label className="text-sm">
+              <span className="text-ink-2 block text-xs mb-0.5">Gemeldeter G/V (€, optional)</span>
+              <input value={reported} onChange={(e) => setReported(e.target.value)}
+                className="rounded border border-surface-2 px-2 py-1 text-sm w-full bg-bg tnum" />
+            </label>
+            <label className="text-sm">
+              <span className="text-ink-2 block text-xs mb-0.5">Notiz</span>
+              <input value={note} onChange={(e) => setNote(e.target.value)}
+                className="rounded border border-surface-2 px-2 py-1 text-sm w-full bg-bg" />
+            </label>
+          </div>
+          <div className="flex gap-2">
+            <Button type="submit" disabled={busy}>Nachtragen</Button>
+            <Button type="button" variant="ghost" onClick={() => setShowForm(false)}>Abbrechen</Button>
+          </div>
+        </form>
+      )}
+    </Card>
+  );
+}
 
 export function SecurityDetailScreen({ user }) {
   const { isin } = useParams();
@@ -23,6 +261,8 @@ export function SecurityDetailScreen({ user }) {
   const [view, setView] = useState("brutto");
   const [editTxId, setEditTxId] = useState(null);
   const [priceInput, setPriceInput] = useState("");
+  const [fetching, setFetching] = useState(false);
+  const [fetchMsg, setFetchMsg] = useState(null);
 
   const position = portfolio.result?.positions.find((p) => p.isin === isin);
   const txs = useMemo(
@@ -39,6 +279,10 @@ export function SecurityDetailScreen({ user }) {
   }, [portfolio.raw]);
   const relatedWarnings = warnings.warnings.filter((w) => w.isin === isin);
   const custodyRow = custody.custodyByIsin[isin]?.[0];
+  const security = (portfolio.raw?.securities ?? []).find((s) => s.isin === isin) ?? null;
+  const manualTxs = (portfolio.raw?.manualTransactions ?? [])
+    .filter((m) => m.isin === isin)
+    .sort((a, b) => String(b.date).localeCompare(String(a.date)));
 
   if (portfolio.loading) return <div className="text-ink-3">Lade…</div>;
   if (!position) return <div className="text-ink-2">Keine Position für {isin} gefunden.</div>;
@@ -62,6 +306,30 @@ export function SecurityDetailScreen({ user }) {
     );
     setPriceInput("");
     portfolio.refresh();
+  };
+
+  // F3: gezielter Kursabruf nur fuer diese ISIN
+  const fetchPriceNow = async () => {
+    setFetching(true);
+    setFetchMsg(null);
+    try {
+      const { data, error } = await supabase.functions.invoke("fetch-prices", {
+        body: { isins: [isin] },
+      });
+      if (error) throw error;
+      setFetchMsg(
+        data?.updated > 0
+          ? "Kurs aktualisiert."
+          : data?.missing?.includes(isin)
+            ? "Kein Kurs gefunden (Symbol prüfen)."
+            : "Kein Update (Symbol gesetzt und Status verified/manual?).",
+      );
+      portfolio.refresh();
+    } catch (e) {
+      setFetchMsg(`Fehler: ${e.message ?? e}`);
+    } finally {
+      setFetching(false);
+    }
   };
 
   return (
@@ -154,6 +422,15 @@ export function SecurityDetailScreen({ user }) {
               </div>
             </div>
           </Card>
+          <SymbolCard
+            user={user}
+            isin={isin}
+            security={security}
+            portfolio={portfolio}
+            onFetchPrice={fetchPriceNow}
+            fetching={fetching}
+          />
+          {fetchMsg && <div className="text-xs text-ink-2 px-1">{fetchMsg}</div>}
           <Card title="Manueller Kurs (Fallback)">
             <div className="flex items-center gap-2">
               <input
@@ -176,6 +453,13 @@ export function SecurityDetailScreen({ user }) {
               )}
             </div>
           </Card>
+          <ManualTransactionCard
+            user={user}
+            isin={isin}
+            position={p}
+            manualTxs={manualTxs}
+            portfolio={portfolio}
+          />
         </div>
       </div>
 

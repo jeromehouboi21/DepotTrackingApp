@@ -71,11 +71,14 @@ export function DashboardScreen() {
 
   const t = result.totals;
 
-  const updatePrices = async () => {
+  // F3: optionaler ISIN-Filter - ohne `isins` globaler Abruf wie bisher.
+  const updatePrices = async (isins) => {
     setFetching(true);
     setFetchMsg(null);
     try {
-      const { data, error } = await supabase.functions.invoke("fetch-prices", { body: {} });
+      const { data, error } = await supabase.functions.invoke("fetch-prices", {
+        body: isins?.length ? { isins } : {},
+      });
       if (error) throw error;
       setFetchMsg(`Aktualisiert: ${data?.updated ?? 0} Kurse${data?.missing?.length ? ` · ohne Kurs: ${data.missing.length}` : ""}`);
       portfolio.refresh();
@@ -87,14 +90,20 @@ export function DashboardScreen() {
     }
   };
 
+  const updateHeldPrices = () =>
+    updatePrices(result.positions.filter((p) => p.sharesHeld > 1e-9).map((p) => p.isin));
+
   return (
     <div className="space-y-4">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <h1 className="text-2xl">Dashboard</h1>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 flex-wrap">
           {fetchMsg && <span className="text-xs text-ink-2">{fetchMsg}</span>}
-          <Button variant="secondary" onClick={updatePrices} disabled={fetching}>
-            {fetching ? "Aktualisiere…" : "Kurse aktualisieren"}
+          <Button variant="secondary" onClick={updateHeldPrices} disabled={fetching}>
+            {fetching ? "Aktualisiere…" : "Nur Bestand aktualisieren"}
+          </Button>
+          <Button variant="secondary" onClick={() => updatePrices()} disabled={fetching}>
+            Kurse aktualisieren (alle)
           </Button>
         </div>
       </div>

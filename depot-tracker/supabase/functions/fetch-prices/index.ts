@@ -115,11 +115,19 @@ Deno.serve(async (req) => {
     const { data: { user }, error: userErr } = await supabase.auth.getUser();
     if (userErr || !user) return json({ error: "unauthorized" }, 401);
 
-    const { data: secs, error: secErr } = await supabase
+    // Optionaler ISIN-Filter (F3): gezielter Abruf fuer Bestand/Einzelposition.
+    // Ohne `isins` bleibt das bisherige Verhalten (alle gemappten Titel).
+    const body = await req.json().catch(() => ({}));
+    const onlyIsins: string[] | undefined =
+      Array.isArray(body?.isins) && body.isins.length ? body.isins : undefined;
+
+    let q = supabase
       .from("securities")
       .select("isin, price_symbol, price_mic, price_currency, mapping_status")
       .in("mapping_status", ["verified", "needs_review", "manual"])
       .not("price_symbol", "is", null);
+    if (onlyIsins) q = q.in("isin", onlyIsins);
+    const { data: secs, error: secErr } = await q;
     if (secErr) throw secErr;
 
     const now = new Date().toISOString();
