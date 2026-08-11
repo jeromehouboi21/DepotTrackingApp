@@ -4,7 +4,7 @@
 import { describe, it, expect } from "vitest";
 import { readFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
-import { computePortfolio, applyOverrides, detectSavingsPlan } from "../src/lib/portfolio";
+import { computePortfolio, applyOverrides, detectSavingsPlan, aggregateYears } from "../src/lib/portfolio";
 import type { Transaction } from "../src/lib/portfolio";
 
 const OUT = resolve(__dirname, "../../depot-parser/output");
@@ -70,6 +70,14 @@ describe.skipIf(!HAS_SEED)("Engine-Paritaet gegen Parser-Seed", () => {
     for (const [year, count] of Object.entries(expected)) {
       expect(result.byYear[year]?.count ?? 0, `Jahr ${year}`).toBe(count);
     }
+  });
+
+  it("aggregateYears(2025+2026) summiert 66+18=84 Verkaeufe (DESIGN §6.3)", () => {
+    const combined = aggregateYears(result.byYear, ["2025", "2026"]);
+    expect(combined.count).toBe(84);
+    expect(combined.realizedPl).toBeCloseTo(
+      result.byYear["2025"].realizedPl + result.byYear["2026"].realizedPl, 2,
+    );
   });
 
   it("erkennt die bekannten Sparplaene per Heuristik (E4)", () => {
@@ -169,6 +177,56 @@ describe("objectType an der Position (DESIGN_Objekttyp-Gruppierung)", () => {
       securityMeta: { "IE00TEST0001": { isin: "IE00TEST0001", object_type: "fund" } },
     });
     expect(r.positions[0].objectType).toBe("fund");
+  });
+});
+
+describe("aggregateYears (DESIGN_Realisiert_Mehrfach-Jahresauswahl)", () => {
+  const mkSell = (id: string, isin: string, realized: number): any => ({
+    tx_id: id, isin, name: null, date: "2000-01-01", year: "2000", shares: 1,
+    proceeds: realized, fees: 0, tax: 0, matchedCost: 0, ownRealized: realized,
+    reported: null, realized, mismatch: false, noCostBasis: false, allocatedLots: [],
+  });
+
+  const byYear = {
+    "2025": {
+      year: "2025", realizedPl: 100, proceeds: 200, cost: 100, fees: 5, tax: 10,
+      count: 2, excludedNoCostBasis: 0, sells: [mkSell("s1", "A", 60), mkSell("s2", "A", 40)],
+    },
+    "2026": {
+      year: "2026", realizedPl: -20, proceeds: 30, cost: 50, fees: 1, tax: 0,
+      count: 1, excludedNoCostBasis: 1, sells: [mkSell("s3", "B", -20)],
+    },
+  } as any;
+
+  it("summiert ueber mehrere Jahre", () => {
+    const r = aggregateYears(byYear, ["2025", "2026"]);
+    expect(r.realizedPl).toBe(80);
+    expect(r.proceeds).toBe(230);
+    expect(r.cost).toBe(150);
+    expect(r.fees).toBe(6);
+    expect(r.tax).toBe(10);
+    expect(r.count).toBe(3);
+    expect(r.excludedNoCostBasis).toBe(1);
+    expect(r.sells.map((s) => s.tx_id)).toEqual(["s1", "s2", "s3"]);
+  });
+
+  it("liefert genau ein Jahr wie das frühere Single-Select", () => {
+    const r = aggregateYears(byYear, ["2025"]);
+    expect(r.realizedPl).toBe(100);
+    expect(r.count).toBe(2);
+  });
+
+  it("leere Jahresmenge liefert Nullwerte, kein Fehler", () => {
+    const r = aggregateYears(byYear, []);
+    expect(r.realizedPl).toBe(0);
+    expect(r.count).toBe(0);
+    expect(r.sells).toEqual([]);
+  });
+
+  it("ignoriert unbekannte Jahre statt zu werfen", () => {
+    const r = aggregateYears(byYear, ["2025", "1999"]);
+    expect(r.realizedPl).toBe(100);
+    expect(r.count).toBe(2);
   });
 });
 

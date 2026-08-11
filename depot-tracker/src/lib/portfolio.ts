@@ -612,6 +612,45 @@ export function computePortfolio(input: {
   };
 }
 
+// ---------------------------------------------------------------------------
+// Mehrfach-Jahresauswahl in "Realisiert" (DESIGN_Realisiert_Mehrfach-Jahresauswahl.md, §3.4)
+// Reine Summierung bereits vorhandener Jahres-Buckets (S6) - keine Aenderung an der
+// FIFO-/G-V-Rechnung. Jahre sind Strings (byYear-Keys, z.B. "2025"), keine Zahlen.
+
+export interface YearsSummary {
+  realizedPl: number;
+  proceeds: number;
+  cost: number;
+  fees: number;
+  tax: number;
+  count: number;
+  sells: SellRecord[];
+  excludedNoCostBasis: number;
+}
+
+export function aggregateYears(
+  byYear: Record<string, YearAggregate>,
+  years: Iterable<string>,
+): YearsSummary {
+  const acc: YearsSummary = {
+    realizedPl: 0, proceeds: 0, cost: 0, fees: 0, tax: 0,
+    count: 0, sells: [], excludedNoCostBasis: 0,
+  };
+  for (const y of years) {
+    const b = byYear[y];
+    if (!b) continue;
+    acc.realizedPl += b.realizedPl;
+    acc.proceeds += b.proceeds;
+    acc.cost += b.cost;
+    acc.fees += b.fees;
+    acc.tax += b.tax;
+    acc.count += b.count;
+    acc.excludedNoCostBasis += b.excludedNoCostBasis;
+    acc.sells.push(...b.sells);
+  }
+  return acc;
+}
+
 function consumeLots(lots: Lot[], shares: number): void {
   let remaining = shares;
   while (remaining > EPS && lots.length) {
