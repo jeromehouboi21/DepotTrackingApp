@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useData } from "../../hooks/useData";
 import { supabase } from "../../lib/supabase";
@@ -16,6 +16,19 @@ import { OBJECT_TYPE_LABEL, OBJECT_TYPE_ORDER } from "../../lib/classify";
 
 const ASSET_LABEL = { equity: "Aktie", fund_etf: "Fonds/ETF", bond: "Anleihe", other: "Sonstig" };
 
+// Zuletzt gewaehlte Gruppierung merken (nur UI-Vorliebe, kein Nutzer-/Finanzdatum).
+const GROUP_BY_KEY = "depot-tracker:positions:groupBy";
+const GROUP_BY_VALUES = ["none", "broker", "objectType"];
+
+function loadGroupBy() {
+  try {
+    const v = localStorage.getItem(GROUP_BY_KEY);
+    return GROUP_BY_VALUES.includes(v) ? v : "none"; // unbekannte/alte Werte verwerfen
+  } catch {
+    return "none"; // Storage deaktiviert / privater Modus
+  }
+}
+
 export function PositionsScreen() {
   const { portfolio, custody, refreshAll } = useData();
   const { user } = useAuth();
@@ -23,7 +36,15 @@ export function PositionsScreen() {
   const [filter, setFilter] = useState("held"); // held | all | noprice
   const [brokerFilter, setBrokerFilter] = useState("all");
   const [objectTypeFilter, setObjectTypeFilter] = useState(() => new Set());
-  const [groupBy, setGroupBy] = useState("none"); // none | broker | objectType
+  const [groupBy, setGroupBy] = useState(loadGroupBy); // none | broker | objectType - Lazy Initializer
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(GROUP_BY_KEY, groupBy);
+    } catch {
+      /* Persistenz optional - Fehler bewusst schlucken */
+    }
+  }, [groupBy]);
 
   const result = portfolio.result;
 
@@ -47,6 +68,34 @@ export function PositionsScreen() {
       n.has(t) ? n.delete(t) : n.add(t);
       return n;
     });
+
+  // Gruppierung (verallgemeinert aus der frueheren Broker-only-Gruppierung):
+  // 'broker' gruppiert nach Standort, 'objectType' nach Aktie/ETF/Fonds/...
+  // Muss vor jedem fruehen Return stehen (Rules of Hooks - sonst wirft React
+  // "Rendered more hooks than during the previous render", sobald result laedt).
+  const groups = useMemo(() => {
+    if (groupBy === "none") return null;
+    if (groupBy === "objectType") {
+      const byType = new Map();
+      for (const p of rows) {
+        (byType.get(p.objectType) ?? byType.set(p.objectType, []).get(p.objectType)).push(p);
+      }
+      return OBJECT_TYPE_ORDER
+        .filter((t) => byType.has(t))
+        .map((t) => [t, OBJECT_TYPE_LABEL[t], byType.get(t)]);
+    }
+    // groupBy === 'broker'
+    const byBroker = {};
+    for (const p of rows) {
+      const bid = custody.custodyByIsin[p.isin]?.[0]?.broker_id ?? "(nicht zugeordnet)";
+      (byBroker[bid] ??= []).push(p);
+    }
+    return Object.entries(byBroker).map(([bid, list]) => [
+      bid,
+      custody.brokers.find((b) => b.id === bid)?.name ?? bid,
+      list,
+    ]);
+  }, [groupBy, rows, custody.custodyByIsin, custody.brokers]);
 
   if (portfolio.loading) return <div className="text-ink-3">Lade Portfolio…</div>;
   if (!result || result.positions.length === 0) {
@@ -156,32 +205,6 @@ export function PositionsScreen() {
     <Money key="fees" value={sum((p) => p.totalFees)} />,
     "",
   ];
-
-  // Gruppierung (verallgemeinert aus der frueheren Broker-only-Gruppierung):
-  // 'broker' gruppiert nach Standort, 'objectType' nach Aktie/ETF/Fonds/...
-  const groups = useMemo(() => {
-    if (groupBy === "none") return null;
-    if (groupBy === "objectType") {
-      const byType = new Map();
-      for (const p of rows) {
-        (byType.get(p.objectType) ?? byType.set(p.objectType, []).get(p.objectType)).push(p);
-      }
-      return OBJECT_TYPE_ORDER
-        .filter((t) => byType.has(t))
-        .map((t) => [t, OBJECT_TYPE_LABEL[t], byType.get(t)]);
-    }
-    // groupBy === 'broker'
-    const byBroker = {};
-    for (const p of rows) {
-      const bid = custody.custodyByIsin[p.isin]?.[0]?.broker_id ?? "(nicht zugeordnet)";
-      (byBroker[bid] ??= []).push(p);
-    }
-    return Object.entries(byBroker).map(([bid, list]) => [
-      bid,
-      custody.brokers.find((b) => b.id === bid)?.name ?? bid,
-      list,
-    ]);
-  }, [groupBy, rows, custody.custodyByIsin, custody.brokers]);
 
   return (
     <div className="space-y-4">
