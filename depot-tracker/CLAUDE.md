@@ -42,6 +42,11 @@ Single-User: Supabase-Signups deaktivieren, Nutzer manuell anlegen.
 - **Fehlende Belege**: additive `manual_transactions` (E2-konform) werden in `usePortfolio`
   vor dem Engine-Aufruf ins kanonische Schema gemappt und eingemischt - z. B. um eine
   Position ohne vorliegenden Verkaufsbeleg korrekt auf Bestand 0 zu bringen.
+- **Flussgrößen vs. Stichtags-Snapshot** (Dashboard/Realisiert): realisierter G/V, XIRR je
+  Jahr etc. reagieren auf die Jahresauswahl (`YearToggleBar`); unrealisiert ist immer ein
+  Heute-Snapshot und wird nie gefiltert - beide Achsen werden im UI immer explizit beschriftet.
+  `lib/xirr.ts` (Newton-Raphson + Bisektion) liefert `null` statt einer geratenen Zahl, wenn
+  die Rendite nicht bestimmbar ist ("n/a" anzeigen, nie 0 %).
 
 ## Engine-Semantik (muss mit depot-parser/core/fifo.py paritätisch bleiben)
 
@@ -62,9 +67,12 @@ lädt alles + ruft Engine → Screens. Nach jeder Korrektur `refreshAll()` (Cont
 ## Wichtige Pfade
 
 - Engine: `src/lib/portfolio.ts` · Klassifizierung: `src/lib/classify.ts` ·
-  Tests: `tests/portfolio.test.ts`, `tests/classify.test.ts`
+  XIRR-Solver: `src/lib/xirr.ts` ·
+  Tests: `tests/portfolio.test.ts`, `tests/classify.test.ts`, `tests/xirr.test.ts`
 - Screens: `src/screens/*` (Dashboard, Positionen, Wertpapier-Detail, Sparplan,
   Realisiert, Warnungen, Broker, Import)
+- Geteilte Jahres-Auswahl: `src/components/ui/YearToggleBar.jsx` (genutzt in
+  `/dashboard` und `/realisiert`, je eigener Auswahl-Zustand/localStorage-Schlüssel)
 - Korrektur-Formulare: `src/components/warnings/*`
 - Migrationen: `supabase/migrations/001–007`
 - Edge Functions: `supabase/functions/{resolve-symbols,fetch-prices,import-parser-output}`

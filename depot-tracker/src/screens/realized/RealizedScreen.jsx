@@ -9,6 +9,7 @@ import { Badge } from "../../components/ui/Badge";
 import { Table } from "../../components/ui/Table";
 import { EmptyState } from "../../components/ui/EmptyState";
 import { RealizedByYearBar } from "../../components/charts/RealizedByYearBar";
+import { YearToggleBar } from "../../components/ui/YearToggleBar";
 import { aggregateYears } from "../../lib/portfolio";
 import { fmtDate, fmtShares } from "../../lib/format";
 
@@ -107,37 +108,14 @@ export function RealizedScreen() {
         />
       </div>
 
-      <div className="flex flex-wrap items-center gap-1">
-        <button
-          onClick={selectAllYears}
-          className="rounded-full px-3 py-1 text-sm bg-surface-2 text-ink-2 hover:text-ink"
-        >
-          Alle
-        </button>
-        <button
-          onClick={clearYears}
-          className="rounded-full px-3 py-1 text-sm bg-surface-2 text-ink-2 hover:text-ink"
-        >
-          Keine
-        </button>
-        <span className="mx-1 text-ink-3">·</span>
-        {years.map((y) => {
-          const active = activeYears.has(y);
-          return (
-            <button
-              key={y}
-              onClick={() => toggleYear(y)}
-              className={`rounded-full px-3 py-1 text-sm tnum ${active ? "bg-accent text-white" : "bg-surface-2 text-ink-2 hover:text-ink"}`}
-              title={`${result.byYear[y].count} Verkäufe`}
-            >
-              {y}
-              <span className={`ml-1 text-[10px] ${active ? "text-white/70" : "text-ink-3"}`}>
-                ({result.byYear[y].count})
-              </span>
-            </button>
-          );
-        })}
-      </div>
+      <YearToggleBar
+        availableYears={years}
+        selectedYears={activeYears}
+        onToggle={toggleYear}
+        onSelectAll={selectAllYears}
+        onClear={clearYears}
+        countFor={(y) => result.byYear[y].count}
+      />
 
       <Card title="Realisierter G/V pro Jahr (nur Verkäufe) · Klick hebt Jahr hervor">
         <RealizedByYearBar data={chartData} selectedYears={activeYears} onToggleYear={toggleYear} />

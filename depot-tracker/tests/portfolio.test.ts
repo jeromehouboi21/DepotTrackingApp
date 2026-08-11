@@ -4,7 +4,10 @@
 import { describe, it, expect } from "vitest";
 import { readFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
-import { computePortfolio, applyOverrides, detectSavingsPlan, aggregateYears } from "../src/lib/portfolio";
+import {
+  computePortfolio, applyOverrides, detectSavingsPlan, aggregateYears,
+  cumulativeRealized, realizedXirrByYear, overallXirrFlows,
+} from "../src/lib/portfolio";
 import type { Transaction } from "../src/lib/portfolio";
 
 const OUT = resolve(__dirname, "../../depot-parser/output");
@@ -69,6 +72,23 @@ describe.skipIf(!HAS_SEED)("Engine-Paritaet gegen Parser-Seed", () => {
     };
     for (const [year, count] of Object.entries(expected)) {
       expect(result.byYear[year]?.count ?? 0, `Jahr ${year}`).toBe(count);
+    }
+  });
+
+  it("cumulativeRealized endet bei ~3.050,52 EUR (DESIGN_Dashboard-Auswertungen §2)", () => {
+    const allSells = Object.values(result.byYear).flatMap((y: any) => y.sells);
+    const points = cumulativeRealized(allSells);
+    expect(points.length).toBeGreaterThan(0);
+    const endValue = points[points.length - 1].cumRealized;
+    expect(Math.abs(endValue - result.totals.realizedPl)).toBeLessThan(0.01);
+    expect(endValue).toBeCloseTo(3050.52, 1);
+  });
+
+  it("cumulativeRealized ist streng chronologisch aufsteigend nach Datum", () => {
+    const allSells = Object.values(result.byYear).flatMap((y: any) => y.sells);
+    const points = cumulativeRealized(allSells);
+    for (let i = 1; i < points.length; i++) {
+      expect(points[i].date >= points[i - 1].date).toBe(true);
     }
   });
 
@@ -227,6 +247,108 @@ describe("aggregateYears (DESIGN_Realisiert_Mehrfach-Jahresauswahl)", () => {
     const r = aggregateYears(byYear, ["2025", "1999"]);
     expect(r.realizedPl).toBe(100);
     expect(r.count).toBe(2);
+  });
+});
+
+describe("cumulativeRealized (synthetisch)", () => {
+  const mkSell = (id: string, date: string, realized: number | null): any => ({
+    tx_id: id, isin: "A", name: null, date, year: date.slice(0, 4), shares: 1,
+    proceeds: realized ?? 0, fees: 0, tax: 0, matchedCost: 0, ownRealized: realized,
+    reported: null, realized, mismatch: false, noCostBasis: realized == null, allocatedLots: [],
+  });
+
+  it("kumuliert chronologisch, auch bei unsortierter Eingabe", () => {
+    const sells = [mkSell("s2", "2021-06-01", 20), mkSell("s1", "2020-01-01", 100), mkSell("s3", "2022-01-01", -50)];
+    const points = cumulativeRealized(sells);
+    expect(points.map((p) => p.date)).toEqual(["2020-01-01", "2021-06-01", "2022-01-01"]);
+    expect(points.map((p) => p.cumRealized)).toEqual([100, 120, 70]);
+  });
+
+  it("ueberspringt Verkaeufe ohne Kostenbasis (realized=null)", () => {
+    const sells = [mkSell("s1", "2020-01-01", 100), mkSell("s2", "2020-06-01", null)];
+    const points = cumulativeRealized(sells);
+    expect(points.length).toBe(1);
+    expect(points[0].cumRealized).toBe(100);
+  });
+});
+
+describe("realizedXirrByYear (synthetisch)", () => {
+  const mkSell = (id: string, year: string, date: string, proceeds: number, lots: Array<[string, number]>): any => ({
+    tx_id: id, isin: "A", name: null, date, year, shares: 1,
+    proceeds, fees: 0, tax: 0, matchedCost: lots.reduce((s, [, c]) => s + c, 0),
+    ownRealized: null, reported: null, realized: proceeds, mismatch: false, noCostBasis: false,
+    allocatedLots: lots.map(([d, c]) => ({ date: d, shares: 1, cost: c, tx_id: "b" })),
+  });
+
+  it("liefert eine positive Rendite fuer einen klaren Gewinn-Zyklus", () => {
+    const sells = [mkSell("s1", "2025", "2025-06-01", 1100, [["2024-06-01", 1000]])];
+    const r = realizedXirrByYear(sells);
+    expect(r["2025"]).not.toBeNull();
+    expect(r["2025"]!).toBeGreaterThan(0);
+  });
+
+  it("ignoriert Verkaeufe ohne zugeordnete Lots (keine Kostenbasis)", () => {
+    const sells = [mkSell("s1", "2025", "2025-06-01", 500, [])];
+    const r = realizedXirrByYear(sells);
+    expect(r["2025"] ?? null).toBeNull();
+  });
+
+  it("rechnet Jahre unabhaengig voneinander", () => {
+    const sells = [
+      mkSell("s1", "2024", "2024-06-01", 1100, [["2023-06-01", 1000]]),
+      mkSell("s2", "2025", "2025-06-01", 900, [["2024-06-01", 1000]]), // Verlust
+    ];
+    const r = realizedXirrByYear(sells);
+    expect(r["2024"]!).toBeGreaterThan(0);
+    expect(r["2025"]!).toBeLessThan(0);
+  });
+});
+
+describe("overallXirrFlows (synthetisch)", () => {
+  const mkPosition = (overrides: any): any => ({
+    isin: "A", wkn: null, name: "Test", sources: [], assetClass: "equity", objectType: "stock",
+    isSavingsPlan: false, flags: [], sharesHeld: 0, openLots: [], costBasisRemaining: 0, avgCost: 0,
+    currentPrice: null, priceAsOf: null, priceIsOverride: false, marketValue: null, unrealizedPl: null,
+    unrealizedPct: null, realizedPl: 0, realizedPlReported: null, realizedMatches: true,
+    hasUnknownCostBasis: false, sells: [], totalBuyFees: 0, totalSellFees: 0, totalTransferFees: 0,
+    totalFees: 0, totalTax: 0, totalInvested: 0, txIds: [], txCount: 0,
+    ...overrides,
+  });
+
+  it("nimmt offene Lots am Original-Kaufdatum als Ausgabe + heutigen Marktwert als Schlusswert", () => {
+    const pos = mkPosition({
+      openLots: [{ date: "2024-01-01", shares: 10, cost_per_share: 10, tx_id: "b1", isManual: false, costBasis: 100, marketValue: 150, unrealizedPl: 50, unrealizedPct: 0.5, holdingDays: 400, annualizedPct: 0.4 }],
+      marketValue: 150, sharesHeld: 10,
+    });
+    const flows = overallXirrFlows([pos], [], new Date("2025-06-01"));
+    expect(flows).toContainEqual({ date: new Date("2024-01-01"), amount: -100 });
+    expect(flows).toContainEqual({ date: new Date("2025-06-01"), amount: 150 });
+  });
+
+  it("verwendet bei Verkaeufen die FIFO-zugeordneten Lot-Daten (kein Cashflow am Uebertragstag)", () => {
+    const pos = mkPosition({
+      sells: [{
+        tx_id: "s1", isin: "A", name: null, date: "2025-03-01", year: "2025", shares: 5,
+        proceeds: 120, fees: 0, tax: 0, matchedCost: 100, ownRealized: 20, reported: null,
+        realized: 20, mismatch: false, noCostBasis: false,
+        allocatedLots: [{ date: "2020-01-01", shares: 5, cost: 100, tx_id: "b1" }],
+      }],
+    });
+    const flows = overallXirrFlows([pos], [], new Date("2025-06-01"));
+    expect(flows).toContainEqual({ date: new Date("2020-01-01"), amount: -100 });
+    expect(flows).toContainEqual({ date: new Date("2025-03-01"), amount: 120 });
+  });
+
+  it("nimmt Dividenden/Zinsen als Einnahme, aber keine Ein-/Auszahlungen", () => {
+    const cash = [
+      { tx_id: "c1", date: "2025-01-01", name: "Dividende", isin: "A", net: 10, kind: "distribution" as const },
+      { tx_id: "c2", date: "2025-01-02", name: "Zins", isin: null, net: 2, kind: "interest" as const },
+      { tx_id: "c3", date: "2025-01-03", name: "Einzahlung", isin: null, net: 1000, kind: "other" as const },
+    ];
+    const flows = overallXirrFlows([], cash, new Date("2025-06-01"));
+    expect(flows).toContainEqual({ date: new Date("2025-01-01"), amount: 10 });
+    expect(flows).toContainEqual({ date: new Date("2025-01-02"), amount: 2 });
+    expect(flows.some((f) => f.amount === 1000)).toBe(false);
   });
 });
 

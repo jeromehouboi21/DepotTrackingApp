@@ -10,6 +10,7 @@
 // ============================================================================
 
 import { classifyObjectType, type ObjectType } from "./classify";
+import { xirr, type CashFlow } from "./xirr";
 
 export interface Transaction {
   id: string;
@@ -649,6 +650,72 @@ export function aggregateYears(
     acc.sells.push(...b.sells);
   }
   return acc;
+}
+
+// ---------------------------------------------------------------------------
+// Dashboard-Auswertungen (DESIGN_Dashboard-Auswertungen.md). Reine Funktionen,
+// keine Aenderung an der FIFO-/G-V-Rechnung - nur Aufbereitung bereits
+// vorhandener Werte (SellRecord, Position, CashRecord).
+
+export interface CumulativePoint {
+  date: string;
+  cumRealized: number;
+}
+
+/** Kumulierter realisierter G/V ueber die Zeit, chronologisch (§2). Nur Verkaeufe
+ * mit bekannter Kostenbasis (realized != null) - konsistent mit totals.realizedPl. */
+export function cumulativeRealized(sells: SellRecord[]): CumulativePoint[] {
+  const withRealized = sells.filter((s): s is SellRecord & { realized: number } => s.realized != null);
+  const sorted = [...withRealized].sort((a, b) => a.date.localeCompare(b.date) || a.tx_id.localeCompare(b.tx_id));
+  let run = 0;
+  return sorted.map((s) => ({ date: s.date, cumRealized: (run += s.realized) }));
+}
+
+/** Realisierter XIRR je Jahr (§5.1) - Kauf-Lots (FIFO-zugeordnet) als Ausgabe,
+ * Verkaufserloes als Einnahme. Braucht keine Kurse, daher fuer jedes Jahr mit
+ * vollstaendigen Cashflows bestimmbar. null je Jahr, wenn nicht bestimmbar. */
+export function realizedXirrByYear(sells: SellRecord[]): Record<string, number | null> {
+  const byYear: Record<string, CashFlow[]> = {};
+  for (const s of sells) {
+    if (!s.allocatedLots.length) continue; // keine Kostenbasis -> keine sinnvollen Cashflows
+    const flows = (byYear[s.year] ??= []);
+    for (const lot of s.allocatedLots) flows.push({ date: new Date(lot.date), amount: -lot.cost });
+    flows.push({ date: new Date(s.date), amount: s.proceeds });
+  }
+  const out: Record<string, number | null> = {};
+  for (const [y, flows] of Object.entries(byYear)) out[y] = xirr(flows);
+  return out;
+}
+
+/** Cashflows fuer den Gesamt-XIRR seit Beginn (§5.2): jedes je existierende Lot
+ * (verkauft oder noch offen) als Ausgabe an seinem ORIGINALEN Kaufdatum - dadurch
+ * verzerrt ein Depotuebertrag (INTERNAL_TRANSFER) die Rendite nicht, da Lots beim
+ * Uebertrag unangetastet bleiben (§7.3/E8) und ihr Kaufdatum behalten. Verkaeufe
+ * als Einnahme, offene (bewertete) Lots mit heutigem Marktwert als Schlusswert,
+ * Dividenden/Zinsen als Einnahme. Rendite auf Investitionsebene - Deposit/
+ * Withdrawal fliessen bewusst nicht ein. */
+export function overallXirrFlows(
+  positions: Position[],
+  cash: CashRecord[],
+  today: Date = new Date(),
+): CashFlow[] {
+  const flows: CashFlow[] = [];
+  for (const p of positions) {
+    for (const s of p.sells) {
+      for (const lot of s.allocatedLots) flows.push({ date: new Date(lot.date), amount: -lot.cost });
+      if (s.realized != null) flows.push({ date: new Date(s.date), amount: s.proceeds });
+    }
+    for (const lot of p.openLots) flows.push({ date: new Date(lot.date), amount: -lot.costBasis });
+    if (p.marketValue != null && p.sharesHeld > EPS) {
+      flows.push({ date: today, amount: p.marketValue });
+    }
+  }
+  for (const c of cash) {
+    if (c.kind === "distribution" || c.kind === "interest") {
+      flows.push({ date: new Date(c.date), amount: c.net });
+    }
+  }
+  return flows;
 }
 
 function consumeLots(lots: Lot[], shares: number): void {
