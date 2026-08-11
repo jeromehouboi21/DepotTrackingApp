@@ -7,8 +7,8 @@
 //        GET /v2/eod/latest?symbols=A,B,C&exchange={MIC}
 //      Kurs = close (bzw. adj_close), Waehrung = price_currency.
 //   2. needs_review-Securities (nur Heimatboerse): Einzelabruf ohne exchange,
-//      raw_price * fx_rate -> EUR. FX via exchangerate.host, gecacht in fx_rates
-//      (1 Call je Fremdwaehrung und Tag).
+//      raw_price * fx_rate -> EUR. FX via Frankfurter (EZB-Referenzkurse, frei,
+//      ohne Key), gecacht in fx_rates (1 Call je Fremdwaehrung und Tag).
 //   3. UPSERT price_quotes (price in EUR, raw_price, raw_currency, fx_rate,
 //      as_of, source). Response: aktualisierte ISINs + Liste ohne Kurs.
 //
@@ -80,7 +80,7 @@ async function getFxRate(
 
   try {
     const res = await fetch(
-      `https://api.exchangerate.host/latest?base=${currency}&symbols=EUR`,
+      `https://api.frankfurter.app/latest?from=${currency}&to=EUR`,
     );
     if (!res.ok) throw new Error(String(res.status));
     const json = await res.json();
@@ -88,7 +88,7 @@ async function getFxRate(
     if (!isFinite(rate) || rate <= 0) throw new Error("kein Kurs");
     cache.set(pair, rate);
     await supabase.from("fx_rates").upsert(
-      { user_id: userId, pair, rate, as_of: today, source: "exchangerate.host" },
+      { user_id: userId, pair, rate, as_of: today, source: "frankfurter" },
       { onConflict: "user_id,pair" },
     );
     return rate;

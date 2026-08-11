@@ -9,6 +9,8 @@
 // ist der gemeldete Bankwert massgeblich.
 // ============================================================================
 
+import { classifyObjectType, type ObjectType } from "./classify";
+
 export interface Transaction {
   id: string;
   source: string;
@@ -57,6 +59,8 @@ export interface SecurityMeta {
   asset_class?: string | null;
   display_name?: string | null;
   name?: string | null;
+  object_type?: string | null;
+  figi_security_type?: string | null;
 }
 
 export interface PriceInfo {
@@ -115,6 +119,7 @@ export interface Position {
   name: string | null;
   sources: string[];
   assetClass: "equity" | "fund_etf" | "bond" | "other";
+  objectType: ObjectType;
   isSavingsPlan: boolean;
   flags: string[];
   sharesHeld: number;
@@ -501,16 +506,23 @@ export function computePortfolio(input: {
 
     const isSavingsPlan =
       meta?.is_savings_plan != null ? meta.is_savings_plan : detectSavingsPlan(buys);
+    const resolvedName = meta?.display_name ?? meta?.name ?? name;
     const assetClass =
       (meta?.asset_class as Position["assetClass"]) ??
-      detectAssetClass({ flags: [...flags], name: meta?.name ?? name });
+      detectAssetClass({ flags: [...flags], name: resolvedName });
+    const objectType = classifyObjectType({
+      object_type: meta?.object_type,
+      figi_security_type: meta?.figi_security_type,
+      name: resolvedName ?? isin,
+    });
 
     positions.push({
       isin,
       wkn,
-      name: meta?.display_name ?? meta?.name ?? name,
+      name: resolvedName,
       sources: [...sources].sort(),
       assetClass,
+      objectType,
       isSavingsPlan,
       flags: [...flags].sort(),
       sharesHeld,

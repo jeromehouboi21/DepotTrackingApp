@@ -15,14 +15,18 @@ export function SavingsPlanScreen({ user }) {
   const { portfolio } = useData();
   const [open, setOpen] = useState({});
   const [groupYears, setGroupYears] = useState({});
+  // Default: Positionen ohne Bestand ausblenden (Screen dient primaer laufenden Sparplaenen)
+  const [hideZeroBalance, setHideZeroBalance] = useState(true);
   const result = portfolio.result;
 
   if (portfolio.loading) return <div className="text-ink-3">Lade…</div>;
 
-  const plans = (result?.positions ?? []).filter((p) => p.isSavingsPlan);
-  if (!plans.length) {
+  const allPlans = (result?.positions ?? []).filter((p) => p.isSavingsPlan);
+  if (!allPlans.length) {
     return <EmptyState title="Keine Sparplan-Positionen erkannt">Heuristik: ≥ 5 Bruchstück-Käufe. Auf der Detailseite lässt sich das Flag manuell setzen.</EmptyState>;
   }
+  const plans = allPlans.filter((p) => !hideZeroBalance || p.sharesHeld > 0);
+  const hiddenCount = allPlans.length - plans.length;
 
   const toggleFlag = async (isin, current) => {
     // Manueller Override der E4-Heuristik
@@ -32,11 +36,36 @@ export function SavingsPlanScreen({ user }) {
 
   return (
     <div className="space-y-4">
-      <h1 className="text-2xl">Sparplan</h1>
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <h1 className="text-2xl">Sparplan</h1>
+        <label className="text-sm text-ink-2 flex items-center gap-1">
+          <input
+            type="checkbox"
+            checked={hideZeroBalance}
+            onChange={(e) => setHideZeroBalance(e.target.checked)}
+          />
+          Nur mit Bestand
+        </label>
+      </div>
       <p className="text-sm text-ink-2 max-w-2xl">
         Jeder Sparplan-Kauf mit individuellem Wertzuwachs (Anforderung 3). Ohne Live-Kurs bleiben
         die Zuwachs-Spalten leer.
       </p>
+      {hiddenCount > 0 && (
+        <p className="text-xs text-ink-3">
+          {hiddenCount} Position{hiddenCount === 1 ? "" : "en"} ohne Bestand ausgeblendet ·{" "}
+          <button className="text-accent" onClick={() => setHideZeroBalance(false)}>
+            Alle anzeigen
+          </button>
+        </p>
+      )}
+      {!plans.length && (
+        <EmptyState title="Alle Sparplan-Positionen sind ausgeblendet">
+          <button className="text-accent" onClick={() => setHideZeroBalance(false)}>
+            Alle anzeigen
+          </button>
+        </EmptyState>
+      )}
 
       {plans.map((p) => {
         const isOpen = open[p.isin] ?? false;

@@ -12,6 +12,7 @@ import { BrokerSelect } from "../../components/broker/BrokerSelect";
 import { CustodyStatusBadge } from "../../components/broker/CustodyStatusBadge";
 import { fmtShares, fmtDate } from "../../lib/format";
 import { useAuth } from "../../hooks/useAuth";
+import { OBJECT_TYPE_LABEL, OBJECT_TYPE_ORDER } from "../../lib/classify";
 
 const ASSET_LABEL = { equity: "Aktie", fund_etf: "Fonds/ETF", bond: "Anleihe", other: "Sonstig" };
 
@@ -21,7 +22,8 @@ export function PositionsScreen() {
   const navigate = useNavigate();
   const [filter, setFilter] = useState("held"); // held | all | noprice
   const [brokerFilter, setBrokerFilter] = useState("all");
-  const [groupByBroker, setGroupByBroker] = useState(false);
+  const [objectTypeFilter, setObjectTypeFilter] = useState(() => new Set());
+  const [groupBy, setGroupBy] = useState("none"); // none | broker | objectType
 
   const result = portfolio.result;
 
@@ -33,8 +35,18 @@ export function PositionsScreen() {
     if (brokerFilter !== "all") {
       list = list.filter((p) => custody.custodyByIsin[p.isin]?.some((c) => c.broker_id === brokerFilter));
     }
+    if (objectTypeFilter.size > 0) {
+      list = list.filter((p) => objectTypeFilter.has(p.objectType));
+    }
     return list;
-  }, [result, filter, brokerFilter, custody.custodyByIsin]);
+  }, [result, filter, brokerFilter, objectTypeFilter, custody.custodyByIsin]);
+
+  const toggleObjectType = (t) =>
+    setObjectTypeFilter((s) => {
+      const n = new Set(s);
+      n.has(t) ? n.delete(t) : n.add(t);
+      return n;
+    });
 
   if (portfolio.loading) return <div className="text-ink-3">Lade Portfolio…</div>;
   if (!result || result.positions.length === 0) {
@@ -69,6 +81,12 @@ export function PositionsScreen() {
         </div>
       ),
       sortValue: (p) => p.name ?? p.isin,
+    },
+    {
+      key: "objectType",
+      label: "Typ",
+      render: (p) => <Badge variant="neutral">{OBJECT_TYPE_LABEL[p.objectType]}</Badge>,
+      sortValue: (p) => OBJECT_TYPE_LABEL[p.objectType],
     },
     {
       key: "broker",
@@ -130,7 +148,7 @@ export function PositionsScreen() {
   const sum = (fn) => rows.reduce((s, p) => s + (fn(p) ?? 0), 0);
   const footer = [
     `${rows.length} Positionen`,
-    "", "", "", "",
+    "", "", "", "", "",
     <Money key="mv" value={sum((p) => p.marketValue)} />,
     <Money key="upl" value={sum((p) => p.unrealizedPl)} signed colored />,
     "",
@@ -139,15 +157,31 @@ export function PositionsScreen() {
     "",
   ];
 
-  const brokerGroups = groupByBroker
-    ? Object.entries(
-        rows.reduce((acc, p) => {
-          const bid = custody.custodyByIsin[p.isin]?.[0]?.broker_id ?? "(nicht zugeordnet)";
-          (acc[bid] ??= []).push(p);
-          return acc;
-        }, {}),
-      )
-    : null;
+  // Gruppierung (verallgemeinert aus der frueheren Broker-only-Gruppierung):
+  // 'broker' gruppiert nach Standort, 'objectType' nach Aktie/ETF/Fonds/...
+  const groups = useMemo(() => {
+    if (groupBy === "none") return null;
+    if (groupBy === "objectType") {
+      const byType = new Map();
+      for (const p of rows) {
+        (byType.get(p.objectType) ?? byType.set(p.objectType, []).get(p.objectType)).push(p);
+      }
+      return OBJECT_TYPE_ORDER
+        .filter((t) => byType.has(t))
+        .map((t) => [t, OBJECT_TYPE_LABEL[t], byType.get(t)]);
+    }
+    // groupBy === 'broker'
+    const byBroker = {};
+    for (const p of rows) {
+      const bid = custody.custodyByIsin[p.isin]?.[0]?.broker_id ?? "(nicht zugeordnet)";
+      (byBroker[bid] ??= []).push(p);
+    }
+    return Object.entries(byBroker).map(([bid, list]) => [
+      bid,
+      custody.brokers.find((b) => b.id === bid)?.name ?? bid,
+      list,
+    ]);
+  }, [groupBy, rows, custody.custodyByIsin, custody.brokers]);
 
   return (
     <div className="space-y-4">
@@ -173,11 +207,36 @@ export function PositionsScreen() {
               <option key={b.id} value={b.id}>{b.name}</option>
             ))}
           </select>
-          <label className="text-sm text-ink-2 flex items-center gap-1">
-            <input type="checkbox" checked={groupByBroker} onChange={(e) => setGroupByBroker(e.target.checked)} />
-            Nach Broker gruppieren
-          </label>
+          <select
+            value={groupBy}
+            onChange={(e) => setGroupBy(e.target.value)}
+            className="rounded-lg border border-surface-2 bg-surface px-2 py-1 text-sm"
+          >
+            <option value="none">Keine Gruppierung</option>
+            <option value="broker">Gruppieren: Broker (Standort)</option>
+            <option value="objectType">Gruppieren: Objekttyp</option>
+          </select>
         </div>
+      </div>
+
+      <div className="flex flex-wrap items-center gap-1">
+        <span className="text-xs text-ink-3 mr-1">Objekttyp:</span>
+        {OBJECT_TYPE_ORDER.filter((t) => result.positions.some((p) => p.objectType === t)).map((t) => (
+          <button
+            key={t}
+            onClick={() => toggleObjectType(t)}
+            className={`rounded-full px-2.5 py-0.5 text-xs ${
+              objectTypeFilter.has(t) ? "bg-accent text-white" : "bg-surface-2 text-ink-2 hover:text-ink"
+            }`}
+          >
+            {OBJECT_TYPE_LABEL[t]}
+          </button>
+        ))}
+        {objectTypeFilter.size > 0 && (
+          <button onClick={() => setObjectTypeFilter(new Set())} className="text-xs text-ink-3 ml-1">
+            zurücksetzen
+          </button>
+        )}
       </div>
 
       {result.totals.priceCoverage < 1 && filter === "held" && (
@@ -187,13 +246,15 @@ export function PositionsScreen() {
         </div>
       )}
 
-      {brokerGroups ? (
-        brokerGroups.map(([bid, list]) => (
-          <div key={bid} className="bg-surface rounded-xl border border-surface-2 p-2">
-            <div className="px-2 py-1 font-medium text-sm">
-              {custody.brokers.find((b) => b.id === bid)?.name ?? bid}
-              <span className="text-ink-3 font-normal"> · {list.length} Positionen · </span>
+      {groups ? (
+        groups.map(([key, label, list]) => (
+          <div key={key} className="bg-surface rounded-xl border border-surface-2 p-2">
+            <div className="px-2 py-1 font-medium text-sm flex items-center gap-3 flex-wrap">
+              <span>{label}</span>
+              <span className="text-ink-3 font-normal">{list.length} Positionen</span>
               <Money value={list.reduce((s, p) => s + (p.marketValue ?? 0), 0)} />
+              <span className="text-ink-3 font-normal">unrealisiert</span>
+              <Money value={list.reduce((s, p) => s + (p.unrealizedPl ?? 0), 0)} signed colored />
             </div>
             <Table
               columns={columns}

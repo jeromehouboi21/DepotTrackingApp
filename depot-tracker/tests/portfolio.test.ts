@@ -150,6 +150,28 @@ describe("Overrides & Korrekturen", () => {
   });
 });
 
+describe("objectType an der Position (DESIGN_Objekttyp-Gruppierung)", () => {
+  const buy: Transaction = {
+    id: "B1", source: "comdirect", date: "2020-01-02", type: "BUY",
+    isin: "IE00TEST0001", wkn: null, name: "iShs Core MSCI EM IMI U.ETF", shares: 10, price: 10,
+    gross: 100, fees: 5, tax: 0, net: -105, currency: "EUR", raw_ref: "t",
+    reported_realized_pl: null, cost_lots: [], flags: [],
+  };
+
+  it("faellt ohne Override/OpenFIGI auf die Namens-Heuristik zurueck", () => {
+    const r = computePortfolio({ transactions: [buy] });
+    expect(r.positions[0].objectType).toBe("etf");
+  });
+
+  it("manueller Override (securityMeta.object_type) gewinnt", () => {
+    const r = computePortfolio({
+      transactions: [buy],
+      securityMeta: { "IE00TEST0001": { isin: "IE00TEST0001", object_type: "fund" } },
+    });
+    expect(r.positions[0].objectType).toBe("fund");
+  });
+});
+
 describe("Sparplan-Heuristik", () => {
   it("braucht >=5 Bruchstueck-Kaeufe", () => {
     const mk = (i: number, shares: number): Transaction => ({

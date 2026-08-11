@@ -16,6 +16,7 @@ import { BrokerSelect } from "../../components/broker/BrokerSelect";
 import { CustodyStatusBadge } from "../../components/broker/CustodyStatusBadge";
 import { OverrideFieldForm } from "../../components/warnings/OverrideFieldForm";
 import { fmtDate, fmtShares, fmtEur } from "../../lib/format";
+import { OBJECT_TYPE_LABEL, OBJECT_TYPE_ORDER } from "../../lib/classify";
 
 const GERMAN_MICS = ["XETR", "XFRA", "XSTU", "XMUN", "XDUS", "XBER", "XHAM", "XHAN"];
 
@@ -293,6 +294,11 @@ export function SecurityDetailScreen({ user }) {
   const shownRealized = view === "brutto" ? grossRealized : netRealized;
 
   const setBroker = (brokerId) => custody.setBrokerFor(user.id, isin, brokerId);
+  const setObjectType = async (value) => {
+    // "" (automatisch) -> null, damit die Heuristik/OpenFIGI wieder greift (E2-konform rücksetzbar)
+    await supabase.from("securities").update({ object_type: value || null }).eq("isin", isin);
+    portfolio.refresh();
+  };
   const createBroker = async (slug, name) => {
     await supabase.from("brokers").insert({ user_id: user.id, id: slug, name, active: true, sort_order: 99 });
     custody.refresh();
@@ -340,7 +346,20 @@ export function SecurityDetailScreen({ user }) {
           <div className="text-sm text-ink-3 flex items-center gap-2 flex-wrap mt-1">
             <span>{isin}</span>
             {p.wkn && <span>· WKN {p.wkn}</span>}
-            <span>· {p.assetClass === "bond" ? "Anleihe" : p.assetClass === "fund_etf" ? "Fonds/ETF" : "Aktie"}</span>
+            <span className="flex items-center gap-1">
+              · Objekttyp:
+              <select
+                value={security?.object_type ?? ""}
+                onChange={(e) => setObjectType(e.target.value)}
+                className="rounded border border-surface-2 bg-surface text-ink text-xs px-1 py-0.5"
+                title="Manueller Override; leer = automatisch aus OpenFIGI/Namen ableiten"
+              >
+                <option value="">automatisch ({OBJECT_TYPE_LABEL[p.objectType]})</option>
+                {OBJECT_TYPE_ORDER.map((t) => (
+                  <option key={t} value={t}>{OBJECT_TYPE_LABEL[t]}</option>
+                ))}
+              </select>
+            </span>
             {p.isSavingsPlan && <Badge variant="accent">Sparplan</Badge>}
             {p.flags.map((f) => <Badge key={f}>{f}</Badge>)}
             {p.sources.map((s) => <SourceBadge key={s} source={s} />)}

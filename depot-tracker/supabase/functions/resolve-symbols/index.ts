@@ -52,7 +52,10 @@ const CORS = {
 // --- Typen ------------------------------------------------------------
 
 interface Security { isin: string; wkn: string | null; name: string | null; }
-interface FigiHit { ticker: string; figi: string; micCode?: string; exchCode?: string; }
+interface FigiHit {
+  ticker: string; figi: string; micCode?: string; exchCode?: string;
+  securityType?: string; securityType2?: string;
+}
 
 interface Resolution {
   isin: string;
@@ -60,6 +63,7 @@ interface Resolution {
   price_mic: string | null;
   price_currency: string | null;
   figi: string | null;
+  figi_security_type: string | null; // roher OpenFIGI-Instrumententyp, fuer Objekttyp-Klassifizierung im Client
   mapping_source: "openfigi" | "marketstack" | "manual" | null;
   mapping_status: "verified" | "needs_review" | "manual" | "unresolved";
   mapping_confidence: number | null;
@@ -111,7 +115,10 @@ async function resolveCandidates(sec: Security, figiKey: string | undefined): Pr
     results.forEach((r, i) => {
       const jobMic = (part[i] as Record<string, string>).micCode;
       (r.data ?? []).forEach((d) =>
-        hits.push({ ticker: d.ticker, figi: d.figi, micCode: d.micCode ?? jobMic, exchCode: d.exchCode }));
+        hits.push({
+          ticker: d.ticker, figi: d.figi, micCode: d.micCode ?? jobMic, exchCode: d.exchCode,
+          securityType: d.securityType, securityType2: d.securityType2,
+        }));
     });
     if (!figiKey) await sleep(2600); // ohne Key ~25 Req/min
   }
@@ -164,7 +171,8 @@ async function resolveOne(
 ): Promise<Resolution> {
   const base: Resolution = {
     isin: sec.isin, price_symbol: null, price_mic: null, price_currency: null,
-    figi: null, mapping_source: null, mapping_status: "unresolved", mapping_confidence: null,
+    figi: null, figi_security_type: null,
+    mapping_source: null, mapping_status: "unresolved", mapping_confidence: null,
   };
 
   let candidates: FigiHit[] = [];
@@ -194,7 +202,9 @@ async function resolveOne(
       if (eod && (eod.currency ?? "EUR").toUpperCase() === "EUR") {
         return {
           isin: sec.isin, price_symbol: eod.symbol ?? cand.ticker, price_mic: mic,
-          price_currency: "EUR", figi: cand.figi ?? null, mapping_source: "openfigi",
+          price_currency: "EUR", figi: cand.figi ?? null,
+          figi_security_type: cand.securityType2 ?? cand.securityType ?? null,
+          mapping_source: "openfigi",
           mapping_status: "verified", mapping_confidence: isinMatch ? 5 : 4,
         };
       }
@@ -208,6 +218,7 @@ async function resolveOne(
         fallback = {
           isin: sec.isin, price_symbol: eod.symbol ?? cand.ticker, price_mic: null,
           price_currency: eod.currency ?? null, figi: cand.figi ?? null,
+          figi_security_type: cand.securityType2 ?? cand.securityType ?? null,
           mapping_source: "openfigi", mapping_status: "needs_review", mapping_confidence: 2,
         };
       }
@@ -215,7 +226,11 @@ async function resolveOne(
   }
 
   if (fallback) return fallback;
-  return { ...base, figi: candidates[0]?.figi ?? null };
+  return {
+    ...base,
+    figi: candidates[0]?.figi ?? null,
+    figi_security_type: candidates[0]?.securityType2 ?? candidates[0]?.securityType ?? null,
+  };
 }
 
 // --- HTTP-Handler -----------------------------------------------------
@@ -260,7 +275,8 @@ Deno.serve(async (req) => {
 
       const { error: upErr } = await supabase.from("securities").update({
         price_symbol: r.price_symbol, price_mic: r.price_mic, price_currency: r.price_currency,
-        figi: r.figi, mapping_source: r.mapping_source, mapping_status: r.mapping_status,
+        figi: r.figi, figi_security_type: r.figi_security_type,
+        mapping_source: r.mapping_source, mapping_status: r.mapping_status,
         mapping_confidence: r.mapping_confidence, mapping_checked_at: new Date().toISOString(),
       }).eq("user_id", user.id).eq("isin", sec.isin);
       if (upErr) console.error("update securities", sec.isin, upErr.message);

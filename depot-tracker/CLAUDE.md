@@ -14,7 +14,7 @@ Recharts · Supabase (Auth + Postgres + Edge Functions) · Vercel. Desktop-first
 npm run dev        # Dev-Server
 npm run build      # Produktions-Build
 npm test           # Vitest - Engine-Paritaet gegen ../depot-parser/output/
-supabase db push                          # Migrationen 001-005 einspielen
+supabase db push                          # Migrationen 001-007 einspielen
 supabase functions deploy resolve-symbols fetch-prices import-parser-output
 supabase secrets set MARKETSTACK_API_KEY=... OPENFIGI_API_KEY=...
 ```
@@ -35,6 +35,13 @@ Single-User: Supabase-Signups deaktivieren, Nutzer manuell anlegen.
   Einfluss auf die G/V-Rechnung. `transactions.source` ≠ Standort.
 - **E8/INTERNAL_TRANSFER**: Der Scalable↔comdirect-Übertrag ist neutralisiert - die
   ursprünglichen Kauf-Lots bleiben offen (identisch zur Parser-Semantik).
+- **Objekttyp** (`src/lib/classify.ts`): feinere Klassifizierung (Aktie/ETF/Fonds/Anleihe/
+  Sonstige) als `asset_class` (die bleibt fürs `AllocationDonut` unangetastet). Priorität:
+  manueller Override (`securities.object_type`) → OpenFIGI-Typ (`figi_security_type`, aus
+  `resolve-symbols` gecacht) → Namens-Heuristik. Gruppierung in `/positionen` (`groupBy`).
+- **Fehlende Belege**: additive `manual_transactions` (E2-konform) werden in `usePortfolio`
+  vor dem Engine-Aufruf ins kanonische Schema gemappt und eingemischt - z. B. um eine
+  Position ohne vorliegenden Verkaufsbeleg korrekt auf Bestand 0 zu bringen.
 
 ## Engine-Semantik (muss mit depot-parser/core/fifo.py paritätisch bleiben)
 
@@ -54,11 +61,12 @@ lädt alles + ruft Engine → Screens. Nach jeder Korrektur `refreshAll()` (Cont
 
 ## Wichtige Pfade
 
-- Engine: `src/lib/portfolio.ts` · Tests: `tests/portfolio.test.ts`
+- Engine: `src/lib/portfolio.ts` · Klassifizierung: `src/lib/classify.ts` ·
+  Tests: `tests/portfolio.test.ts`, `tests/classify.test.ts`
 - Screens: `src/screens/*` (Dashboard, Positionen, Wertpapier-Detail, Sparplan,
   Realisiert, Warnungen, Broker, Import)
 - Korrektur-Formulare: `src/components/warnings/*`
-- Migrationen: `supabase/migrations/001–005`
+- Migrationen: `supabase/migrations/001–007`
 - Edge Functions: `supabase/functions/{resolve-symbols,fetch-prices,import-parser-output}`
 
 ## Erwartungswerte (Ist-Stand 2026-08-09, Anhang A des Designs)
