@@ -7,15 +7,44 @@ const ITEMS = [
   { to: "/realisiert", label: "Realisiert" },
   { to: "/warnungen", label: "Warnungen", badgeKey: "warnings" },
   { to: "/broker", label: "Broker" },
+  { to: "/inhaber", label: "Inhaber" },
   { to: "/import", label: "Import" },
 ];
 
-export function SideNav({ openWarnings = 0, onSignOut }) {
+/** Inhaber-Umschalter (E9) - global sichtbar, damit jederzeit klar ist, wessen
+ *  Depot man gerade sieht. Wechsel rechnet alle Screens auf den neuen Inhaber um. */
+function OwnerSwitcher({ owners }) {
+  if (owners.loading) return null;
+  if (!owners.owners.length) {
+    return (
+      <NavLink to="/import" className="block px-2 py-1.5 text-xs text-warn hover:underline">
+        Kein Inhaber angelegt – im Import anlegen
+      </NavLink>
+    );
+  }
+  return (
+    <div className="px-2 mb-2">
+      <label className="text-[10px] uppercase tracking-wide text-ink-3 block mb-0.5">Inhaber</label>
+      <select
+        value={owners.activeOwnerId ?? ""}
+        onChange={(e) => owners.setActiveOwnerId(e.target.value)}
+        className="w-full rounded border border-surface-2 bg-surface text-ink text-sm px-1.5 py-1"
+      >
+        {owners.activeOwners.map((o) => (
+          <option key={o.id} value={o.id}>{o.name}</option>
+        ))}
+      </select>
+    </div>
+  );
+}
+
+export function SideNav({ openWarnings = 0, owners, onSignOut }) {
   return (
     <nav className="flex md:flex-col gap-1 md:w-48 shrink-0 md:min-h-screen bg-surface border-r border-surface-2 p-3 overflow-x-auto">
       <div className="hidden md:block mb-4 px-2">
         <div className="font-display text-xl text-accent">Depot-Tracker</div>
       </div>
+      {owners && <OwnerSwitcher owners={owners} />}
       {ITEMS.map((item) => (
         <NavLink
           key={item.to}

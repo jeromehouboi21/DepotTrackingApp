@@ -10,11 +10,12 @@ import { SavingsPlanScreen } from "./screens/savingsplan/SavingsPlanScreen";
 import { RealizedScreen } from "./screens/realized/RealizedScreen";
 import { WarningsScreen } from "./screens/warnings/WarningsScreen";
 import { BrokersScreen } from "./screens/brokers/BrokersScreen";
+import { OwnersScreen } from "./screens/owners/OwnersScreen";
 import { ImportScreen } from "./screens/import/ImportScreen";
 
 function Shell({ onSignOut }) {
-  const { warnings } = useData();
-  return <AppShell openWarnings={warnings.openCount} onSignOut={onSignOut} />;
+  const { warnings, owners } = useData();
+  return <AppShell openWarnings={warnings.openCount} owners={owners} onSignOut={onSignOut} />;
 }
 
 export default function App() {
@@ -54,6 +55,7 @@ export default function App() {
           <Route path="/realisiert" element={<RealizedScreen />} />
           <Route path="/warnungen" element={<WarningsScreen user={auth.user} />} />
           <Route path="/broker" element={<BrokersScreen user={auth.user} />} />
+          <Route path="/inhaber" element={<OwnersScreen user={auth.user} />} />
           <Route path="/import" element={<ImportScreen user={auth.user} />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>

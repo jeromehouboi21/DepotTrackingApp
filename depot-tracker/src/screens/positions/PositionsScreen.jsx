@@ -30,7 +30,7 @@ function loadGroupBy() {
 }
 
 export function PositionsScreen() {
-  const { portfolio, custody, refreshAll } = useData();
+  const { portfolio, custody, owners, refreshAll } = useData();
   const { user } = useAuth();
   const navigate = useNavigate();
   const [filter, setFilter] = useState("held"); // held | all | noprice
@@ -112,7 +112,7 @@ export function PositionsScreen() {
   };
 
   const setBroker = async (isin, brokerId) => {
-    await custody.setBrokerFor(user.id, isin, brokerId);
+    await custody.setBrokerFor(user.id, owners.activeOwnerId, isin, brokerId);
   };
 
   const columns = [

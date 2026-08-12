@@ -5,9 +5,10 @@ import { fmtDate, fmtShares } from "../../lib/format";
 
 /**
  * TRANSFER_UNMATCHED / TRANSFER_SHARES_MISMATCH: Abgang mit Eingang verknuepfen
- * oder als "extern uebertragen, kein Ziel" markieren (§12).
+ * oder als "extern uebertragen, kein Ziel" markieren (§12). E9: gehoert zum
+ * aktiven Inhaber - die Uebertrags-Kette bleibt bewusst intra-Inhaber (E9 §1).
  */
-export function TransferLinkForm({ user, isin, transactions, onDone }) {
+export function TransferLinkForm({ user, ownerId, isin, transactions, onDone }) {
   const outs = useMemo(
     () => transactions.filter((t) => t.isin === isin && t.type === "TRANSFER_OUT"),
     [transactions, isin],
@@ -28,6 +29,7 @@ export function TransferLinkForm({ user, isin, transactions, onDone }) {
     setBusy(true);
     await supabase.from("transfer_links").insert({
       user_id: user.id,
+      owner_id: ownerId,
       out_transaction_id: outId,
       in_transaction_id: inId === "__none__" ? null : inId,
       carried_cost_basis: basis ? Number(basis.replace(",", ".")) : null,

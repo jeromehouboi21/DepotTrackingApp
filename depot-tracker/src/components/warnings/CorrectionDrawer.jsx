@@ -6,26 +6,33 @@ import { TransferLinkForm } from "./TransferLinkForm";
 import { OverrideFieldForm } from "./OverrideFieldForm";
 import { Money } from "../ui/Money";
 
-/** Kontextabhaengiges Korrektur-Formular je Warnungs-Code (§12). */
-export function CorrectionDrawer({ user, warning, transactions, overrides, onDone }) {
+/** Kontextabhaengiges Korrektur-Formular je Warnungs-Code (§12). E9: alle
+ *  Schreibpfade gehoeren zum aktiven Inhaber (ownerId). */
+export function CorrectionDrawer({ user, ownerId, warning, transactions, overrides, onDone }) {
   const code = warning.code;
 
   if (code === "NO_COST_BASIS") {
-    return <ManualCostBasisForm user={user} isin={warning.isin} onDone={onDone} />;
+    return <ManualCostBasisForm user={user} ownerId={ownerId} isin={warning.isin} onDone={onDone} />;
   }
 
   if (code === "TRANSFER_UNMATCHED" || code === "TRANSFER_SHARES_MISMATCH") {
-    return <TransferLinkForm user={user} isin={warning.isin} transactions={transactions} onDone={onDone} />;
+    return (
+      <TransferLinkForm user={user} ownerId={ownerId} isin={warning.isin} transactions={transactions} onDone={onDone} />
+    );
   }
 
   if (code === "FIFO_MISMATCH") {
-    return <FifoMismatchDrawer user={user} warning={warning} transactions={transactions} overrides={overrides} onDone={onDone} />;
+    return (
+      <FifoMismatchDrawer
+        user={user} ownerId={ownerId} warning={warning} transactions={transactions} overrides={overrides} onDone={onDone}
+      />
+    );
   }
 
   return <div className="text-sm text-ink-3">Für diesen Code gibt es keine spezifische Korrektur.</div>;
 }
 
-function FifoMismatchDrawer({ user, warning, transactions, overrides, onDone }) {
+function FifoMismatchDrawer({ user, ownerId, warning, transactions, overrides, onDone }) {
   // Betroffene Verkaufs-Transaktion ueber ref (Dateiname) oder ISIN finden
   const sellTx = useMemo(() => {
     const byRef = transactions.find(
@@ -47,12 +54,13 @@ function FifoMismatchDrawer({ user, warning, transactions, overrides, onDone }) 
     await supabase.from("transaction_overrides").upsert(
       {
         user_id: user.id,
+        owner_id: ownerId,
         transaction_id: sellTx.id,
         patch: { reported_realized_pl: Number(sellTx.reported_realized_pl) },
         note: "Gemeldeter Bankwert als maßgeblich bestätigt",
         updated_at: new Date().toISOString(),
       },
-      { onConflict: "user_id,transaction_id" },
+      { onConflict: "user_id,owner_id,transaction_id" },
     );
     onDone?.({ resolve: true, note: "Bankwert übernommen" });
   };
@@ -72,6 +80,7 @@ function FifoMismatchDrawer({ user, warning, transactions, overrides, onDone }) 
       {mode === "edit" && (
         <OverrideFieldForm
           user={user}
+          ownerId={ownerId}
           transaction={sellTx}
           existingOverride={existingOverride}
           onDone={() => onDone?.({ resolve: false })}

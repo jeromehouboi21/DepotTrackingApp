@@ -7,9 +7,14 @@ const DEFAULT_BROKERS = [
   { id: "scalable", name: "Scalable Capital", color: "#1A1A2E", sort_order: 2 },
 ];
 
-export function useCustody() {
+/**
+ * brokers sind globale Stammdaten (E9: kein owner_id, gemeinsam fuer alle
+ * Depotinhaber). holding_custody ("Was liegt wo?") ist je Inhaber verschieden
+ * (E7 bleibt gueltig, aber E9-partitioniert) und wird nach ownerId gefiltert.
+ */
+export function useCustody(ownerId, ownersReady) {
   const [brokers, setBrokers] = useState([]);
-  const [custody, setCustody] = useState([]); // holding_custody rows
+  const [custody, setCustody] = useState([]); // holding_custody rows des aktiven Inhabers
   const [loading, setLoading] = useState(true);
   const [version, setVersion] = useState(0);
 
@@ -19,22 +24,24 @@ export function useCustody() {
     let cancelled = false;
     (async () => {
       setLoading(true);
-      const [{ data: b, error: be }, { data: c, error: ce }] = await Promise.all([
-        supabase.from("brokers").select("*").order("sort_order"),
-        supabase.from("holding_custody").select("*"),
-      ]);
+      const brokersPromise = supabase.from("brokers").select("*").order("sort_order");
+      const custodyPromise =
+        ownersReady && ownerId
+          ? supabase.from("holding_custody").select("*").eq("owner_id", ownerId)
+          : Promise.resolve({ data: [], error: null });
+      const [{ data: b, error: be }, { data: c, error: ce }] = await Promise.all([brokersPromise, custodyPromise]);
       if (be) logger.error("brokers load failed", { message: be.message });
       if (ce) logger.error("custody load failed", { message: ce.message });
       if (!cancelled) {
         setBrokers(b ?? []);
-        setCustody(c ?? []);
+        setCustody(c ?? []); // [] solange ownersReady=false (custodyPromise s.o.)
         setLoading(false);
       }
     })();
     return () => {
       cancelled = true;
     };
-  }, [version]);
+  }, [version, ownerId, ownersReady]);
 
   const ensureDefaultBrokers = useCallback(async (userId) => {
     const { data } = await supabase.from("brokers").select("id");
@@ -44,13 +51,20 @@ export function useCustody() {
       .upsert(DEFAULT_BROKERS.map((b) => ({ ...b, user_id: userId, active: true })));
   }, []);
 
-  // Standort setzen: eine Zeile je ISIN (UI-Default Einzelauswahl, E7/§13)
+  // Standort setzen: eine Zeile je ISIN JE INHABER (UI-Default Einzelauswahl, E7/§13;
+  // owner_id-Scoping ist Pflicht seit E9, sonst wuerden Custody-Zeilen anderer
+  // Inhaber fuer dieselbe ISIN geloescht/kollidieren).
   const setBrokerFor = useCallback(
-    async (userId, isin, brokerId, extra = {}) => {
-      const { error: delErr } = await supabase.from("holding_custody").delete().eq("isin", isin);
+    async (userId, ownerIdForRow, isin, brokerId, extra = {}) => {
+      const { error: delErr } = await supabase
+        .from("holding_custody")
+        .delete()
+        .eq("isin", isin)
+        .eq("owner_id", ownerIdForRow);
       if (delErr) logger.error("custody delete failed", { message: delErr.message });
       const { error } = await supabase.from("holding_custody").insert({
         user_id: userId,
+        owner_id: ownerIdForRow,
         isin,
         broker_id: brokerId,
         status: extra.status ?? "settled",

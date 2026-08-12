@@ -27,8 +27,9 @@ from core.logs import setup_logging, RunLogger
 
 def parse_args():
     p = argparse.ArgumentParser(description="Depot-Parser: comdirect-PDFs + Scalable-CSV -> JSON")
-    p.add_argument("--base", default=r"C:\ComdirectPDFs", help="Basispfad der Eingabedateien")
-    p.add_argument("--out", default="./output", help="Ausgabeordner")
+    p.add_argument("--config", default=None, help="Pfad zur Quellen-Config (JSON). Ersetzt --base-Discovery.")
+    p.add_argument("--base", default=r"C:\ComdirectPDFs", help="Basispfad (nur ohne --config)")
+    p.add_argument("--out", default=None, help="Ausgabeordner (überschreibt config.out; Default ./output)")
     p.add_argument("--full", action="store_true", help="State ignorieren, alles neu aufbauen")
     p.add_argument("--strict", action="store_true", help="Bei FIFO_MISMATCH/Parse-Fehler abbrechen")
     p.add_argument("--verbose", action="store_true", help="Zusätzliche Debug-Zeilen")
@@ -56,6 +57,55 @@ def discover(base_dir: str):
 
     return {
         "abrechnungen_dir": abrechnungen_dir,
+        "all_pdfs": all_pdfs,
+        "wp_pdfs": wp_pdfs,
+        "skipped_pdfs": skipped_pdfs,
+        "scalable_csv": scalable_csv,
+        "transfer_csv": transfer_csv,
+    }
+
+
+def load_config(path: str) -> dict:
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def discover_from_config(cfg: dict) -> dict:
+    """Deklarative Variante von discover(): liest exakt fest, welche Quellen es gibt
+    und wo sie liegen (Config-Feature), statt sie über --base zu erraten. Liefert
+    dasselbe Dict-Schema wie discover() - der nachgelagerte main()-Ablauf bleibt
+    dadurch unverändert."""
+    src = cfg.get("sources", {})
+
+    def enabled(name):
+        s = src.get(name) or {}
+        return bool(s.get("enabled")), s
+
+    # comdirect
+    cd_on, cd = enabled("comdirect")
+    abrechnungen_dir = cd.get("abrechnungen_dir") if cd_on else None
+    if cd_on and (not abrechnungen_dir or not os.path.isdir(abrechnungen_dir)):
+        raise SystemExit(
+            f"Config-Fehler: comdirect aktiviert, aber abrechnungen_dir fehlt/existiert nicht: {abrechnungen_dir!r}"
+        )
+    all_pdfs = sorted(f for f in os.listdir(abrechnungen_dir) if f.lower().endswith(".pdf")) if cd_on else []
+    wp_pdfs = [f for f in all_pdfs if f.startswith("Wertpapierabrechnung_")]
+    skipped_pdfs = [f for f in all_pdfs if f not in wp_pdfs]
+
+    # scalable
+    sc_on, sc = enabled("scalable")
+    scalable_csv = sc.get("csv") if sc_on else None
+    if sc_on and (not scalable_csv or not os.path.isfile(scalable_csv)):
+        raise SystemExit(f"Config-Fehler: scalable aktiviert, aber csv fehlt/existiert nicht: {scalable_csv!r}")
+
+    # transfer
+    tr_on, tr = enabled("transfer")
+    transfer_csv = tr.get("csv") if tr_on else None
+    if tr_on and (not transfer_csv or not os.path.isfile(transfer_csv)):
+        raise SystemExit(f"Config-Fehler: transfer aktiviert, aber csv fehlt/existiert nicht: {transfer_csv!r}")
+
+    return {
+        "abrechnungen_dir": abrechnungen_dir or "",
         "all_pdfs": all_pdfs,
         "wp_pdfs": wp_pdfs,
         "skipped_pdfs": skipped_pdfs,
@@ -96,7 +146,8 @@ def main() -> int:
     logger = setup_logging(args.verbose, args.quiet)
     rl = RunLogger(logger, run_id)
 
-    out_dir = args.out
+    cfg = load_config(args.config) if args.config else None
+    out_dir = args.out or (cfg.get("out") if cfg else None) or "./output"
     state_path = os.path.join(out_dir, "state", "processed_index.json")
     transactions_path = os.path.join(out_dir, "transactions.json")
     portfolio_path = os.path.join(out_dir, "portfolio.json")
@@ -109,7 +160,7 @@ def main() -> int:
               if not args.full else "State ignoriert (--full)")
 
     # --- 2. Discover ---
-    disc = discover(args.base)
+    disc = discover_from_config(cfg) if cfg else discover(args.base)
     scalable_rows_all = read_scalable_csv(disc["scalable_csv"]) if disc["scalable_csv"] else []
     scalable_rows_raw_count = 0
     if disc["scalable_csv"]:
@@ -323,6 +374,8 @@ def main() -> int:
     else:
         for l in written_lines:
             rl.final(f"  {l}")
+    if cfg and cfg.get("owner_label"):
+        rl.final(f"  Depot/Inhaber: {cfg['owner_label']}  (im Import-Screen entsprechend zuordnen)")
     return 0
 
 

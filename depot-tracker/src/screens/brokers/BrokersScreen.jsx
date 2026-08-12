@@ -10,7 +10,7 @@ import { CustodyStatusBadge } from "../../components/broker/CustodyStatusBadge";
 import { fmtShares } from "../../lib/format";
 
 export function BrokersScreen({ user }) {
-  const { portfolio, custody } = useData();
+  const { portfolio, custody, owners } = useData();
   const [newName, setNewName] = useState("");
   const [newColor, setNewColor] = useState("#5b6067");
   const [selected, setSelected] = useState(new Set());
@@ -54,7 +54,7 @@ export function BrokersScreen({ user }) {
   const bulkAssign = async () => {
     if (!bulkTarget || selected.size === 0) return;
     for (const isin of selected) {
-      await custody.setBrokerFor(user.id, isin, bulkTarget);
+      await custody.setBrokerFor(user.id, owners.activeOwnerId, isin, bulkTarget);
     }
     setSelected(new Set());
   };

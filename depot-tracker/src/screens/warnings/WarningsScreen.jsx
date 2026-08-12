@@ -16,7 +16,7 @@ const CODE_LABEL = {
 };
 
 export function WarningsScreen({ user }) {
-  const { warnings, portfolio, refreshAll } = useData();
+  const { warnings, portfolio, owners, refreshAll } = useData();
   const [statusFilter, setStatusFilter] = useState("open");
   const [codeFilter, setCodeFilter] = useState("all");
   const [openDrawer, setOpenDrawer] = useState(null);
@@ -119,6 +119,7 @@ export function WarningsScreen({ user }) {
               <div className="mt-3 border-t border-surface-2 pt-3">
                 <CorrectionDrawer
                   user={user}
+                  ownerId={owners.activeOwnerId}
                   warning={w}
                   transactions={portfolio.raw?.transactions ?? []}
                   overrides={portfolio.raw?.overrides ?? []}

@@ -2,8 +2,9 @@ import { useState } from "react";
 import { supabase } from "../../lib/supabase";
 import { Button } from "../ui/Button";
 
-/** NO_COST_BASIS: fehlendes Kauf-Lot manuell erfassen (§12). */
-export function ManualCostBasisForm({ user, isin, onDone }) {
+/** NO_COST_BASIS: fehlendes Kauf-Lot manuell erfassen (§12). E9: gehoert zum
+ *  aktiven Inhaber (ownerId). */
+export function ManualCostBasisForm({ user, ownerId, isin, onDone }) {
   const [date, setDate] = useState("");
   const [shares, setShares] = useState("");
   const [cost, setCost] = useState("");
@@ -15,6 +16,7 @@ export function ManualCostBasisForm({ user, isin, onDone }) {
     setBusy(true);
     await supabase.from("manual_cost_lots").insert({
       user_id: user.id,
+      owner_id: ownerId,
       isin,
       date,
       shares: Number(shares.replace(",", ".")),

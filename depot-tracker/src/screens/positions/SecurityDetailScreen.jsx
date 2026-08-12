@@ -115,8 +115,9 @@ function SymbolCard({ user, isin, security, portfolio, onFetchPrice, fetching })
 }
 
 /** F2: Fehlende Transaktion nachtragen (additiv, E2) - z. B. Position schliessen,
- *  wenn ein Verkaufsbeleg fehlt. Importierte Rohdaten bleiben unberuehrt. */
-function ManualTransactionCard({ user, isin, position, manualTxs, portfolio }) {
+ *  wenn ein Verkaufsbeleg fehlt. Importierte Rohdaten bleiben unberuehrt.
+ *  E9: gehoert immer zum aktiven Inhaber (ownerId). */
+function ManualTransactionCard({ user, ownerId, isin, position, manualTxs, portfolio }) {
   const [showForm, setShowForm] = useState(false);
   const [type, setType] = useState("SELL");
   const [date, setDate] = useState("");
@@ -138,6 +139,7 @@ function ManualTransactionCard({ user, isin, position, manualTxs, portfolio }) {
     const netVal = num(net);
     await supabase.from("manual_transactions").insert({
       user_id: user.id,
+      owner_id: ownerId,
       isin,
       date,
       type,
@@ -258,7 +260,8 @@ function ManualTransactionCard({ user, isin, position, manualTxs, portfolio }) {
 
 export function SecurityDetailScreen({ user }) {
   const { isin } = useParams();
-  const { portfolio, custody, warnings, refreshAll } = useData();
+  const { portfolio, custody, warnings, owners, refreshAll } = useData();
+  const ownerId = owners.activeOwnerId;
   const [view, setView] = useState("brutto");
   const [editTxId, setEditTxId] = useState(null);
   const [priceInput, setPriceInput] = useState("");
@@ -293,7 +296,7 @@ export function SecurityDetailScreen({ user }) {
   const netRealized = p.realizedPl - p.totalTax;
   const shownRealized = view === "brutto" ? grossRealized : netRealized;
 
-  const setBroker = (brokerId) => custody.setBrokerFor(user.id, isin, brokerId);
+  const setBroker = (brokerId) => custody.setBrokerFor(user.id, ownerId, isin, brokerId);
   const setObjectType = async (value) => {
     // "" (automatisch) -> null, damit die Heuristik/OpenFIGI wieder greift (E2-konform rücksetzbar)
     await supabase.from("securities").update({ object_type: value || null }).eq("isin", isin);
@@ -474,6 +477,7 @@ export function SecurityDetailScreen({ user }) {
           </Card>
           <ManualTransactionCard
             user={user}
+            ownerId={ownerId}
             isin={isin}
             position={p}
             manualTxs={manualTxs}
@@ -533,6 +537,7 @@ export function SecurityDetailScreen({ user }) {
                         <td colSpan={9} className="px-2 py-2 bg-surface-2/40">
                           <OverrideFieldForm
                             user={user}
+                            ownerId={ownerId}
                             transaction={t}
                             existingOverride={ov}
                             onDone={() => {

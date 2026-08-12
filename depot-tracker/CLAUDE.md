@@ -47,6 +47,17 @@ Single-User: Supabase-Signups deaktivieren, Nutzer manuell anlegen.
   Heute-Snapshot und wird nie gefiltert - beide Achsen werden im UI immer explizit beschriftet.
   `lib/xirr.ts` (Newton-Raphson + Bisektion) liefert `null` statt einer geratenen Zahl, wenn
   die Rendite nicht bestimmbar ist ("n/a" anzeigen, nie 0 %).
+- **E9/Depotinhaber**: `owner_id` ist ein harter Partitionsschlüssel (kein Anzeige-Label wie
+  E7) - FIFO/Kostenbasis/G/V werden nie über Inhaber hinweg gemischt (z. B. eigenes Depot vs.
+  Kinder-Unterdepots). Der Inhaber wird beim Import gewählt (`ImportScreen`), nicht vom Parser
+  bestimmt. Betroffen: `transactions`, `portfolio_seed`, `holding_custody` (PK erweitert um
+  `owner_id`), `warnings`, `transaction_overrides` (UNIQUE/FK erweitert), `manual_cost_lots`,
+  `transfer_links`, `import_runs`, `manual_transactions` (Spalte + FK). Global/unverändert:
+  `securities`, `brokers`, `price_quotes`, `price_overrides`, `fx_rates`. Die Engine selbst
+  (`lib/portfolio.ts`) bleibt unangetastet - `usePortfolio`/`useWarnings`/`useCustody` filtern
+  nur die Datenabfrage auf `activeOwnerId` (aus `hooks/useOwners.js`, localStorage-persistiert,
+  Umschalter in der SideNav). Scope bewusst ausgeschlossen: Inhaber-übergreifende Übertragungen/
+  Schenkungen, konsolidierte "alle Inhaber"-Ansicht, pro-Inhaber Steuer-/Freistellungsauftrag.
 
 ## Engine-Semantik (muss mit depot-parser/core/fifo.py paritätisch bleiben)
 
@@ -70,7 +81,9 @@ lädt alles + ruft Engine → Screens. Nach jeder Korrektur `refreshAll()` (Cont
   XIRR-Solver: `src/lib/xirr.ts` ·
   Tests: `tests/portfolio.test.ts`, `tests/classify.test.ts`, `tests/xirr.test.ts`
 - Screens: `src/screens/*` (Dashboard, Positionen, Wertpapier-Detail, Sparplan,
-  Realisiert, Warnungen, Broker, Import)
+  Realisiert, Warnungen, Broker, Inhaber, Import)
+- Inhaber-Kontext: `src/hooks/useOwners.js`, `src/components/owner/OwnerSelect.jsx`,
+  `src/screens/owners/OwnersScreen.jsx`
 - Geteilte Jahres-Auswahl: `src/components/ui/YearToggleBar.jsx` (genutzt in
   `/dashboard` und `/realisiert`, je eigener Auswahl-Zustand/localStorage-Schlüssel)
 - Korrektur-Formulare: `src/components/warnings/*`

@@ -13,8 +13,10 @@ const PATCHABLE = [
 /**
  * Nicht-destruktiver Feld-Patch fuer eine Transaktion (E2).
  * Schreibt transaction_overrides; "Original wiederherstellen" loescht die Zeile.
+ * E9: gehoert zum aktiven Inhaber (ownerId) - transaction_id kann seit E9 je
+ * Inhaber kollidieren, daher immer zusammen mit owner_id verwenden.
  */
-export function OverrideFieldForm({ user, transaction, existingOverride, onDone }) {
+export function OverrideFieldForm({ user, ownerId, transaction, existingOverride, onDone }) {
   const [patch, setPatch] = useState(existingOverride?.patch ?? {});
   const [note, setNote] = useState(existingOverride?.note ?? "");
   const [busy, setBusy] = useState(false);
@@ -31,12 +33,13 @@ export function OverrideFieldForm({ user, transaction, existingOverride, onDone 
     await supabase.from("transaction_overrides").upsert(
       {
         user_id: user.id,
+        owner_id: ownerId,
         transaction_id: transaction.id,
         patch: cleaned,
         note: note || null,
         updated_at: new Date().toISOString(),
       },
-      { onConflict: "user_id,transaction_id" },
+      { onConflict: "user_id,owner_id,transaction_id" },
     );
     setBusy(false);
     onDone?.();
@@ -44,7 +47,11 @@ export function OverrideFieldForm({ user, transaction, existingOverride, onDone 
 
   const reset = async () => {
     setBusy(true);
-    await supabase.from("transaction_overrides").delete().eq("transaction_id", transaction.id);
+    await supabase
+      .from("transaction_overrides")
+      .delete()
+      .eq("owner_id", ownerId)
+      .eq("transaction_id", transaction.id);
     setBusy(false);
     onDone?.();
   };

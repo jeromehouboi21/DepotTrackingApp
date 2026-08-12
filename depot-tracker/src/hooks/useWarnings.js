@@ -2,7 +2,8 @@ import { useCallback, useEffect, useState } from "react";
 import { supabase } from "../lib/supabase";
 import { logger } from "../lib/logger";
 
-export function useWarnings() {
+/** Warnungen des aktiven Depotinhabers (E9 - rechnungsrelevant, partitioniert). */
+export function useWarnings(ownerId, ownersReady) {
   const [warnings, setWarnings] = useState([]);
   const [loading, setLoading] = useState(true);
   const [version, setVersion] = useState(0);
@@ -10,12 +11,19 @@ export function useWarnings() {
   const refresh = useCallback(() => setVersion((v) => v + 1), []);
 
   useEffect(() => {
+    if (!ownersReady) return;
+    if (!ownerId) {
+      setWarnings([]);
+      setLoading(false);
+      return;
+    }
     let cancelled = false;
     (async () => {
       setLoading(true);
       const { data, error } = await supabase
         .from("warnings")
         .select("*")
+        .eq("owner_id", ownerId)
         .order("code")
         .order("isin");
       if (error) logger.error("useWarnings load failed", { message: error.message });
@@ -27,7 +35,7 @@ export function useWarnings() {
     return () => {
       cancelled = true;
     };
-  }, [version]);
+  }, [version, ownerId, ownersReady]);
 
   const setStatus = useCallback(
     async (id, status, note) => {

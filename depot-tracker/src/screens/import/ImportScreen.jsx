@@ -4,6 +4,8 @@ import { logger } from "../../lib/logger";
 import { useData } from "../../hooks/useData";
 import { Button } from "../../components/ui/Button";
 import { Card } from "../../components/ui/Card";
+import { Badge } from "../../components/ui/Badge";
+import { OwnerSelect } from "../../components/owner/OwnerSelect";
 import { fmtDateTime } from "../../lib/format";
 
 const FILES = [
@@ -163,21 +165,31 @@ function MappingCard() {
 export function ImportScreen({ user }) {
   // `custody` ist das useCustody()-Hook-OBJEKT (brokers, custodyByIsin, refresh, ...);
   // die holding_custody-Zeilen liegen als Array unter `custody.custody`.
-  const { refreshAll, custody } = useData();
+  const { refreshAll, custody, owners } = useData();
   const [files, setFiles] = useState({});
   const [busy, setBusy] = useState(false);
   const [report, setReport] = useState(null);
   const [error, setError] = useState(null);
   const [runs, setRuns] = useState([]);
+  // E9: welchem Inhaber dieser Upload gehört (1b) - Default: der gerade aktive
+  // Inhaber, aber explizit veränderbar, damit kein Depot versehentlich dem
+  // falschen Inhaber zugeordnet wird.
+  const [ownerId, setOwnerId] = useState(owners.activeOwnerId);
+  useEffect(() => {
+    if (!ownerId && owners.activeOwnerId) setOwnerId(owners.activeOwnerId);
+  }, [owners.activeOwnerId, ownerId]);
+  const selectedOwner = owners.owners.find((o) => o.id === ownerId) ?? null;
 
   useEffect(() => {
+    if (!ownerId) return;
     supabase
       .from("import_runs")
       .select("*")
+      .eq("owner_id", ownerId)
       .order("created_at", { ascending: false })
       .limit(10)
       .then(({ data }) => setRuns(data ?? []));
-  }, [report]);
+  }, [report, ownerId]);
 
   const pick = (key) => async (e) => {
     const file = e.target.files?.[0];
@@ -193,6 +205,7 @@ export function ImportScreen({ user }) {
 
   const validate = () => {
     const problems = [];
+    if (!ownerId) problems.push("Kein Inhaber ausgewählt");
     const tx = files.transactions?.json;
     const wf = files.warnings?.json;
     if (!Array.isArray(tx)) problems.push("transactions.json fehlt oder ist kein Array");
@@ -220,11 +233,14 @@ export function ImportScreen({ user }) {
       const secs = files.securities.json;
       const wf = files.warnings.json;
 
+      const oid = ownerId; // E9: Partitionsschluessel fuer alle rechnungsrelevanten Tabellen
+
       // 1. import_run
       const { data: run, error: runErr } = await supabase
         .from("import_runs")
         .insert({
           user_id: uid,
+          owner_id: oid,
           generated_at: pf.generated_at ?? null,
           summary: wf.summary,
           counts: { transactions: tx.length, securities: secs.length, warnings: wf.issues?.length ?? 0 },
@@ -233,7 +249,9 @@ export function ImportScreen({ user }) {
         .single();
       if (runErr) throw runErr;
 
-      // 2. securities
+      // 2. securities - GLOBAL (E9): kein owner_id, gleiche ISIN = gleiches Wertpapier
+      // fuer alle Inhaber. App-verwaltete Spalten (display_name, is_savings_plan,
+      // object_type, mapping_*, ...) werden hier bewusst NICHT mitgeschrieben.
       await upsertBatched(
         "securities",
         secs.map((s) => ({
@@ -247,11 +265,12 @@ export function ImportScreen({ user }) {
         "user_id,isin",
       );
 
-      // 3. transactions (roh, ueberschreibt bei gleicher ID)
+      // 3. transactions (roh, ueberschreibt bei gleicher ID) - je Inhaber partitioniert;
+      // zwei Inhaber koennen denselben comdirect-doc_hash tragen, ohne zu kollidieren.
       await upsertBatched(
         "transactions",
-        tx.map((t) => ({ user_id: uid, ...t })),
-        "user_id,id",
+        tx.map((t) => ({ user_id: uid, owner_id: oid, ...t })),
+        "user_id,owner_id,id",
       );
 
       // 4. portfolio_seed
@@ -259,16 +278,18 @@ export function ImportScreen({ user }) {
         "portfolio_seed",
         pf.positions.map((p) => ({
           user_id: uid,
+          owner_id: oid,
           isin: p.isin,
           data: p,
           generated_at: pf.generated_at ?? null,
         })),
-        "user_id,isin",
+        "user_id,owner_id,isin",
       );
 
       // 5. warnings - Status bestehender Warnungen bleibt erhalten
       const warnRows = (wf.issues ?? []).map((w) => ({
         user_id: uid,
+        owner_id: oid,
         code: w.code,
         level: w.level ?? "warn",
         isin: w.isin ?? null,
@@ -279,11 +300,12 @@ export function ImportScreen({ user }) {
       for (const part of chunk(warnRows, 500)) {
         const { error } = await supabase
           .from("warnings")
-          .upsert(part, { onConflict: "user_id,code,isin,ref", ignoreDuplicates: true });
+          .upsert(part, { onConflict: "user_id,owner_id,code,isin,ref", ignoreDuplicates: true });
         if (error) throw new Error(`warnings: ${error.message}`);
       }
 
-      // 6. Broker-Seed + Custody-Defaults (nur fuer ISINs ohne bestehende Zuordnung, §13)
+      // 6. Broker-Seed (GLOBAL, E9) + Custody-Defaults je Inhaber (nur fuer ISINs
+      // ohne bestehende Zuordnung DIESES Inhabers, §13)
       await supabase.from("brokers").upsert(
         [
           { user_id: uid, id: "comdirect", name: "comdirect", color: "#005EA8", active: true, sort_order: 1 },
@@ -299,12 +321,13 @@ export function ImportScreen({ user }) {
           "holding_custody",
           defaults.map((d) => ({
             user_id: uid,
+            owner_id: oid,
             isin: d.isin,
             broker_id: d.broker_id,
             status: "settled",
             note: d.note,
           })),
-          "user_id,isin,broker_id",
+          "user_id,owner_id,isin,broker_id",
         );
       }
 
@@ -334,6 +357,23 @@ export function ImportScreen({ user }) {
         importieren. Re-Import ist idempotent; Korrekturen und Warnungs-Status bleiben erhalten.
       </p>
 
+      <Card title="Inhaber dieses Depots">
+        <p className="text-xs text-ink-3 mb-2">
+          Jede Zeile dieses Uploads wird diesem Inhaber zugeordnet – Rechnung (FIFO, Kostenbasis,
+          G/V) läuft danach vollständig getrennt von anderen Inhabern. Der Parser kennt den
+          Inhaber nicht; die Zuordnung passiert ausschließlich hier.
+        </p>
+        <div className="flex items-center gap-2 flex-wrap">
+          <OwnerSelect
+            owners={owners.owners}
+            value={ownerId}
+            onChange={setOwnerId}
+            onCreateOwner={(slug, name) => owners.createOwner(user.id, slug, name)}
+          />
+          {selectedOwner && <Badge variant="accent">Aktiv: {selectedOwner.name}</Badge>}
+        </div>
+      </Card>
+
       <Card>
         <div className="grid md:grid-cols-2 gap-3">
           {FILES.map((f) => (
@@ -360,7 +400,7 @@ export function ImportScreen({ user }) {
         </div>
         {error && <div className="text-sm text-loss mt-3">{error}</div>}
         <div className="mt-4">
-          <Button onClick={doImport} disabled={busy || Object.keys(files).length < 4}>
+          <Button onClick={doImport} disabled={busy || !ownerId || Object.keys(files).length < 4}>
             {busy ? "Importiere…" : "Importieren"}
           </Button>
         </div>

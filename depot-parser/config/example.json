@@ -1,0 +1,18 @@
+{
+  "owner_label": "Jerome",
+  "out": "./output",
+  "sources": {
+    "comdirect": {
+      "enabled": true,
+      "abrechnungen_dir": "C:\\ComdirectPDFs\\Abrechnungen"
+    },
+    "scalable": {
+      "enabled": true,
+      "csv": "C:\\ComdirectPDFs\\2026-08-09_13-41-22_ScalableCapital-Broker-Transactions.csv"
+    },
+    "transfer": {
+      "enabled": true,
+      "csv": "C:\\ComdirectPDFs\\comdirect_wertpapiereingang_depotuebertrag.csv"
+    }
+  }
+}
