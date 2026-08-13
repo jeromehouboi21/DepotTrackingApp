@@ -12,6 +12,7 @@ import { WarningsScreen } from "./screens/warnings/WarningsScreen";
 import { BrokersScreen } from "./screens/brokers/BrokersScreen";
 import { OwnersScreen } from "./screens/owners/OwnersScreen";
 import { ImportScreen } from "./screens/import/ImportScreen";
+import { PriceImportScreen } from "./screens/import/PriceImportScreen";
 
 function Shell({ onSignOut }) {
   const { warnings, owners } = useData();
@@ -57,6 +58,7 @@ export default function App() {
           <Route path="/broker" element={<BrokersScreen user={auth.user} />} />
           <Route path="/inhaber" element={<OwnersScreen user={auth.user} />} />
           <Route path="/import" element={<ImportScreen user={auth.user} />} />
+          <Route path="/import/kurse" element={<PriceImportScreen user={auth.user} />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>

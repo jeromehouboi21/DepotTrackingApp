@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { supabase } from "../../lib/supabase";
 import { logger } from "../../lib/logger";
 import { useData } from "../../hooks/useData";
@@ -419,6 +420,16 @@ export function ImportScreen({ user }) {
       )}
 
       <MappingCard />
+
+      <Card title="Kurs-Batch (comdirect)">
+        <p className="text-sm text-ink-2">
+          Für Exoten, die marketstack nicht auflöst, kann ein comdirect-Depotübersicht-Export
+          (CSV) als Kursquelle importiert werden.
+        </p>
+        <Link to="/import/kurse" className="text-sm text-accent hover:underline mt-2 inline-block">
+          Zum Kurs-Batch-Import →
+        </Link>
+      </Card>
 
       <Card title="Letzte Import-Läufe">
         {runs.length === 0 ? (

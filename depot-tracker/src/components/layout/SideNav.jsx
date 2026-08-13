@@ -9,6 +9,7 @@ const ITEMS = [
   { to: "/broker", label: "Broker" },
   { to: "/inhaber", label: "Inhaber" },
   { to: "/import", label: "Import" },
+  { to: "/import/kurse", label: "Kurs-Batch" },
 ];
 
 /** Inhaber-Umschalter (E9) - global sichtbar, damit jederzeit klar ist, wessen

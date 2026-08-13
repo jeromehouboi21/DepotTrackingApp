@@ -1,0 +1,51 @@
+[
+  {
+    "isin": "DE0008471012",
+    "wkn": "847101",
+    "name": "FONDAK A",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "FR0011079466",
+    "wkn": "LYX0MG",
+    "name": "LY.MSCI AL.CO.WO.UETF CEO",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "IE0000ZVYDH0",
+    "wkn": "A3DH0C",
+    "name": "AM.MSCI ACWI SRI CPA A",
+    "verwahrart": "WERTPAPIERRECHNUNG GROSSBRITANNIEN (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "IE00BJ0KDQ92",
+    "wkn": "A1XB5U",
+    "name": "X(IE)-MSCI WORLD 1C",
+    "verwahrart": "WERTPAPIERRECHNUNG IRLAND (AKV)",
+    "currency": "EUR"
+  },
+  {
+    "isin": "LU0392494562",
+    "wkn": "ETF110",
+    "name": "COMS.-MSCI WORL.T.U.ETF I",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "LU1829220216",
+    "wkn": "LYX00C",
+    "name": "MUL AMUN ACWLD ETF E ACC",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  },
+  {
+    "isin": "LU1861134382",
+    "wkn": "A2JSDA",
+    "name": "AIS-MS.WSRIPPAB UETFDRC",
+    "verwahrart": "GIROSAMMELDEPOT",
+    "currency": "EUR"
+  }
+]

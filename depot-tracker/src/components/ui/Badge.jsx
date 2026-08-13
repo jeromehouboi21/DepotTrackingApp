@@ -21,3 +21,17 @@ export function Badge({ variant = "neutral", children, className = "" }) {
 export function SourceBadge({ source }) {
   return <Badge variant={source === "comdirect" ? "comdirect" : "scalable"}>{source}</Badge>;
 }
+
+// Kursquelle (price_quotes.source / price_overrides) - nicht zu verwechseln mit
+// SourceBadge (Buchungsquelle der Transaktionen, transactions.source).
+const PRICE_SOURCE_LABEL = {
+  marketstack: "Auto (Xetra)",
+  "marketstack+fx": "Auto · FX",
+  "comdirect-import": "comdirect",
+};
+
+export function PriceSourceBadge({ source, isOverride }) {
+  if (isOverride) return <Badge variant="accent">Manuell</Badge>;
+  if (source === "comdirect-import") return <Badge variant="comdirect">comdirect</Badge>;
+  return <Badge variant="neutral">{PRICE_SOURCE_LABEL[source] ?? "Auto"}</Badge>;
+}

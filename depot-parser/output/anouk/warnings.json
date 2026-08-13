@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "pdfs_seen": 170,
+    "pdfs_parsed": 170,
+    "pdfs_skipped": 0,
+    "scalable_csv_rows": 0,
+    "scalable_pending_filtered": 0,
+    "transfer_in_csv_rows": 0,
+    "transfer_pairs_matched": 0,
+    "transfer_pairs_unmatched": 0,
+    "transactions_total": 170,
+    "buys": 170,
+    "sells": 0,
+    "transfers": 0,
+    "cash": 0
+  },
+  "issues": []
+}

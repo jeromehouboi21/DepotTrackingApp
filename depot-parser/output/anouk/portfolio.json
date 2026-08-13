@@ -1,0 +1,1165 @@
+{
+  "generated_at": "2026-08-12T12:45:48",
+  "positions": [
+    {
+      "isin": "DE0008471012",
+      "wkn": "847101",
+      "name": "FONDAK A",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 10.535,
+      "avg_cost": 94.24495775984812,
+      "cost_basis_remaining": 992.87063,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 0.0,
+      "total_invested": 992.8706300000002,
+      "open_lots": [
+        {
+          "date": "2013-05-02",
+          "shares": 0.255,
+          "cost_per_share": 121.53537254901961
+        },
+        {
+          "date": "2013-06-03",
+          "shares": 0.243,
+          "cost_per_share": 140.79691358024692
+        },
+        {
+          "date": "2013-07-01",
+          "shares": 0.252,
+          "cost_per_share": 117.97996031746031
+        },
+        {
+          "date": "2013-08-01",
+          "shares": 0.24,
+          "cost_per_share": 137.6999166666667
+        },
+        {
+          "date": "2013-09-02",
+          "shares": 0.246,
+          "cost_per_share": 134.74117886178863
+        },
+        {
+          "date": "2013-10-01",
+          "shares": 0.237,
+          "cost_per_share": 150.0982700421941
+        },
+        {
+          "date": "2013-11-01",
+          "shares": 0.229,
+          "cost_per_share": 165.7328384279476
+        },
+        {
+          "date": "2013-12-02",
+          "shares": 0.221,
+          "cost_per_share": 181.28547511312217
+        },
+        {
+          "date": "2014-01-02",
+          "shares": 0.219,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2014-02-03",
+          "shares": 0.225,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2014-03-03",
+          "shares": 0.219,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2014-04-01",
+          "shares": 0.216,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2014-05-02",
+          "shares": 0.217,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2014-06-02",
+          "shares": 0.209,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2014-07-01",
+          "shares": 0.212,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2014-08-01",
+          "shares": 0.229,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2014-09-01",
+          "shares": 0.223,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2014-10-01",
+          "shares": 0.223,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2014-11-03",
+          "shares": 0.226,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2014-12-01",
+          "shares": 0.213,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2015-01-02",
+          "shares": 0.214,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2015-02-02",
+          "shares": 0.194,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2015-03-02",
+          "shares": 0.183,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2015-04-01",
+          "shares": 0.174,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2015-05-04",
+          "shares": 0.182,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2015-06-01",
+          "shares": 0.182,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2015-07-01",
+          "shares": 0.186,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2015-08-03",
+          "shares": 0.183,
+          "cost_per_share": 0.0
+        },
+        {
+          "date": "2015-09-01",
+          "shares": 0.206,
+          "cost_per_share": 145.0970873786408
+        },
+        {
+          "date": "2015-10-01",
+          "shares": 0.205,
+          "cost_per_share": 145.90243902439025
+        },
+        {
+          "date": "2015-11-02",
+          "shares": 0.185,
+          "cost_per_share": 161.94594594594597
+        },
+        {
+          "date": "2015-12-01",
+          "shares": 0.177,
+          "cost_per_share": 168.75706214689268
+        },
+        {
+          "date": "2016-01-04",
+          "shares": 0.191,
+          "cost_per_share": 156.59685863874344
+        },
+        {
+          "date": "2016-02-01",
+          "shares": 0.203,
+          "cost_per_share": 147.7832512315271
+        },
+        {
+          "date": "2016-03-01",
+          "shares": 0.205,
+          "cost_per_share": 146.0
+        },
+        {
+          "date": "2016-04-01",
+          "shares": 0.203,
+          "cost_per_share": 147.6847290640394
+        },
+        {
+          "date": "2016-05-02",
+          "shares": 0.201,
+          "cost_per_share": 148.8059701492537
+        },
+        {
+          "date": "2016-06-01",
+          "shares": 0.196,
+          "cost_per_share": 152.70408163265304
+        },
+        {
+          "date": "2016-07-01",
+          "shares": 0.208,
+          "cost_per_share": 144.03846153846155
+        },
+        {
+          "date": "2016-08-01",
+          "shares": 0.193,
+          "cost_per_share": 155.33678756476684
+        },
+        {
+          "date": "2016-09-01",
+          "shares": 0.191,
+          "cost_per_share": 156.54450261780104
+        },
+        {
+          "date": "2016-10-04",
+          "shares": 0.188,
+          "cost_per_share": 158.82978723404256
+        },
+        {
+          "date": "2016-11-01",
+          "shares": 0.191,
+          "cost_per_share": 157.0157068062827
+        },
+        {
+          "date": "2016-12-01",
+          "shares": 0.194,
+          "cost_per_share": 153.91752577319588
+        },
+        {
+          "date": "2017-01-02",
+          "shares": 0.18,
+          "cost_per_share": 166.44444444444446
+        },
+        {
+          "date": "2017-02-01",
+          "shares": 0.177,
+          "cost_per_share": 169.15254237288138
+        },
+        {
+          "date": "2017-03-01",
+          "shares": 0.174,
+          "cost_per_share": 171.66666666666669
+        },
+        {
+          "date": "2017-04-03",
+          "shares": 0.166,
+          "cost_per_share": 179.81927710843374
+        },
+        {
+          "date": "2017-05-02",
+          "shares": 0.164,
+          "cost_per_share": 182.4390243902439
+        },
+        {
+          "date": "2017-06-01",
+          "shares": 0.159,
+          "cost_per_share": 188.55345911949686
+        },
+        {
+          "date": "2017-07-03",
+          "shares": 0.163,
+          "cost_per_share": 183.12883435582822
+        },
+        {
+          "date": "2017-08-01",
+          "shares": 0.163,
+          "cost_per_share": 183.68098159509202
+        }
+      ],
+      "tx_ids": [
+        "53ADFE",
+        "0DC29C",
+        "4A379D",
+        "CEA14A",
+        "B7654F",
+        "8A4CE3",
+        "44DAC9",
+        "666B7E",
+        "D00F2A",
+        "F5D361",
+        "EC9A29",
+        "8360CF",
+        "8561C5",
+        "FC60A2",
+        "7F0F1E",
+        "A3B753",
+        "6430AB",
+        "B69A97",
+        "F0A06A",
+        "6F12E5",
+        "291AC9",
+        "F8F36A",
+        "DD6EDF",
+        "581F48",
+        "4083A2",
+        "AE6E4E",
+        "B31843",
+        "204D3F",
+        "BC0043",
+        "69DF86",
+        "393237",
+        "DCC938",
+        "4CD830",
+        "F534AC",
+        "0ED2CB",
+        "C35603",
+        "107B94",
+        "248FF9",
+        "1D1E33",
+        "1F1A30",
+        "7C1015",
+        "1180E6",
+        "B7DF28",
+        "60B6FF",
+        "24C242",
+        "03ADE6",
+        "375491",
+        "BBCC4F",
+        "7CAD23",
+        "CA1AAE",
+        "C7FD1B",
+        "16A56D"
+      ]
+    },
+    {
+      "isin": "FR0011079466",
+      "wkn": "LYX0MG",
+      "name": "LY.MSCI AL.CO.WO.UETF CEO",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 1.396,
+      "avg_cost": 235.2865329512894,
+      "cost_basis_remaining": 328.46,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 0.0,
+      "total_invested": 328.46,
+      "open_lots": [
+        {
+          "date": "2018-01-02",
+          "shares": 0.13,
+          "cost_per_share": 230.69230769230768
+        },
+        {
+          "date": "2018-02-01",
+          "shares": 0.127,
+          "cost_per_share": 234.48818897637796
+        },
+        {
+          "date": "2018-03-01",
+          "shares": 0.131,
+          "cost_per_share": 228.62595419847327
+        },
+        {
+          "date": "2018-04-03",
+          "shares": 0.135,
+          "cost_per_share": 220.96296296296293
+        },
+        {
+          "date": "2018-05-02",
+          "shares": 0.13,
+          "cost_per_share": 230.15384615384616
+        },
+        {
+          "date": "2018-06-01",
+          "shares": 0.125,
+          "cost_per_share": 238.88
+        },
+        {
+          "date": "2018-07-02",
+          "shares": 0.127,
+          "cost_per_share": 235.03937007874018
+        },
+        {
+          "date": "2018-08-01",
+          "shares": 0.123,
+          "cost_per_share": 242.84552845528455
+        },
+        {
+          "date": "2018-09-03",
+          "shares": 0.121,
+          "cost_per_share": 246.19834710743802
+        },
+        {
+          "date": "2018-10-01",
+          "shares": 0.12,
+          "cost_per_share": 248.58333333333331
+        },
+        {
+          "date": "2018-11-01",
+          "shares": 0.127,
+          "cost_per_share": 234.56692913385825
+        }
+      ],
+      "tx_ids": [
+        "FAE41E",
+        "D5EF7D",
+        "63D1FD",
+        "61FE62",
+        "790F95",
+        "23CB8F",
+        "EAA11E",
+        "BEE67C",
+        "70CA56",
+        "0C2072",
+        "06307B"
+      ]
+    },
+    {
+      "isin": "IE0000ZVYDH0",
+      "wkn": "A3DH0C",
+      "name": "AM.MSCI ACWI SRI CPA A",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 47.742,
+      "avg_cost": 12.938083867454232,
+      "cost_basis_remaining": 617.6899999999999,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 0.0,
+      "total_invested": 617.69,
+      "open_lots": [
+        {
+          "date": "2025-02-03",
+          "shares": 2.347,
+          "cost_per_share": 12.778014486578611
+        },
+        {
+          "date": "2025-03-03",
+          "shares": 2.381,
+          "cost_per_share": 12.599748005039901
+        },
+        {
+          "date": "2025-03-17",
+          "shares": 0.542,
+          "cost_per_share": 11.734317343173432
+        },
+        {
+          "date": "2025-04-01",
+          "shares": 2.579,
+          "cost_per_share": 11.628538193098098
+        },
+        {
+          "date": "2025-05-02",
+          "shares": 2.612,
+          "cost_per_share": 11.481623277182235
+        },
+        {
+          "date": "2025-06-02",
+          "shares": 2.506,
+          "cost_per_share": 11.967278531524341
+        },
+        {
+          "date": "2025-07-01",
+          "shares": 2.474,
+          "cost_per_share": 12.12206952303961
+        },
+        {
+          "date": "2025-08-01",
+          "shares": 2.48,
+          "cost_per_share": 12.09274193548387
+        },
+        {
+          "date": "2025-09-01",
+          "shares": 2.429,
+          "cost_per_share": 12.350761630300536
+        },
+        {
+          "date": "2025-09-08",
+          "shares": 3.056,
+          "cost_per_share": 12.362565445026178
+        },
+        {
+          "date": "2025-10-01",
+          "shares": 2.351,
+          "cost_per_share": 12.760527435133985
+        },
+        {
+          "date": "2025-11-03",
+          "shares": 2.277,
+          "cost_per_share": 13.170838823012735
+        },
+        {
+          "date": "2025-12-01",
+          "shares": 2.334,
+          "cost_per_share": 12.849185946872321
+        },
+        {
+          "date": "2025-12-23",
+          "shares": 0.284,
+          "cost_per_share": 13.02816901408451
+        },
+        {
+          "date": "2026-01-02",
+          "shares": 2.277,
+          "cost_per_share": 13.170838823012735
+        },
+        {
+          "date": "2026-02-02",
+          "shares": 2.208,
+          "cost_per_share": 13.582427536231883
+        },
+        {
+          "date": "2026-03-02",
+          "shares": 2.193,
+          "cost_per_share": 13.67533059735522
+        },
+        {
+          "date": "2026-04-01",
+          "shares": 2.288,
+          "cost_per_share": 13.107517482517483
+        },
+        {
+          "date": "2026-05-04",
+          "shares": 2.142,
+          "cost_per_share": 14.00093370681606
+        },
+        {
+          "date": "2026-06-01",
+          "shares": 2.054,
+          "cost_per_share": 14.605647517039923
+        },
+        {
+          "date": "2026-07-01",
+          "shares": 1.933,
+          "cost_per_share": 15.514743921365751
+        },
+        {
+          "date": "2026-08-03",
+          "shares": 1.995,
+          "cost_per_share": 15.032581453634084
+        }
+      ],
+      "tx_ids": [
+        "E9F6C5",
+        "BDA2EE",
+        "F32FA2",
+        "39738A",
+        "42A8B1",
+        "C0674D",
+        "1EF135",
+        "35D36F",
+        "FB6636",
+        "783A53",
+        "2B51C0",
+        "51AF54",
+        "E7517A",
+        "959019",
+        "8272E3",
+        "ED96A0",
+        "3E611B",
+        "94E6D2",
+        "C590A2",
+        "7D578B",
+        "5A9F83",
+        "641871"
+      ]
+    },
+    {
+      "isin": "IE00BJ0KDQ92",
+      "wkn": "A1XB5U",
+      "name": "X(IE)-MSCI WORLD 1C",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 0.655,
+      "avg_cost": 91.43511450381679,
+      "cost_basis_remaining": 59.89,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 0.0,
+      "total_invested": 59.89,
+      "open_lots": [
+        {
+          "date": "2024-01-02",
+          "shares": 0.333,
+          "cost_per_share": 89.93993993993993
+        },
+        {
+          "date": "2024-02-01",
+          "shares": 0.322,
+          "cost_per_share": 92.98136645962732
+        }
+      ],
+      "tx_ids": [
+        "4784DA",
+        "E0E777"
+      ]
+    },
+    {
+      "isin": "LU0392494562",
+      "wkn": "ETF110",
+      "name": "COMS.-MSCI WORL.T.U.ETF I",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 2.507,
+      "avg_cost": 47.83406461906661,
+      "cost_basis_remaining": 119.92,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 0.0,
+      "total_invested": 119.92,
+      "open_lots": [
+        {
+          "date": "2017-09-01",
+          "shares": 0.651,
+          "cost_per_share": 46.08294930875576
+        },
+        {
+          "date": "2017-10-02",
+          "shares": 0.631,
+          "cost_per_share": 47.49603803486529
+        },
+        {
+          "date": "2017-11-01",
+          "shares": 0.612,
+          "cost_per_share": 48.98692810457516
+        },
+        {
+          "date": "2017-12-01",
+          "shares": 0.613,
+          "cost_per_share": 48.890701468189235
+        }
+      ],
+      "tx_ids": [
+        "D4AA6E",
+        "DE2DF0",
+        "499577",
+        "A77862"
+      ]
+    },
+    {
+      "isin": "LU1829220216",
+      "wkn": "LYX00C",
+      "name": "MUL AMUN ACWLD ETF E ACC",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 6.914,
+      "avg_cost": 324.58200752097196,
+      "cost_basis_remaining": 2244.16,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 0.44,
+      "total_invested": 2244.1600000000017,
+      "open_lots": [
+        {
+          "date": "2018-12-03",
+          "shares": 0.124,
+          "cost_per_share": 241.53225806451613
+        },
+        {
+          "date": "2019-01-02",
+          "shares": 0.137,
+          "cost_per_share": 217.3722627737226
+        },
+        {
+          "date": "2019-02-01",
+          "shares": 0.127,
+          "cost_per_share": 235.51181102362204
+        },
+        {
+          "date": "2019-03-01",
+          "shares": 0.122,
+          "cost_per_share": 244.8360655737705
+        },
+        {
+          "date": "2019-04-01",
+          "shares": 0.119,
+          "cost_per_share": 251.76470588235296
+        },
+        {
+          "date": "2019-05-02",
+          "shares": 0.116,
+          "cost_per_share": 257.84482758620686
+        },
+        {
+          "date": "2019-06-03",
+          "shares": 0.122,
+          "cost_per_share": 244.50819672131146
+        },
+        {
+          "date": "2019-07-01",
+          "shares": 0.115,
+          "cost_per_share": 259.1304347826087
+        },
+        {
+          "date": "2019-08-01",
+          "shares": 0.113,
+          "cost_per_share": 263.27433628318585
+        },
+        {
+          "date": "2019-09-02",
+          "shares": 0.116,
+          "cost_per_share": 258.44827586206895
+        },
+        {
+          "date": "2019-10-01",
+          "shares": 0.112,
+          "cost_per_share": 267.05357142857144
+        },
+        {
+          "date": "2019-11-01",
+          "shares": 0.111,
+          "cost_per_share": 269.18918918918916
+        },
+        {
+          "date": "2019-12-02",
+          "shares": 0.108,
+          "cost_per_share": 276.48148148148147
+        },
+        {
+          "date": "2020-01-02",
+          "shares": 0.105,
+          "cost_per_share": 285.04761904761904
+        },
+        {
+          "date": "2020-02-03",
+          "shares": 0.105,
+          "cost_per_share": 283.33333333333337
+        },
+        {
+          "date": "2020-03-02",
+          "shares": 0.115,
+          "cost_per_share": 258.695652173913
+        },
+        {
+          "date": "2020-04-01",
+          "shares": 0.136,
+          "cost_per_share": 220.1470588235294
+        },
+        {
+          "date": "2020-05-04",
+          "shares": 0.124,
+          "cost_per_share": 241.8548387096774
+        },
+        {
+          "date": "2020-06-02",
+          "shares": 0.115,
+          "cost_per_share": 260.78260869565213
+        },
+        {
+          "date": "2020-07-01",
+          "shares": 0.113,
+          "cost_per_share": 264.5132743362832
+        },
+        {
+          "date": "2020-08-03",
+          "shares": 0.112,
+          "cost_per_share": 267.32142857142856
+        },
+        {
+          "date": "2020-09-01",
+          "shares": 0.108,
+          "cost_per_share": 275.8333333333333
+        },
+        {
+          "date": "2020-10-01",
+          "shares": 0.109,
+          "cost_per_share": 274.4954128440367
+        },
+        {
+          "date": "2020-11-02",
+          "shares": 0.11,
+          "cost_per_share": 271.1818181818182
+        },
+        {
+          "date": "2020-12-01",
+          "shares": 0.101,
+          "cost_per_share": 295.2475247524752
+        },
+        {
+          "date": "2021-01-04",
+          "shares": 0.1,
+          "cost_per_share": 299.7
+        },
+        {
+          "date": "2021-02-01",
+          "shares": 0.098,
+          "cost_per_share": 305.2040816326531
+        },
+        {
+          "date": "2021-03-01",
+          "shares": 0.095,
+          "cost_per_share": 314.52631578947364
+        },
+        {
+          "date": "2021-04-01",
+          "shares": 0.091,
+          "cost_per_share": 329.2307692307692
+        },
+        {
+          "date": "2021-05-03",
+          "shares": 0.09,
+          "cost_per_share": 333.22222222222223
+        },
+        {
+          "date": "2021-06-01",
+          "shares": 0.089,
+          "cost_per_share": 334.49438202247194
+        },
+        {
+          "date": "2021-07-01",
+          "shares": 0.086,
+          "cost_per_share": 348.02325581395354
+        },
+        {
+          "date": "2021-08-02",
+          "shares": 0.085,
+          "cost_per_share": 351.0588235294117
+        },
+        {
+          "date": "2021-09-01",
+          "shares": 0.083,
+          "cost_per_share": 359.6385542168675
+        },
+        {
+          "date": "2021-10-01",
+          "shares": 0.085,
+          "cost_per_share": 350.4705882352941
+        },
+        {
+          "date": "2021-11-01",
+          "shares": 0.08,
+          "cost_per_share": 370.5
+        },
+        {
+          "date": "2021-12-01",
+          "shares": 0.08,
+          "cost_per_share": 372.375
+        },
+        {
+          "date": "2022-01-03",
+          "shares": 0.077,
+          "cost_per_share": 384.8051948051948
+        },
+        {
+          "date": "2022-02-01",
+          "shares": 0.081,
+          "cost_per_share": 368.7654320987654
+        },
+        {
+          "date": "2022-03-01",
+          "shares": 0.083,
+          "cost_per_share": 359.03614457831327
+        },
+        {
+          "date": "2022-04-01",
+          "shares": 0.08,
+          "cost_per_share": 372.625
+        },
+        {
+          "date": "2022-05-02",
+          "shares": 0.084,
+          "cost_per_share": 355.8333333333333
+        },
+        {
+          "date": "2022-06-01",
+          "shares": 0.084,
+          "cost_per_share": 354.16666666666663
+        },
+        {
+          "date": "2022-07-01",
+          "shares": 0.09,
+          "cost_per_share": 332.11111111111114
+        },
+        {
+          "date": "2022-08-01",
+          "shares": 0.083,
+          "cost_per_share": 360.2409638554216
+        },
+        {
+          "date": "2022-09-01",
+          "shares": 0.084,
+          "cost_per_share": 353.2142857142857
+        },
+        {
+          "date": "2022-10-04",
+          "shares": 0.088,
+          "cost_per_share": 339.77272727272725
+        },
+        {
+          "date": "2022-11-01",
+          "shares": 0.086,
+          "cost_per_share": 347.093023255814
+        },
+        {
+          "date": "2022-12-01",
+          "shares": 0.084,
+          "cost_per_share": 353.8095238095238
+        },
+        {
+          "date": "2023-01-02",
+          "shares": 0.089,
+          "cost_per_share": 335.8426966292135
+        },
+        {
+          "date": "2023-02-01",
+          "shares": 0.086,
+          "cost_per_share": 347.90697674418607
+        },
+        {
+          "date": "2023-03-01",
+          "shares": 0.086,
+          "cost_per_share": 345.23255813953494
+        },
+        {
+          "date": "2023-04-03",
+          "shares": 0.085,
+          "cost_per_share": 349.4117647058823
+        },
+        {
+          "date": "2023-05-02",
+          "shares": 0.085,
+          "cost_per_share": 349.29411764705884
+        },
+        {
+          "date": "2023-06-01",
+          "shares": 0.084,
+          "cost_per_share": 355.8333333333333
+        },
+        {
+          "date": "2023-07-03",
+          "shares": 0.081,
+          "cost_per_share": 370.0
+        },
+        {
+          "date": "2023-08-01",
+          "shares": 0.079,
+          "cost_per_share": 378.4810126582278
+        },
+        {
+          "date": "2023-09-01",
+          "shares": 0.079,
+          "cost_per_share": 375.44303797468353
+        },
+        {
+          "date": "2023-10-02",
+          "shares": 0.081,
+          "cost_per_share": 368.51851851851853
+        },
+        {
+          "date": "2023-11-01",
+          "shares": 0.083,
+          "cost_per_share": 360.2409638554216
+        },
+        {
+          "date": "2023-12-01",
+          "shares": 0.079,
+          "cost_per_share": 378.2278481012658
+        },
+        {
+          "date": "2024-01-02",
+          "shares": 0.076,
+          "cost_per_share": 390.65789473684214
+        },
+        {
+          "date": "2024-02-01",
+          "shares": 0.074,
+          "cost_per_share": 401.8918918918919
+        },
+        {
+          "date": "2024-03-01",
+          "shares": 0.071,
+          "cost_per_share": 419.718309859155
+        },
+        {
+          "date": "2024-04-02",
+          "shares": 0.069,
+          "cost_per_share": 429.42028985507244
+        },
+        {
+          "date": "2024-05-02",
+          "shares": 0.07,
+          "cost_per_share": 423.1428571428571
+        },
+        {
+          "date": "2024-06-03",
+          "shares": 0.068,
+          "cost_per_share": 435.5882352941176
+        },
+        {
+          "date": "2024-07-01",
+          "shares": 0.066,
+          "cost_per_share": 448.4848484848485
+        },
+        {
+          "date": "2024-08-01",
+          "shares": 0.066,
+          "cost_per_share": 452.4242424242424
+        },
+        {
+          "date": "2024-09-02",
+          "shares": 0.066,
+          "cost_per_share": 451.3636363636363
+        },
+        {
+          "date": "2024-09-23",
+          "shares": 0.081,
+          "cost_per_share": 452.71604938271605
+        },
+        {
+          "date": "2024-10-01",
+          "shares": 0.065,
+          "cost_per_share": 459.07692307692304
+        },
+        {
+          "date": "2024-11-01",
+          "shares": 0.064,
+          "cost_per_share": 464.84375
+        },
+        {
+          "date": "2024-12-02",
+          "shares": 0.06,
+          "cost_per_share": 496.00000000000006
+        },
+        {
+          "date": "2025-01-02",
+          "shares": 0.06,
+          "cost_per_share": 498.6666666666667
+        }
+      ],
+      "tx_ids": [
+        "278BAC",
+        "E92ACD",
+        "6E5BF4",
+        "176CF3",
+        "D3FEA3",
+        "71FF5D",
+        "16EA4D",
+        "023564",
+        "230489",
+        "17C5A0",
+        "D915EE",
+        "5ECC1D",
+        "9738AF",
+        "D7508A",
+        "799447",
+        "55557C",
+        "FC1879",
+        "052EBB",
+        "F40E6B",
+        "752EEB",
+        "A09F8F",
+        "288A21",
+        "7C14A4",
+        "3F32B9",
+        "BB9164",
+        "43D2F7",
+        "8C38D1",
+        "65438E",
+        "F7F162",
+        "15A080",
+        "6B0FD0",
+        "D5AF31",
+        "666A8F",
+        "86D762",
+        "14A023",
+        "A3A268",
+        "A4F6AB",
+        "737FE1",
+        "622451",
+        "7FA797",
+        "F15DC5",
+        "E30042",
+        "9ED9FC",
+        "91B23D",
+        "14EDA8",
+        "E9A12C",
+        "2A4C0C",
+        "D1E49E",
+        "28704D",
+        "057143",
+        "3731EF",
+        "EFDFDA",
+        "D3C733",
+        "6F4B76",
+        "378F6F",
+        "DA99BE",
+        "49C1D2",
+        "36C6BA",
+        "89A68F",
+        "D2447E",
+        "C3073C",
+        "D93AF2",
+        "CBBACA",
+        "D42A0F",
+        "40FF28",
+        "6ABC40",
+        "831EFA",
+        "B8263F",
+        "AEBF77",
+        "2F24F3",
+        "926C1B",
+        "778B5A",
+        "B5B3D7",
+        "FA533F",
+        "587156"
+      ]
+    },
+    {
+      "isin": "LU1861134382",
+      "wkn": "A2JSDA",
+      "name": "AIS-MS.WSRIPPAB UETFDRC",
+      "sources": [
+        "comdirect"
+      ],
+      "shares_held": 6.333,
+      "avg_cost": 77.18932575398705,
+      "cost_basis_remaining": 488.84,
+      "realized_pl": 0.0,
+      "realized_pl_reported": null,
+      "realized_pl_matches": true,
+      "total_fees": 0.0,
+      "total_invested": 488.84000000000003,
+      "open_lots": [
+        {
+          "date": "2022-06-01",
+          "shares": 0.962,
+          "cost_per_share": 77.91060291060292
+        },
+        {
+          "date": "2022-07-01",
+          "shares": 1.888,
+          "cost_per_share": 73.0720338983051
+        },
+        {
+          "date": "2022-08-01",
+          "shares": 1.706,
+          "cost_per_share": 80.86166471277842
+        },
+        {
+          "date": "2022-09-01",
+          "shares": 1.777,
+          "cost_per_share": 77.64772087788407
+        }
+      ],
+      "tx_ids": [
+        "B51379",
+        "C7BFF6",
+        "C0021E",
+        "E3A413"
+      ]
+    }
+  ]
+}

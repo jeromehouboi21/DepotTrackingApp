@@ -5,12 +5,12 @@ import { supabase } from "../../lib/supabase";
 import { Table } from "../../components/ui/Table";
 import { Money } from "../../components/ui/Money";
 import { PctChange } from "../../components/ui/PctChange";
-import { Badge, SourceBadge } from "../../components/ui/Badge";
+import { Badge, SourceBadge, PriceSourceBadge } from "../../components/ui/Badge";
 import { EmptyState } from "../../components/ui/EmptyState";
 import { Tabs } from "../../components/ui/Tabs";
 import { BrokerSelect } from "../../components/broker/BrokerSelect";
 import { CustodyStatusBadge } from "../../components/broker/CustodyStatusBadge";
-import { fmtShares, fmtDate } from "../../lib/format";
+import { fmtShares, fmtRelative } from "../../lib/format";
 import { useAuth } from "../../hooks/useAuth";
 import { OBJECT_TYPE_LABEL, OBJECT_TYPE_ORDER } from "../../lib/classify";
 
@@ -168,8 +168,9 @@ export function PositionsScreen() {
         p.currentPrice != null ? (
           <div>
             <Money value={p.currentPrice} />
-            <div className="text-[10px] text-ink-3">
-              {p.priceIsOverride ? "manuell" : fmtDate(p.priceAsOf?.slice(0, 10))}
+            <div className="flex items-center gap-1 mt-0.5">
+              <PriceSourceBadge source={p.priceSource} isOverride={p.priceIsOverride} />
+              <span className="text-[10px] text-ink-3">{fmtRelative(p.priceAsOf)}</span>
             </div>
           </div>
         ) : p.sharesHeld > 1e-9 ? (

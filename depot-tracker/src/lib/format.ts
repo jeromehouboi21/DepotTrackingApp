@@ -50,3 +50,17 @@ export function fmtDateTime(iso: string | null | undefined): string {
   const dt = new Date(iso);
   return dt.toLocaleString("de-DE", { dateStyle: "short", timeStyle: "short" });
 }
+
+// Grobe Alters-Angabe fuer Kursquelle-Badges ("vor 2 Std.", "vor 3 Tg.").
+export function fmtRelative(iso: string | null | undefined): string {
+  if (!iso) return "–";
+  const ms = Date.now() - new Date(iso).getTime();
+  if (!isFinite(ms) || ms < 0) return "gerade eben";
+  const min = Math.floor(ms / 60000);
+  if (min < 1) return "gerade eben";
+  if (min < 60) return `vor ${min} Min.`;
+  const std = Math.floor(min / 60);
+  if (std < 24) return `vor ${std} Std.`;
+  const tage = Math.floor(std / 24);
+  return `vor ${tage} Tg.`;
+}

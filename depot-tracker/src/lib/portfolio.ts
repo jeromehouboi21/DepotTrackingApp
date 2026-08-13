@@ -130,6 +130,7 @@ export interface Position {
   currentPrice: number | null;
   priceAsOf: string | null;
   priceIsOverride: boolean;
+  priceSource: string | null;
   marketValue: number | null;
   unrealizedPl: number | null;
   unrealizedPct: number | null;
@@ -533,6 +534,7 @@ export function computePortfolio(input: {
       currentPrice,
       priceAsOf: priceInfo?.as_of ?? null,
       priceIsOverride: priceInfo?.isOverride ?? false,
+      priceSource: priceInfo?.source ?? null,
       marketValue,
       unrealizedPl: marketValue != null ? marketValue - costBasisRemaining : null,
       unrealizedPct:

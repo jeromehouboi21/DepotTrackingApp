@@ -1,0 +1,860 @@
+{
+  "schema_version": 1,
+  "last_run": {
+    "run_id": "20260812_124548",
+    "at": "2026-08-12T12:45:48",
+    "new_count": 170
+  },
+  "processed": {
+    "B5B3D7": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,064_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_01.11.2024_B5B3D7.pdf",
+      "run_id": "20260812_124548"
+    },
+    "778B5A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,065_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_01.10.2024_778B5A.pdf",
+      "run_id": "20260812_124548"
+    },
+    "B8263F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,066_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_01.07.2024_B8263F.pdf",
+      "run_id": "20260812_124548"
+    },
+    "AEBF77": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,066_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_01.08.2024_AEBF77.pdf",
+      "run_id": "20260812_124548"
+    },
+    "2F24F3": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,066_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_02.09.2024_2F24F3.pdf",
+      "run_id": "20260812_124548"
+    },
+    "831EFA": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,068_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_03.06.2024_831EFA.pdf",
+      "run_id": "20260812_124548"
+    },
+    "40FF28": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,069_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_02.04.2024_40FF28.pdf",
+      "run_id": "20260812_124548"
+    },
+    "587156": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,06_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_02.01.2025_587156.pdf",
+      "run_id": "20260812_124548"
+    },
+    "FA533F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,06_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_02.12.2024_FA533F.pdf",
+      "run_id": "20260812_124548"
+    },
+    "D42A0F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,071_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_01.03.2024_D42A0F.pdf",
+      "run_id": "20260812_124548"
+    },
+    "CBBACA": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,074_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_01.02.2024_CBBACA.pdf",
+      "run_id": "20260812_124548"
+    },
+    "D93AF2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,076_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.01.2024_D93AF2.pdf",
+      "run_id": "20260812_124548"
+    },
+    "737FE1": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,077_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_03.01.2022_737FE1.pdf",
+      "run_id": "20260812_124548"
+    },
+    "49C1D2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,079_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.08.2023_49C1D2.pdf",
+      "run_id": "20260812_124548"
+    },
+    "36C6BA": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,079_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.09.2023_36C6BA.pdf",
+      "run_id": "20260812_124548"
+    },
+    "C3073C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,079_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.12.2023_C3073C.pdf",
+      "run_id": "20260812_124548"
+    },
+    "6ABC40": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,07_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_02.05.2024_6ABC40.pdf",
+      "run_id": "20260812_124548"
+    },
+    "89A68F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,081_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.10.2023_89A68F.pdf",
+      "run_id": "20260812_124548"
+    },
+    "DA99BE": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,081_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_03.07.2023_DA99BE.pdf",
+      "run_id": "20260812_124548"
+    },
+    "926C1B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,081_St._LYX00C_(MUL_AMUN_ACWLD_ETF_E_ACC)_vom_23.09.2024_926C1B.pdf",
+      "run_id": "20260812_124548"
+    },
+    "622451": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,081_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.02.2022_622451.pdf",
+      "run_id": "20260812_124548"
+    },
+    "D2447E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,083_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.11.2023_D2447E.pdf",
+      "run_id": "20260812_124548"
+    },
+    "7FA797": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,083_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.03.2022_7FA797.pdf",
+      "run_id": "20260812_124548"
+    },
+    "14EDA8": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,083_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.08.2022_14EDA8.pdf",
+      "run_id": "20260812_124548"
+    },
+    "86D762": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,083_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.09.2021_86D762.pdf",
+      "run_id": "20260812_124548"
+    },
+    "378F6F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,084_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.06.2023_378F6F.pdf",
+      "run_id": "20260812_124548"
+    },
+    "9ED9FC": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,084_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.06.2022_9ED9FC.pdf",
+      "run_id": "20260812_124548"
+    },
+    "E9A12C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,084_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.09.2022_E9A12C.pdf",
+      "run_id": "20260812_124548"
+    },
+    "28704D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,084_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.12.2022_28704D.pdf",
+      "run_id": "20260812_124548"
+    },
+    "E30042": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,084_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.05.2022_E30042.pdf",
+      "run_id": "20260812_124548"
+    },
+    "6F4B76": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,085_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.05.2023_6F4B76.pdf",
+      "run_id": "20260812_124548"
+    },
+    "D3C733": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,085_St._LYX00C_(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_03.04.2023_D3C733.pdf",
+      "run_id": "20260812_124548"
+    },
+    "14A023": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,085_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.10.2021_14A023.pdf",
+      "run_id": "20260812_124548"
+    },
+    "666A8F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,085_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.08.2021_666A8F.pdf",
+      "run_id": "20260812_124548"
+    },
+    "3731EF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,086_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.02.2023_3731EF.pdf",
+      "run_id": "20260812_124548"
+    },
+    "EFDFDA": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,086_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.03.2023_EFDFDA.pdf",
+      "run_id": "20260812_124548"
+    },
+    "D5AF31": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,086_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.07.2021_D5AF31.pdf",
+      "run_id": "20260812_124548"
+    },
+    "D1E49E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,086_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.11.2022_D1E49E.pdf",
+      "run_id": "20260812_124548"
+    },
+    "2A4C0C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,088_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_04.10.2022_2A4C0C.pdf",
+      "run_id": "20260812_124548"
+    },
+    "6B0FD0": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,089_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.06.2021_6B0FD0.pdf",
+      "run_id": "20260812_124548"
+    },
+    "057143": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,089_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.01.2023_057143.pdf",
+      "run_id": "20260812_124548"
+    },
+    "F15DC5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,08_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.04.2022_F15DC5.pdf",
+      "run_id": "20260812_124548"
+    },
+    "A3A268": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,08_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.11.2021_A3A268.pdf",
+      "run_id": "20260812_124548"
+    },
+    "A4F6AB": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,08_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.12.2021_A4F6AB.pdf",
+      "run_id": "20260812_124548"
+    },
+    "F7F162": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,091_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.04.2021_F7F162.pdf",
+      "run_id": "20260812_124548"
+    },
+    "65438E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,095_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.03.2021_65438E.pdf",
+      "run_id": "20260812_124548"
+    },
+    "8C38D1": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,098_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.02.2021_8C38D1.pdf",
+      "run_id": "20260812_124548"
+    },
+    "91B23D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,09_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.07.2022_91B23D.pdf",
+      "run_id": "20260812_124548"
+    },
+    "15A080": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,09_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_03.05.2021_15A080.pdf",
+      "run_id": "20260812_124548"
+    },
+    "BB9164": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,101_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.12.2020_BB9164.pdf",
+      "run_id": "20260812_124548"
+    },
+    "D7508A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,105_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.01.2020_D7508A.pdf",
+      "run_id": "20260812_124548"
+    },
+    "799447": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,105_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_03.02.2020_799447.pdf",
+      "run_id": "20260812_124548"
+    },
+    "288A21": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,108_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.09.2020_288A21.pdf",
+      "run_id": "20260812_124548"
+    },
+    "9738AF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,108_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.12.2019_9738AF.pdf",
+      "run_id": "20260812_124548"
+    },
+    "7C14A4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,109_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.10.2020_7C14A4.pdf",
+      "run_id": "20260812_124548"
+    },
+    "43D2F7": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,10_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_04.01.2021_43D2F7.pdf",
+      "run_id": "20260812_124548"
+    },
+    "5ECC1D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,111_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.11.2019_5ECC1D.pdf",
+      "run_id": "20260812_124548"
+    },
+    "D915EE": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,112_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.10.2019_D915EE.pdf",
+      "run_id": "20260812_124548"
+    },
+    "A09F8F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,112_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_03.08.2020_A09F8F.pdf",
+      "run_id": "20260812_124548"
+    },
+    "752EEB": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,113_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.07.2020_752EEB.pdf",
+      "run_id": "20260812_124548"
+    },
+    "230489": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,113_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.08.2019_230489.pdf",
+      "run_id": "20260812_124548"
+    },
+    "023564": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,115_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.07.2019_023564.pdf",
+      "run_id": "20260812_124548"
+    },
+    "55557C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,115_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.03.2020_55557C.pdf",
+      "run_id": "20260812_124548"
+    },
+    "F40E6B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,115_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.06.2020_F40E6B.pdf",
+      "run_id": "20260812_124548"
+    },
+    "71FF5D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,116_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.05.2019_71FF5D.pdf",
+      "run_id": "20260812_124548"
+    },
+    "17C5A0": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,116_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.09.2019_17C5A0.pdf",
+      "run_id": "20260812_124548"
+    },
+    "D3FEA3": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,119_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.04.2019_D3FEA3.pdf",
+      "run_id": "20260812_124548"
+    },
+    "3F32B9": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,11_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.11.2020_3F32B9.pdf",
+      "run_id": "20260812_124548"
+    },
+    "70CA56": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,121_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_03.09.2018_70CA56.pdf",
+      "run_id": "20260812_124548"
+    },
+    "176CF3": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,122_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.03.2019_176CF3.pdf",
+      "run_id": "20260812_124548"
+    },
+    "16EA4D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,122_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_03.06.2019_16EA4D.pdf",
+      "run_id": "20260812_124548"
+    },
+    "BEE67C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,123_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_01.08.2018_BEE67C.pdf",
+      "run_id": "20260812_124548"
+    },
+    "278BAC": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,124_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_03.12.2018_278BAC.pdf",
+      "run_id": "20260812_124548"
+    },
+    "052EBB": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,124_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_04.05.2020_052EBB.pdf",
+      "run_id": "20260812_124548"
+    },
+    "23CB8F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,125_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_01.06.2018_23CB8F.pdf",
+      "run_id": "20260812_124548"
+    },
+    "6E5BF4": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,127_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.02.2019_6E5BF4.pdf",
+      "run_id": "20260812_124548"
+    },
+    "D5EF7D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,127_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_01.02.2018_D5EF7D.pdf",
+      "run_id": "20260812_124548"
+    },
+    "06307B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,127_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_01.11.2018_06307B.pdf",
+      "run_id": "20260812_124548"
+    },
+    "EAA11E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,127_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_02.07.2018_EAA11E.pdf",
+      "run_id": "20260812_124548"
+    },
+    "0C2072": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,12_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_01.10.2018_0C2072.pdf",
+      "run_id": "20260812_124548"
+    },
+    "63D1FD": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,131_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_01.03.2018_63D1FD.pdf",
+      "run_id": "20260812_124548"
+    },
+    "61FE62": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,135_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_03.04.2018_61FE62.pdf",
+      "run_id": "20260812_124548"
+    },
+    "FC1879": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,136_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_01.04.2020_FC1879.pdf",
+      "run_id": "20260812_124548"
+    },
+    "E92ACD": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,137_St._WKN_LYX00C(MUL-LYX.MSCI_A.C.W.UC.ETF)_vom_02.01.2019_E92ACD.pdf",
+      "run_id": "20260812_124548"
+    },
+    "FAE41E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,13_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_02.01.2018_FAE41E.pdf",
+      "run_id": "20260812_124548"
+    },
+    "790F95": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,13_St._WKN_LYX0MG(LY.MSCI_AL.CO.WO.UETF_CEO)_vom_02.05.2018_790F95.pdf",
+      "run_id": "20260812_124548"
+    },
+    "CA1AAE": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,159_St._WKN_847101(FONDAK_A)_vom_01.06.2017_CA1AAE.pdf",
+      "run_id": "20260812_124548"
+    },
+    "16A56D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,163_St._WKN_847101(FONDAK_A)_vom_01.08.2017_16A56D.pdf",
+      "run_id": "20260812_124548"
+    },
+    "C7FD1B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,163_St._WKN_847101(FONDAK_A)_vom_03.07.2017_C7FD1B.pdf",
+      "run_id": "20260812_124548"
+    },
+    "7CAD23": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,164_St._WKN_847101(FONDAK_A)_vom_02.05.2017_7CAD23.pdf",
+      "run_id": "20260812_124548"
+    },
+    "BBCC4F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,166_St._WKN_847101(FONDAK_A)_vom_03.04.2017_BBCC4F.pdf",
+      "run_id": "20260812_124548"
+    },
+    "375491": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,174_St._WKN_847101(FONDAK_A)_vom_01.03.2017_375491.pdf",
+      "run_id": "20260812_124548"
+    },
+    "581F48": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,174_St._WKN_847101(FONDAK_A)_vom_01.04.2015_581F48.pdf",
+      "run_id": "20260812_124548"
+    },
+    "03ADE6": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,177_St._WKN_847101(FONDAK_A)_vom_01.02.2017_03ADE6.pdf",
+      "run_id": "20260812_124548"
+    },
+    "DCC938": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,177_St._WKN_847101(FONDAK_A)_vom_01.12.2015_DCC938.pdf",
+      "run_id": "20260812_124548"
+    },
+    "AE6E4E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,182_St._WKN_847101(FONDAK_A)_vom_01.06.2015_AE6E4E.pdf",
+      "run_id": "20260812_124548"
+    },
+    "4083A2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,182_St._WKN_847101(FONDAK_A)_vom_04.05.2015_4083A2.pdf",
+      "run_id": "20260812_124548"
+    },
+    "204D3F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,183_St._WKN_847101(FONDAK_A)_vom_03.08.2015_204D3F.pdf",
+      "run_id": "20260812_124548"
+    },
+    "DD6EDF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,183_St._WKN_847101_(FONDAK_A)_vom_02.03.2015_DD6EDF.pdf",
+      "run_id": "20260812_124548"
+    },
+    "393237": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,185_St._WKN_847101(FONDAK_A)_vom_02.11.2015_393237.pdf",
+      "run_id": "20260812_124548"
+    },
+    "B31843": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,186_St._WKN_847101(FONDAK_A)_vom_01.07.2015_B31843.pdf",
+      "run_id": "20260812_124548"
+    },
+    "1180E6": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,188_St._WKN_847101(FONDAK_A)_vom_04.10.2016_1180E6.pdf",
+      "run_id": "20260812_124548"
+    },
+    "24C242": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,18_St._WKN_847101(FONDAK_A)_vom_02.01.2017_24C242.pdf",
+      "run_id": "20260812_124548"
+    },
+    "7C1015": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,191_St._WKN_847101(FONDAK_A)_vom_01.09.2016_7C1015.pdf",
+      "run_id": "20260812_124548"
+    },
+    "B7DF28": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,191_St._WKN_847101(FONDAK_A)_vom_01.11.2016_B7DF28.pdf",
+      "run_id": "20260812_124548"
+    },
+    "4CD830": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,191_St._WKN_847101(FONDAK_A)_vom_04.01.2016_4CD830.pdf",
+      "run_id": "20260812_124548"
+    },
+    "1F1A30": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,193_St._WKN_847101(FONDAK_A)_vom_01.08.2016_1F1A30.pdf",
+      "run_id": "20260812_124548"
+    },
+    "60B6FF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,194_St._WKN_847101(FONDAK_A)_vom_01.12.2016_60B6FF.pdf",
+      "run_id": "20260812_124548"
+    },
+    "F8F36A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,194_St._WKN_847101_(FONDAK_A)_vom_02.02.2015_F8F36A.pdf",
+      "run_id": "20260812_124548"
+    },
+    "248FF9": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,196_St._WKN_847101(FONDAK_A)_vom_01.06.2016_248FF9.pdf",
+      "run_id": "20260812_124548"
+    },
+    "107B94": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,201_St._WKN_847101(FONDAK_A)_vom_02.05.2016_107B94.pdf",
+      "run_id": "20260812_124548"
+    },
+    "F534AC": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,203_St._WKN_847101(FONDAK_A)_vom_01.02.2016_F534AC.pdf",
+      "run_id": "20260812_124548"
+    },
+    "C35603": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,203_St._WKN_847101(FONDAK_A)_vom_01.04.2016_C35603.pdf",
+      "run_id": "20260812_124548"
+    },
+    "0ED2CB": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,205_St._WKN_847101(FONDAK_A)_vom_01.03.2016_0ED2CB.pdf",
+      "run_id": "20260812_124548"
+    },
+    "69DF86": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,205_St._WKN_847101(FONDAK_A)_vom_01.10.2015_69DF86.pdf",
+      "run_id": "20260812_124548"
+    },
+    "BC0043": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,206_St._WKN_847101(FONDAK_A)_vom_01.09.2015_BC0043.pdf",
+      "run_id": "20260812_124548"
+    },
+    "1D1E33": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,208_St._WKN_847101(FONDAK_A)_vom_01.07.2016_1D1E33.pdf",
+      "run_id": "20260812_124548"
+    },
+    "FC60A2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,209_St._WKN_847101_(FONDAK_A)_vom_02.06.2014_FC60A2.pdf",
+      "run_id": "20260812_124548"
+    },
+    "7F0F1E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,212_St._WKN_847101_(FONDAK_A)_vom_01.07.2014_7F0F1E.pdf",
+      "run_id": "20260812_124548"
+    },
+    "6F12E5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,213_St._WKN_847101_(FONDAK_A)_vom_01.12.2014_6F12E5.pdf",
+      "run_id": "20260812_124548"
+    },
+    "291AC9": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,214_St._WKN_847101_(FONDAK_A)_vom_02.01.2015_291AC9.pdf",
+      "run_id": "20260812_124548"
+    },
+    "8360CF": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,216_St._WKN_847101_(FONDAK_A)_vom_01.04.2014_8360CF.pdf",
+      "run_id": "20260812_124548"
+    },
+    "8561C5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,217_St._WKN_847101_(FONDAK_A)_vom_02.05.2014_8561C5.pdf",
+      "run_id": "20260812_124548"
+    },
+    "D00F2A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,219_St._WKN_847101_(FONDAK_A)_vom_02.01.2014_D00F2A.pdf",
+      "run_id": "20260812_124548"
+    },
+    "EC9A29": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,219_St._WKN_847101_(FONDAK_A)_vom_03.03.2014_EC9A29.pdf",
+      "run_id": "20260812_124548"
+    },
+    "666B7E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,221_St._WKN_847101_(FONDAK_A)_vom_02.12.2013_666B7E.pdf",
+      "run_id": "20260812_124548"
+    },
+    "6430AB": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,223_St._WKN_847101_(FONDAK_A)_vom_01.09.2014_6430AB.pdf",
+      "run_id": "20260812_124548"
+    },
+    "B69A97": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,223_St._WKN_847101_(FONDAK_A)_vom_01.10.2014_B69A97.pdf",
+      "run_id": "20260812_124548"
+    },
+    "F5D361": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,225_St._WKN_847101_(FONDAK_A)_vom_03.02.2014_F5D361.pdf",
+      "run_id": "20260812_124548"
+    },
+    "F0A06A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,226_St._WKN_847101_(FONDAK_A)_vom_03.11.2014_F0A06A.pdf",
+      "run_id": "20260812_124548"
+    },
+    "A3B753": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,229_St._WKN_847101_(FONDAK_A)_vom_01.08.2014_A3B753.pdf",
+      "run_id": "20260812_124548"
+    },
+    "44DAC9": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,229_St._WKN_847101_(FONDAK_A)_vom_01.11.2013_44DAC9.pdf",
+      "run_id": "20260812_124548"
+    },
+    "8A4CE3": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,237_St._WKN_847101_(FONDAK_A)_vom_01.10.2013_8A4CE3.pdf",
+      "run_id": "20260812_124548"
+    },
+    "0DC29C": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,243_St._WKN_847101_(FONDAK_A)_vom_03.06.2013_0DC29C.pdf",
+      "run_id": "20260812_124548"
+    },
+    "B7654F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,246_St._WKN_847101_(FONDAK_A)_vom_02.09.2013_B7654F.pdf",
+      "run_id": "20260812_124548"
+    },
+    "CEA14A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,24_St._WKN_847101_(FONDAK_A)_vom_01.08.2013_CEA14A.pdf",
+      "run_id": "20260812_124548"
+    },
+    "4A379D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,252_St._WKN_847101_(FONDAK_A)_vom_01.07.2013_4A379D.pdf",
+      "run_id": "20260812_124548"
+    },
+    "53ADFE": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,255_St._WKN_847101_(FONDAK_A)_vom_02.05.2013_53ADFE.pdf",
+      "run_id": "20260812_124548"
+    },
+    "959019": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,284_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_23.12.2025_959019.pdf",
+      "run_id": "20260812_124548"
+    },
+    "E0E777": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,322_St._A1XB5U_(X(IE)-MSCI_WORLD_1C)_vom_01.02.2024_E0E777.pdf",
+      "run_id": "20260812_124548"
+    },
+    "4784DA": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,333_St._A1XB5U_(X(IE)-MSCI_WORLD_1C)_vom_02.01.2024_4784DA.pdf",
+      "run_id": "20260812_124548"
+    },
+    "F32FA2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,542_St._A3DH0C_(AMUNDI_MSCI_ACWI_SRI_PAB)_vom_17.03.2025_F32FA2.pdf",
+      "run_id": "20260812_124548"
+    },
+    "499577": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,612_St._WKN_ETF110(COMS.-MSCI_WORL.T.U.ETF_I)_vom_01.11.2017_499577.pdf",
+      "run_id": "20260812_124548"
+    },
+    "A77862": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,613_St._WKN_ETF110(COMS.-MSCI_WORL.T.U.ETF_I)_vom_01.12.2017_A77862.pdf",
+      "run_id": "20260812_124548"
+    },
+    "DE2DF0": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,631_St._WKN_ETF110(COMS.-MSCI_WORL.T.U.ETF_I)_vom_02.10.2017_DE2DF0.pdf",
+      "run_id": "20260812_124548"
+    },
+    "D4AA6E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,651_St._WKN_ETF110(COMS.-MSCI_WORL.T.U.ETF_I)_vom_01.09.2017_D4AA6E.pdf",
+      "run_id": "20260812_124548"
+    },
+    "B51379": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_0,962_St._WKN_A2JSDA(AIS-MS.WSRIPPAB_UETFDRC)_vom_01.06.2022_B51379.pdf",
+      "run_id": "20260812_124548"
+    },
+    "C0021E": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1,706_St._WKN_A2JSDA(AIS-MS.WSRIPPAB_UETFDRC)_vom_01.08.2022_C0021E.pdf",
+      "run_id": "20260812_124548"
+    },
+    "E3A413": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1,777_St._WKN_A2JSDA(AIS-MS.WSRIPPAB_UETFDRC)_vom_01.09.2022_E3A413.pdf",
+      "run_id": "20260812_124548"
+    },
+    "C7BFF6": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1,888_St._WKN_A2JSDA(AIS-MS.WSRIPPAB_UETFDRC)_vom_01.07.2022_C7BFF6.pdf",
+      "run_id": "20260812_124548"
+    },
+    "5A9F83": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1,933_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_01.07.2026_5A9F83.pdf",
+      "run_id": "20260812_124548"
+    },
+    "641871": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_1,995_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_03.08.2026_641871.pdf",
+      "run_id": "20260812_124548"
+    },
+    "7D578B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2,054_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_01.06.2026_7D578B.pdf",
+      "run_id": "20260812_124548"
+    },
+    "C590A2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2,142_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_04.05.2026_C590A2.pdf",
+      "run_id": "20260812_124548"
+    },
+    "3E611B": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2,193_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_02.03.2026_3E611B.pdf",
+      "run_id": "20260812_124548"
+    },
+    "ED96A0": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2,208_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_02.02.2026_ED96A0.pdf",
+      "run_id": "20260812_124548"
+    },
+    "8272E3": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2,277_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_02.01.2026_8272E3.pdf",
+      "run_id": "20260812_124548"
+    },
+    "51AF54": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2,277_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_03.11.2025_51AF54.pdf",
+      "run_id": "20260812_124548"
+    },
+    "94E6D2": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2,288_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_01.04.2026_94E6D2.pdf",
+      "run_id": "20260812_124548"
+    },
+    "E7517A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2,334_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_01.12.2025_E7517A.pdf",
+      "run_id": "20260812_124548"
+    },
+    "E9F6C5": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2,347_St._A3DH0C_(AMUNDI_MSCI_ACWI_SRI_PAB)_vom_03.02.2025_E9F6C5.pdf",
+      "run_id": "20260812_124548"
+    },
+    "2B51C0": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2,351_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_01.10.2025_2B51C0.pdf",
+      "run_id": "20260812_124548"
+    },
+    "BDA2EE": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2,381_St._A3DH0C_(AMUNDI_MSCI_ACWI_SRI_PAB)_vom_03.03.2025_BDA2EE.pdf",
+      "run_id": "20260812_124548"
+    },
+    "FB6636": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2,429_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_01.09.2025_FB6636.pdf",
+      "run_id": "20260812_124548"
+    },
+    "1EF135": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2,474_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_01.07.2025_1EF135.pdf",
+      "run_id": "20260812_124548"
+    },
+    "35D36F": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2,48_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_01.08.2025_35D36F.pdf",
+      "run_id": "20260812_124548"
+    },
+    "C0674D": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2,506_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_02.06.2025_C0674D.pdf",
+      "run_id": "20260812_124548"
+    },
+    "39738A": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2,579_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_01.04.2025_39738A.pdf",
+      "run_id": "20260812_124548"
+    },
+    "42A8B1": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_2,612_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_02.05.2025_42A8B1.pdf",
+      "run_id": "20260812_124548"
+    },
+    "783A53": {
+      "source": "comdirect",
+      "raw_ref": "Wertpapierabrechnung_Kauf_3,056_St._A3DH0C_(AM.MSCI_ACWI_SRI_CPA_A)_vom_08.09.2025_783A53.pdf",
+      "run_id": "20260812_124548"
+    }
+  }
+}

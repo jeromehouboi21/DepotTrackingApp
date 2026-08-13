@@ -47,6 +47,17 @@ Single-User: Supabase-Signups deaktivieren, Nutzer manuell anlegen.
   Heute-Snapshot und wird nie gefiltert - beide Achsen werden im UI immer explizit beschriftet.
   `lib/xirr.ts` (Newton-Raphson + Bisektion) liefert `null` statt einer geratenen Zahl, wenn
   die Rendite nicht bestimmbar ist ("n/a" anzeigen, nie 0 %).
+- **Comdirect-Kurs-Batch-Import** (Ergänzung zu §9/E3): CSV-Export der comdirect-Depotübersicht
+  (`/import/kurse`, cp1252, `lib/comdirectPriceImport.ts`) als zweite, manuelle Kursquelle neben
+  `resolve-symbols`/`fetch-prices` – für Exoten, die dort dauerhaft `unresolved` bleiben. Schreibt
+  nach `price_quotes` (nicht `price_overrides`, die bleibt die reine Handkorrektur) mit
+  `source='comdirect-import'`; ein späterer automatischer Treffer überschreibt die Zeile beim
+  nächsten `fetch-prices`-Lauf ohne Aufräumschritt (gleicher PK `user_id, isin`). Konfliktregel:
+  ein Import überschreibt eine vorhandene `price_quotes`-Zeile nur, wenn `as_of` des Imports ≥ der
+  vorhandenen ist (kein alter Re-Import wirft einen aktuelleren Automatik-Kurs zurück). Vorschau/
+  Diff vor jedem Schreiben, kein `DELETE`. `Position.priceSource` (additiv in `lib/portfolio.ts`)
+  treibt das Kursquelle-Badge in `/positionen` (`PriceSourceBadge` in `components/ui/Badge.jsx`) –
+  nicht zu verwechseln mit der Buchungsquelle-Spalte (`SourceBadge`, `transactions.source`).
 - **E9/Depotinhaber**: `owner_id` ist ein harter Partitionsschlüssel (kein Anzeige-Label wie
   E7) - FIFO/Kostenbasis/G/V werden nie über Inhaber hinweg gemischt (z. B. eigenes Depot vs.
   Kinder-Unterdepots). Der Inhaber wird beim Import gewählt (`ImportScreen`), nicht vom Parser
@@ -81,7 +92,9 @@ lädt alles + ruft Engine → Screens. Nach jeder Korrektur `refreshAll()` (Cont
   XIRR-Solver: `src/lib/xirr.ts` ·
   Tests: `tests/portfolio.test.ts`, `tests/classify.test.ts`, `tests/xirr.test.ts`
 - Screens: `src/screens/*` (Dashboard, Positionen, Wertpapier-Detail, Sparplan,
-  Realisiert, Warnungen, Broker, Inhaber, Import)
+  Realisiert, Warnungen, Broker, Inhaber, Import, Kurs-Batch)
+- Kurs-Batch-Import: `src/lib/comdirectPriceImport.ts` (reine Parse-/Diff-Funktionen, getestet in
+  `tests/comdirectPriceImport.test.ts`), `src/screens/import/PriceImportScreen.jsx`
 - Inhaber-Kontext: `src/hooks/useOwners.js`, `src/components/owner/OwnerSelect.jsx`,
   `src/screens/owners/OwnersScreen.jsx`
 - Geteilte Jahres-Auswahl: `src/components/ui/YearToggleBar.jsx` (genutzt in
